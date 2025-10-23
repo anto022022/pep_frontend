@@ -1,0 +1,246 @@
+.popup-body-change {
+  padding: 16px 25px 0 26px;
+}
+
+.popup-container-change-width {
+  background: #fff;
+  border-radius: 25px;
+  width: 700px;
+  overflow: hidden;
+  position: relative;
+}
+
+.popup-close-change {
+  position: absolute;
+  top: 12px;
+  right: 24px;
+  font-size: 22px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #666;
+}
+
+.popup-label-change {
+  font-weight: 450;
+  color: #000000;
+  margin-bottom: 4px;
+  font-family: "Neue Haas Grotesk Display Pro";
+}
+
+.popup-value-change,
+.popup-link-change {
+  font-size: 14px;
+  color: #696969;
+  word-break: break-word;
+}
+
+.popup-change-btn {
+  border: none;
+  background: none;
+  color: #000;
+  /* black text */
+  font-size: 12px;
+  cursor: pointer;
+  text-decoration: underline;
+  font-family: "Neue Haas Grotesk Display Pro";
+}
+
+.popup-footer-change {
+  padding: 3px 27px 15px 27px;
+  text-align: right;
+}
+
+.popup-launch-change {
+  background: #d92c27;
+  color: #fff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 18px;
+  cursor: pointer;
+  text-align: center;
+  width: 140px;
+  font-size: medium;
+}
+
+.popup-col-change {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.p-w-main
+  .page-container
+  .category-page-main
+  .p-catalog-main-page-create
+  .catalog-creation-page
+  .catalog-header {
+  margin: unset;
+  /* background-color: red; */
+}
+
+.p-w-main
+  .page-container
+  .category-page-main
+  .p-catalog-main-page-create
+  .catalog-creation-page
+  .catalog-home-page-log {
+  max-width: max-content;
+  min-width: min-content;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.p-w-main
+  .page-container
+  .category-page-main
+  .p-catalog-main-page-create
+  .catalog-creation-page
+  .catalog-home-page-after-login {
+  max-width: max-content;
+  min-width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.analytics-section {
+  font-family: "Inter", sans-serif;
+  margin-top: 20px;
+  padding: 0 !important;
+}
+.analytics-section .analytics-icon {
+  background-color: unset;
+}
+.analytics-section .analytics-header {
+  padding: 15px;
+}
+.analytics-section .analytics-header > h5 {
+  font-size: 20px;
+}
+.analytics-section .metrics-row,
+.analytics-section .info-row {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.analytics-section .status-row {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.analytics-section .analytics-section-one {
+  /* padding-bottom: 12px; */
+  border-bottom: 1px solid #e9ecef;
+  padding: 20px 13px;
+}
+.metric-label {
+  font-size: 16px;
+  color: #171a1c;
+}
+.metric-sec {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.analytics-section .metric-value {
+  font-size: 16px;
+  margin-top: 3%;
+}
+
+.analytics-section .info-label {
+  font-size: 14px;
+  color: #9e9e9e;
+}
+.analytics-section .status-label {
+  color: #000;
+}
+.analytics-section .info-value {
+  font-size: 16px;
+  color: #000;
+}
+
+.analytics-section .status-badge {
+  padding: 12px 25px;
+  background-color: #eaf7ea;
+  color: #14ae5c;
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 300;
+}
+
+.analytics-section .catalog-link {
+  padding: 12px;
+  font-size: 14px;
+  color: #9e9e9e;
+}
+
+.analytics-section .info-item {
+  padding-bottom: 5px;
+  font-size: 14px;
+  color: #9e9e9e;
+}
+
+.analytics-section .info-item-bottom {
+  padding: 12px;
+  font-size: 14px;
+  color: #9e9e9e;
+}
+.analytics-section .published-button {
+  border-radius: 40px;
+  color: #9fa6ad;
+  background: #f0f4f8;
+}
+
+.analytics-section .info-label {
+  margin-bottom: 10px !important;
+}
+
+.p-catalog-main-page-create .catalog-body-section {
+  margin: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+.p-catalog-main-page-create .catalog-body-section .main-body-left {
+  padding: 15px;
+  height: calc(100vh - 200px);
+  overflow-y: auto;
+}
+
+.p-catalog-main-page-create .catalog-body-section .main-body-right {
+  padding: 15px;
+  height: calc(100vh - 200px);
+  overflow-y: auto;
+}
+
+.catalog-creation-page .catalog-body-section .tabs-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tabs-block-right {
+  display: flex;
+  gap: 20px;
+}
+.p-catalog-main-page-create .catalog-product-left .btns-wrapper {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 8px;
+  border: 2px solid #dcdcdc;
+  border-radius: 40px;
+  font-size: 10px;
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+  color: #555e68;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.p-catalog-main-page-create .catalog-product-left .btns-wrapper .share-btn {
+  color: #555e68;
+  font-size: 15px;
+  font-weight: 500;
+}
+.p-catalog-main-page-create .catalog-owners-btn {
+  background-color: #000;
+}

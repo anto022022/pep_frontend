@@ -1,0 +1,1484 @@
+.three-column-layout.t-c-l-1 .p-bg-white {
+  background-color: #fefefe;
+}
+
+.settings-page .body-preview {
+  padding: 50px 100px 50px 100px;
+}
+
+.settings-page .body-preview .dashboard-main-block {
+  max-width: 1230px;
+  gap: 16px;
+}
+
+.settings-page .body-preview .space-first {
+  margin-bottom: 32px;
+}
+
+.settings-page .body-preview .space-second {
+  margin-bottom: 32px;
+}
+
+.settings-page .setting-sub-title {
+  color: #181d27;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.settings-page .settings-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.settings-page .settings-card-cm {
+  width: 480px;
+}
+
+.settings-page .settings-pep-upgrade {
+  text-align: end;
+}
+
+.settings-page .settings-badge-pep-prima {
+  position: relative;
+  display: inline-block;
+  border-radius: 40px;
+  color: #000;
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 4px 12px;
+  line-height: normal;
+  cursor: default;
+  background: linear-gradient(135deg, #fec84b 0%, #f8d2a7 50%, #f49c23 100%);
+  overflow: hidden;
+}
+
+.settings-page .settings-badge-pep-prima::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), transparent);
+  border-radius: 40px;
+  pointer-events: none;
+}
+
+.body-settings {
+  width: 100%;
+  max-width: 750px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.profile-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border-top: 1px solid #d9d9d9;
+  padding: 15px 25px;
+  margin-top: 10px;
+}
+
+.profile-fot-btn-group {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.body-settings .forms-group .f-g-label {
+  color: #171a1c;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0.21px;
+}
+
+.body-settings .input-wrapper input.forms-input:disabled {
+  background: #efefefbf;
+  border-color: #c9c9c97d;
+}
+
+.body-settings .data-privacy-title {
+  color: #32383e;
+  font-family: "Neue Haas Grotesk Display Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.28px;
+}
+
+.body-settings .data-privacy-info-title {
+  color: #171a1c;
+  font-family: "Neue Haas Grotesk Display Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.28px;
+}
+
+.body-settings .data-privacy-info-subtitle {
+  color: #616161;
+  font-family: "Neue Haas Grotesk Display Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.28px;
+}
+
+.body-settings .data-privacy-accept-wrapper {
+  display: inline;
+  white-space: normal;
+  word-break: normal;
+  line-height: 20px;
+  font-family: "Neue Haas Grotesk Display Pro";
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.28px;
+  color: #171a1c;
+  font-style: normal;
+}
+
+.body-settings .forms-checkbox .f-r-label {
+  top: 1px;
+}
+
+.body-settings .st-space-ml-10 {
+  margin-left: 10px;
+}
+
+.profile-fot-btn-group .st-footer-btn {
+  width: 114px;
+}
+
+.body-settings .btn-red-color {
+  color: #d92c27;
+}
+
+.body-settings .data-privacy-accept-mydata {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: 8%;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.body-settings .forms-input,
+.body-settings .forms-select-2,
+.body-settings .datetimepicker-comp.p-calendar .p-inputtext,
+.body-settings .react-tel-input .form-control {
+  border-radius: 8px;
+  border: 1px solid #636b74;
+  background: #fff;
+  height: 40px;
+}
+
+.body-settings .f-g-label-additional {
+  color: #171a1c;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.body-settings .f-g-label-dim {
+  color: #171a1c;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.body-settings .p-d-c-c-subtxt-sm {
+  color: #9fa6ad;
+  font-family: "Neue Haas Grotesk Display Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133%;
+  letter-spacing: 0.5px;
+}
+
+.body-settings .notify .setting-main-title {
+  color: #171a1c;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0.27px;
+}
+
+.body-settings .notify .setting-category-title {
+  color: #171a1c;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.14px;
+}
+
+.body-settings .notify .setting-sub-title {
+  color: #000;
+  font-family: "Neue Haas Grotesk Display Pro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  /* 125% */
+  letter-spacing: 0.32px;
+}
+
+.body-settings .notify .custom-bottom-border {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border-top: 1px solid #d9d9d9;
+  padding: 15px 25px;
+  margin-top: 15px;
+}
+
+.body-settings .notify .custom-mobile-title {
+  margin-left: 5rem;
+}
+
+.body-settings .notify .notify-header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.body-settings .notify .notify-menu {
+  margin-bottom: 16px;
+}
+
+.body-settings .notify .notify-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.body-settings .notify .toggle-title {
+  color: #000;
+  font-family: "Neue Haas Grotesk Display Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.28px;
+}
+
+.body-settings .notify .toggle-sub-title {
+  color: #555e68;
+  font-family: "Neue Haas Grotesk Display Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.28px;
+}
+
+.body-settings .notify .forms-toggle label {
+  margin-bottom: 10px;
+  height: 22px;
+  width: 44px;
+}
+
+.body-settings .notify .forms-toggle label:after {
+  width: 14px;
+  height: 14px;
+}
+
+.body-settings .notify .check-box {
+  display: flex;
+  gap: 10px;
+}
+
+.body-settings .input-badge-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 0;
+  background-color: #f4f4f4;
+  padding: 8px 12px;
+  border-radius: 8px;
+  width: auto;
+  gap: 10px;
+  color: #9fa6ad;
+  font-family: "Neue Haas Grotesk Display Pro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+}
+
+.link-btn-dark {
+  color: var(--primary-plain-Color, #32383e);
+  font-family: "Neue Haas Grotesk Display Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: 8%;
+  text-underline-offset: auto;
+}
+
+.body-settings .verification-group {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+}
+
+.body-settings .input-badge-container input {
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  color: #838080;
+}
+
+.body-settings .input-badge-container input:focus {
+  outline: none;
+  cursor: not-allowed;
+}
+
+.body-settings .verified-badge {
+  display: inline-flex;
+  /* keeps icon + text aligned */
+  align-items: center;
+  /* vertical centering */
+  gap: 6px;
+  /* space between icon + text */
+  background-color: #e6f4ea;
+  color: #2e7d32;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1;
+  /* keeps pill neat */
+}
+
+.body-settings .verified-badge .tick-icon {
+  width: 15px;
+  height: 15px;
+}
+
+.body-settings .tax-field {
+  margin-top: 1rem;
+}
+
+.settings-page .body-preview .adv-req-block {
+  margin-top: 40px;
+}
+
+.body-settings .data-privacy-box {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  gap: 100px;
+}
+
+.body-settings .section {
+  width: 50%;
+}
+
+.body-settings .title {
+  color: #32383e;
+  font-weight: 500;
+}
+
+.body-settings .sub-title-1 {
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.body-settings .sub-title-2 {
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 4px 0;
+}
+
+.body-membership-settings {
+  width: 100%;
+  max-width: 900px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.body-membership-settings .compliance-settings-card-comp {
+  max-width: 900px;
+}
+
+.body-membership-settings .compliance-settings-card-comp .c-s-c-c-head .c-s-c-c-h-left .c-s-head-title {
+  font-size: 16px;
+}
+
+.body-membership-settings .compliance-settings-card-comp .c-s-c-c-head .c-s-c-c-h-left .c-s-head-subtxt {
+  font-size: 14px;
+}
+
+.body-membership-settings .compliance-settings-card-comp .c-s-c-c-head .c-s-c-c-h-left .c-s-head-title .high-green {
+  color: #16a34a;
+  font-weight: bold;
+}
+
+.body-membership-settings .compliance-settings-card-comp .c-s-c-c-head .c-s-c-c-h-left .c-s-head-title .dollar-line {
+  text-decoration: line-through;
+}
+
+.body-membership-settings .pep-title {
+  color: #181d27;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+
+.body-membership-settings .cancel-title-center {
+  text-align: center;
+  color: #181d27;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.body-membership-settings .cancel-sub-title {
+  color: #616161;
+  text-align: center;
+  color: #181d27;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.body-membership-settings .sub-title {
+  color: #616161;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: clamp(1.313rem, 1.271rem + 0.19vw, 1.5rem);
+  letter-spacing: 0.14px;
+  margin-bottom: 10px;
+}
+
+.body-membership-settings .sub-title-month {
+  color: #616161;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: clamp(1.313rem, 1.271rem + 0.19vw, 1.5rem);
+  letter-spacing: 0.14px;
+}
+
+.body-membership-settings .pill {
+  display: inline-block;
+  padding: 4px 12px;
+  background-color: #f2f3f5;
+  color: #444;
+  font-size: 14px;
+  border-radius: 999px;
+  font-weight: 500;
+}
+
+.body-membership-settings .auto-renewal {
+  color: #000;
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  margin-left: 10px;
+}
+
+.body-membership-settings .auto-renewal-box {
+  display: inline-flex;
+}
+
+.body-membership-settings .custom-bottom-border {
+  margin-top: 0;
+  padding: 0;
+}
+
+.body-membership-settings .membership-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.body-membership-settings .left-arrow-icon {
+  vertical-align: text-top;
+}
+
+.body-membership-settings .ct-mb {
+  margin-bottom: 10px;
+}
+
+.body-membership-settings .ct-mt {
+  margin-top: 20px;
+}
+
+.body-membership-settings .card {
+  width: 250px;
+  background: #fcfafa;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.body-membership-settings .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.body-membership-settings .card-title {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.body-membership-settings .card-logo {
+  width: 40px;
+  height: auto;
+}
+
+.body-membership-settings .card-body {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  font-size: 12px;
+  background-color: auto;
+  color: #616161;
+}
+
+.body-membership-settings .card-name {
+  color: #616161;
+  letter-spacing: 1px;
+}
+
+.body-membership-settings .card-expiry {
+  color: #616161;
+}
+
+.body-membership-settings .card-number {
+  margin-top: 12px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #616161;
+}
+
+.body-membership-settings .cancel-subscription .b-c-txt {
+  color: #616161;
+  text-decoration: underline;
+  text-decoration-color: #61616173;
+}
+
+.body-membership-settings .cancel-subscription .btn-plain-txt {
+  text-decoration: none;
+}
+
+.body-membership-settings .body-settings {
+  max-width: 900px;
+  padding: 0;
+}
+
+.body-membership-settings .payment-detail-line {
+  border-right: 1px solid #61616173;
+  height: 150px;
+}
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.status-badge.processing {
+  background-color: #f3f4f6;
+  /* light gray */
+  color: #4b5563;
+}
+
+.status-badge.paid {
+  background-color: #ecfdf5;
+  /* light green */
+  color: #059669;
+}
+
+.spinner {
+  width: 14px;
+  height: 14px;
+  border: 2px solid #9ca3af;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+}
+
+.check {
+  font-size: 14px;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.body-membership-settings .card-type-img {
+  vertical-align: middle;
+}
+
+.body-payment .pay-mt {
+  margin-top: 30px;
+}
+
+.body-payment .m-c-footer .btn-comp {
+  width: auto;
+}
+
+.body-payment .m-c-footer {
+  justify-content: flex-end;
+}
+
+.body-payment .custom-bottom-border {
+  padding: 0;
+}
+
+.body-payment .forms-group .f-g-label {
+  font-weight: bold;
+}
+
+.cancel-subscription .cancel-menu-title {
+  color: #000;
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.32px;
+  margin-bottom: 10px;
+}
+
+.cancel-subscription .cancel-menu-sub-title {
+  color: #616161;
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.32px;
+  margin-bottom: 15px;
+}
+
+.cancel-subscription .tick {
+  vertical-align: middle;
+}
+
+.cancel-subscription .cancel-beg {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.cancel-subscription .bullet-text {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.cancel-subscription .bullet-text b {
+  color: #000;
+}
+
+.cancel-subscription .bullet-text::before {
+  content: "•";
+  margin-right: 8px;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.cancel-subscription .ct-mb {
+  margin-bottom: 30px;
+}
+
+.cancel-subscription .ct-mt {
+  margin-top: 30px;
+}
+
+.cancel-subscription .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.cancel-subscription .card {
+  display: flex;
+  flex-direction: column;
+  /* Allow vertical distribution */
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  width: 180px;
+  padding: 24px 20px;
+  text-align: center;
+  box-shadow: 0 0 0 1px #eee;
+}
+
+.cancel-subscription .icon {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.cancel-subscription .card-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #000;
+}
+
+.cancel-subscription .card-description {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+  flex-grow: 1;
+  /* This pushes the button to the bottom */
+}
+
+.cancel-subscription .w-s {
+  width: 150px;
+  white-space: unset;
+}
+
+.cancel-subscription .custom-bottom-border {
+  padding: 0;
+}
+
+.body-membership-settings {
+  width: 100%;
+  max-width: 900px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.body-membership-settings .compliance-settings-card-comp {
+  max-width: 900px;
+}
+
+.body-membership-settings .compliance-settings-card-comp .c-s-c-c-head .c-s-c-c-h-left .c-s-head-title {
+  font-size: 16px;
+}
+
+.body-membership-settings .compliance-settings-card-comp .c-s-c-c-head .c-s-c-c-h-left .c-s-head-subtxt {
+  font-size: 14px;
+}
+
+.body-membership-settings .compliance-settings-card-comp .c-s-c-c-head .c-s-c-c-h-left .c-s-head-title .high-green {
+  color: #16a34a;
+  font-weight: bold;
+}
+
+.body-membership-settings .compliance-settings-card-comp .c-s-c-c-head .c-s-c-c-h-left .c-s-head-title .dollar-line {
+  text-decoration: line-through;
+}
+
+.body-membership-settings .pep-title {
+  color: #181d27;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+
+.body-membership-settings .cancel-title-center {
+  text-align: center;
+  color: #181d27;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.body-membership-settings .cancel-sub-title {
+  color: #616161;
+  text-align: center;
+  color: #181d27;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.body-membership-settings .sub-title {
+  color: #616161;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: clamp(1.313rem, 1.271rem + 0.19vw, 1.5rem);
+  letter-spacing: 0.14px;
+  margin-bottom: 10px;
+}
+
+.currency-dropdown .p-dropdown-label {
+  display: flex;
+  justify-content: center;
+}
+
+.d-n-c-right .flag {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.bell-icon {
+  cursor: pointer;
+}
+
+.bell-icon {
+  width: 20px;
+}
+
+.pa-mt-1 {
+  margin-top: 2rem;
+}
+
+.member-payment-mt {
+  margin-top: 5rem;
+}
+
+.member-payment-card-mb {
+  margin-bottom: 0.5rem;
+}
+
+.notify .label-input {
+  color: #000000;
+  font-weight: bold;
+}
+
+.body-membership-settings .update-btn-1 {
+  margin-top: 5rem;
+}
+
+.body-membership-settings .update-btn-2 {
+  margin-top: 4rem;
+}
+
+.st-mb-0 {
+  margin-bottom: 0;
+}
+
+.language-input-comp .language-input.currency-dropdown {
+  padding-left: unset;
+}
+
+.otp-dialog-modal {
+  max-width: 530px;
+}
+
+.settings-page .st-explore-card-comp {
+  border-radius: 16px;
+  border: 1px solid #f8f8f8;
+  background: #ffffff;
+  box-shadow: 0 0.5px 1px 0 rgba(0, 0, 0, 0.25);
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.settings-page .st-explore-card-comp .st-e-c-c-top {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.settings-page .st-explore-card-comp .st-c-c-content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.settings-page .st-explore-card-comp .st-c-c-c-w-title {
+  color: #000;
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.28px;
+}
+
+.settings-page .st-explore-card-comp .st-c-c-c-w-subtxt {
+  color: #555e68;
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 0.28px;
+}
+
+.settings-page .st-explore-card-comp .e-c-c-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.settings-page .st-explore-card-comp .e-c-c-link .e-c-c-l-txt {
+  color: #32383e;
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+  text-decoration: underline;
+}
+
+.settings-page .st-explore-card-comp .e-c-c-link svg {
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+}
+
+.settings-page .card-group-block {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  align-items: stretch;
+}
+
+.settings-page .dashboard-section-block .d-s-b-title {
+  color: #181d27;
+  font-family: "Inter Tight", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.profile-upload-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 160px;
+  /* similar to w-40 */
+  height: 128px;
+  /* similar to h-32 */
+
+  border: 2px dashed #d1d5db;
+  /* gray-300 */
+  border-radius: 12px;
+
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  text-align: center;
+  padding: 8px;
+}
+
+.profile-upload-box:hover {
+  background-color: #f9fafb;
+  /* gray-50 */
+}
+
+.profile-upload-box svg {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 6px;
+  color: #6b7280;
+  /* gray-500 */
+}
+
+.profile-upload-box span {
+  font-size: 14px;
+  color: #4b5563;
+  /* gray-600 */
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+  /* line under the row */
+  padding-bottom: 8px;
+  /* spacing above line */
+}
+
+.upload-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  border: 1px dashed #d1d5db;
+  /* gray-300 */
+  border-radius: 8px;
+
+  width: 200px;
+  /* 🔹 small fixed width */
+  height: 120px;
+  /* 🔹 small fixed height */
+
+  background-color: #f9fafb;
+  /* gray-50 */
+  transition: background 0.2s ease;
+}
+
+.upload-card:hover {
+  background-color: #f3f4f6;
+  /* gray-100 */
+}
+
+.upload-card p {
+  color: #4b5563;
+  /* gray-600 */
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.upload-card .preview-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.upload-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.upload-card button.remove-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 4px;
+  background: #0e0d0d;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.upload-card button.remove-btn:hover {
+  background: #f3f4f6;
+  /* gray-100 */
+}
+
+.upload-card .file-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  color: #4b5563;
+}
+
+.upload-card .file-info .remove-text {
+  font-size: 12px;
+  color: #ef4444;
+  /* red-500 */
+  cursor: pointer;
+}
+
+.upload-card .file-info .remove-text:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
+  .body-settings {
+    padding: 0;
+  }
+}
+
+/* tablet */
+@media screen and (max-width: 991px) {
+  .settings-page .st-explore-card-comp .st-c-c-c-w-title {
+    font-size: 16px;
+  }
+
+  .body-settings .notify .notify-header {
+    flex-direction: column;
+  }
+
+  .body-settings .notify .check-box {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .body-settings .notify .notify-row {
+    align-items: flex-end;
+    gap: 12px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .body-membership-settings .compliance-settings-card-comp .c-s-c-c-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 25px;
+    padding: 15px 30px;
+    flex-direction: column;
+  }
+
+  .body-membership-settings .payment-detail-line {
+    height: 150px;
+    border-right: none;
+  }
+
+  .body-membership-settings .payNow {
+    display: grid;
+  }
+
+  .body-settings .section {
+    margin-top: 5px;
+  }
+
+  .compliance-settings-card-comp {
+    margin-top: 10px;
+  }
+
+  .body-settings .notify .setting-sub-title {
+    margin-top: 10px;
+  }
+
+  .body-settings .f-g-label-additional {
+    font-size: 18px;
+  }
+
+  .body-settings .f-g-label-dim {
+    font-size: 18px;
+  }
+
+  .body-settings .notify .notify-header {
+    flex-direction: column;
+  }
+
+  .body-settings .notify .check-box {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .body-settings .notify .notify-row {
+    align-items: flex-end;
+    gap: 12px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .body-membership-settings .compliance-settings-card-comp .c-s-c-c-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 25px;
+    padding: 15px 30px;
+    flex-direction: column;
+  }
+
+  .body-settings .data-privacy-box {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 800px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .body-membership-settings .payment-detail-line {
+    height: 150px;
+    border-right: none;
+  }
+
+  .body-membership-settings .payNow {
+    display: grid;
+  }
+
+  .body-settings .section {
+    margin-top: 5px;
+  }
+
+  .compliance-settings-card-comp {
+    margin-top: 10px;
+  }
+
+  .body-settings .notify .setting-sub-title {
+    margin-top: 10px;
+  }
+
+  .still-unsure .btn-comp,
+  .pay-mt .btn-comp {
+    white-space: break-spaces;
+    word-break: break-word;
+  }
+
+  .still-unsure .card-container .btn-comp.btn-outline.bg-outline-dark {
+    width: auto;
+  }
+
+  .cancel-subscription .card {
+    width: -webkit-fill-available;
+  }
+
+  .body-settings .notify .forms-toggle label {
+    margin-bottom: 5px;
+    height: 22px;
+    width: 44px;
+  }
+
+  .body-settings .verification-group {
+    margin-top: 10px;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 560px) {
+  .settings-page .settings-card-cm {
+    width: auto;
+  }
+
+  .settings-page .st-explore-card-comp .st-c-c-c-w-title {
+    font-size: 16px;
+  }
+
+  .body-settings .notify .notify-header {
+    flex-direction: column;
+  }
+
+  .body-settings .notify .check-box {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .body-settings .notify .notify-row {
+    align-items: flex-end;
+    gap: 12px;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .body-membership-settings .compliance-settings-card-comp .c-s-c-c-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 25px;
+    padding: 15px 30px;
+    flex-direction: column;
+  }
+
+  .body-membership-settings .payment-detail-line {
+    height: 150px;
+    border-right: none;
+  }
+
+  .body-membership-settings .payNow {
+    display: grid;
+  }
+
+  .body-settings .section {
+    margin-top: 5px;
+  }
+
+  .compliance-settings-card-comp {
+    margin-top: 10px;
+  }
+
+  .body-settings .notify .setting-sub-title {
+    margin-top: 10px;
+  }
+
+  .compliance-settings-card-comp .c-s-c-c-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 15px 30px;
+    flex-direction: column;
+  }
+
+  .still-unsure .card-container .btn-comp.btn-outline.bg-outline-dark {
+    width: auto;
+  }
+
+  .cancel-subscription .card {
+    width: -webkit-fill-available;
+  }
+
+  .body-settings .f-g-label-additional {
+    font-size: 18px;
+  }
+
+  .body-settings .f-g-label-dim {
+    font-size: 18px;
+  }
+
+  .body-settings .st-space-mt {
+    margin-top: 10px;
+  }
+
+  .settings-page .settings-card-cm {
+    width: auto;
+  }
+
+  .body-settings .notify .notify-header {
+    flex-direction: column;
+  }
+
+  .body-settings .notify .check-box {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .body-settings .notify .notify-row {
+    align-items: flex-end;
+    gap: 12px;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .body-membership-settings .compliance-settings-card-comp .c-s-c-c-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 25px;
+    padding: 15px 30px;
+    flex-direction: column;
+  }
+
+  .body-settings .data-privacy-box {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 800px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .body-membership-settings .payment-detail-line {
+    height: 150px;
+    border-right: none;
+  }
+
+  .body-membership-settings .payNow {
+    display: grid;
+  }
+
+  .body-settings .section {
+    margin-top: 5px;
+  }
+
+  .compliance-settings-card-comp {
+    margin-top: 10px;
+  }
+
+  .body-settings .notify .setting-sub-title {
+    margin-top: 10px;
+  }
+
+  .still-unsure .btn-comp,
+  .pay-mt .btn-comp {
+    white-space: break-spaces;
+    word-break: break-word;
+  }
+
+  .body-settings .notify .setting-main-title {
+    color: #171a1c;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.24px;
+  }
+
+  .body-settings .notify .setting-sub-title {
+    color: #171a1c;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.24px;
+  }
+
+  .body-settings .notify .forms-toggle label {
+    margin-bottom: 10px;
+    height: 22px;
+    width: 44px;
+  }
+
+  .body-settings .data-privacy-settings .notify .forms-toggle label {
+    margin-bottom: 10px;
+    height: 22px;
+    width: 44px;
+  }
+
+  .body-settings .verification-group {
+    margin-top: 10px;
+  }
+
+  .body-settings .data-privacy-settings .notify .custom-bottom-border {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .body-settings .data-privacy-settings .notify .view-term {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .data-privacy-settings .forms-checkbox .custom-checkbox {
+    margin-bottom: 18px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .body-settings {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .st-explore-card-comp {
+    padding: 15px;
+  }
+}

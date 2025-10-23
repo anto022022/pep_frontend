@@ -1,0 +1,456 @@
+/* Common */
+.react-tel-input .form-control {
+  background: #fff !important;
+  border: 1px solid #636b74 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 0 2px #15151514 !important;
+  height: 43px !important;
+}
+
+.loader-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.account-setup-card-comp-handle {
+  /* border-radius: 16px;
+  padding: 40px 60px;
+  background: linear-gradient(0deg, rgba(184, 184, 184, 0.15), rgba(184, 184, 184, 0.15)), url("../../assets/img/hand-img.svg") no-repeat;
+  background-position: right bottom;
+  background-size: auto 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px; */
+  position: relative;
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.account-setup-card-comp-handle::before {
+  content: "";
+  position: absolute;
+  background: url("../../assets/img/hand-img.svg") no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+  right: 80px;
+  top: 20px;
+  /* opacity: 0.15; */
+  pointer-events: none;
+}
+
+@media screen and (max-width: 767px) {
+  .account-setup-card-comp-handle {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .account-setup-card-comp-handle::before {
+    content: "";
+    position: absolute;
+    background: url("../../assets/img/hand-img.svg") no-repeat center;
+    background-size: contain;
+    width: 100vw;
+    height: 150px;
+    top: auto;
+    /* remove top positioning */
+    bottom: 10px;
+    /* push to the bottom of the container */
+    left: 50%;
+    /* center horizontally */
+    transform: translateX(-50%);
+    z-index: 0;
+    margin-bottom: 5%;
+  }
+
+  .a-s-c-c-b-content-wrapper {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 5%;
+    align-items: center;
+    /* give space for the image below text */
+  }
+}
+
+.account-setup-card-comp-handle .a-s-c-c-body {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.account-setup-card-comp-handle .a-s-c-c-b-content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.account-setup-card-comp-handle .a-s-c-c-title {
+  color: #000;
+  /* Replace with actual $black */
+  font-family: Arial, sans-serif;
+  /* Replace with actual $body-font */
+  font-size: clamp(1.438rem, 1.34rem + 0.45vw, 1.875rem);
+  font-weight: 500;
+  line-height: clamp(1.813rem, 1.673rem + 0.64vw, 2.438rem);
+  letter-spacing: 0.3px;
+}
+
+.account-setup-card-comp-handle .a-s-c-c-subtxt {
+  color: #888;
+  /* Replace with actual $text-tertiary */
+  font-family: Arial, sans-serif;
+  font-size: clamp(0.938rem, 0.924rem + 0.06vw, 1rem);
+  font-weight: 400;
+  line-height: clamp(1.25rem, 1.194rem + 0.25vw, 1.5rem);
+  letter-spacing: 0.32px;
+}
+
+.account-setup-card-comp-handle .a-s-c-c-b-completed-status-block {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.account-setup-card-comp-handle .a-s-c-c-completed-count-block {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+@media screen and (max-width: 767px) {
+  .account-setup-card-comp-handle .a-s-c-c-completed-count-block {
+    gap: 17px;
+  }
+}
+
+.account-setup-card-comp-handle .a-s-c-c-count {
+  color: #000;
+  font-family: Arial, sans-serif;
+  font-size: clamp(2.563rem, 2.354rem + 0.96vw, 3.5rem);
+  font-style: normal;
+  font-weight: 400;
+  line-height: clamp(2.5rem, 2.221rem + 1.27vw, 3.75rem);
+  letter-spacing: -1.96px;
+}
+
+.account-setup-card-comp-handle .a-s-c-c-badge-txt {
+  border-radius: 56px;
+  background: #007bff;
+  /* Replace with actual $primary-solid-color */
+  padding: 10px 20px;
+  color: #000;
+  font-family: Arial, sans-serif;
+  font-size: clamp(1.063rem, 1.049rem + 0.06vw, 1.125rem);
+  font-weight: 400;
+  line-height: 28px;
+}
+
+@media screen and (max-width: 767px) {
+  .account-setup-card-comp-handle .a-s-c-c-badge-txt {
+    padding: 5px 20px;
+  }
+}
+
+.account-setup-card-comp-handle .a-s-c-c-progress-group {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+@media screen and (max-width: 640px) {
+  .account-setup-card-comp-handle .a-s-c-c-progress-group {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.account-setup-card-comp-handle .a-s-c-c-p-g-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 120px;
+}
+
+.account-setup-card-comp-handle .progressbar-comp {
+  flex-direction: column-reverse;
+}
+
+.account-setup-card-comp-handle .p-c-label {
+  color: #000;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.28px;
+}
+
+.account-setup-card-comp-handle .p-c-bar {
+  background: #e0e0e0;
+  /* Replace with actual $color-grey-114 */
+}
+
+.account-setup-card-comp-handle .p-c-b-progress {
+  background: #ff6600;
+  /* Replace with actual $text-primary */
+}
+
+.account-setup-card-comp-handle .p-c-value {
+  display: none;
+}
+
+.account-setup-card-comp-handle .btn-comp img {
+  transform: scale(0.8);
+}
+
+.account-setup-card-comp-handle .btn-comp.continue-steup-btn {
+  padding: 5px 16px;
+}
+
+/* ---------- ACCOUNT CARD COPY ---------- */
+
+.account-setup-card-comp-account {
+  border-radius: 16px;
+  padding: 40px 60px;
+  background: linear-gradient(0deg,
+      rgba(184, 184, 184, 0.15),
+      rgba(184, 184, 184, 0.15)),
+    url("../../assets/img/account-setup.svg") no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .account-setup-card-comp-account {
+    padding: 20px;
+    gap: 35px;
+  }
+}
+
+/* rfq list styles */
+
+.e-p-c-r-img-align {
+  margin-bottom: 10%;
+}
+
+/* business profile styles */
+
+.legal-type-with-value {
+  cursor: default !important;
+}
+
+.legal-status-without-value {
+  cursor: pointer;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper input {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.helper-text {
+  font-size: 12px;
+  color: #6b7280;
+  /* gray */
+  margin-top: 4px;
+  /* space between input and helper text */
+  line-height: 1.2;
+}
+
+.f-g-input-horiz-inside {
+  width: 100%;
+}
+
+/* Style overwrites */
+.react-tel-input .flag-dropdown {
+  background: #fff !important;
+  border: 1px solid #636b74 !important;
+  border-right: unset !important;
+  border-radius: 8px 0 0 8px !important;
+}
+
+/* Product Listing Cards */
+.add-space-in-expected-delivery {
+  margin-left: 3px;
+}
+
+.empty-cart-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  text-align: center;
+}
+
+@media screen and (max-width: 1199) {
+  .empty-cart-wrapper {
+    min-height: unset;
+  }
+}
+
+.empty-cart-image {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.empty-cart-content h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.empty-cart-content p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* SubCategorySection */
+
+.chevron-icon {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  /* smooth rotation */
+}
+
+.chevron-icon.down {
+  transform: rotate(0deg);
+  /* default pointing down */
+}
+
+.chevron-icon.up {
+  transform: rotate(180deg);
+  /* rotated pointing up */
+}
+
+/* OnBoarding */
+
+.service-card-group-height-align {
+  min-height: 58px;
+}
+
+@media screen and (max-width: 700px) {
+  .service-card-group-height-align {
+    min-height: unset;
+  }
+}
+
+/* home page */
+span.c-n-icon {
+  transform: scale(1.5);
+  position: relative;
+  top: -2px;
+}
+
+/* Tailor these styles as needed */
+.custom-nav {
+  position: absolute;
+  top: 50%;
+  font-weight: bold;
+  color: #333;
+  background: white;
+  padding: 6px 10px;
+  cursor: pointer;
+  user-select: none;
+  transform: translateY(-50%);
+  width: 45px;
+  height: 45px;
+  border: 1px solid #00000054;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-button-prev.custom-nav {
+  left: -50px;
+  z-index: 999;
+}
+
+.swiper-button-next.custom-nav {
+  right: -50px;
+}
+
+@media screen and (max-width: 768px) {
+  /* .custom-nav {
+    position: absolute;
+    top: 50%;
+    font-weight: bold;
+    color: #333;
+    background: white;
+    padding: 6px 10px;
+    cursor: pointer;
+    user-select: none;
+    transform: translateY(-50%);
+    width: 45px;
+    height: 45px;
+    border: 1px solid #00000054;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  } */
+
+  .swiper-button-prev.custom-nav {
+    left: 0;
+    display: none;
+  }
+
+  .swiper-button-next.custom-nav {
+    right: 0;
+    display: none;
+  }
+}
+
+/* Other Product Categories */
+.product-categories-heading {
+  color: #0b0d0e;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.18px;
+  margin-bottom: 8px;
+}
+.product-categories-list {
+  display: flex;
+  justify-content: flex-start;
+  align-self: center;
+  flex-wrap: wrap;
+  row-gap: 10px;
+}
+.product-category-name {
+  width: max-content;
+}
+.p-c-seperator {
+  border-right: 1px solid #757575;
+  height: 18px;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+.product-category-txt {
+  font-size: 17px;
+  font-weight: 400;
+  color: #555e68 !important;
+  margin-bottom: 4px;
+  list-style: none; /* optional */
+  letter-spacing: 0.28px;
+}
+.product-category-txt:hover {
+  cursor: pointer;
+  color: #d92d27 !important;
+}
