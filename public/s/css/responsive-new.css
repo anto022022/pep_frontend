@@ -1,0 +1,416 @@
+@media(max-width:1920px) {
+    .trust-hero-main .container-main {
+        padding-left: 330px;
+    }
+}
+
+@media(max-width:1870px) {
+    .trust-hero-main .container-main {
+        padding-left: 300px;
+    }
+}
+
+@media(max-width:1850px) {
+    .trust-hero-main .container-main {
+        padding-left: 290px;
+    }
+}
+
+@media(max-width:1800px) {
+    .trust-hero-main .container-main {
+        padding-left: 250px;
+    }
+}
+
+@media(max-width:1750px) {
+    .trust-hero-main .container-main {
+        padding-left: 180px;
+    }
+}
+
+@media(max-width:1640px) {
+    .trust-hero-main .container-main {
+        padding-left: 150px;
+    }
+}
+
+@media(max-width:1600px) {
+    .trust-hero-main.container-main {
+        padding-left: 80px;
+    }
+}
+
+@media(max-width:1550px) {
+    .trust-hero-main .container-main {
+        padding-left: 50px;
+    }
+}
+
+@media(max-width:1500px) {
+    .trust-hero-main .container-main {
+        padding-left: 20px;
+    }
+}
+
+@media(max-width:1440px) {
+    .container-main {
+        padding: 0px 40px;
+    }
+
+    .trust-badges-heading h1,
+    .roi-trust-heading h1,
+    .creditibility-heading h1,
+    .trust-hero-heading h1,
+    .verification-works-heading h1 {
+        font-size: 55px;
+    }
+}
+
+@media(max-width:1320px) {
+    .tru-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+    }
+}
+
+@media(max-width:1280px) {
+
+    .trust-badges-heading h1,
+    .roi-trust-heading h1,
+    .creditibility-heading h1,
+    .trust-hero-heading h1 .verification-works-heading h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .tru-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+    }
+}
+
+@media(max-width:1200px) {
+
+    .trust-badges-heading h1,
+    .roi-trust-heading h1,
+    .creditibility-heading h1,
+    .trust-hero-heading h1,
+    .verification-works-heading h1 {
+        font-size: 44px;
+        line-height: 55px;
+    }
+
+
+
+    .verification-block::before {
+        left: 120px;
+    }
+
+    .trust-left,
+    .trust-right {
+        width: 100%;
+    }
+
+    .trust-right {
+        padding-left: 0px;
+    }
+}
+
+@media(max-width:1024px) {
+
+    .verification-grid {
+        gap: 16px;
+    }
+}
+
+@media(max-width:991px) {
+
+    .trust-badges-heading h1,
+    .roi-trust-heading h1,
+    .creditibility-heading h1,
+    .trust-hero-heading h1,
+    .verification-works-heading h1 {
+        font-size: 40px;
+        line-height: 52px;
+        margin-bottom: 17px;
+    }
+
+    .eco-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .global-leaders-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .verification-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .verification-block {
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        gap: 30px;
+    }
+
+    .verification-img {
+        margin: unset;
+    }
+
+    .verification-content p {
+        text-align: unset;
+    }
+
+    .verification-works-heading {
+        margin-bottom: 30px;
+    }
+
+    .verification-img {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media(max-width:850px) {
+    .roi-trust-img {
+        height: 78px;
+    }
+
+    .roi-trust-content h3 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .roi-trust-content p,
+    .creditibility-heading p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .creditibility-btns {
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:768px) {
+    .tru-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .eco-img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .eco-content h3,
+    .verification-content h4 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .eco-content p,
+    .verification-content p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .roi-trust-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+
+    .roi-trust-block {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        /* justify-content: center; */
+        flex-wrap: nowrap;
+    }
+
+    .roi-trust-img {
+        margin: unset;
+    }
+
+    .roi-trust-content h3,
+    .roi-trust-content p,
+    .verification-content h4 {
+        text-align: unset;
+        margin-bottom: 10px;
+    }
+
+    .roi-trust-content p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+
+}
+
+@media(max-width:600px) {
+
+    .trust-badges-heading h1,
+    .trust-badges-heading h4,
+    .roi-trust-heading h1,
+    .creditibility-heading h1,
+    .trust-hero-heading h1,
+    .verification-works-heading h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .tru-img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .tru-content h5,
+    .trust-badges-table th,
+    .verification-works-heading p,
+    .verification-content h4 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .tru-content p,
+    .global-leaders-block-content p,
+    .trust-badges-heading p,
+    .trust-badges-table td {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .trust-badges-heading p {
+        margin-bottom: 20px;
+    }
+
+    .trust-badges-main,
+    .impact-purpose-main,
+    .trust-badges-table-main,
+    .global-leaders-main,
+    .creditibility-main,
+    .roi-trust-main,
+    .verification-works-main {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .trust-badges-table th {
+        font-size: 16px;
+    }
+
+    .global-leaders-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .global-leaders-block-heading h3 {
+        font-size: 18px;
+        line-height: 26px;
+        min-height: 35px;
+    }
+
+    .creditibility-btns {
+        flex-flow: column;
+    }
+
+    .view-plans,
+    .start-veri {
+        width: 100%;
+    }
+
+    .view-plans a,
+    .start-veri a {
+        width: 100%;
+    }
+
+    .trust-right {
+        display: none;
+    }
+
+    .trust-text {
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    .verification-works::before {
+        width: 90px;
+        height: 110px;
+    }
+
+    .trust-badges-table th {
+        padding: 15px;
+    }
+
+    .verification-works {
+        padding: 30px 10px;
+        border: unset;
+    }
+
+    .verification-img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .verification-block::before {
+        content: unset;
+    }
+
+    .verification-block::after {
+        position: absolute;
+        content: "";
+        background-image: url(../images/Vector-4817.png);
+        width: 3px;
+        height: 100%;
+        left: 17px;
+        background-repeat: no-repeat;
+        top: 30px;
+    }
+
+    .verification-img {
+        max-width: 20px;
+        width: unset;
+        height: unset;
+    }
+
+    .verification-block {
+        align-items: flex-start;
+    }
+
+    .verification-grid {
+        gap: 3px;
+    }
+
+    .verification-block:last-child::after {
+        content: unset;
+    }
+
+    .trust-hero-main .container-main {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .trust-left,
+    .trust-right {
+        width: 100%;
+    }
+
+    .roi-trust-img {
+        max-width: 45px;
+        width: unset;
+        height: unset;
+    }
+
+    .trust-hero-heading h6 {
+        text-align: center;
+    }
+
+    .trust-hero-heading h1 {
+        text-align: center;
+    }
+
+    .trust-hero-main {
+        padding-top: 60px;
+    }
+}

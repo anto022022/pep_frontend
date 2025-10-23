@@ -1,0 +1,47 @@
+.stage-tracker-comp {
+    border-radius: 4px;
+    border: 1px solid $color-grey-83;
+    background: $primary-solid-color;
+    display: flex;
+    gap: 13px;
+
+    .s-t-c-item {
+        display: block;
+        padding: 6px 15px;
+        cursor: pointer;
+        color: $color-grey-84;
+        font-family: $secondary-body-font;
+        font-size: clamp(0.813rem, 0.8rem + 0.06vw, 0.875rem);
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0.14px;
+        padding-right: 3px;
+        position: relative;
+        @media screen and (max-width:576px) {
+            padding: 6px 5px;
+        }
+        &:last-child {
+            padding-right: 13px;
+        }
+
+        &.new {
+            @include stage-track-before($new);
+        }
+
+        &.quote {
+            @include stage-track-before($quote);
+        }
+
+        &.negotiation {
+            @include stage-track-before($nego);
+        }
+
+        &.won {
+            @include stage-track-before($won);
+        }
+
+        &.lost {
+            @include stage-track-before($lost);
+        }
+    }
+}

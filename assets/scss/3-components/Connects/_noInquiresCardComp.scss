@@ -1,0 +1,47 @@
+.no-inquires-card-comp {
+    border-radius: 16px;
+    background: $gradient-2;
+    box-shadow: $shadow-depth-15;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    @media screen and (max-width:640px) {
+        padding: 15px;
+        gap: 25px;
+    }
+
+    .noinquires-info-block {
+        display: flex;
+        flex-direction: column;
+
+        @media screen and (max-width:991px) {
+            gap: 7px;
+        }
+
+        .n-i-b-title {
+            color: $black;
+            font-family: $body-font;
+            font-size: clamp(1.313rem, 1.2rem + 0.56vw, 1.875rem); //21, 30px
+            font-weight: 600;
+            line-height: clamp(1.563rem, 1.375rem + 0.94vw, 2.5rem); //25, 40px
+            letter-spacing: 0.3px;
+        }
+
+        .n-i-b-subtxt {
+            color: $color-grey-2;
+            font-family: $body-font;
+            font-size: clamp(1rem, 0.975rem + 0.13vw, 1.125rem); //16, 18px
+            font-weight: 400;
+            line-height: clamp(1.313rem, 1.225rem + 0.44vw, 1.75rem); //21, 28px
+            letter-spacing: 0.18px;
+        }
+    }
+
+    .inquires-compose-card {
+        background: unset;
+        box-shadow: unset;
+        padding: unset;
+    }
+}

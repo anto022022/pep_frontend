@@ -1,0 +1,319 @@
+{
+  "businessProfileStepper": {
+    "businessInformation": {
+      "title": "व्यवसाय संबंधी जानकारी",
+      "description": "अपनी पहचान, संचालन और उपस्थिति को प्रदर्शित करें — खरीदार का विश्वास बनाएं"
+    },
+    "businessDetails": "व्यवसाय विवरण",
+    "companyRegistrationDetails": "कंपनी पंजीकरण विवरण",
+    "taxIdentityVerification": "कर और पहचान सत्यापन",
+    "additional": "अतिरिक्त",
+    "brandingAndMedia": {
+      "title": "ब्रांडिंग और मीडिया",
+      "subTxt": "विवरण, मात्रा, सामग्री और गुणवत्ता निर्धारित करें"
+    },
+    "tradeInformation": {
+      "title": "व्यापार सूचना",
+      "description": " "
+    },
+    "marketAndLogistics": "बाजार और रसद",
+    "shippingAndPaymentTerms": "शिपिंग एवं भुगतान शर्तें",
+    "tradeInformationAdditional": "अतिरिक्त",
+    "factoryWarehouseDetails": {
+      "title": "फैक्ट्री और गोदाम विवरण",
+      "description": "अपने कारखाने की व्यवस्था, उत्पादन क्षमता, और भंडारण विवरण प्रदर्शित करें।"
+    }
+  },
+  "profileCompletion": {
+    "title": "प्रोफ़ाइल समापन",
+    "description": "खरीदारों के सामने अपनी अलग पहचान बनाने के लिए अपनी प्रोफ़ाइल पूरी करें",
+    "approx": "लगभग",
+    "mins": "मिनट",
+    "completeSetup": {
+      "title": "पूरा सेटअप",
+      "description": "सुविधाओं तक पूर्ण पहुंच प्राप्त करने, विश्वसनीय भागीदारों से जुड़ने और अपने व्यावसायिक कार्यों को सुव्यवस्थित करने के लिए अपना सेटअप पूरा करें।"
+    },
+    "completionKycAndKyb": {
+      "title": "केवाईसी और केवाईबी पूरा करना",
+      "description": "अधिक विश्वसनीय आपूर्तिकर्ताओं से जुड़ने के लिए अपनी केवाईसी प्रक्रिया पूरी करें।"
+    },
+    "addProducts": {
+      "title": "उत्पाद जोड़ें",
+      "description": "खरीदारों को आकर्षित करने के लिए अपने उत्पादों को सूचीबद्ध करना शुरू करें, अपनी पेशकशों को प्रदर्शित करें, और पूछताछ प्राप्त करना शुरू करें।"
+    }
+  },
+  "businessInformation": {
+    "title": "व्यवसाय की जानकारी",
+    "businessProfile": "व्यवसाय प्रोफ़ाइल",
+    "businessDetails": {
+      "title": "व्यवसाय का विवरण",
+      "AllFieldsAreRequired": "सभी फ़ील्ड आवश्यक हैं",
+      "legalBusinessName": "कानूनी व्यवसाय का नाम",
+      "legalBusinessNamePlaceholder": "कानूनी व्यवसाय का नाम दर्ज करें",
+      "legalBusinessNameHelperText": "अधिकारियों के साथ पंजीकृत आधिकारिक नाम क्या है?",
+      "legalBusinessNameRequired": "कानूनी व्यवसाय का नाम आवश्यक है",
+      "legalBusinessNameMin": "कानूनी व्यवसाय का नाम 2 अक्षरों से अधिक होना चाहिए",
+      "legalBusinessNameMax": "कानूनी व्यवसाय का नाम 100 अक्षरों से कम होना चाहिए",
+      "businessName": "व्यवसाय का नाम",
+      "businessNamePlaceholder": "व्यवसाय का नाम दर्ज करें",
+      "businessNameHelperText": "यदि यह कानूनी नाम से अलग है तो आपकी कंपनी का संचालन नाम।",
+      "businessNameRequired": "व्यवसाय का नाम आवश्यक है",
+      "businessNameMax": "व्यवसाय का नाम 250 अक्षरों से कम होना चाहिए",
+      "legalOwnerName": "कानूनी मालिक का नाम",
+      "legalOwnerNamePlaceholder": "कानूनी मालिक का नाम दर्ज करें",
+      "legalStatus": "कानूनी स्थिति",
+      "legalStatusRequired": "कानूनी स्थिति आवश्यक है",
+      "businessType": "व्यवसाय का प्रकार",
+      "businessTypePlaceholder": "व्यवसाय का प्रकार चुनें",
+      "businessTypeRequired": "व्यवसाय का प्रकार आवश्यक है",
+      "businessAddress": "व्यवसाय का पता",
+      "businessAddressPlaceholder": "पता पंक्ति जोड़ें",
+      "businessAddressRequired": "पता आवश्यक है",
+      "businessAddressCityPlaceholder": "शहर",
+      "businessAddressStatePlaceholder": "राज्य",
+      "shippingAddress": "मेरा शिपिंग पता मेरे व्यावसायिक पते के समान है",
+      "unregister": {
+        "title": "अपंजीकृत व्यवसाय",
+        "subTxt": "1 व्यक्ति के स्वामित्व वाला और सरकार के साथ पंजीकृत नहीं"
+      },
+      "register": {
+        "title": "पंजीकृत व्यवसाय",
+        "subTxt": "इसमें एलएलसी, साझेदारी, एकमात्र स्वामित्व, या निगम शामिल हैं।"
+      },
+      "nonprofit": {
+        "title": "गैर-लाभकारी संगठन",
+        "subTxt": "सरकारी प्राधिकरणों द्वारा मान्यता प्राप्त कर-मुक्त संगठन।"
+      },
+      "employee": {
+        "title": "कर्मचारियों की संख्या",
+        "placeholder": "कर्मचारियों की संख्या चुनें"
+      },
+      "mainProduct": {
+        "title": "मुख्य उत्पाद",
+        "placeholder": "मुख्य उत्पाद दर्ज करें"
+      },
+      "Industry": {
+        "title": "उद्योग",
+        "placeholder": "उद्योग चुनें"
+      },
+      "year": {
+        "title": "स्थापना वर्ष",
+        "placeholder": "स्थापना वर्ष दर्ज करें"
+      },
+      "contactInfo": {
+        "title": "संपर्क जानकारी",
+        "country": "देश",
+        "address": {
+          "title": "पता",
+          "state": "राज्य",
+          "city": "शहर",
+          "pincode": "पिनकोड",
+          "mobile": "मोबाइल नंबर",
+          "bEmail": "व्यवसाय ईमेल"
+        },
+        "enterGoogleMapLink": "गूगल मैप लिंक दर्ज करें"
+      },
+      "save": "सहेजें",
+      "cancel": "रद्द करें"
+    },
+    "companyRegn": {
+      "docType": "दस्तावेज़ का प्रकार",
+      "docNo": "दस्तावेज़ संख्या",
+      "aadhaar": "आधार आईडी नंबर",
+      "voters": "वोटर आईडी नंबर",
+      "emirates": "एमिरेट्स आईडी नंबर",
+      "docNoPlaceholder": "दस्तावेज़ आईडी दर्ज करें",
+      "docTypePlaceholder": "दस्तावेज़ का प्रकार चुनें"
+    },
+    "businessAdditional": {
+      "shippingAddress": {
+        "title": "शिपिंग पता",
+        "placeholder": "पता पंक्ति जोड़ें",
+        "state": "राज्य",
+        "city": "शहर",
+        "pincode": "पिनकोड"
+      },
+      "turnover": "वार्षिक कारोबार",
+      "website": {
+        "title": "वेबसाइट",
+        "placeholder": "www.apparel.com"
+      }
+    },
+    "factoryDetails": {
+      "factorySize": {
+        "title": "कुल फैक्ट्री का आकार",
+        "placeholder": "1500 वर्ग मीटर"
+      },
+      "infaImage": "बुनियादी ढांचे की छवि",
+      "overview": "बुनियादी ढांचे का विवरण",
+      "overViewEnter": "विवरण दर्ज करें",
+      "productionLines": "उत्पादन लाइनों की संख्या",
+      "productionLinesPlaceholder": "उत्पादन लाइनों की संख्या दर्ज करें",
+      "annualOutput": "वार्षिक उत्पादन मूल्य",
+      "qcstaff": "गुणवत्ता नियंत्रण स्टाफ की संख्या",
+      "qcstaffPlaceholder": "क्यूसी स्टाफ की संख्या दर्ज करें",
+      "r&dStaff": "अनुसंधान और विकास स्टाफ की संख्या",
+      "r&dStaffPlaceholder": "आर एंड डी स्टाफ की संख्या दर्ज करें",
+      "productionFacility": "उत्पादन सुविधाएं",
+      "productionFacilityPlaceholder": "उत्पादन सुविधाएं दर्ज करें",
+      "productionCapacity": {
+        "title": "वार्षिक उत्पादन क्षमता",
+        "productName": "उत्पाद का नाम दर्ज करें",
+        "productQuantity": "मात्रा दर्ज करें",
+        "unit": "यूनिट दर्ज करें",
+        "add": "उत्पाद जोड़ें"
+      },
+      "warehouse": {
+        "title": "गोदाम भंडारण क्षेत्र",
+        "placeholder": "गोदाम भंडारण क्षेत्र दर्ज करें",
+        "certificate": "गोदाम प्रमाणपत्र"
+      },
+      "officeBranch": {
+        "title": "कार्यालय-शाखा / अन्य स्थान",
+        "division": {
+          "title": "डिवीजन",
+          "placeholder": "डिवीजन दर्ज करें"
+        },
+        "company": {
+          "title": "कंपनी का नाम",
+          "placeholder": "कंपनी का नाम दर्ज करें"
+        },
+        "contact": {
+          "title": "संपर्क व्यक्ति का नाम",
+          "placeholder": "संपर्क व्यक्ति का नाम दर्ज करें"
+        },
+        "phone": {
+          "title": "फोन नंबर",
+          "placeholder": "फोन नंबर दर्ज करें"
+        },
+        "address": {
+          "enter": "पता दर्ज करें",
+          "city": "शहर",
+          "state": "राज्य",
+          "pincode": "पिनकोड",
+          "title": "पता"
+        },
+        "googleMap": "गूगल मैप लिंक",
+        "addDiv": "डिवीजन जोड़ें"
+      }
+    },
+    "manufacturingTerms": {
+      "title": "उत्पादन की शर्तें",
+      "contractManufacturing": {
+        "title": "ठेका उत्पादन",
+        "placeholder": "ठेका उत्पादन चुनें"
+      }
+    }
+  },
+  "save": "सहेजें",
+  "cancel": "रद्द करें",
+  "brandingMedia": {
+    "title": "ब्रांडिंग और मीडिया",
+    "companyLogo": "कंपनी का लोगो",
+    "companyVideo": "कंपनी वीडियो",
+    "brochures": "कंपनी ब्रॉशर",
+    "ownBrands": {
+      "title": "स्वयं के ब्रांड्स",
+      "brandTitle": "ब्रांड का नाम दर्ज करें",
+      "add": "स्वयं के ब्रांड्स जोड़ें"
+    },
+    "otherBrands": {
+      "title": "अन्य ब्रांड्स",
+      "add": "अन्य ब्रांड्स जोड़ें"
+    },
+    "awards": {
+      "title": "पुरस्कार और मान्यता",
+      "awardTitle": "पुरस्कार का नाम दर्ज करें",
+      "year": "पुरस्कार का वर्ष दर्ज करें",
+      "add": "पुरस्कार जोड़ें"
+    },
+    "certificates": {
+      "title": "प्रमाणपत्र और गुणवत्ता मानक",
+      "certTitle": "प्रमाणपत्र का नाम दर्ज करें",
+      "add": "प्रमाणपत्र जोड़ें"
+    },
+    "social": "सोशल मीडिया लिंक",
+    "facebook": "फेसबुक",
+    "youtube": "यूट्यूब",
+    "linkedin": "लिंक्डइन",
+    "instagram": "इंस्टाग्राम",
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "enterLink": "लिंक दर्ज करें"
+  },
+  "marketLogistics": {
+    "mainMarkets": "मुख्य बाजार",
+    "placeholder": "मुख्य बाजार चुनें",
+    "save": "सहेजें",
+    "cancel": "रद्द करें"
+  },
+  "shippingDetails": {
+    "shipment": "शिपमेंट मोड्स",
+    "currency": "स्वीकृत भुगतान मुद्रा",
+    "accepted": "स्वीकृत मुद्रा चुनें",
+    "payment": "भुगतान के तरीके",
+    "otherPayment": "अन्य भुगतान तरीका",
+    "paymentTerm": "भुगतान शर्तें",
+    "selectTerm": "भुगतान शर्त चुनें",
+    "customTerm": "कस्टम भुगतान शर्त दर्ज करें",
+    "save": "सहेजें",
+    "cancel": "रद्द करें"
+  },
+  "tradeAdditional": {
+    "basicInfo": "मूल जानकारी",
+    "iecNo": "आईईसी नंबर",
+    "enterIec": "आईईसी नंबर दर्ज करें",
+    "iecDoc": "आईईसी दस्तावेज़",
+    "market": "बाजार और लॉजिस्टिक्स",
+    "shipping": "शिपिंग और भुगतान शर्तें",
+    "percent": {
+      "title": "निर्यात प्रतिशत",
+      "placeholder": "निर्यात प्रतिशत दर्ज करें"
+    },
+    "language": {
+      "title": "बोली जाने वाली भाषाएं",
+      "placeholder": "बोली जाने वाली भाषाएं चुनें"
+    },
+    "port": {
+      "title": "निकटतम बंदरगाह",
+      "placeholder": "निकटतम बंदरगाह दर्ज करें"
+    },
+    "leadTime": {
+      "title": "औसत लीड समय",
+      "value": "मूल्य दर्ज करें",
+      "duration": "अवधि चुनें"
+    },
+    "minValue": {
+      "title": "न्यूनतम ऑर्डर मूल्य",
+      "currency": "मुद्रा चुनें",
+      "value": "मूल्य दर्ज करें"
+    },
+    "deliveryTerms": {
+      "title": "स्वीकृत डिलीवरी शर्तें",
+      "placeholder": "स्वीकृत डिलीवरी शर्तें चुनें"
+    },
+    "save": "सहेजें",
+    "cancel": "रद्द करें"
+  },
+  "easyGuide": {
+    "easySetupGuide": "आसान सेटअप गाइड",
+    "stepsCompleted": "चरण पूरा हुआ",
+    "completeYourBusinessProfile": "अपनी व्यावसायिक प्रोफ़ाइल पूर्ण करें",
+    "completeYourSetup": "पूर्ण एक्सेस प्राप्त करने, विश्वसनीय भागीदारों से जुड़ने और अपने व्यापार संचालन को सुव्यवस्थित करने के लिए अपना सेटअप पूरा करें।",
+    "KYCAndKYBVerification": "KYC और KYB सत्यापन पूर्ण करें",
+    "KYBVerification": "KYB सत्यापन पूर्ण करें",
+    "KYCVerification": "KYC सत्यापन पूर्ण करें",
+    "firstProduct": "अपना पहला उत्पाद जोड़ें"
+  },
+  "verificationPopup": {
+    "getVerified": "सत्यापित करें!",
+    "completeYourProfile": "अपनी प्रोफ़ाइल पूरी करें और",
+    "getVerifiedBadge": "सत्यापित बैज प्राप्त करें",
+    "trustBadges": "ट्रस्ट बैज प्राप्त करें",
+    "getPriorityListing": "प्राथमिकता सूची प्राप्त करें",
+    "newCustomerDiscovery": "नए ग्राहकों की खोज सक्षम करें",
+    "increaseVisibility": "दृश्यता बढ़ाएं",
+    "remindMeLater": "मुझे बाद में याद दिलाएं",
+    "completeNow": "अब पूरा करें"
+  }
+}

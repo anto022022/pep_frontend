@@ -1,0 +1,120 @@
+.sub-category-comp {
+    border-radius: 16px;
+    border: 1px solid $color-white-1;
+    background: $primary-solid-color;
+    box-shadow: $shadow-depth-1;
+    display: block;
+
+    &:hover {
+        .show-more-icon {
+            transform: translateX(5px);
+        }
+    }
+
+    .s-c-c-header {
+        padding: 16px 16px 15px 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        cursor: pointer;
+
+
+
+        @media screen and (max-width:991px) {
+            justify-content: center;
+            padding-bottom: 5px;
+        }
+
+
+
+        .s-c-c-title {
+            color: $color-black-4;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: 0.24px;
+            @include line-clamp(1);
+
+            @media screen and (max-width:991px) {
+                font-size: 16px;
+            }
+
+            @media screen and (max-width:600px) {
+                font-size: 14px;
+            }
+        }
+
+        .show-more-icon {
+            width: 20px;
+            min-width: 20px;
+            transition: .2s all;
+
+            @media screen and (max-width:991px) {
+                display: none;
+            }
+        }
+    }
+
+    .s-c-c-body {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+
+        @media screen and (max-width:991px) {
+            justify-content: center;
+        }
+
+        .s-c-c-b-left {
+            @media screen and (max-width:991px) {
+                display: none;
+            }
+        }
+    }
+
+    .s-c-c-b-img {
+        width: 110px;
+        height: 124px;
+
+        @media screen and (max-width:600px) {
+            width: 75px;
+            height: 85px;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            object-position: bottom;
+        }
+    }
+}
+
+.stats-card {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-bottom: 16px;
+
+    .stat-item {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        padding: 0 0 0 16px;
+
+        .stat-label {
+            color: $neutral-solid-disabledcolor;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 13.272px;
+        }
+
+        .stat-value {
+            color: $text-primary;
+            font-family: $secondary-body-font !important;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 14.747px;
+        }
+    }
+}

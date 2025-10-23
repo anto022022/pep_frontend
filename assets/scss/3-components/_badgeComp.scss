@@ -1,0 +1,250 @@
+.table-badge-comp {
+    border-radius: 100px;
+    background: $neutral-solid-disabledcolor;
+    padding: 4px 12px;
+    color: $text-primary;
+    font-family: $secondary-body-font;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0.42px;
+    border: 1px solid transparent;
+    min-width: 90px;
+    width: max-content;
+    display: block;
+    text-align: center;
+
+    &.active {
+        color: $badge-active-txt;
+        background: $badge-active-bg;
+        border-color: $badge-active-txt;
+    }
+
+    &.draft {
+        color: $badge-draft-txt;
+        background: $badge-draft-bg;
+        border-color: $badge-draft-txt;
+    }
+
+    &.pending {
+        color: $badge-pending-txt;
+        background: $badge-pending-bg;
+        border-color: $badge-pending-txt;
+    }
+
+    &.archieve {
+        color: $badge-archieve-txt;
+        background: $badge-archieve-bg;
+        border-color: $badge-archieve-txt;
+    }
+
+    &.approval-pending {
+        color: $badge-approval-pending-txt;
+        background: $badge-approval-pending-bg;
+        border-color: $badge-approval-pending-border;
+    }
+
+    &.grey-bg {
+        color: $color-grey-47;
+        background: $background-surface;
+        border-color: $primary-outlined-border;
+    }
+
+    &.not-contacted {
+        color: $badge-draft-txt;
+        background: rgba(95, 99, 112, 0.24);
+        border-color: $badge-draft-txt;
+    }
+
+    &.awaiting {
+        color: $badge-awating-txt;
+        background: $badge-awating-bg;
+        border-color: $badge-awating-txt;
+    }
+
+    &.buyer {
+        color: $badge-approval-pending-txt;
+        background: $color-brown-1;
+        border-color: $badge-approval-pending-txt;
+    }
+
+    &.order-confirm {
+        color: $badge-order-confirm-txt;
+        background: $badge-order-confirm-bg;
+        border-color: $badge-order-confirm-txt;
+    }
+
+    &.deal-lost {
+        color: $lost;
+        background: $quote-bg;
+        border-color: $lost;
+    }
+
+    &.quote-received {
+        color: $quote-received-color;
+        background: $quote-received-bg;
+        border-color: $quote-received-border;
+    }
+
+
+}
+
+.badge-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+
+    &.variants-badge-group {
+        .badge-comp {
+            padding: 2px 20px;
+            color: $color-black-11;
+            font-family: $body-font;
+            font-size: clamp(0.938rem, 0.924rem + 0.06vw, 1rem); // 15, 16px
+            font-weight: 400;
+            line-height: 150%;
+            background: $color-grey-42;
+            letter-spacing: 0.32px;
+            border: 1px solid $color-grey-42;
+            box-shadow: unset;
+        }
+    }
+}
+
+.badge-comp {
+    border-radius: 40px;
+    border: 1px solid $primary-outlined-border;
+    background: $background-surface;
+    color: $color-grey-12;
+    font-family: $secondary-body-font;
+    font-weight: 500;
+    line-height: normal;
+    cursor: default;
+    font-size: 14px;
+    padding: 4px 8px;
+    display: block;
+
+    &.b-c-xs {
+        padding: 3px 8px;
+        font-size: 12px;
+    }
+
+    &.b-c-sm {
+        padding: 5px 12px;
+        font-size: 12px;
+    }
+
+    &.b-c-font {
+        font-family: $body-font;
+    }
+
+    &.badge-lght-grey {
+        border-radius: 4px;
+        background: $bg-primary;
+        border-color: $bg-primary;
+    }
+
+    &.badge-lght-blue {
+        background-color: $color-blue-3;
+        color: $neutral-outlined-Color;
+        border-color: $color-blue-3;
+    }
+
+    &.badge-lght-green {
+        background-color: $color-green-4;
+        color: $color-green-5;
+        border-color: $color-green-4;
+    }
+
+    &.badge-lght-brown {
+        background-color: $badge-approval-pending-border;
+        color: $color-brown-3;
+        border-color: $badge-approval-pending-border;
+    }
+
+    &.badge-brown {
+        background-color: $color-brown-1;
+        color: $color-brown-2;
+        border-color: $badge-approval-pending-border;
+    }
+
+    &.badge-red {
+        background-color: $btn-primary;
+        color: $primary-solid-color;
+        border-color: $btn-primary;
+    }
+}
+
+.product-badge {
+    border-radius: 4px;
+    background-color: $color-black-13;
+    box-shadow: $shadow-depth-2;
+    padding: 2px 8px;
+    color: $primary-solid-color;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 9;
+
+    &.best-seller {
+        background-color: $color-green-3;
+        color: $color-green-2;
+    }
+
+    &.hot-selling {
+        background-color: $color-brown-1;
+        color: $color-brown-2;
+    }
+}
+
+.filters-list-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .badge-comp {
+        border-radius: 100px;
+        border: 1px solid $color-grey-24;
+        padding: 4px 16px;
+        color: $color-grey-55;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.16px;
+        cursor: pointer;
+
+        &.active {
+            background-color: $black;
+            border-color: $black;
+            color: $primary-solid-color;
+        }
+    }
+}
+
+.inbox-badge {
+    border-radius: 100px;
+    color: $color-grey-47;
+    background: $background-surface;
+    border: 1px solid $primary-outlined-border;
+    padding: 4px 12px;
+    font-family: $secondary-body-font;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0.36px;
+
+    &.new {
+        border-color: $new-border;
+        background-color: $new-bg;
+        color: $new-color;
+    }
+
+    &.quotation {
+        border-color: $quote-border;
+        background-color: $quote-bg;
+        color: $quote-border;
+    }
+}

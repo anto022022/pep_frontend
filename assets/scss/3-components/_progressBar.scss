@@ -1,0 +1,102 @@
+.progressbar-comp {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    .p-c-label {
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+
+
+
+    .p-c-value {
+        color: $color-grey-12;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.p-c-bar {
+    width: 100%;
+    height: 8px;
+    border-radius: 100px;
+    background-color: $color-grey-11;
+    position: relative;
+    overflow: hidden;
+
+    .p-c-b-progress {
+        position: absolute;
+        height: 100%;
+        background-color: $green;
+        transition: .3s all;
+        border-radius: 100px;
+    }
+}
+
+.progress-bar-dashed-comp {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .p-b-d-c-label-block {
+        display: flex;
+        flex-direction: column;
+
+        .label-txt {
+            color: $neutral-outlined-Color;
+            font-family: $body-font;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: 0.18px;
+        }
+
+        .label-subtxt {
+            color: $neutral-solid-disabledcolor;
+            font-family: $body-font;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.28px;
+        }
+    }
+
+    .p-c-bar {
+        height: 22px;
+        position: relative;
+        background: transparent;
+        border: 1px solid $color-blue-7;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('../img/progress-dashed.svg') no-repeat;
+            background-size: cover;
+        }
+
+        .p-c-b-progress {
+            background-color: $btn-primary;
+        }
+
+        .p-c-b-value {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: center;
+            left: 0;
+            right: 0;
+            color: $primary-solid-color;
+            font-family: $body-font;
+            font-size: clamp(0.875rem, 0.861rem + 0.06vw, 0.938rem); // 14, 15px
+            font-weight: 500;
+            letter-spacing: 0.28px;
+        }
+    }
+}

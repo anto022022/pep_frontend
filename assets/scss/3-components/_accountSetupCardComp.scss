@@ -1,0 +1,139 @@
+.account-setup-card-comp {
+    border-radius: 16px;
+    padding: 40px 60px;
+    background: $gradient-5 url("../img/account-setup.svg") no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    @media screen and (max-width:767px) {
+        padding: 20px;
+        gap: 35px;
+    }
+
+    .a-s-c-c-body {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+
+        .a-s-c-c-b-content-wrapper {
+            display: flex;
+            flex-direction: column;
+            max-width: 500px;
+        }
+
+        .a-s-c-c-title {
+            color: $black;
+            font-family: $body-font;
+            font-size: clamp(1.438rem, 1.34rem + 0.45vw, 1.875rem); // 23, 30px
+            font-weight: 500;
+            line-height: clamp(1.813rem, 1.673rem + 0.64vw, 2.438rem); // 29, 39px
+            letter-spacing: 0.3px;
+        }
+
+        .a-s-c-c-subtxt {
+            color: $text-tertiary;
+            font-family: $body-font;
+            font-size: clamp(0.938rem, 0.924rem + 0.06vw, 1rem); // 15, 16px
+            font-weight: 400;
+            line-height: clamp(1.25rem, 1.194rem + 0.25vw, 1.5rem); // 20, 24px
+            letter-spacing: 0.32px;
+        }
+
+        .a-s-c-c-b-completed-status-block {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+
+            .a-s-c-c-completed-count-block {
+                display: flex;
+                align-items: center;
+                gap: 35px;
+
+                @media screen and (max-width:767px) {
+                    gap: 17px;
+                }
+
+                .a-s-c-c-count {
+                    color: $black;
+                    font-family: $body-font;
+                    font-size: clamp(2.563rem, 2.354rem + 0.96vw, 3.5rem); // 41, 56px
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: clamp(2.5rem, 2.221rem + 1.27vw, 3.75rem); // 40, 60px
+                    letter-spacing: -1.96px;
+                }
+
+                .a-s-c-c-badge-txt {
+                    border-radius: 56px;
+                    background: $primary-solid-color;
+                    padding: 10px 20px;
+                    color: $black;
+                    font-family: $body-font;
+                    font-size: clamp(1.063rem, 1.049rem + 0.06vw, 1.125rem); // 17, 18px
+                    font-weight: 400;
+                    line-height: 28px;
+
+                    @media screen and (max-width:767px) {
+                        padding: 5px 20px;
+                    }
+                }
+            }
+        }
+
+        .a-s-c-c-progress-group {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            @media screen and (max-width:640px) {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .a-s-c-c-p-g-item {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                min-width: 120px;
+
+                .progressbar-comp {
+                    flex-direction: column-reverse;
+
+                    .p-c-label {
+                        color: $black;
+                        font-family: $body-font;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        letter-spacing: 0.28px;
+                    }
+
+                    .p-c-bar {
+                        background: $color-grey-114;
+
+                        .p-c-b-progress {
+                            background: $text-primary;
+                        }
+                    }
+
+                    .p-c-value {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .btn-comp {
+        img {
+            transform: scale(0.8);
+        }
+
+        &.continue-steup-btn {
+            padding: 5px 16px;
+        }
+    }
+}

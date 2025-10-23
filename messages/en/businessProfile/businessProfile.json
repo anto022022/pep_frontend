@@ -1,0 +1,317 @@
+{
+  "businessProfileStepper": {
+    "businessInformation": {
+      "title": "Business Information",
+      "description": "Showcase your identity, operations, and presence — build buyer confidence."
+    },
+    "businessDetails": "Business Details",
+    "companyRegistrationDetails": "Company Registration Details",
+    "taxIdentityVerification": "Tax & Identity Verification",
+    "additional": "Additional Information (optional)",
+    "brandingAndMedia": {
+      "title": "Branding & Media (Optional)",
+      "subTxt": "Define details,quantity,material and quality"
+    },
+    "tradeInformation": {
+      "title": "Trade Information",
+      "description": "Define details,quantity,material and quality "
+    },
+    "marketAndLogistics": "Market & Logistics",
+    "shippingAndPaymentTerms": "Shipping & Payment Terms",
+    "tradeInformationAdditional": "Additional Information (Optional)",
+    "factoryWarehouseDetails": {
+      "title": "Factory & Warehouse Details",
+      "description": "Showcase your factory setup, production capacity, and storage details."
+    }
+  },
+  "profileCompletion": {
+    "title": "Profile Completion",
+    "description": "Complete your profile to stand out to the buyers",
+    "approx": "Approx",
+    "mins": "mins",
+    "completeSetup": {
+      "title": "Complete Setup",
+      "description": "Complete your setup to unlock full access to features, connect with trusted partners, and streamline your business operations."
+    },
+    "completionKycAndKyb": {
+      "title": "Completion KYC & KYB",
+      "description": "Finish your KYC process to start connecting with more reliable suppliers."
+    },
+    "addProducts": {
+      "title": "Add products",
+      "description": "Start listing your products to attract buyers, showcase your offerings, and begin receiving inquiries."
+    }
+  },
+  "businessInformation": {
+    "title": "Business Information",
+    "businessProfile": "Business Profile",
+    "businessDetails": {
+      "title": "Business Details",
+      "AllFieldsAreRequired": "All fields are Required",
+      "legalBusinessName": "Legal Business Name",
+      "legalBusinessNamePlaceholder": "Enter Legal Business Name",
+      "legalBusinessNameHelperText": "What's the official name registered with authorities?",
+      "legalBusinessNameRequired": "Legal Business Name is required",
+      "legalBusinessNameMin": "Enter Legal Business Name greater then 2 characters",
+      "legalBusinessNameMax": "Legal Business name less then 100 characters",
+      "businessName": "Business Name",
+      "businessNamePlaceholder": "Enter Business Name",
+      "businessNameHelperText": "The operating name of your company, if it's different than the legal name.",
+      "businessNameRequired": "Business Name is required",
+      "businessNameMax": "Business Name must be less then 250 characters",
+      "legalOwnerName": "Legal Owner Name",
+      "legalOwnerNamePlaceholder": "Enter Legal Owner Name",
+      "legalStatus": "Legal Status",
+      "legalStatusRequired": "Legal Status is required",
+      "businessType": "Business Type",
+      "businessTypePlaceholder": "Select Business Type",
+      "businessTypeRequired": "Business Type is required",
+      "businessAddress": "Business Address",
+      "businessAddressPlaceholder": "Add address line",
+      "businessAddressRequired": "Address is required",
+      "businessAddressCityPlaceholder": "City",
+      "businessAddressStatePlaceholder": "State",
+      "shippingAddress": "My Shipping address is same as my business address",
+      "unregister": {
+        "title": "Unregistered Business",
+        "subTxt": "Owned by 1 person and not registered with the government"
+      },
+      "register": {
+        "title": "Registered Business",
+        "subTxt": "Includes LLCs, partnerships, proprietorships, or corporations."
+      },
+      "nonprofit": {
+        "title": "Nonprofit Organization",
+        "subTxt": "Tax-exempt organizations recognized by relevant government authorities."
+      },
+      "employee": {
+        "title": "No. of Employees",
+        "placeholder": "Select no of employees"
+      },
+      "mainProduct": {
+        "title": "Main Products",
+        "placeholder": "Enter Main Product "
+      },
+      "Industry": {
+        "title": "Industry",
+        "placeholder": "Select Industry"
+      },
+      "year": {
+        "title": "Year of Establishment",
+        "placeholder": "Enter Year of Establishment "
+      },
+      "contactInfo": {
+        "title": "Contact Information",
+        "country": "Country",
+        "address": {
+          "title": "Address",
+          "state": "State",
+          "city": "City",
+          "pincode": "Pincode",
+          "mobile": "Mobile number",
+          "bEmail": "Business Email"
+        },
+        "enterGoogleMapLink": "Enter Google Map Link"
+      },
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "companyRegn": {
+      "docType": "Document Type",
+      "docNo": "Document Number",
+      "aadhaar": "Aadhaar ID",
+      "voters": "Voter ID",
+      "emirates": "Emirates ID",
+      "docNoPlaceholder": "Enter Document Id",
+      "docTypePlaceholder": "Select Document type"
+    },
+    "businessAdditional": {
+      "shippingAddress": {
+        "title": "Shipping Address",
+        "placeholder": "Add Address Line",
+        "state": "State",
+        "city": "City",
+        "pincode": "Pincode"
+      },
+      "turnover": "Annual Turnover",
+      "website": {
+        "title": "Website",
+        "placeholder": "www.apparel.com"
+      }
+    },
+    "factoryDetails": {
+      "factorySize": {
+        "title": "Total Factory Size",
+        "placeholder": "1500sqsm"
+      },
+      "infaImage": "Infrastructure Image",
+      "overview": "Infrastructure Overview",
+      "overViewEnter": "Enter Overview",
+      "productionLines": "No. Of production Lines",
+      "productionLinesPlaceholder": "Enter No. of Production Lines",
+      "annualOutput": "Annual Output Value",
+      "qcstaff": "No. Of QC Staff",
+      "qcstaffPlaceholder": "Enter No. of QC Staff",
+      "r&dStaff": "No. Of R&D Staff",
+      "r&dStaffPlaceholder": "Enter No. of R&D Staff",
+      "productionFacility": "Production Facilities",
+      "productionFacilityPlaceholder": "Enter Production Facilities",
+      "productionCapacity": {
+        "title": "Annual Production capacity",
+        "productName": "Enter Product Name",
+        "productQuantity": "Enter quantity",
+        "unit": "Enter Unit",
+        "add": "Add product"
+      },
+      "warehouse": {
+        "title": "Warehouse Storage Area",
+        "placeholder": "Enter Warehouse Storage Area",
+        "certificate": "Warehouse Certificate"
+      },
+      "officeBranch": {
+        "title": "Office-Branch / Other Location",
+        "division": {
+          "title": "Division",
+          "placeholder": "Enter Division"
+        },
+        "company": {
+          "title": "Company Name",
+          "placeholder": "Enter Company Name"
+        },
+        "contact": {
+          "title": "Contact Name",
+          "placeholder": "Enter Contact Name"
+        },
+        "phone": {
+          "title": "Phone Number",
+          "placeholder": "Enter Phone Number"
+        },
+        "address": {
+          "enter": "Enter Address Line",
+          "city": "City",
+          "state": "State",
+          "pincode": "Pincode",
+          "title": "Address"
+        },
+        "googleMap": "Google Map Link",
+        "addDiv": "Add Division"
+      }
+    },
+    "manufacturingTerms": {
+      "title": "Manufacturing Terms",
+      "contractManufacturing": {
+        "title": "Contract Manufacturing",
+        "placeholder": "Select Contract Manufacturing"
+      }
+    }
+  },
+  "brandingMedia": {
+    "title": "Branding & Media",
+    "companyLogo": "Company Logo",
+    "companyVideo": "Company Video",
+    "brochures": "Company Brochures",
+    "ownBrands": {
+      "title": "Own Brands",
+      "brandTitle": "Enter Brand Title ",
+      "add": "Add Own Brands"
+    },
+    "otherBrands": {
+      "title": "Other brands",
+      "add": "Add Other Brands"
+    },
+    "awards": {
+      "title": "Awards & Recognition",
+      "awardTitle": "Enter Award Title",
+      "year": "Enter Award Year",
+      "add": "Add Awards"
+    },
+    "certificates": {
+      "title": "Certificates & Quality Standards",
+      "certTitle": "Enter Certificate Title",
+      "add": "Add Certificates"
+    },
+    "social": "Social Media Links",
+    "facebook": "Facebook",
+    "youtube": "YouTube",
+    "linkedin": "LinkedIn",
+    "instagram": "Instagram",
+    "save": "Save",
+    "cancel": "Cancel",
+    "enterLink": "Enter Link"
+  },
+  "marketLogistics": {
+    "mainMarkets": "Main Markets",
+    "placeholder": "Select Main Markets",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "shippingDetails": {
+    "shipment": "Shipment Modes",
+    "currency": "Accepted Payment Currency",
+    "accepted": "Select Accepted Currency",
+    "payment": "Payment Methods",
+    "otherPayment": "Other Payment Method",
+    "paymentTerm": "Payment Terms",
+    "selectTerm": "Select Payment Term",
+    "customTerm": "Enter Custom Payment Term",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "tradeAdditional": {
+    "basicInfo": "Basic Information",
+    "iecNo": "IEC Number",
+    "enterIec": "Enter IEC Number",
+    "iecDoc": "IEC Document",
+    "market": "Market & Logistics",
+    "shipping": "Shipping & Payment Terms",
+    "percent": {
+      "title": "Export Percentage",
+      "placeholder": "Enter Export Percent"
+    },
+    "language": {
+      "title": "Languages Spoken",
+      "placeholder": "Select Languages Spoken"
+    },
+    "port": {
+      "title": "Nearest Port",
+      "placeholder": "Enter Nearest Port"
+    },
+    "leadTime": {
+      "title": "Average Lead Time",
+      "value": "Enter Value",
+      "duration": "Select Duration"
+    },
+    "minValue": {
+      "title": "Minimum Order Value",
+      "currency": "Select  Currency",
+      "value": "Enter Value"
+    },
+    "deliveryTerms": {
+      "title": "Accepted Delivery Terms",
+      "placeholder": "Select Accepted Delivery Terms"
+    },
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "easyGuide": {
+    "easySetupGuide": "Easy setup Guide",
+    "stepsCompleted": "steps completed",
+    "completeYourBusinessProfile": "Complete Your Business Profile",
+    "completeYourSetup": "Complete your setup to unlock full access to features,connect with trusted partners, and streamline your business operations.",
+    "KYCAndKYBVerification": "Complete KYC & KYB Verification",
+    "KYBVerification": "Complete KYB Verification",
+    "KYCVerification": "Complete KYC Verification",
+    "firstProduct": "Add your first Product"
+  },
+  "verificationPopup": {
+    "getVerified": "Get Verified!",
+    "completeYourProfile": "Complete your Profile and",
+    "getVerifiedBadge": "to get verified badge",
+    "trustBadges": "Receive Trust Badges",
+    "getPriorityListing": "Get Priority Listing",
+    "newCustomerDiscovery": "Enable New Customer Discovery",
+    "increaseVisibility": "Increase Visibility",
+    "remindMeLater": "Remind me later",
+    "completeNow": "Complete now"
+  }
+}

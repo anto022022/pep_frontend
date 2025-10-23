@@ -1,0 +1,28 @@
+.attributes-block {
+    position: relative;
+    .attributes-comp {
+        padding: 16px 0;
+        border-bottom: 1px solid $color-grey-14;
+    }
+}
+
+.attributes-comp {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    .forms-checkbox{
+        padding-right: 8px;
+    }
+    .forms-input,
+    .forms-select-2 {
+        width: 100%;
+    }
+}
+
+.add-slap-btn{
+    display: flex;
+    justify-content: flex-end;
+    .btn-comp{
+        padding: 6px;
+    }
+}

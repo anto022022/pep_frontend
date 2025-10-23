@@ -1,0 +1,20 @@
+.texteditor-comp {
+    border-radius: 8px;
+    border: 1px solid #9FA6AD;
+    background: #FFF;
+
+    .ql-toolbar {
+        &.ql-snow {
+            border: unset;
+            box-shadow: $shadow-depth-26;
+        }
+    }
+
+    .ql-container {
+        height: 200px;
+
+        &.ql-snow {
+            border: unset;
+        }
+    }
+}

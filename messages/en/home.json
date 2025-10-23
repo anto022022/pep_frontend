@@ -1,0 +1,371 @@
+{
+  "hero": {
+    "title": "The B2B Growth Engine",
+    "subtitle": "Where businesses connect and grow",
+    "topSearches": {
+      "title": "Top Searches",
+      "items": {
+        "apparel": "Apparel & Fashion",
+        "t-shirts": "T-shirts",
+        "electronics": "Electronics"
+      }
+    },
+    "offeredIn": {
+      "title": "Offered in:"
+    }
+  },
+  "navigation": {
+    "connect": "Connect",
+    "sell": "Sell",
+    "source": "Source"
+  },
+  "connect": {
+    "title": "with verified businesses. Build trust. Grow faster.",
+    "titleBreak": "",
+    "description": "Join a trusted B2B network built for global trade. Get discovered, verified, and connected with serious businesses ready to grow.",
+    "startButton": "Start Connecting",
+    "tabs": {
+      "tab1": {
+        "title": "Verified Business Network",
+        "description": "Stand out with trust. Become a TruVerified™ or TruSecure™ business and let buyers know you're real, reliable, and ready to scale."
+      },
+      "tab2": {
+        "title": "Premium Member Access",
+        "description": "Unlock serious business connections. View full company profiles, connect with verified businesses, and access advanced filters as a premium member."
+      },
+      "tab3": {
+        "title": "Global Search with Confidence",
+        "description": "Find trusted suppliers and buyers across the world. Search by certification, export history, location, or buyer preference and filter only TruVerified™ matches."
+      },
+      "tab4": {
+        "title": "Higher visibility in business listings",
+        "description": "Rank higher, be seen faster. Verified and active members appear first in key categories and search results boosting inbound leads."
+      },
+      "tab5": {
+        "title": "Connect. Message. Grow.",
+        "description": "Use your profile as a lead magnet. Let other businesses find and contact you and reach out directly when you're ready to scale partnerships."
+      }
+    }
+  },
+  "sell": {
+    "title": "better.",
+    "titleBreak": " Reach global buyers.",
+    "description": "From building your product catalog to managing leads and analytics, Pepagora gives every business the tools to grow faster, smarter, globally.",
+    "startButton": "Start Selling Now",
+    "tabs": {
+      "tab1": {
+        "title": "Manage Product Catalog",
+        "description": "Add, edit, and organize products in one place. Your online catalog is always up to date, ready for buyers."
+      },
+      "tab2": {
+        "title": "Publish to Market Place",
+        "description": "Activate your listing in one click. Control visibility and approval status from your dashboard."
+      },
+      "tab3": {
+        "title": "Track Views, Leads & Shares",
+        "description": "Know what's working. See product performance across views, leads, clicks, and shares."
+      },
+      "tab4": {
+        "title": "Send Offers & Quotes",
+        "description": "Promote offers directly to your buyers.Post on feed or notify saved contacts instantly."
+      },
+      "tab5": {
+        "title": "Build Buyer Trust",
+        "description": "Verified profile. Global presence. Showcase your company with branded pages and trust signals."
+      }
+    }
+  },
+  "source": {
+    "title": "smarter. ",
+    "titleBreak": "See how it works",
+    "description": "Pepagora simplifies sourcing from instant supplier matching to live quotes. Explore the tools SMEs use to find, compare, and connect faster",
+    "startButton": "Start Sourcing Now",
+    "tabs": {
+      "tab1": {
+        "title": "Search & Filter",
+        "description": "Find what you need, instantly. Use smart filters, categories, and AI-powered search to discover verified products and suppliers across industries."
+      },
+      "tab2": {
+        "title": "Post a Buy Request",
+        "description": "One form, multiple quotes. Post your product need, and we'll notify relevant suppliers to respond with tailored offers all in one inbox."
+      },
+      "tab3": {
+        "title": "Instant Supplier Match",
+        "description": "Don't wait. Let AI match you. Skip the form. Our engine instantly connects you to verified suppliers who already match your requirements."
+      },
+      "tab4": {
+        "title": "Compare & Connect",
+        "description": "Sees all your options in one view. Compare offers, check TruVerified badges, match scores, and connect directly with the right suppliers."
+      },
+      "tab5": {
+        "title": "Sample & Quotation Requests",
+        "description": "Take the next step with confidence. Request samples, negotiate offers, and generate custom quotations directly from your dashboard."
+      }
+    }
+  },
+  "categories": {
+    "title": "Explore Verified",
+    "titleLast": "Categories",
+    "subtitle": "Browse trusted industries powered by verified suppliers.",
+    "items": {
+      "ct1": "Apparel & Fashion",
+      "ct2": "Industrial Equipment",
+      "ct3": "Home & Lifestyle",
+      "ct4": "Health & Personal Care",
+      "ct5": "Food & Agriculture",
+      "ct6": "Construction & Real Estate",
+      "ct7": "Electronics & Electrical",
+      "ct8": "Automotive & Transport",
+      "ct9": "Raw Materials & Chemicals",
+      "ct10": "Sports & Entertainment",
+      "ct11": "Tools & Hardware",
+      "ct12": "Packaging & Printing",
+      "ct13": "Office Supplies & Equipment",
+      "ct14": "Service & Support"
+    }
+  },
+  "postRequest": {
+    "title": "Post your request . Get the ",
+    "titleLast": "best deals",
+    "subtitle": "Verified suppliers. Competitive prices. No middlemen.",
+    "buttons": {
+      "viewRequests": "View Buying Requests",
+      "postRequest": "Post Buying Request"
+    },
+    "cardsHeaderDetail": {
+      "knowWhoPartOne": "Know who you're",
+      "knowWhoPartTwo": "dealing with.",
+      "smartMatching": "Smart matching, not ",
+      "builtTo": "Built to ",
+      "massEmail": "mass email"
+    },
+    "cardsFooterDetail": {
+      "eachSupplier": "Each supplier is ",
+      "truVerified": "TruVerified",
+      "exportExperience": " and backed by years of export experience.",
+      "systemFilters": "Our system filters spam and only shows your request to relevant suppliers.",
+      "scaleWithYou": "scale with you."
+    }
+  },
+  "sellOffers": {
+    "title": "Discover ",
+    "titleMiddle": "Sell Offers",
+    "titleLast": "Backed by Trust",
+    "subtitle": "Find the best deals from verified sellers, across categories that power your business",
+    "features": {
+      "ft1": {
+        "title": "Handpicked deals for every need",
+        "description": "Explore curated offers across categories, tailored to power your business."
+      },
+      "ft2": {
+        "title": "Verified offers, no surprises",
+        "description": "Every deal comes with verified pricing and quality assurance you can trust."
+      },
+      "ft3": {
+        "title": "Deals Across Diverse Categories",
+        "description": "From apparel to industrial tools, find offers that match your business ambitions."
+      },
+      "ft4": {
+        "title": "Unlock Exclusive Discounts",
+        "description": "Save more with unbeatable deals from trusted sellers designed for your growth."
+      }
+    },
+    "trendingOffer": {
+      "title": "Trending Offer",
+      "viewAll": "View All Sell Offers",
+      "noTrendingOffers": "No trending offers available at the moment.",
+      "products": {
+        "pr1": {
+          "name": "Snug Pilot Fleece T-Shirt - Ideal for Winter",
+          "price": "$150",
+          "originalPrice": "$200",
+          "discount": "-25%"
+        },
+        "pr2": {
+          "name": "Comfy Flyer Fleece Jacket - Suitable for Cold Travels",
+          "price": "$150",
+          "originalPrice": "$200",
+          "discount": "-25%"
+        },
+        "pr3": {
+          "name": "Warm Aviator Fleece Coat - Great for Cold Weather",
+          "price": "$150",
+          "originalPrice": "$200",
+          "discount": "-25%"
+        },
+        "pr4": {
+          "name": "Cozy Navigator Fleece Jacket Excellent for Winter",
+          "price": "$150",
+          "originalPrice": "$200",
+          "discount": "-25%"
+        }
+      }
+    },
+    "footer": {
+      "note": "All offers are verified for quality and authenticity.",
+      "button": "Post Sell Offer"
+    }
+  },
+  "aiEmpowers": {
+    "title": " that empowers every SME action.",
+    "subtitle": "Our AI helps you source products, list faster, and get discovered, all without the guesswork"
+  },
+  "successStories": {
+    "title": "Success stories",
+    "titleSub": "that scale",
+    "subtitle": "Real Results. Trusted by Leading Businesses.",
+    "stats": {
+      "leads": "1000+",
+      "leadsSubtext": "Thousands of verified opportunities generated",
+      "meetings": "",
+      "meetingsSubtext": "Dozens of deals closed successfully"
+    },
+    "testimonial": {
+      "title": "What customers say",
+      "text": "Pepagora built our world-class online presence, boosting visibility, impactful campaigns, qualified leads, and stronger market reach."
+    }
+  },
+  "readyGrow": {
+    "title": "Ready to Grow Your",
+    "titleSub": "Business",
+    "titleSymbol": "?",
+    "description": "Join thousands of verified SMEs using Pepagora to connect with new buyers, trusted suppliers, and powerful growth tools all in one place.",
+    "getStarted": "Get Started",
+    "cards": {
+      "ct1": {
+        "title": "List your products",
+        "subtitle": "Add and manage your catalog"
+      },
+      "ct2": {
+        "title": "Discover trusted suppliers",
+        "subtitle": "Discover & Buy from trusted seller"
+      },
+      "ct3": {
+        "title": "Find new customers",
+        "subtitle": "Get verified leads easily"
+      },
+      "ct4": {
+        "title": "Explore B2B tools",
+        "subtitle": "Try free tools for SMEs"
+      }
+    }
+  },
+  "footer": {
+    "company": {
+      "title": "List your Company",
+      "subtitle": "For Free",
+      "button": "Join as Supplier"
+    },
+    "source": {
+      "title": "Looking to",
+      "subtitle": "Source Products?",
+      "button": "Post Buying Request"
+    },
+    "sections": {
+      "getToKnowUs": {
+        "title": "Get to Know Us",
+        "links": {
+          "ab1": "About Pepagora",
+          "ab2": "Leadership",
+          "ab3": "Impact at Pepagora",
+          "ab4": "Innovation at Pepagora",
+          "ab5": "Media & Press",
+          "ab6": "Careers",
+          "ab7": "Contact Us",
+          "ab8": "Partners",
+          "ab9": "Blog"
+        }
+      },
+      "trustCenter": {
+        "title": "Trust Center"
+      },
+      "blog": {
+        "title": "Blog",
+        "links": {
+          "bl1": "Sales",
+          "bl2": "Sourcing",
+          "bl3": "Marketing",
+          "bl4": "Product Updates"
+        }
+      },
+      "industries": {
+        "title": "Industries",
+        "links": {
+          "in1": "Apparel & Fashion",
+          "in2": "Industrial Equipment & Machinery",
+          "in3": "Home & Lifestyle",
+          "in4": "Health & Personal Care",
+          "in5": "Food & Agriculture",
+          "in6": "Construction & Real Estate",
+          "in7": "Electronics & Electrical",
+          "in8": "Automotive & Transport",
+          "in9": "Raw Materials & Chemicals",
+          "in10": "Sports & Entertainment",
+          "in11": "Tools & Hardware",
+          "in12": "Packaging & Printing",
+          "in13": "Office Supplies & Equipment",
+          "in14": "Service & Support"
+        }
+      },
+      "businessTools": {
+        "title": "Business Tools",
+        "links": {
+          "bl1": "Post Sell Offer",
+          "bl2": "Create your Business Website",
+          "bl3": "Manage Your Leads",
+          "bl4": "Manage your Customers",
+          "bl5": "Post a Buying Request (RFQ)",
+          "bl6": "Get Instant Supplier Match",
+          "b17": "Become a Verified Member"
+        }
+      },
+      "partners": {
+        "title": "Partners",
+        "links": {
+          "pa1": "Affiliate Program",
+          "pa2": "Channel Partner"
+        }
+      },
+      "pricing": {
+        "title": "Pricing",
+        "badge": "Starting from 10$ per month"
+      },
+      "helpLegal": {
+        "title": "Help & Legal",
+        "links": {
+          "hl1": "Help Center",
+          "hl2": "FAQ's",
+          "hl3": "Refund & Cancellation",
+          "hl4": "Data Protection Guidelines",
+          "hl5": "Terms & Privacy Policy"
+        }
+      }
+    },
+    "newsletter": {
+      "title": "Get tips, trends & trade updates straight to your inbox.",
+      "placeholder": "Enter your email",
+      "button": "Subscribe"
+    },
+    "globalSites": {
+      "title": "Global Sites:",
+      "languages": {
+        "en": "English",
+        "ar": "العربية",
+        "hi": "हिंदी",
+        "ta": "தமிழ்"
+      }
+    },
+    "serving": "Serving : India",
+    "languageOptions": {
+      "en": "EN - English",
+      "fr": "FR - French",
+      "de": "DE - German"
+    },
+    "copyright": "Copyright © 2025 Pepagora.com All rights reserved"
+  },
+  "common": {
+    "discountBadge": "Fixed Discount Offer",
+    "add": "add",
+    "secure": "100% secure & private | Used by 3,000+ SMEs"
+  }
+}

@@ -1,0 +1,42 @@
+.feature-grid-comp {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+
+    .f-g-c-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+
+        svg {
+            min-width: 25px;
+        }
+
+        .f-g-c-i-txt-group {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            position: relative;
+            top: 2px;
+        }
+
+        .f-g-c-i-txt {
+            color: $color-grey-2;
+            font-family: $body-font;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: 0.28px;
+        }
+
+        .f-g-c-i-subtxt {
+            color: $color-grey-2;
+            font-family: $body-font;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.28px;
+        }
+    }
+}

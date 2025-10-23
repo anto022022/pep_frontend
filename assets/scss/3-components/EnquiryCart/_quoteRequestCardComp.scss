@@ -1,0 +1,212 @@
+.quote-request-card-comp {
+    border-radius: 20px;
+    background: $primary-solid-color;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    @media screen and (max-width:1200px) {
+        border-radius: unset;
+        border-bottom: 1px solid $color-grey-109;
+
+    }
+
+    .q-r-c-c-head {
+        display: flex;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .q-r-c-c-body {
+        border-top: 1px solid $color-grey-108;
+        padding-left: 35px;
+
+        @media screen and (max-width:640px) {
+            padding-left: unset;
+        }
+
+        &.checkbox-removed {
+            padding-left: unset;
+        }
+    }
+
+    .q-r-c-c-footer {
+        border-top: 1px solid $color-grey-108;
+    }
+
+    .company-details-product-info-block {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 100%;
+
+        .c-d-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+        .company-info {
+            .c-i-details {
+                .c-i-d-title {
+                    color: $black;
+                    font-family: $secondary-body-font;
+                    font-size: clamp(0.938rem, 0.924rem + 0.06vw, 1rem); //15 ,16px
+                    font-weight: 600;
+                    line-height: 18px;
+                }
+            }
+        }
+
+        .p-i-b-wrapper {
+            padding: 10px 10px 10px 0px;
+        }
+    }
+
+    .btn-comp {
+        &.b-c-icon {
+            &.q-r-c-c-icon-btn {
+                svg {
+                    width: 22px;
+                    height: 22px;
+                    min-width: 22px;
+
+                    path {
+                        stroke: $color-grey-107;
+                    }
+                }
+            }
+        }
+    }
+
+    .size-selection-comp {
+        .s-s-c-item {
+            gap: 20px;
+            padding: 15px 0;
+            border-bottom: 1px solid $color-grey-38;
+
+            &:last-child {
+                border-bottom: unset;
+            }
+        }
+        .s-s-c-i-price-quantity{
+            .btn-comp{
+                &.b-c-icon{
+                    padding: unset;
+                }
+            }
+        }
+    }
+
+    .texteditor-comp {
+        .ql-container {
+            height: 130px;
+        }
+    }
+}
+
+.product-variant-option-comp {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+
+    .forms-checkbox {
+        position: relative;
+        top: 3px;
+    }
+
+    .order-selected-items {
+        .o-s-i-left {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1px;
+        }
+
+        .size-color-badge {
+            background: unset;
+            padding: unset;
+            cursor: pointer;
+            user-select: none;
+            align-items: flex-start;
+
+            .s-c-b-txt {
+                color: $text-primary;
+                font-family: $secondary-body-font;
+                font-size: clamp(0.938rem, 0.924rem + 0.06vw, 1rem); //15 ,16px
+                font-weight: 400;
+                line-height: 20px;
+            }
+        }
+
+        .size-items-block {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            align-items: center;
+
+            @media screen and (max-width:640px) {
+                gap: 0px 5px;
+                align-items: flex-start;
+            }
+        }
+
+        .o-s-i-price-txt {
+            color: $color-black-8;
+            font-family: $secondary-body-font;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: 0.24px;
+        }
+    }
+}
+
+.open-icon {
+    cursor: pointer;
+
+    path {
+        fill: $black;
+    }
+}
+
+.message-submit-block {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+
+}
+
+.agree-submit-block {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    .forms-checkbox {
+        align-items: flex-start;
+
+        .f-r-label {
+            color: $text-primary;
+            font-family: $secondary-body-font;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 0.18px;
+            opacity: 1;
+            top: 0;
+
+            a {
+                font-weight: 700;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .btn-comp {
+        width: max-content;
+        margin-left: auto;
+    }
+}

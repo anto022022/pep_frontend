@@ -1,0 +1,144 @@
+{
+  "similar_product": "समान उत्पाद",
+  "supplier_products":"आपूर्तिकर्ता से और उत्पाद",
+  "description": "विवरण",
+  "specification": {
+    "label": "विनिर्देश",
+    "key": "मुख्य विशेषताएँ",
+    "additionalInformation": {
+      "label": "अतिरिक्त जानकारी",
+      "brand": "ब्रांड",
+      "sku": "एसकेयू (SKU)",
+      "countryOfOrigin": "मूल देश",
+      "customisable": "अनुकूलन योग्य"
+    }
+  },
+  "showMore": "और देखें",
+  "showLess": "कम देखें",
+  "productsAvailable": "{count} उत्पाद उपलब्ध",
+  "application": "उपयोग",
+  "tradeDetails": {
+    "label": "व्यापार विवरण",
+    "productionLeadTime": "उत्पादन लीड समय",
+    "availableStock": "उपलब्ध स्टॉक",
+    "productionCapacity": "उत्पादन क्षमता",
+    "sampleAvailability": "नमूना उपलब्धता",
+    "samplePricing": "नमूना मूल्य निर्धारण",
+    "sampleLeadTime": "नमूना लीड समय"
+  },
+  "paymentTerms": {
+    "label": "भुगतान की शर्तें",
+    "paymentTerms": "भुगतान की शर्तें",
+    "paymentMethods": "भुगतान के तरीके"
+  },
+  "shipping": {
+    "label": "शिपिंग और लॉजिस्टिक्स",
+    "shippingInternationally": "अंतरराष्ट्रीय शिपिंग",
+    "methods": "विधियाँ",
+    "incoTerms": "इनकोटर्म्स (IncoTerms)",
+    "portOfDispatch": "डिस्पैच बंदरगाह",
+    "packagingType": "पैकेजिंग प्रकार",
+    "unitsPerPackage": "प्रति पैकेज इकाइयाँ",
+    "barcode": "बारकोड / एचएसएन / जीटीआईएन / यूपीसी",
+    "dispatchLeadTime": "डिस्पैच लीड समय"
+  },
+  "certificates": "प्रमाणपत्र",
+  "companyProfile": {
+    "label": "कंपनी प्रोफ़ाइल",
+    "engagementRate": "सक्रियता दर",
+    "responseTime": "प्रतिक्रिया समय",
+    "turnOver": "वार्षिक कारोबार"
+  },
+  "factoryDetails": {
+    "label": "फैक्ट्री विवरण",
+    "factorySize": "फैक्ट्री का आकार",
+    "contractManufacturing": "अनुबंध निर्माण",
+    "numberOfQCStaff": "गुणवत्ता नियंत्रण कर्मचारी संख्या",
+    "numberOfRDStaff": "अनुसंधान एवं विकास कर्मचारी संख्या",
+    "numberOfProductionLines": "उत्पादन लाइनों की संख्या",
+    "annualProductionCapacity": "वार्षिक उत्पादन क्षमता",
+    "mainMarkets": "मुख्य बाज़ार",
+    "qualityCertification": "गुणवत्ता और प्रमाणन",
+    "profile": "प्रोफ़ाइल देखें",
+    "message": "संदेश भेजें"
+  },
+  "productDetailCard": {
+    "sku": "एसकेयू",
+    "reviews": "({reviews}) समीक्षाएँ",
+    "sold": "{sold} बेचा गया",
+    "minOrderQty": "न्यूनतम ऑर्डर मात्रा",
+    "price": "मूल्य",
+    "totalAvailableOptions": "कुल उपलब्ध विकल्प",
+    "shipping": "शिपिंग",
+    "shippingSubtitle": "शिपिंग शुल्क और डिलीवरी तिथि पर बातचीत की जाएगी। अधिक जानकारी के लिए अभी आपूर्तिकर्ता से संपर्क करें।",
+    "shippingInternationally": "अंतरराष्ट्रीय शिपिंग",
+    "estimatedDelivery": "अनुमानित डिलीवरी",
+    "businessDays": " कार्य दिवस",
+    "selectVarQty": "विविधताएँ और मात्रा चुनें",
+    "express": "त्वरित",
+    "estimatedDel": "अनुमानित डिलीवरी",
+    "shippingDet": "*शिपिंग लागत केवल आपके संदर्भ के लिए अनुमानित हैं। अंतिम कीमत के लिए आपूर्तिकर्ता से संपर्क करें।",
+    "shippingTotal": "कुल शिपिंग",
+    "est": "अनुमानित",
+    "shippingFee": "शिपिंग शुल्क: अनुमानित {fee} 1 सेट के लिए",
+    "subTotal": "उप-योग",
+    "itemSubtotal": "आइटम उप-योग ({variationCount} विविधता {totalItems} आइटम)",
+    "chatNow": "अभी चैट करें",
+    "contactSupplier": "आपूर्तिकर्ता से संपर्क करें",
+    "requestQuote": "कोटेशन का अनुरोध करें",
+    "viewDetails": "विवरण देखें",
+    "selectMultiVar": "एकाधिक विविधताएँ चुनें",
+    "from": "से",
+    "to": "तक",
+    "yearWithSuffix": "{count} वर्ष",
+    "yearsWithSuffix": "{count} वर्ष",
+    "seeProfile": "प्रोफ़ाइल देखें",
+    "message": "संदेश",
+    "addToRfqList": "RFQ सूची में जोड़ें",
+    "minOrderQtyError": "न्यूनतम ऑर्डर मात्रा {minOrderQty} {unit} है",
+    "messageError": "संदेश आवश्यक है।",
+    "agreeError": "आगे बढ़ने के लिए आपको सहमत होना होगा।",
+    "agreeToTerms": {
+      "part1": "मैं नियमों और ",
+      "part2": "शर्तों",
+      "part3": "और",
+      "part4": "गोपनीयता नीति से सहमत हूँ।"
+    },
+    "minOrder": "न्यूनतम ऑर्डर",
+    "expectedDelivery": "अपेक्षित डिलीवरी तिथि"
+  },
+  "enquiryCart": {
+    "agreeToTerms": {
+      "part1": "मैं नियम और",
+      "part2": "शर्तों",
+      "part3": "और",
+      "part4": "गोपनीयता नीति से सहमत हूँ।"
+    },
+    "title": "आरएफक्यू सूची",
+    "selectAll": "सभी चुनें ({count})",
+    "sendAllEnquiry": "सभी पूछताछ भेजें",
+    "message": "संदेश",
+    "enterMsg": "संदेश दर्ज करें",
+    "messageError": "संदेश आवश्यक है।",
+    "agreeError": "आगे बढ़ने के लिए आपको सहमत होना होगा।",
+    "requestQuote": "कोटेशन का अनुरोध करें",
+    "cancel": "रद्द करें",
+    "relatedProducts": "संबंधित उत्पाद",
+    "products": "उत्पाद",
+    "minOrder": "न्यूनतम आदेश",
+    "expectedDelivery": "अनुमानित डिलीवरी तक",
+    "yearWithSuffix": "{count} वर्ष",
+    "yearsWithSuffix": "{count} वर्ष",
+    "addToRfqList": "आरएफक्यू सूची में जोड़ें",
+    "emptyCart": {
+      "title": "आपकी पूछताछ कार्ट में कोई आइटम नहीं है।",
+      "subTitle": "कोटेशन का अनुरोध करने के लिए अपनी पूछताछ कार्ट में उत्पाद जोड़ें।",
+      "browseProduct": "उत्पाद ब्राउज़ करें",
+      "loginAndBrowse": "लॉगिन करें और ब्राउज़ करें"
+    }
+  },
+  "logNotes": {
+    "placeholder": "यहाँ एक संदेश टाइप करें...",
+    "send": "भेजें"
+  }
+}

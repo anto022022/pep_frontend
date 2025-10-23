@@ -1,0 +1,208 @@
+.more-attributes-block {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    &.margin-t-unset {
+        margin-top: unset;
+    }
+
+    .m-a-b-header-content {
+        display: flex;
+        flex-direction: column;
+
+        .m-a-b-txt {
+            color: $text-primary;
+            font-family: $body-font;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.14px;
+
+            &.m-a-b-title {
+                font-weight: 500;
+            }
+        }
+    }
+
+    .m-a-b-btn-group {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+}
+
+.types-block {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    .t-b-title {
+        color: $black;
+        font-family: $body-font;
+        font-size: clamp(1.188rem, 1.174rem + 0.06vw, 1.25rem); // 19, 20px
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+    }
+
+    .types-form-group {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        border-bottom: 1px solid $color-grey-24;
+        padding-bottom: 16px;
+
+        .t-f-g-title {
+            color: $black;
+            font-family: $body-font;
+            font-size: clamp(0.938rem, 0.924rem + 0.06vw, 1rem); // 15, 16px
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0.32px;
+        }
+
+        .t-f-g-values {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+
+            svg {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .variants-table-comp {
+        margin-top: 30px;
+    }
+}
+
+.add-option-block {
+    position: relative;
+    width: max-content;
+
+    &.margin-l-auto {
+        margin-left: auto;
+    }
+
+    .bg-outline-grey {
+        &.btn-attributes {
+            border: unset;
+            padding: unset;
+
+            .b-c-txt {
+                font-weight: 400;
+                text-decoration: underline;
+            }
+
+            &:hover {
+                background: unset;
+                border: unset;
+            }
+        }
+    }
+
+    .a-o-b-overlay {
+        border-radius: 8px;
+        border: 1px solid $neutral-solid-disabledcolor;
+        background: $primary-solid-color;
+        box-shadow: $shadow-depth-14;
+        padding: 8px 12px;
+        position: absolute;
+        width: max-content;
+        top: 100% !important;
+        left: 0 !important;
+        margin-top: 5px;
+
+        &::after,
+        &::before {
+            display: none;
+        }
+
+        .a-o-p-ul {
+            li {
+                color: $text-primary;
+                font-family: $body-font;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 150%;
+                letter-spacing: 0.32px;
+                margin-bottom: 8px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.add-custom-option-inputs {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+
+    .left {
+        width: 25%;
+    }
+
+    .right {
+        width: 70%;
+    }
+}
+
+.add-custom-option-btn-grp {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .btn-comp {
+        width: 80px;
+    }
+}
+
+.dashboard-main-block {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 3px;
+    max-width: 1042px;
+    margin: 0 auto;
+    width: 100%;
+ 
+    @media screen and (max-width:640px) {
+        gap: 25px;
+    }
+} 
+
+.dashboard-section-block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    @media screen and (max-width:767px) {
+        gap: 15px;
+    }
+
+    .d-s-b-title {
+        color: $black;
+        font-family: $body-font;
+        font-size: clamp(1.25rem, 1.18rem + 0.32vw, 1.563rem); // 20, 25px
+        font-weight: 500;
+        line-height: 133%;
+        letter-spacing: 0.3px;
+    }
+}
+
+.card-group-block {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    @media screen and (max-width:767px) {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

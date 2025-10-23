@@ -1,0 +1,86 @@
+.explore-card-comp {
+    border-radius: 16px;
+    border: 1px solid $color-white-1;
+    background: $primary-solid-color;
+    box-shadow: $shadow-depth-28;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+
+    @media screen and (max-width:767px) {
+        padding: 15px;
+    }
+
+    .e-c-c-top {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        svg {
+            width: 45px;
+            height: 45px;
+            min-width: 45px;
+
+            @media screen and (max-width:767px) {
+                width: 35px;
+                height: 35px;
+                min-width: 35px;
+            }
+
+            path {
+                stroke: $text-primary;
+            }
+        }
+
+        .e-c-c-content-wrapper {
+            display: flex;
+            flex-direction: column;
+
+            .e-c-c-c-w-title {
+                color: $text-primary;
+                font-family: $body-font;
+                font-size: clamp(1.063rem, 1.049rem + 0.06vw, 1.125rem); // 17, 18px
+                font-weight: 500;
+                line-height: 28px;
+                letter-spacing: 0.18px;
+            }
+
+            .e-c-c-c-w-subtxt {
+                color: $text-tertiary;
+                font-family: $body-font;
+                font-size: clamp(0.938rem, 0.924rem + 0.06vw, 1rem); // 15, 16px
+                font-weight: 400;
+                line-height: clamp(1.188rem, 1.118rem + 0.32vw, 1.5rem); // 19, 24px
+                letter-spacing: 0.32px;
+            }
+        }
+    }
+
+    .e-c-c-link {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .e-c-c-l-txt {
+            color: $neutral-outlined-Color;
+            font-family: $body-font;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 14px;
+            letter-spacing: 0.5px;
+            text-decoration: underline;
+        }
+
+        svg {
+            width: 20px;
+            height: 20px;
+            min-width: 20px;
+
+            path {
+                stroke: $text-primary;
+            }
+        }
+    }
+}

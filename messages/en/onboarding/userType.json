@@ -1,0 +1,29 @@
+{
+  "title": "What do you want to achieve with Pepagora?",
+  "subtitle": "Choose your primary goal, and we'll guide you with tailored steps to help you succeed",
+  "services": {
+    "buyer": {
+      "title": "Buy Products",
+      "subtitle": "Connect with verified suppliers, post your sourcing needs, and find the right products globally"
+    },
+    "seller": {
+      "title": "Sell Products",
+      "subtitle": "List your products, reach global buyers, and grow your sales"
+    },
+    "both": {
+      "title": "Do Both",
+      "subtitle": "Source what you need while showcasing your products to the right audience"
+    }
+  },
+  "loading": "Loading...",
+  "continue": "Continue",
+  "processing": "Submitting...",
+  "enumTitle": {
+    "businessDetails": "Business Details",
+    "businessOperation": "Business Information",
+    "contactInformation": "Contact Information",
+    "businessRepresentative": "Business Representative",
+    "personalInformation": "Personal Information",
+    "sourcingDetails": "Sourcing Details"
+  }
+}

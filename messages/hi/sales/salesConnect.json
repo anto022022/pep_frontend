@@ -1,0 +1,117 @@
+{
+  "noContactsScreen": {
+    "table-headers": {
+      "contactName": "संपर्क नाम",
+      "companyName": "कंपनी का नाम",
+      "email": "ईमेल आईडी",
+      "phoneNo": "फोन नंबर",
+      "lifecycle": "लाइफसायकल टैग्स",
+      "source": "स्रोत",
+      "status": "स्थिति",
+      "lastContacted": "अंतिम संपर्क"
+    },
+    "mainTitle": "संपर्क",
+    "title": "अपने सभी संपर्कों को एक ही जगह जोड़ें और प्रबंधित करें",
+    "subtitle": "संपर्क अपलोड करें, व्यवस्थित करें और RFQ, लीड या डायरेक्ट एंट्रीज़ से एक्सेस करें। कोटेशन, फॉलो-अप और स्मार्ट कम्युनिकेशन के लिए तैयार रहें।",
+    "buttonTitle": "संपर्क जोड़ें",
+    "addContact": "नया संपर्क जोड़ें",
+    "search": "संपर्क खोजें"
+  },
+  "contactForm": {
+    "title": "नया संपर्क",
+    "contactName": {
+      "label": "संपर्क नाम",
+      "placeHolder": "संपर्क नाम दर्ज करें"
+    },
+    "companyName": {
+      "label": "कंपनी का नाम",
+      "placeHolder": "कंपनी का नाम दर्ज करें"
+    },
+    "emailId": {
+      "label": "ईमेल आईडी",
+      "placeHolder": "ईमेल आईडी दर्ज करें"
+    },
+    "phoneNumber": {
+      "label": "फोन नंबर",
+      "placeHolder": "फोन नंबर दर्ज करें"
+    },
+    "whatsapp": {
+      "label": "व्हाट्सएप नंबर (वैकल्पिक)",
+      "placeHolder": "व्हाट्सएप नंबर दर्ज करें"
+    },
+    "country": {
+      "label": "देश",
+      "placeHolder": "देश चुनें"
+    },
+    "source": {
+      "label": "स्रोत",
+      "placeHolder": "स्रोत चुनें"
+    },
+    "helperText": {
+      "sameAsPhoneNumber": "फोन नंबर के साथ समान"
+    },
+    "button": {
+      "Submit": "जमा करें"
+    },
+    "successDialog": {
+      "contactUpdated": "संपर्क सफलतापूर्वक अद्यतन किया गया",
+      "contactAdded": "संपर्क सफलतापूर्वक जोड़ा गया"
+    }
+  },
+  "connectTable": {
+    "view": "विवरण देखें",
+    "edit": "संपादित करें",
+    "archive": "संग्रहित करें",
+    "connect": "अब कनेक्ट करें",
+    "reminder": "रिमाइंडर बनाएं",
+    "convert": "ग्राहक में बदलें",
+    "quotation": "कोटेशन भेजें"
+  },
+  "qrCode": {
+    "title": "प्रोफ़ाइल साझा करें",
+    "button": "QR कोड साझा करें"
+  },
+  "detailPage": {
+    "title": "संपर्क विवरण पृष्ठ",
+    "contactInfo": "संपर्क जानकारी",
+    "contactName": "संपर्क नाम",
+    "jobTitle": "पदनाम",
+    "email": "ईमेल",
+    "phone": "फोन नंबर",
+    "companyInfo": "कंपनी जानकारी",
+    "companyName": "कंपनी का नाम",
+    "country": "देश",
+    "address": "पता",
+    "website": "वेबसाइट",
+    "industry": "उद्योग प्रकार",
+    "whatsApp": "व्हाट्सएप नंबर",
+    "search": "खोजें",
+    "expand": "सभी विस्तार करें",
+    "leads": "लीड्स",
+    "inbox": "इनबॉक्स",
+    "analytics": "विश्लेषण",
+    "activity": "गतिविधि",
+    "information": "जानकारी"
+  },
+  "summaryCard": {
+    "lifeCycle": "लाइफसायकल टैग चुनें",
+    "tag": "लाइफसायकल टैग",
+    "selectTag": "लाइफसायकल टैग चुनें",
+    "source": "स्रोत",
+    "contacted": "अंतिम संपर्क",
+    "modified": "अंतिम बार संशोधित",
+    "convert": "ग्राहक में बदलें",
+    "quote": "कोटेशन भेजें"
+  },
+  "noInquiry": {
+    "title": "अभी तक कोई पूछताछ नहीं — नई बातचीत शुरू करें!",
+    "subTitle": "आगे बढ़ें — अपने संपर्क को संदेश भेजें जिससे अधिक दृश्यता, विश्वास और तेज़ प्रतिक्रिया मिले।"
+  },
+  "messageCard": {
+    "to": "को",
+    "subject": "विषय",
+    "message": "संदेश",
+    "textLabel": "संदेश दर्ज करें",
+    "send": "भेजें"
+  }
+}

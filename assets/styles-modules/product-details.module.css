@@ -1,0 +1,94 @@
+.productImageSideScroll {
+  height: 75%;
+  overflow: auto; /* Swiper will handle drag */
+}
+
+.productImageSideScroll::-webkit-scrollbar {
+  display: none;
+}
+.productImageSideScroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.stickyTabs {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: #fff;
+  padding: 10px 0;
+}
+
+.productDescriptionShowMore {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.productDetailCardSticky {
+  position: sticky;
+  top: 20px; /* distance from the top when it sticks */
+  align-self: flex-start;
+}
+
+.variantsTableLabel {
+  white-space: nowrap; /* prevent label wrapping */
+  width: 220px; /* increased width compared to 1% */
+  padding-right: 16px; /* extra spacing */
+  font-weight: 500; /* boldish text */
+  color: #333; /* adjust to match theme */
+}
+
+/* Text truncation styles for product description show more/less functionality */
+.description-content-wrapper {
+  position: relative;
+}
+
+.description-text-container {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.text-truncated {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.5;
+  max-height: 3em; /* 2 lines * 1.5 line-height */
+  position: relative;
+}
+
+.text-truncated::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  height: 1.5em;
+  background: linear-gradient(to right, transparent, white);
+  pointer-events: none;
+}
+
+.show-more-btn-inline {
+  color: #007bff;
+  cursor: pointer;
+  font-size: inherit;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+  white-space: nowrap;
+  display: inline;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: white;
+  padding-left: 4px;
+}
+
+.show-more-btn-inline:hover {
+  color: #0056b3;
+}

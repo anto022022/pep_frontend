@@ -1,0 +1,38 @@
+{
+  "title": "Tell us more about your business",
+  "subtitle": "Help us understand your business better so we can customize your Pepagora experience.",
+  "fields": {
+    "businessName": {
+      "label": "Legal Business Name",
+      "placeholder": "Business name",
+      "helper": "The operating name of your company, if it’s different than the legal name.",
+      "error": "Legal Business Name is required"
+    },
+    "industry": {
+      "label": "Industry",
+      "placeholder": "Please Select",
+      "error": "Industry is required",
+      "helper": "Choose the options that best describes your business",
+      "options": {
+        "technology": "Technology & Software",
+        "manufacturing": "Manufacturing & Engineering",
+        "healthcare": "Healthcare & Pharmaceuticals",
+        "retail": "Retail & E-commerce"
+      }
+    },
+    "website": {
+      "label": "Website (Optional)",
+      "placeholder": "Your business website URL (if you have one)",
+      "helper": "This helps us verify your business and connect you with relevant opportunities",
+      "error": "Please enter a valid website URL"
+    },
+    "productServiceDescription": {
+      "label": "Brief Product/Service Description",
+      "placeholder": "We sell sustainable home décor products to retail customers globally",
+      "error": "Product/Service description is required"
+    }
+  },
+  "continue": "Continue",
+  "processing": "Submitting...",
+  "optional": "optional"
+}

@@ -1,0 +1,549 @@
+{
+  "stepper": {
+    "homepage": {
+      "title": "الصفحة الرئيسية",
+      "description": "اعرض هوية العلامة التجارية، أبرز الحملات الأساسية، ووجّه المستخدمين إلى المنتجات المميزة"
+    },
+    "products": {
+      "title": "المنتجات",
+      "description": "اعرض ما يصل إلى 25 منتجًا على موقعك الإلكتروني."
+    }
+  },
+  "homepage": {
+    "title": "الصفحة الرئيسية",
+    "description": "اعرض هوية العلامة التجارية، أبرز الحملات الأساسية، ووجّه المستخدمين إلى المنتجات المميزة",
+    "alert": {
+      "productVisible": "سيظهر هذا المنتج بمجرد رفع جميع التفاصيل المطلوبة."
+    },
+    "fields": {
+      "ownerName": {
+        "label": "اسم المالك القانوني",
+        "placeholder": "أدخل اسم المالك القانوني"
+      },
+      "businessType": {
+        "label": "الوضع القانوني",
+        "placeholder": "اختر الوضع القانوني"
+      },
+      "businessTypeSpecific": {
+        "label": "نوع النشاط",
+        "placeholder": "اختر نوع النشاط"
+      },
+      "industry": {
+        "label": "الصناعة",
+        "placeholder": "اختر الصناعة"
+      }
+    },
+    "businessTypeSpecific": {
+      "options": {
+        "manufacturer": "مصنّع",
+        "distributor_wholesaler": "موزع / تاجر جملة",
+        "tradingCompany": "شركة تجارية",
+        "retailer": "بائع تجزئة",
+        "importerExporter": "مستورد / مصدر"
+      }
+    },
+    "errors": {
+      "businessTypeSpecificRequired": "نوع النشاط مطلوب"
+    }
+  },
+  "businessTypes": {
+    "unregister": {
+      "title": "شركة غير مسجلة",
+      "subtitle": "مملوكة لشخص واحد وغير مسجلة لدى الحكومة"
+    },
+    "register": {
+      "title": "شركة مسجلة",
+      "subtitle": "تشمل الشركات ذات المسؤولية المحدودة، الشراكات، الملكية الفردية أو الشركات"
+    },
+    "nonprofit": {
+      "title": "منظمة غير ربحية",
+      "subtitle": "منظمات معفاة من الضرائب ومعترف بها من السلطات الحكومية"
+    }
+  },
+  "multiSelect": {
+    "selectAll": "تحديد الكل",
+    "unselectAll": "إلغاء تحديد الكل"
+  },
+  "continue": "متابعة",
+  "processing": "جارٍ الإرسال...",
+  "errors": {
+    "businessLocation": "موقع العمل مطلوب",
+    "businessType": "نوع العمل مطلوب"
+  },
+  "products": {
+    "title": "المنتجات",
+    "description": "اعرض ما يصل إلى 25 منتجًا على موقعك الإلكتروني.",
+    "tab": {
+      "all": {
+        "name": "الكل"
+      },
+      "selected": {
+        "name": "المحدد"
+      },
+      "unSelected": {
+        "name": "غير محدد"
+      }
+    },
+    "tableHeaders": {
+      "addRemove": "تبديل لتمكين أو تعطيل ظهور المنتج"
+    },
+    "modal": {
+      "title": "كتالوجك الإلكتروني جاهز للنشر!",
+      "planLabel": "ابدأ",
+      "planValueFree": "مجاني",
+      "change": "تغيير",
+      "launchCta": "إطلاق →"
+    }
+  },
+  "subdomain": {
+    "title": "إعداد الرابط (URL)",
+    "readyTitle": "اقتربت! كتالوجك الإلكتروني جاهز للنشر!",
+    "readySubtitle": "لنشر الكتالوج، يرجى تعيين رابط النطاق المخصص ورابط النطاق الفرعي. هذا سيمكنك من إنشاء كتالوج شخصي يحمل علامتك التجارية ومشاركته مع عملائك.",
+    "goPublicTitle": "انشر كتالوجك على Pepagora",
+    "goPublicSubtitle": "سيظهر متجرك تحت هذا الرابط الفريد على Pepagora — مما يجعل عملك قابلاً للبحث والمشاركة فورًا.",
+    "billing": {
+      "yearly": "سنوي",
+      "monthly": "شهري"
+    },
+    "sslMonthly": "شهادة SSL شهرية",
+    "sslYearly": "شهادة SSL سنوية",
+    "comparePlans": "قارن الخطط",
+    "badges": {
+      "mostPopular": "الأكثر شيوعًا",
+      "mostAdvanced": "الأكثر تقدمًا"
+    },
+    "enterprise": {
+      "strikePrice": "تبدأ من ${price}"
+    },
+    "actions": {
+      "chooseFree": "اختر الخطة المجانية",
+      "contactSales": "تواصل مع المبيعات",
+      "choosePackageCta": "اختر {name}"
+    },
+    "toasts": {
+      "validationErrorTitle": "خطأ في التحقق",
+      "validationErrorMessage": "يرجى إدخال نطاق فرعي قبل المتابعة.",
+      "warningTitle": "تحذير",
+      "subdomainExists": "النطاق الفرعي موجود مسبقًا. يرجى اختيار آخر.",
+      "successTitle": "تم بنجاح!",
+      "updated": "تم تحديث النطاق الفرعي بنجاح",
+      "errorTitle": "خطأ!",
+      "updateFailed": "حدث خطأ أثناء تحديث النطاق الفرعي."
+    },
+    "packages": {
+      "free": {
+        "name": "مجاني",
+        "price": "مجاني",
+        "description": "مثالي للشركات الصغيرة والمتوسطة",
+        "features": [
+          "إدارة محتوى بدون كود",
+          "استضافة بمستوى المؤسسات (AWS)",
+          "CDN لسرعة عالمية",
+          "كتالوج أساسي"
+        ]
+      },
+      "grow": {
+        "name": "النمو",
+        "description": "مثالي للشركات الصغيرة والمتوسطة",
+        "features": [
+          "واجهة متجر بموقع واحد مع ميزات",
+          "إدارة موقع بدون كود",
+          "دعم عبر البريد والهاتف",
+          "شهادة SSL موثوقة",
+          "دردشة مباشرة ودمج الهاتف",
+          "أكثر من 4 لغات لموقعك",
+          "مدونة أساسية"
+        ]
+      },
+      "scale": {
+        "name": "التوسع",
+        "description": "كل شيء خاص بالشركات النامية",
+        "features": [
+          "مزيد من ميزات الأعمال",
+          "ربط نطاقك من بوابات متعددة",
+          "مدير حساب مخصص",
+          "نسخ احتياطي لشهادة SSL موثوقة",
+          "دعم متميز لخدمة الموقع"
+        ]
+      },
+      "global": {
+        "name": "عالمي",
+        "description": "موقعان متضمنان مع ميزات متقدمة",
+        "features": [
+          "كل الميزات المتقدمة وأكثر",
+          "كتالوج متعدد العملات وخالي من الأخطاء",
+          "تقارير متقدمة وتصميم متعدد العملات",
+          "10 تكاملات مع قنوات",
+          "دعم أولوية عبر الدردشة والهاتف",
+          "مستويات توزيع المتجر",
+          "50+ لغة ومواقع أخرى"
+        ]
+      },
+      "enterprise": {
+        "name": "المؤسسات",
+        "description": "كل شيء مع ميزات غير محدودة",
+        "features": [
+          "كل الميزات الاجتماعية وأكثر",
+          "موقع قابل للتخصيص بالكامل وتكامل API",
+          "200 تكامل مع القنوات",
+          "نسخ احتياطية عالية الأداء",
+          "دعم دردشة متقدم",
+          "تحقق موثوق بمستوى المؤسسات",
+          "وصول إلى الملف التجاري الدولي",
+          "دعم بنية تحتية مؤسسية"
+        ]
+      }
+    }
+  },
+  "catalog": {
+    "header": {
+      "title": "مدير القوالب",
+      "preview": "معاينة",
+      "edit": "تعديل"
+    },
+    "view": {
+      "getLiveTitle": "لنطلق كتالوجك في 3 خطوات بسيطة!",
+      "setupWebsite": "إعداد الموقع",
+      "launchMainTitle": "أطلق عملك على الإنترنت في 3 خطوات بسيطة!",
+      "launchMainSub": "أنشئ كتالوجًا رقميًا قويًا، وابنِ الثقة من خلال بيانات اعتماد موثوقة، واعرض منتجاتك للعالم — كل ذلك من مكان واحد"
+    },
+    "steps": {
+      "choosePackage": {
+        "title": "1. اختر الباقة",
+        "sub": "اختر الباقة التي تناسب احتياجاتك"
+      },
+      "addContent": {
+        "title": "2. أضف المحتوى",
+        "sub": "قم برفع معلومات النشاط، الشعارات والمنتجات"
+      },
+      "launch": {
+        "title": "3. الإطلاق",
+        "sub": "اجعل كتالوجك عامًا على النطاق"
+      }
+    },
+    "successDialog": {
+      "title": "تم بنجاح! تم نشر كتالوجك",
+      "subTxt": "هو الآن بانتظار موافقة الإدارة. سنعلمك بمجرد أن يصبح مباشرًا!",
+      "ok": "حسناً"
+    },
+    "tabs": {
+      "products": "المنتجات",
+      "profile": "الملف الشخصي",
+      "contacts": "اتصال"
+    },
+    "actions": {
+      "contactSuppliers": "تواصل مع المورد",
+      "share": "مشاركة",
+      "wishlist": "قائمة الأمنيات",
+      "seePlans": "عرض الخطط",
+      "requestQuote": "طلب عرض سعر",
+      "shareTitle": "صفحتي",
+      "shareText": "اطّلع على هذه الصفحة المميزة!",
+      "shareNotSupported": "متصفحك لا يدعم المشاركة الأصلية."
+    },
+    "feed": {
+      "title": "خذ عملك إلى المستوى التالي",
+      "features": {
+        "unlimitedProducts": "عرض منتجات غير محدود",
+        "leadsLevel": "5X عملاء محتملين من عرض المنتجات المستوى 1",
+        "ownDomain": "موقع على نطاق خاص"
+      },
+      "seePlans": "عرض الخطط"
+    },
+    "analytics": {
+      "title": "التحليلات",
+      "views": "المشاهدات",
+      "impressions": "الانطباعات",
+      "lastEdited": "آخر تعديل",
+      "lastEditedBy": "آخر تعديل بواسطة",
+      "status": "الحالة",
+      "catalogLink": "رابط الكتالوج",
+      "active": "نشط",
+      "pending": "قيد الانتظار",
+      "published": "منشور",
+      "verifyPending": "بانتظار التحقق..."
+    },
+    "filters": {
+      "sortBy": {
+        "label": "الترتيب حسب:",
+        "options": {
+          "select": "-- اختر --",
+          "latest": "الأحدث",
+          "priceLowHigh": "السعر: من الأقل للأعلى",
+          "priceHighLow": "السعر: من الأعلى للأقل"
+        }
+      },
+      "stockStatus": {
+        "label": "حالة المخزون:",
+        "all": "الكل",
+        "inStock": "متوفر",
+        "outOfStock": "غير متوفر"
+      },
+      "priceRange": {
+        "label": "نطاق السعر:"
+      },
+      "apply": "تطبيق"
+    },
+    "packageSidebar": {
+      "title": "اختر باقة",
+      "savePercentYearly": "وفر {percent}% سنوياً",
+      "mostPopularShort": "الأكثر شيوعًا",
+      "startingAt": "تبدأ من",
+      "monthlySuffix": "/شهريًا، مثالية لبناء النمو",
+      "knowMore": "اعرف المزيد"
+    },
+    "breadcrumb": {
+      "apparels": "الملابس",
+      "suppliers": "الموردون"
+    },
+    "common": {
+      "loading": "جارٍ التحميل..."
+    },
+    "contactFlow": {
+      "needHelp": "تحتاج مساعدة؟",
+      "mainHeading": "أخبرنا بما تحتاج — وسنتولى الباقي",
+      "features": {
+        "postRequirement": {
+          "title": "انشر متطلباتك",
+          "description": "أخبرنا بما تبحث عنه — المنتج، الكمية، الموقع"
+        },
+        "matchSellers": {
+          "title": "نطابقك مع البائعين",
+          "description": "يتم إخطار الموردين المعتمدين فورًا"
+        },
+        "getOffers": {
+          "title": "استلم العروض مباشرة",
+          "description": "قارن الصفقات، تحدث وأبرم الأفضل"
+        }
+      },
+      "postRequirementButton": "انشر متطلباتك",
+      "notification": {
+        "title": "تم استلام عرض من شركة Number One Industrial Co.,Ltd",
+        "topMember": "عضو مميز",
+        "country": "CN",
+        "time": "منذ ساعة"
+      },
+      "workerImageAlt": "عامل صناعي مع جهاز كمبيوتر محمول"
+    },
+    "footer": {
+      "listCompany": "أدرج شركتك",
+      "forFree": "مجاناً",
+      "joinAsSupplier": "انضم كمورد",
+      "lookingTo": "هل تبحث عن",
+      "sourceProducts": "منتجات توريد؟",
+      "postBuyingRequest": "انشر طلب شراء",
+      "getToKnowUs": "تعرّف علينا",
+      "trustCenter": "مركز الثقة",
+      "aboutPepagora": "عن Pepagora",
+      "leadershipAdvisors": "القيادة والمستشارون",
+      "impactAtPepagora": "الأثر في Pepagora",
+      "innovationAtPepagora": "الابتكار في Pepagora",
+      "mediaPress": "الإعلام والصحافة",
+      "careers": "الوظائف",
+      "contactUs": "اتصل بنا",
+      "blog": "مدونة",
+      "sales": "المبيعات",
+      "sourcing": "التوريد",
+      "marketing": "التسويق",
+      "productUpdates": "تحديثات المنتجات",
+      "industries": "الصناعات",
+      "apparelFashion": "الملابس والأزياء",
+      "industrialEquipmentMachinery": "المعدات والآلات الصناعية",
+      "homeLifestyle": "المنزل ونمط الحياة",
+      "healthPersonalCare": "الصحة والعناية الشخصية",
+      "foodAgriculture": "الأغذية والزراعة",
+      "constructionRealEstate": "البناء والعقارات",
+      "electronicsElectrical": "الإلكترونيات والكهرباء",
+      "automotiveTransport": "السيارات والنقل",
+      "rawMaterialsChemicals": "المواد الخام والكيماويات",
+      "sportsEntertainment": "الرياضة والترفيه",
+      "toolsHardware": "الأدوات والمعدات",
+      "packagingPrinting": "التعبئة والطباعة",
+      "officeSuppliesEquipment": "المستلزمات والمعدات المكتبية",
+      "serviceSupport": "الخدمات والدعم",
+      "businessTools": "أدوات الأعمال",
+      "postSellOffer": "انشر عرض بيع",
+      "createBusinessWebsite": "أنشئ موقعك التجاري",
+      "manageLeads": "أدر عملاءك المحتملين",
+      "manageCustomers": "أدر عملاءك",
+      "postBuyingRequestRfq": "انشر طلب شراء (RFQ)",
+      "getInstantSupplierMatch": "احصل على مطابقة فورية للموردين",
+      "becomeVerifiedMember": "كن عضواً معتمداً",
+      "partners": "الشركاء",
+      "affiliateProgram": "برنامج الشركاء",
+      "channelPartner": "شريك القناة",
+      "pricing": "التسعير",
+      "startingFromPrice": "تبدأ من 10$ شهرياً",
+      "helpLegal": "المساعدة والشؤون القانونية",
+      "helpCenter": "مركز المساعدة",
+      "faqs": "الأسئلة الشائعة",
+      "refundCancellation": "سياسة الإلغاء والاسترداد",
+      "dataProtectionGuidelines": "إرشادات حماية البيانات",
+      "termsPrivacyPolicy": "الشروط وسياسة الخصوصية",
+      "company": "الشركة",
+      "browseByIndustries": "تصفح حسب الصناعات",
+      "supportLegal": "الدعم والشؤون القانونية",
+      "businessSolutions": "حلول الأعمال",
+      "resources": "الموارد",
+      "globalSites": "المواقع العالمية",
+      "english": "الإنجليزية",
+      "espanol": "الإسبانية",
+      "deutsch": "الألمانية",
+      "francais": "الفرنسية",
+      "portugues": "البرتغالية",
+      "bahasa": "الإندونيسية",
+      "indonesia": "إندونيسيا",
+      "arabic": "العربية",
+      "getTipsTrendsTradeUpdates": "احصل على نصائح، اتجاهات وتحديثات التجارة مباشرة في بريدك.",
+      "enterYourEmail": "أدخل بريدك الإلكتروني",
+      "subscribe": "اشترك",
+      "serving": "نخدم",
+      "india": "الهند",
+      "enEnglish": "EN - الإنجليزية",
+      "frFrench": "FR - الفرنسية",
+      "deGerman": "DE - الألمانية",
+      "copyright": "حقوق الطبع والنشر © 2025 Pepagora.com جميع الحقوق محفوظة"
+    },
+    "relativeSuppliers": {
+      "title": "موردون آخرون",
+      "loadError": "فشل تحميل الموردين",
+      "supplierLogoAlt": "شعار المورد",
+      "notAvailable": "غير متاح",
+      "years": "سنوات",
+      "productAlt": "المنتج {number}"
+    },
+    "companySection": {
+      "iecNumber": "رقم IEC",
+      "noProductionLines": "عدد خطوط الإنتاج",
+      "annualProductionCapacity": "الطاقة الإنتاجية السنوية",
+      "annualOutputValue": "القيمة السنوية للإنتاج",
+      "exportPercentage": "نسبة التصدير",
+      "mainMarkets": "الأسواق الرئيسية",
+      "nearestPort": "أقرب ميناء",
+      "languageSpoken": "اللغة المحكية",
+      "catalogOwnerLogoAlt": "شعار مالك الكتالوج",
+      "verificationStatus": "حالة التحقق",
+      "verificationStatusAlt": "حالة التحقق",
+      "verified": "تم التحقق",
+      "verifyPending": "بانتظار التحقق...",
+      "legalOwnerAlt": "المالك القانوني",
+      "companyRegistrationNumber": "رقم تسجيل الشركة",
+      "yearOfEstablishment": "سنة التأسيس",
+      "yearOfEstablishmentAlt": "سنة التأسيس",
+      "businessTypeAlt": "نوع النشاط",
+      "gst": "ضريبة السلع والخدمات",
+      "noOfEmployees": "عدد الموظفين",
+      "noOfEmployeesAlt": "عدد الموظفين",
+      "people": "الأشخاص",
+      "registeredOfficeSizeAlt": "حجم المكتب المسجل",
+      "paymentMethods": "طرق الدفع",
+      "annualTurnoverAlt": "الإيرادات السنوية",
+      "turnover": "الإيرادات",
+      "contractManufacturing": "التصنيع التعاقدي",
+      "contractManufacturingAlt": "التصنيع التعاقدي",
+      "certification": "الشهادات",
+      "certificationAlt": "الشهادات",
+      "legalStatusAlt": "الوضع القانوني",
+      "shippingModes": "طرق الشحن",
+      "no": "لا"
+    },
+    "enquirySection": {
+      "title": "تواصل مع هذا المورد",
+      "fields": {
+        "name": "الاسم",
+        "email": "البريد الإلكتروني",
+        "mobile": "الهاتف",
+        "country": "الدولة",
+        "message": "الرسالة"
+      },
+      "placeholders": {
+        "fullName": "الاسم الكامل (كما في بطاقة العمل)",
+        "businessEmail": "البريد الإلكتروني التجاري",
+        "mobileWhatsapp": "رقم الهاتف / الواتساب",
+        "message": "اشرح بإيجاز متطلباتك. مثل: نوع المنتج، المواصفات، الكمية، السعر المستهدف، متطلبات التسليم."
+      },
+      "selectOption": "اختر خيار",
+      "countries": {
+        "india": "الهند"
+      },
+      "sending": "جارٍ الإرسال...",
+      "send": "إرسال",
+      "validation": {
+        "nameRequired": "الاسم مطلوب",
+        "nameMinLength": "يجب أن يكون الاسم على الأقل مكونًا من حرفين",
+        "nameFormat": "يجب أن يحتوي الاسم على أحرف ومسافات فقط",
+        "emailRequired": "البريد الإلكتروني مطلوب",
+        "emailFormat": "يرجى إدخال بريد إلكتروني صحيح",
+        "mobileRequired": "رقم الهاتف مطلوب",
+        "mobileFormat": "يرجى إدخال رقم هاتف صحيح (10 أرقام على الأقل)",
+        "countryRequired": "يرجى اختيار الدولة",
+        "messageRequired": "الرسالة مطلوبة",
+        "messageMinLength": "يجب أن تكون الرسالة على الأقل 10 أحرف",
+        "messageMaxLength": "لا يمكن أن تتجاوز الرسالة 5000 حرف"
+      },
+      "toast": {
+        "validationError": {
+          "title": "خطأ في التحقق",
+          "message": "يرجى تصحيح الأخطاء في النموذج"
+        },
+        "error": {
+          "title": "خطأ",
+          "noId": "لم يتم توفير معرف الكتالوج",
+          "failed": "فشل إرسال الاستفسار. يرجى المحاولة مرة أخرى."
+        },
+        "warning": {
+          "title": "تحذير!",
+          "alreadyEnquired": "تم إرسال الاستفسار مسبقًا من هذا البريد الإلكتروني أو رقم الهاتف"
+        },
+        "success": {
+          "title": "تم بنجاح!",
+          "created": "تم إنشاء الاستفسار بنجاح"
+        }
+      }
+    },
+    "productList": {
+      "noProducts": "لا توجد منتجات متاحة.",
+      "notAvailable": "غير متاح",
+      "minOrder": "الحد الأدنى للطلب",
+      "all": "الكل",
+      "loadMore": "تحميل المزيد من المنتجات"
+    },
+    "stepCards": {
+      "completeProfile": {
+        "title": "أكمل ملفك الشخصي",
+        "description": "املأ بياناتك التجارية والشخصية لإعداد حسابك."
+      },
+      "verifyBusiness": {
+        "title": "تحقق من عملك (KYC/KYB)",
+        "description": "قم برفع مستندات التحقق مثل ضريبة GST، PAN، أو تسجيل الشركة لبناء الثقة والمصداقية."
+      },
+      "addFirstProduct": {
+        "title": "أضف منتجك الأول",
+        "description": "انشر منتجًا واحدًا على الأقل لتفعيل موقعك والبدء في عرض عروضك.",
+        "linkText": "إضافة منتجات"
+      }
+    }
+  },
+  "productList": {
+    "noProducts": "لا توجد منتجات متاحة.",
+    "notAvailable": "غير متاح",
+    "minOrder": "الحد الأدنى للطلب",
+    "all": "الكل",
+    "loadMore": "تحميل المزيد من المنتجات"
+  },
+  "stepCards": {
+    "completeProfile": {
+      "title": "أكمل ملفك الشخصي",
+      "description": "املأ تفاصيل عملك وشخصيتك لإعداد حسابك."
+    },
+    "verifyBusiness": {
+      "title": "تحقق من عملك (KYC/KYB)",
+      "description": "حمّل مستندات التحقق مثل GST أو PAN أو تسجيل الأعمال لبناء الثقة والأصالة."
+    },
+    "addFirstProduct": {
+      "title": "أضف منتجك الأول",
+      "description": "أضف منتجًا واحدًا على الأقل ويجب على المشرف الرئيسي الموافقة على المنتج للبدء في العرض.",
+      "linkText": "إضافة المنتجات"
+    }
+  }
+}

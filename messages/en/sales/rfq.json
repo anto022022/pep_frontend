@@ -1,0 +1,225 @@
+{
+  "buyingRequest": {
+    "pageTitle": "Buying Request",
+    "pageTitleMob": "Buying Request Details",
+    "title": "Let’s find what you need.",
+    "subTitle": "Choose how you want to connect with suppliers — post a request or get instant matches.",
+    "info": "Not sure which one to choose? Post a request if you have detailed needs. Use Instant Match for quick sourcing.",
+    "requestForQuote": {
+      "title": "Request For Quote",
+      "subTitle": "Add your product, quantity, and delivery details. Suppliers will respond with tailored quotes.",
+      "button": "Post Buying Request"
+    },
+    "instantSupplierMatch": {
+      "title": "Instant Supplier Match",
+      "subTitle": "Skip the wait. Find suppliers who already match your needs—right now.",
+      "button": "Get Instant Matches"
+    },
+    "buyingRequestTable": {
+      "rfqId": "RFQ ID",
+      "productName": "Product Name",
+      "estOrderQty": "Est.Order.Qty",
+      "preferredUnitPrice": "Preferred Unit Price",
+      "source": "Source",
+      "validTill": "Valid Till",
+      "responses": "Responses",
+      "status": "Status",
+      "orderQty": "Order.Qty",
+      "addedOn": "Added On"
+    },
+    "buyingRequestForm": {
+      "title": "Post Buying Request",
+      "additionalRequirements": {
+        "title": "Additional Requirements (Optional)",
+        "subTitle": "Give more details about your buying request for better sourcing"
+      },
+      "additionalBuyingReqDetails": {
+        "label": "Additional Buying Request Details",
+        "optional": "(Optional)",
+        "placeHolder": "Enter Additional Buying Request Details"
+      },
+      "productName": {
+        "label": "Product Name",
+        "placeHolder": "Enter Product Name"
+      },
+      "productCategory": {
+        "label": "Product Category",
+        "placeHolder": "Search for Category"
+      },
+      "productDescription": {
+        "label": "Product Description",
+        "optional": "(Optional)",
+        "placeHolder": "Please indicate your detailed requirements to ensure fast and efficient responses from suppliers. You may include: Material, Size/Dimension, Grade/Quality Standard, Packaging requirements and/or others."
+      },
+      "estimatedOrderQuantity": {
+        "label": "Estimated Order Quantity",
+        "unitPlaceHolder": "Units",
+        "placeholder": "e.g:50"
+      },
+      "preferredUnitPrice": {
+        "label": "Preferred Unit Price",
+        "minPlaceholder": "Min Price",
+        "maxPlaceholder": "Max Price",
+        "currencyPlaceholder": "Select Currency"
+      },
+      "rfqValidity": {
+        "label": "RFQ Validity Date (Valid Till)"
+      },
+      "rfqTitle": {
+        "label": "RFQ Title (AI-Generated)",
+        "placeHolder": "Enter/generate your RFQ Title",
+        "aiSuggest": "Ai Suggestions"
+      },
+      "upload": {
+        "label": "Upload Product Image /Attachment"
+      },
+      "preferredRegion": {
+        "label": "Preferred Sourcing Region",
+        "countriesPlaceHolder": "Select Country",
+        "citiesPlaceHolder": "Select City",
+        "options": {
+          "nearby": "Nearby",
+          "withinMyCountry": "Within My Country",
+          "international": "International"
+        }
+      },
+      "sourcingFrequency": {
+        "label": "Sourcing Frequency",
+        "placeHolder": "Choose how frequently you need it"
+      },
+      "annualPurchaseVolume": {
+        "label": "Annual Purchase Volume",
+        "placeHolder": "Enter your annual requirements"
+      },
+      "expectedDeliveryTime": {
+        "label": "Expected Delivery Time",
+        "placeHolder": "Select Delivery Type"
+      },
+      "destinationPort": {
+        "label": "Destination Port (Optional)",
+        "placeHolder": "Search for Port"
+      },
+      "supplyContractType": {
+        "label": "Supply Contract Type",
+        "placeHolder": "Select payment Terms"
+      },
+      "paymentTerms": {
+        "label": "Payment Terms (Optional)",
+        "placeHolder": "Select payment Terms"
+      },
+      "requiredCertifications": {
+        "label": "Required Certifications",
+        "description": "Can't find it in the list? Feel free to add it here!",
+        "placeHolder": "Mention other certificates here"
+      },
+      "sampleRequired": {
+        "label": "Sample Required",
+        "placeHolder": "Need a sample for product? Just let us know!"
+      },
+      "customisationRequired": {
+        "label": "Customisation Required",
+        "placeHolder": "Looking for a customized product?  share your details"
+      },
+      "customizationDetails": {
+        "label": "Customisation Details",
+        "placeHolder": "Looking for a customized product?  share your details"
+      },
+      "pricingType": {
+        "label": "Pricing Type"
+      },
+      "shippingMethod": {
+        "label": "Shipping Method",
+        "placeHolder": "Select Shipping Method",
+        "selectAll": "Select All",
+        "unselectAll": "Unselect All"
+      }
+    },
+    "buyingRequestSuccess": {
+      "title": "Buying Request submitted successfully",
+      "description": "We’re reviewing your request. Once approved, suppliers will share quotes with you. Track updates anytime in your dashboard."
+    },
+    "buyingRequestDetails": {
+      "lookingFor": "Looking for",
+      "editButton": "Edit Details",
+      "repostButton": "Re-Post",
+      "moreDetails": "Show More Details",
+      "lessDetails": "Show Less Details",
+      "analytics": {
+        "title": "Analytics",
+        "impressions": "Impressions",
+        "views": "Views",
+        "quotesReceived": "Quotes Received"
+      },
+      "orderQty": "Order Quantity",
+      "requirements": "Requirements",
+      "sourcingPreference": "Sourcing Preference",
+      "preferredCountry": "Preferred Country",
+      "preferredCity": "Preferred City",
+      "destinationPort": "Destination Port",
+      "paymentTerms": "Payment",
+      "deliveryInformation": "Delivery Information",
+      "contractDetails": "Contract Details",
+      "validityDate": "RFQ Validity",
+      "ProductImages": "Product Images",
+      "status": "Status",
+      "quotesReceived": "Quotes Received",
+      "quotesList": {
+        "emptyList": {
+          "title": "Waiting for Supplier Quotes",
+          "description": "Your request has been sent to matched suppliers. Once they respond with their quotations, they’ll appear here."
+        },
+        "sellerDetails": "Seller Details",
+        "interestedSuppliersMessage": "Supplier have showed interest on you request",
+        "action": "Action",
+        "sendMessageButton": "Send Message",
+        "seeQuote": "See Quote"
+      },
+      "quoteDetails": {
+        "title": "Quotation Details",
+        "supplierDetails": {
+          "title": "Supplier Details",
+          "contactPerson": "Contact Person",
+          "email": "Email-id",
+          "contactNo": "Contact No."
+        },
+        "productDetails": {
+          "title": "Product Details",
+          "priceRange": "Price Range",
+          "descriptionTitle": "Description"
+        },
+        "quoteAmount": "Quote Amount",
+        "rejectQuote": {
+          "btn": "Reject Quote",
+          "description": "By Rejecting, you will decline the offer and end further communication"
+        },
+        "acceptQuote": {
+          "btn": "Accept Quote",
+          "description": "By accepting, the offer will be provisionally accepted. You can then negotiate terms via One Inbox"
+        }
+      }
+    }
+  },
+  "requestForm": {
+    "title": "Post Buying Request",
+    "rfqTitle": "Request for Quote Title",
+    "aiSuggest": "Ai Suggestions",
+    "titlePlaceholder": "Enter RFQ Title",
+    "productName": "Product Name",
+    "namePlaceholder": "Enter Product Name",
+    "category": "Product Category",
+    "description": "Product Description",
+    "indicateDesc": "Please indicate your detailed product description",
+    "additional": "Additional Details",
+    "addnDetails": "Please indicate your detailed requirements to ensure fast and efficient responses from suppliers,you may include Material,Size/Dimension,Grade/Quality Standard,Packaging requirements and or others.",
+    "optional": "(Optional)",
+    "estOrderQuantity": "Estimated Order Quantity",
+    "currency": "Currency",
+    "priceRange": "Price Range",
+    "minPrice": "Enter Min.Price",
+    "maxPrice": "Enter Max.Price",
+    "validityDate": "RFQ Validity Date(Valid Till) (Optional)",
+    "continue": "Save & Continue Later",
+    "submit": "Submit",
+    "posted": "New Post Buying Request posted"
+  }
+}

@@ -1,0 +1,38 @@
+.business-type-card-comp {
+    border-radius: 12px;
+    border: 1px solid $color-white-1;
+    background: $primary-solid-color;
+    box-shadow: $shadow-depth-3;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 24px;
+    cursor: pointer;
+    user-select: none;
+
+    @media screen and (max-width:640px) {
+        padding: 20px;
+    }
+
+    .b-t-c-c-txt-wrap {
+        display: flex;
+        flex-direction: column;
+
+        .title {
+            color: $black;
+            font-size: clamp(0.938rem, 0.924rem + 0.06vw, 1rem); // 15, 16px
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0.48px;
+            font-family: Neue Haas Grotesk Display Pro, sans-serif;
+        }
+
+        .subtitle {
+            color: $color-grey-2;
+            font-size: clamp(0.813rem, 0.799rem + 0.06vw, 0.875rem); // 13, 14px
+            font-weight: 400;
+            line-height: clamp(1.063rem, 1.021rem + 0.19vw, 1.25rem); // 17, 20px
+            letter-spacing: 0.42px;
+        }
+    }
+}

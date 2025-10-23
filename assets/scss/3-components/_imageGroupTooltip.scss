@@ -1,0 +1,38 @@
+.image-group-tooltip-comp {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .i-g-t-c-item {
+        .i-g-t-c-img {
+            width: 52px;
+            height: 52px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 4px;
+            }
+        }
+    }
+
+    .p-tooltip {
+        border-radius: 6px;
+        background: $background-surface;
+        box-shadow: $shadow-depth-12;
+        padding: 4px 6px;
+        .p-tooltip-arrow{
+            border-top-color: $background-surface !important;
+        }
+        .p-tooltip-text {
+            color: $text-primary;
+            font-family: $body-font;
+            font-size: 12px;
+            font-weight: 600;
+            line-height: normal;
+            box-shadow: unset;
+            letter-spacing: 0.21px;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+.service-card-comp {
+    border-radius: 12px;
+    border: 2px solid $color-white-1;
+    background: $primary-solid-color;
+    box-shadow: $shadow-depth-3;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+    width: 100%;
+    cursor: pointer;
+    @media screen and (max-width:640px) {
+        gap: 20px;
+    }
+
+    &:has(.forms-radio:checked){
+        border: 2px solid $text-primary;
+    }
+    .icon-input {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .s-c-c-txt-wrap {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+
+        .title {
+            color: $black;
+            font-family: $body-font;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0.54px;
+        }
+
+        .subtitle {
+            color: $color-grey-2;
+            font-family: $body-font;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 20px;
+            letter-spacing: 0.42px;
+        }
+    }
+    
+}

@@ -1,0 +1,528 @@
+{
+  "stepper": {
+    "homepage": {
+      "title": "होमपेज",
+      "description": "ब्रांड पहचान दिखाएँ, हीरो अभियानों को हाइलाइट करें, और उपयोगकर्ताओं को फीचर्ड उत्पादों तक मार्गदर्शन करें"
+    },
+    "products": {
+      "title": "उत्पाद",
+      "description": "अपनी वेबसाइट पर अधिकतम 25 उत्पाद दिखाएँ।"
+    }
+  },
+  "homepage": {
+    "title": "होमपेज",
+    "description": "ब्रांड पहचान दिखाएँ, हीरो अभियानों को हाइलाइट करें, और उपयोगकर्ताओं को फीचर्ड उत्पादों तक मार्गदर्शन करें",
+    "alert": {
+      "productVisible": "यह उत्पाद तब दिखाई देगा जब सभी आवश्यक विवरण अपलोड हो जाएंगे।"
+    },
+    "fields": {
+      "ownerName": {
+        "label": "कानूनी मालिक का नाम",
+        "placeholder": "कानूनी मालिक का नाम दर्ज करें"
+      },
+      "businessType": {
+        "label": "कानूनी स्थिति",
+        "placeholder": "कानूनी स्थिति चुनें"
+      },
+      "businessTypeSpecific": {
+        "label": "व्यवसाय का प्रकार",
+        "placeholder": "व्यवसाय का प्रकार चुनें"
+      },
+      "industry": {
+        "label": "उद्योग",
+        "placeholder": "उद्योग चुनें"
+      }
+    },
+    "businessTypeSpecific": {
+      "options": {
+        "manufacturer": "निर्माता",
+        "distributor_wholesaler": "वितरक / थोक व्यापारी",
+        "tradingCompany": "व्यापारिक कंपनी",
+        "retailer": "खुदरा विक्रेता",
+        "importerExporter": "आयातक / निर्यातक"
+      }
+    },
+    "errors": {
+      "businessTypeSpecificRequired": "व्यवसाय का प्रकार आवश्यक है"
+    }
+  },
+  "businessTypes": {
+    "unregister": {
+      "title": "पंजीकृत नहीं व्यवसाय",
+      "subtitle": "एक व्यक्ति द्वारा स्वामित्व और सरकार के साथ पंजीकृत नहीं"
+    },
+    "register": {
+      "title": "पंजीकृत व्यवसाय",
+      "subtitle": "इसमें एलएलसी, साझेदारी, एकल स्वामित्व, या निगम शामिल हैं"
+    },
+    "nonprofit": {
+      "title": "गैर-लाभकारी संगठन",
+      "subtitle": "सरकारी अधिकारियों द्वारा मान्यता प्राप्त कर-मुक्त संगठन"
+    }
+  },
+  "multiSelect": {
+    "selectAll": "सभी चुनें",
+    "unselectAll": "सभी चयन हटाएँ"
+  },
+  "continue": "जारी रखें",
+  "processing": "सबमिट किया जा रहा है...",
+  "errors": {
+    "businessLocation": "व्यवसाय स्थान आवश्यक है",
+    "businessType": "व्यवसाय का प्रकार आवश्यक है"
+  },
+  "products": {
+    "title": "उत्पाद",
+    "description": "अपनी वेबसाइट पर अधिकतम 25 उत्पाद दिखाएँ।",
+    "tab": {
+      "all": {
+        "name": "सभी"
+      },
+      "selected": {
+        "name": "चयनित"
+      },
+      "unSelected": {
+        "name": "चयनित नहीं"
+      }
+    },
+    "tableHeaders": {
+      "addRemove": "उत्पाद दृश्यता को सक्षम/अक्षम करने के लिए टॉगल करें"
+    },
+    "modal": {
+      "title": "आपकी ऑनलाइन कैटलॉग लाइव जाने के लिए तैयार है!",
+      "planLabel": "शुरू करें",
+      "planValueFree": "मुफ़्त",
+      "change": "बदलें",
+      "launchCta": "लॉन्च करें →"
+    }
+  },
+  "subdomain": {
+    "title": "URL सेटअप",
+    "readyTitle": "लगभग हो गया! आपकी ऑनलाइन कैटलॉग लाइव जाने के लिए तैयार है!",
+    "readySubtitle": "कैटलॉग लॉन्च करने के लिए, कृपया अपना कस्टम डोमेन URL और सबडोमेन URL सेट करें। यह आपको अपने ग्राहकों के साथ एक व्यक्तिगत, ब्रांडेड कैटलॉग बनाने और साझा करने की अनुमति देगा।",
+    "goPublicTitle": "अपनी Pepagora कैटलॉग को सार्वजनिक करें",
+    "goPublicSubtitle": "आपका स्टोरफ्रंट इस अद्वितीय Pepagora URL के अंतर्गत दिखाई देगा — जिससे आपका व्यवसाय तुरंत खोज योग्य और साझा करने योग्य हो जाएगा।",
+    "billing": {
+      "yearly": "वार्षिक",
+      "monthly": "मासिक"
+    },
+    "sslMonthly": "SSL मासिक",
+    "sslYearly": "SSL वार्षिक",
+    "comparePlans": "योजनाओं की तुलना करें",
+    "badges": {
+      "mostPopular": "सबसे लोकप्रिय",
+      "mostAdvanced": "सबसे उन्नत"
+    },
+    "enterprise": {
+      "strikePrice": "${price} से शुरू"
+    },
+    "actions": {
+      "chooseFree": "मुफ़्त चुनें",
+      "contactSales": "बिक्री से संपर्क करें",
+      "choosePackageCta": "{name} चुनें"
+    },
+    "toasts": {
+      "validationErrorTitle": "मान्यकरण त्रुटि",
+      "validationErrorMessage": "आगे बढ़ने से पहले कृपया एक सबडोमेन दर्ज करें।",
+      "warningTitle": "चेतावनी",
+      "subdomainExists": "सबडोमेन पहले से मौजूद है। कृपया दूसरा चुनें।",
+      "successTitle": "सफलता!",
+      "updated": "सबडोमेन सफलतापूर्वक अपडेट किया गया",
+      "errorTitle": "त्रुटि!",
+      "updateFailed": "सबडोमेन अपडेट करते समय कुछ गलत हो गया।"
+    },
+    "packages": {
+      "free": {
+        "name": "मुफ़्त",
+        "price": "मुफ़्त",
+        "description": "छोटे और मध्यम व्यवसायों के लिए उत्तम",
+        "features": [
+          "नो-कोड कंटेंट प्रबंधन",
+          "एंटरप्राइज-ग्रेड होस्टिंग (AWS)",
+          "वैश्विक गति के लिए CDN",
+          "बेसिक कैटलॉग"
+        ]
+      },
+      "grow": {
+        "name": "ग्रो",
+        "description": "छोटे और मध्यम व्यवसायों के लिए उत्तम",
+        "features": [
+          "एकल वेबसाइट के साथ स्टोरफ्रंट",
+          "नो-कोड वेबसाइट प्रबंधन",
+          "ईमेल और फोन समर्थन",
+          "विश्वसनीय SSL प्रमाणपत्र",
+          "लाइव चैट और फोन इंटीग्रेशन",
+          "आपकी वेबसाइट के लिए 4+ भाषाएँ",
+          "बेसिक ब्लॉग"
+        ]
+      },
+      "scale": {
+        "name": "स्केल",
+        "description": "बढ़ते व्यवसायों के लिए सब कुछ",
+        "features": [
+          "अधिक व्यवसाय प्लस",
+          "कई पोर्टल से अपना डोमेन कनेक्ट करें",
+          "समर्पित खाता प्रबंधक",
+          "विश्वसनीय SSL प्रमाणपत्र बैकअप",
+          "विश्वसनीय SSL प्रमाणपत्र बैकअप",
+          "प्रीमियम वेबसाइट सेवा समर्थन"
+        ]
+      },
+      "global": {
+        "name": "ग्लोबल",
+        "description": "उन्नत सुविधाओं के साथ 2 वेबसाइटें शामिल",
+        "features": [
+          "सभी एक्सपर्ट फीचर्स प्लस",
+          "नो-बग्स और मल्टी-करेंसी के साथ स्टोर कैटलॉग",
+          "एडवांस रिपोर्टिंग और मल्टी-करेंसी लेआउट",
+          "चैनलों के साथ 10 इंटीग्रेशन शामिल",
+          "प्राथमिकता चैट और फोन समर्थन",
+          "स्टोर वितरण स्तर",
+          "50+ भाषाएँ और अन्य वेबसाइटें"
+        ]
+      },
+      "enterprise": {
+        "name": "एंटरप्राइज",
+        "description": "असीमित सुविधाओं के साथ सब कुछ शामिल",
+        "features": [
+          "सभी सोशल फीचर्स प्लस",
+          "पूरी तरह से अनुकूलन योग्य वेबसाइट और API इंटीग्रेशन",
+          "200 इंटीग्रेशन चैनलों के साथ शामिल",
+          "हाई-एंड प्रदर्शन बैकअप",
+          "बेहतर चैट समर्थन",
+          "विश्वसनीय/सत्यापित एंटरप्राइज-ग्रेड सत्यापन",
+          "अंतर्राष्ट्रीय व्यवसाय प्रोफ़ाइल एक्सेस",
+          "एंटरप्राइज इंफ्रास्ट्रक्चर समर्थन"
+        ]
+      }
+    }
+  },
+  "catalog": {
+    "header": {
+      "title": "टेम्प्लेट मैनेजर",
+      "preview": "पूर्वावलोकन",
+      "edit": "संपादित करें"
+    },
+    "view": {
+      "getLiveTitle": "आइए 3 आसान चरणों में आपका कैटलॉग लाइव करें!",
+      "setupWebsite": "वेबसाइट सेटअप करें",
+      "launchMainTitle": "अपने व्यवसाय को 3 आसान चरणों में ऑनलाइन लॉन्च करें!",
+      "launchMainSub": "एक शक्तिशाली डिजिटल कैटलॉग बनाएं, सत्यापित प्रमाण-पत्रों से भरोसा बनाएँ और अपनी उत्पादों को दुनिया के सामने प्रस्तुत करें — सब एक ही जगह से।"
+    },
+    "steps": {
+      "choosePackage": {
+        "title": "1. पैकेज चुनें",
+        "sub": "अपनी आवश्यकताओं के अनुसार पैकेज चुनें"
+      },
+      "addContent": {
+        "title": "2. सामग्री जोड़ें",
+        "sub": "व्यवसाय की जानकारी, बैनर और उत्पाद अपलोड करें"
+      },
+      "launch": {
+        "title": "3. लॉन्च करें",
+        "sub": "अपने कैटलॉग को डोमेन पर सार्वजनिक करें"
+      }
+    },
+    "successDialog": {
+      "title": "सफलता! आपका कैटलॉग प्रकाशित हो गया",
+      "subTxt": "अब यह एडमिन अनुमोदन की प्रतीक्षा कर रहा है। लाइव होने पर हम आपको सूचित करेंगे!",
+      "ok": "ठीक है"
+    },
+    "tabs": {
+      "products": "उत्पाद",
+      "profile": "प्रोफ़ाइल",
+      "contacts": "संपर्क"
+    },
+    "actions": {
+      "contactSuppliers": "आपूर्तिकर्ता से संपर्क करें",
+      "share": "साझा करें",
+      "wishlist": "इच्छा सूची",
+      "seePlans": "योजनाएँ देखें",
+      "requestQuote": "कोटेशन का अनुरोध करें",
+      "shareTitle": "मेरा पृष्ठ",
+      "shareText": "इस अद्भुत पृष्ठ को देखें!",
+      "shareNotSupported": "आपका ब्राउज़र नैटिव शेयरिंग का समर्थन नहीं करता।"
+    },
+    "feed": {
+      "title": "अपने व्यवसाय को अगले स्तर तक ले जाएँ",
+      "features": {
+        "unlimitedProducts": "असीमित उत्पाद प्रदर्शन",
+        "leadsLevel": "5X लीड्स स्तर 1 उत्पाद प्रदर्शन",
+        "ownDomain": "अपनी खुद की डोमेन वेबसाइट"
+      },
+      "seePlans": "योजनाएँ देखें"
+    },
+    "analytics": {
+      "title": "विश्लेषण",
+      "views": "दृश्य",
+      "impressions": "इंप्रेशन",
+      "lastEdited": "अंतिम बार संपादित",
+      "lastEditedBy": "द्वारा अंतिम बार संपादित",
+      "status": "स्थिति",
+      "catalogLink": "कैटलॉग लिंक",
+      "active": "सक्रिय",
+      "pending": "लंबित",
+      "published": "प्रकाशित",
+      "verifyPending": "सत्यापन लंबित..."
+    },
+    "filters": {
+      "sortBy": {
+        "label": "क्रमबद्ध करें:",
+        "options": {
+          "select": "-- चुनें --",
+          "latest": "नवीनतम",
+          "priceLowHigh": "कीमत: कम से ज्यादा",
+          "priceHighLow": "कीमत: ज्यादा से कम"
+        }
+      },
+      "stockStatus": {
+        "label": "स्टॉक स्थिति:",
+        "all": "सभी",
+        "inStock": "स्टॉक में",
+        "outOfStock": "स्टॉक ख़त्म"
+      },
+      "priceRange": {
+        "label": "मूल्य सीमा:"
+      },
+      "apply": "लागू करें"
+    },
+    "packageSidebar": {
+      "title": "पैकेज चुनें",
+      "savePercentYearly": "वार्षिक योजना पर {percent}% बचाएँ",
+      "mostPopularShort": "सबसे लोकप्रिय",
+      "startingAt": "शुरुआत",
+      "monthlySuffix": "/महीना, ट्रैक्शन बनाने के लिए बेहतरीन",
+      "knowMore": "और जानें"
+    },
+    "breadcrumb": {
+      "apparels": "कपड़े",
+      "suppliers": "आपूर्तिकर्ता"
+    },
+    "common": {
+      "loading": "लोड हो रहा है..."
+    },
+    "contactFlow": {
+      "needHelp": "मदद चाहिए?",
+      "mainHeading": "हमें बताइए आपको क्या चाहिए - बाकी हम करेंगे",
+      "features": {
+        "postRequirement": {
+          "title": "अपनी आवश्यकता पोस्ट करें",
+          "description": "हमें बताएं कि आप क्या ढूंढ रहे हैं — उत्पाद, मात्रा, स्थान"
+        },
+        "matchSellers": {
+          "title": "हम आपको विक्रेताओं से जोड़ते हैं",
+          "description": "सत्यापित आपूर्तिकर्ताओं को तुरंत सूचित किया जाता है"
+        },
+        "getOffers": {
+          "title": "सीधे ऑफ़र प्राप्त करें",
+          "description": "सौदों की तुलना करें, चैट करें और सबसे अच्छा सौदा पक्का करें"
+        }
+      },
+      "postRequirementButton": "अपनी आवश्यकता पोस्ट करें",
+      "notification": {
+        "title": "नंबर वन इंडस्ट्रियल कंपनी, लिमिटेड से कोटेशन प्राप्त हुआ",
+        "topMember": "शीर्ष सदस्य",
+        "country": "चीन",
+        "time": "1 घंटा"
+      },
+      "workerImageAlt": "लैपटॉप के साथ औद्योगिक कार्यकर्ता"
+    },
+    "footer": {
+      "listCompany": "अपनी कंपनी सूचीबद्ध करें",
+      "forFree": "मुफ़्त में",
+      "joinAsSupplier": "आपूर्तिकर्ता के रूप में शामिल हों",
+      "lookingTo": "क्या आप ढूंढ रहे हैं",
+      "sourceProducts": "उत्पाद स्रोत करें?",
+      "postBuyingRequest": "खरीद अनुरोध पोस्ट करें",
+      "getToKnowUs": "हमें जानें",
+      "trustCenter": "ट्रस्ट सेंटर",
+      "aboutPepagora": "Pepagora के बारे में",
+      "leadershipAdvisors": "नेतृत्व और सलाहकार",
+      "impactAtPepagora": "Pepagora पर प्रभाव",
+      "innovationAtPepagora": "Pepagora में नवाचार",
+      "mediaPress": "मीडिया और प्रेस",
+      "careers": "कैरियर",
+      "contactUs": "संपर्क करें",
+      "blog": "ब्लॉग",
+      "sales": "बिक्री",
+      "sourcing": "स्रोत",
+      "marketing": "मार्केटिंग",
+      "productUpdates": "उत्पाद अपडेट",
+      "industries": "उद्योग",
+      "apparelFashion": "कपड़े और फैशन",
+      "industrialEquipmentMachinery": "औद्योगिक उपकरण और मशीनरी",
+      "homeLifestyle": "घर और जीवनशैली",
+      "healthPersonalCare": "स्वास्थ्य और व्यक्तिगत देखभाल",
+      "foodAgriculture": "खाद्य और कृषि",
+      "constructionRealEstate": "निर्माण और रियल एस्टेट",
+      "electronicsElectrical": "इलेक्ट्रॉनिक्स और इलेक्ट्रिकल",
+      "automotiveTransport": "ऑटोमोटिव और परिवहन",
+      "rawMaterialsChemicals": "कच्चा माल और रसायन",
+      "sportsEntertainment": "खेल और मनोरंजन",
+      "toolsHardware": "उपकरण और हार्डवेयर",
+      "packagingPrinting": "पैकेजिंग और प्रिंटिंग",
+      "officeSuppliesEquipment": "कार्यालय आपूर्ति और उपकरण",
+      "serviceSupport": "सेवा और समर्थन",
+      "businessTools": "व्यवसाय उपकरण",
+      "postSellOffer": "बिक्री प्रस्ताव पोस्ट करें",
+      "createBusinessWebsite": "अपनी व्यवसाय वेबसाइट बनाएँ",
+      "manageLeads": "अपने लीड्स प्रबंधित करें",
+      "manageCustomers": "अपने ग्राहकों को प्रबंधित करें",
+      "postBuyingRequestRfq": "खरीद अनुरोध (RFQ) पोस्ट करें",
+      "getInstantSupplierMatch": "तुरंत सप्लायर मैच प्राप्त करें",
+      "becomeVerifiedMember": "सत्यापित सदस्य बनें",
+      "partners": "साझेदार",
+      "affiliateProgram": "सहयोगी कार्यक्रम",
+      "channelPartner": "चैनल पार्टनर",
+      "pricing": "मूल्य निर्धारण",
+      "startingFromPrice": "शुरुआत 10$ प्रति माह से",
+      "helpLegal": "मदद और कानूनी",
+      "helpCenter": "सहायता केंद्र",
+      "faqs": "अक्सर पूछे जाने वाले प्रश्न",
+      "refundCancellation": "रिफंड और रद्दीकरण",
+      "dataProtectionGuidelines": "डेटा सुरक्षा दिशानिर्देश",
+      "termsPrivacyPolicy": "नियम और गोपनीयता नीति",
+      "company": "कंपनी",
+      "browseByIndustries": "उद्योगों द्वारा ब्राउज़ करें",
+      "supportLegal": "समर्थन और कानूनी",
+      "businessSolutions": "व्यवसाय समाधान",
+      "resources": "संसाधन",
+      "globalSites": "वैश्विक साइटें",
+      "english": "अंग्रेज़ी",
+      "espanol": "Español",
+      "deutsch": "Deutsch",
+      "francais": "Français",
+      "portugues": "Português",
+      "bahasa": "Bahasa",
+      "indonesia": "इंडोनेशिया",
+      "arabic": "العربية",
+      "getTipsTrendsTradeUpdates": "टिप्स, रुझान और व्यापार अपडेट सीधे अपने इनबॉक्स में प्राप्त करें।",
+      "enterYourEmail": "अपना ईमेल दर्ज करें",
+      "subscribe": "सदस्यता लें",
+      "serving": "सेवा दे रहे हैं",
+      "india": "भारत",
+      "enEnglish": "EN - अंग्रेज़ी",
+      "frFrench": "FR - फ़्रेंच",
+      "deGerman": "DE - जर्मन",
+      "copyright": "कॉपीराइट © 2025 Pepagora.com सर्वाधिकार सुरक्षित"
+    },
+    "relativeSuppliers": {
+      "title": "अन्य आपूर्तिकर्ता",
+      "loadError": "आपूर्तिकर्ता लोड करने में विफल",
+      "supplierLogoAlt": "आपूर्तिकर्ता लोगो",
+      "notAvailable": "उपलब्ध नहीं",
+      "years": "साल",
+      "productAlt": "उत्पाद {number}"
+    },
+    "companySection": {
+      "iecNumber": "आईईसी नंबर",
+      "noProductionLines": "उत्पादन लाइनों की संख्या",
+      "annualProductionCapacity": "वार्षिक उत्पादन क्षमता",
+      "annualOutputValue": "वार्षिक उत्पादन मूल्य",
+      "exportPercentage": "निर्यात प्रतिशत",
+      "mainMarkets": "मुख्य बाजार",
+      "nearestPort": "निकटतम बंदरगाह",
+      "languageSpoken": "बोली जाने वाली भाषा",
+      "catalogOwnerLogoAlt": "कैटलॉग मालिक लोगो",
+      "verificationStatus": "सत्यापन स्थिति",
+      "verificationStatusAlt": "सत्यापन स्थिति",
+      "verified": "सत्यापित",
+      "verifyPending": "सत्यापन लंबित...",
+      "legalOwnerAlt": "कानूनी मालिक",
+      "companyRegistrationNumber": "कंपनी पंजीकरण संख्या",
+      "yearOfEstablishment": "स्थापना वर्ष",
+      "yearOfEstablishmentAlt": "स्थापना वर्ष",
+      "businessTypeAlt": "व्यवसाय प्रकार",
+      "gst": "जीएसटी",
+      "noOfEmployees": "कर्मचारियों की संख्या",
+      "noOfEmployeesAlt": "कर्मचारियों की संख्या",
+      "people": "लोग",
+      "registeredOfficeSizeAlt": "पंजीकृत कार्यालय का आकार",
+      "paymentMethods": "भुगतान के तरीके",
+      "annualTurnoverAlt": "वार्षिक कारोबार",
+      "turnover": "कारोबार",
+      "contractManufacturing": "अनुबंध निर्माण",
+      "contractManufacturingAlt": "अनुबंध निर्माण",
+      "certification": "प्रमाणन",
+      "certificationAlt": "प्रमाणन",
+      "legalStatusAlt": "कानूनी स्थिति",
+      "shippingModes": "शिपिंग मोड",
+      "no": "नहीं"
+    },
+    "enquirySection": {
+      "title": "इस आपूर्तिकर्ता से जुड़ें",
+      "fields": {
+        "name": "नाम",
+        "email": "ईमेल",
+        "mobile": "मोबाइल",
+        "country": "देश",
+        "message": "संदेश"
+      },
+      "placeholders": {
+        "fullName": "पूरा नाम (बिज़नेस कार्ड के अनुसार)",
+        "businessEmail": "व्यवसाय ईमेल पता",
+        "mobileWhatsapp": "मोबाइल / व्हाट्सएप नंबर",
+        "message": "अपनी आवश्यकता संक्षेप में बताएं। जैसे, उत्पाद प्रकार, विनिर्देश, मात्रा, लक्ष्य मूल्य, डिलीवरी की ज़रूरतें।"
+      },
+      "selectOption": "विकल्प चुनें",
+      "countries": {
+        "india": "भारत"
+      },
+      "sending": "भेजा जा रहा है...",
+      "send": "भेजें",
+      "validation": {
+        "nameRequired": "नाम आवश्यक है",
+        "nameMinLength": "नाम कम से कम 2 अक्षरों का होना चाहिए",
+        "nameFormat": "नाम में केवल अक्षर और स्पेस होना चाहिए",
+        "emailRequired": "ईमेल आवश्यक है",
+        "emailFormat": "कृपया एक मान्य ईमेल पता दर्ज करें",
+        "mobileRequired": "मोबाइल नंबर आवश्यक है",
+        "mobileFormat": "कृपया एक मान्य मोबाइल नंबर दर्ज करें (कम से कम 10 अंक)",
+        "countryRequired": "कृपया एक देश चुनें",
+        "messageRequired": "संदेश आवश्यक है",
+        "messageMinLength": "संदेश कम से कम 10 अक्षरों का होना चाहिए",
+        "messageMaxLength": "संदेश 5000 अक्षरों से अधिक नहीं होना चाहिए"
+      },
+      "toast": {
+        "validationError": {
+          "title": "मान्यता त्रुटि",
+          "message": "कृपया फ़ॉर्म में त्रुटियों को ठीक करें"
+        },
+        "error": {
+          "title": "त्रुटि",
+          "noId": "कोई कैटलॉग आईडी प्रदान नहीं की गई",
+          "failed": "पूछताछ सबमिट करने में विफल। कृपया पुनः प्रयास करें।"
+        },
+        "warning": {
+          "title": "चेतावनी!",
+          "alreadyEnquired": "इस ईमेल आईडी या मोबाइल नंबर द्वारा पहले ही पूछताछ सबमिट की जा चुकी है"
+        },
+        "success": {
+          "title": "सफलता!",
+          "created": "पूछताछ फॉर्म सफलतापूर्वक बनाया गया"
+        }
+      }
+    },
+    "productList": {
+      "noProducts": "कोई उत्पाद उपलब्ध नहीं।",
+      "notAvailable": "उपलब्ध नहीं",
+      "minOrder": "न्यूनतम आदेश",
+      "all": "सभी",
+      "loadMore": "और उत्पाद लोड करें"
+    },
+    "stepCards": {
+      "completeProfile": {
+        "title": "अपनी प्रोफ़ाइल पूरी करें",
+        "description": "अपना खाता सेटअप करने के लिए अपने व्यवसाय और व्यक्तिगत विवरण भरें।"
+      },
+      "verifyBusiness": {
+        "title": "अपना व्यवसाय सत्यापित करें (KYC/KYB)",
+        "description": "भरोसा और प्रामाणिकता बनाने के लिए अपने सत्यापन दस्तावेज जैसे GST, PAN, या व्यवसाय पंजीकरण अपलोड करें।"
+      },
+      "addFirstProduct": {
+        "title": "अपना पहला उत्पाद जोड़ें",
+        "description": "अपनी वेबसाइट को सक्रिय करने और अपनी पेशकशों को प्रदर्शित करना शुरू करने के लिए कम से कम एक उत्पाद प्रकाशित करें।",
+        "linkText": "उत्पाद जोड़ें"
+      }
+    }
+  }
+}

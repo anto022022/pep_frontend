@@ -1,0 +1,27 @@
+{
+  "title": "Let's Start with the Basics",
+  "subtitle": "We need some details to verify your business and set up your profile",
+  "businessLocation": "Business Location",
+  "businessLocationPlaceholder": "Select the location where your business is registered",
+  "businessType": "Business Type",
+  "businessTypes": {
+    "unregister": {
+      "title": "Unregistered Business",
+      "subtitle": "Owned by one person and not registered with the government"
+    },
+    "register": {
+      "title": "Registered Business",
+      "subtitle": "Includes LLCs, partnerships, sole proprietorships, or corporations"
+    },
+    "nonprofit": {
+      "title": "Nonprofit Organization",
+      "subtitle": "Tax-exempt organizations recognized by government authorities"
+    }
+  },
+  "continue": "Continue",
+  "processing": "Submitting...",
+  "errors": {
+    "businessLocation": "Business location is required",
+    "businessType": "Business type is required"
+  }
+}

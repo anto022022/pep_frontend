@@ -1,0 +1,117 @@
+{
+  "noContactsScreen": {
+    "table-headers": {
+      "contactName": "اسم جهة الاتصال",
+      "companyName": "اسم الشركة",
+      "email": "البريد الإلكتروني",
+      "phoneNo": "رقم الهاتف",
+      "lifecycle": "علامات دورة الحياة",
+      "source": "المصدر",
+      "status": "الحالة",
+      "lastContacted": "آخر تواصل"
+    },
+    "mainTitle": "جهات الاتصال",
+    "title": "أضف وادِر جهات الاتصال في مكان واحد",
+    "subtitle": "قم بتحميل وتنظيم والوصول إلى جهات الاتصال من جميع قنوات المبيعات - طلبات التسعير، العملاء المحتملين أو الإدخالات المباشرة. جاهزة للتسعير والمتابعة والتواصل الذكي.",
+    "buttonTitle": "أضف جهة اتصال",
+    "addContact": "إضافة جهة اتصال جديدة",
+    "search": "بحث جهة اتصال"
+  },
+  "contactForm": {
+    "title": "جهة اتصال جديدة",
+    "contactName": {
+      "label": "اسم جهة الاتصال",
+      "placeHolder": "أدخل اسم جهة الاتصال"
+    },
+    "companyName": {
+      "label": "اسم الشركة",
+      "placeHolder": "أدخل اسم الشركة"
+    },
+    "emailId": {
+      "label": "البريد الإلكتروني",
+      "placeHolder": "أدخل البريد الإلكتروني"
+    },
+    "phoneNumber": {
+      "label": "رقم الهاتف",
+      "placeHolder": "أدخل رقم الهاتف"
+    },
+    "whatsapp": {
+      "label": "رقم واتساب (اختياري)",
+      "placeHolder": "أدخل رقم واتساب"
+    },
+    "country": {
+      "label": "الدولة",
+      "placeHolder": "اختر الدولة"
+    },
+    "source": {
+      "label": "المصدر",
+      "placeHolder": "اختر المصدر"
+    },
+    "helperText": {
+      "sameAsPhoneNumber": "رقم الهاتف"
+    },
+    "button": {
+      "Submit": "إرسال"
+    },
+    "successDialog": {
+      "contactUpdated": "تم تحديث جهة الاتصال بنجاح",
+      "contactAdded": "تم إضافة جهة الاتصال بنجاح"
+    }
+  },
+  "connectTable": {
+    "view": "عرض التفاصيل",
+    "edit": "تعديل",
+    "archive": "أرشفة",
+    "connect": "اتصل الآن",
+    "reminder": "إنشاء تذكير",
+    "convert": "تحويل إلى عميل",
+    "quotation": "إرسال عرض سعر"
+  },
+  "qrCode": {
+    "title": "مشاركة الملف التعريفي",
+    "button": "مشاركة رمز الاستجابة السريعة"
+  },
+  "detailPage": {
+    "title": "صفحة تفاصيل جهة الاتصال",
+    "contactInfo": "معلومات جهة الاتصال",
+    "contactName": "اسم جهة الاتصال",
+    "jobTitle": "المسمى الوظيفي",
+    "email": "البريد الإلكتروني",
+    "phone": "رقم الهاتف",
+    "companyInfo": "معلومات الشركة",
+    "companyName": "اسم الشركة",
+    "country": "الدولة",
+    "address": "العنوان",
+    "website": "الموقع الإلكتروني",
+    "industry": "نوع الصناعة",
+    "whatsApp": "رقم واتساب",
+    "search": "بحث",
+    "expand": "توسيع الكل",
+    "leads": "العملاء المحتملين",
+    "inbox": "الوارد",
+    "analytics": "تحليلات",
+    "activity": "نشاط",
+    "information": "معلومات"
+  },
+  "summaryCard": {
+    "lifeCycle": "اختر علامة دورة الحياة",
+    "tag": "علامة دورة الحياة",
+    "selectTag": "اختر علامة دورة الحياة",
+    "source": "المصدر",
+    "contacted": "آخر تواصل",
+    "modified": "آخر تعديل بواسطة",
+    "convert": "تحويل إلى عميل",
+    "quote": "إرسال عرض"
+  },
+  "noInquiry": {
+    "title": "لا توجد استفسارات بعد، ابدأ محادثة جديدة!",
+    "subTitle": "كن سباقاً — أرسل رسالة إلى جهة الاتصال لزيادة الظهور والثقة والحصول على ردود أسرع."
+  },
+  "messageCard": {
+    "to": "إلى",
+    "subject": "الموضوع",
+    "message": "الرسالة",
+    "textLabel": "أدخل الرسالة",
+    "send": "إرسال"
+  }
+}

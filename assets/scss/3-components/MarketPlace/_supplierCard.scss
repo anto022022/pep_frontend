@@ -1,0 +1,55 @@
+.supplier-card-comp {
+    border-radius: 16px;
+    border: 1px solid $color-white-1;
+    background-color: $primary-solid-color;
+    box-shadow: $shadow-depth-1;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (max-width:600px) {
+        padding: 12px;
+    }
+
+    .product-image-card-group-comp {
+        margin-top: 24px;
+
+        @media screen and (max-width:600px) {
+            margin-top: 15px;
+        }
+
+        .p-i-c-g-c-item {
+            position: relative;
+            @media screen and (max-width:600px) {
+                width: 90px;
+            }
+        }
+
+        .p-i-c-g-c-i-img {
+            @media screen and (max-width:600px) {
+                width: 90px;
+                height: 90px;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .floating-block {
+        @media screen and (max-width:991px) {
+            padding: unset;
+            padding-top: 15px;
+            width: 100%;
+            overflow-x: auto;
+            display: none;
+
+            &::-webkit-scrollbar {
+                width: 0;
+                height: 0;
+            }
+        }
+
+        .btn-comp {
+            width: 100%;
+        }
+    }
+}

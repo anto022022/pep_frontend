@@ -1,0 +1,77 @@
+:root{
+    --red-primary: #e35e5e;
+    --green-primary: #3caf6a;
+    --yellow-primary: #d9ae0a;
+    --blue-primary: #009fd4;
+    --brown-primary: #bf7124;
+    --orange-primary: #F18501;
+    --pink-primary: #FC6C86;
+    --purple-primary    : #AF69EF;
+}
+
+.theme-color-red{
+    --primary-bg: #e35e5e;
+    --primary-tab-btn-bg: #f75959;
+    --primary-tab-btn-box-shadow: 0px 3px 11px rgba(247, 89, 89, 0.6);  
+    --primary-light-bg: #ffd0d0;  
+    --primary-light-bg-border-color: #f3a9a9;  
+    --primary-dark-bg: #953131;   
+}
+.theme-color-green{
+    --primary-bg: #3caf6a;
+    --primary-tab-btn-bg: #1ebd5e;
+    --primary-tab-btn-box-shadow: 0px 3px 11px rgba(30, 189, 94, 0.6);  
+    --primary-light-bg: #afe7c5;  
+    --primary-light-bg-border-color: #58cd87;  
+    --primary-dark-bg: #277446;      
+}
+.theme-color-yellow{
+    --primary-bg: #d9ae0a;
+    --primary-tab-btn-bg: #e3bc00;
+    --primary-tab-btn-box-shadow: 0px 3px 11px rgba(227, 188, 0, 0.6);
+    --primary-light-bg: #f3e19c;  
+    --primary-light-bg-border-color: #c39c08;  
+    --primary-dark-bg: #876d09;      
+}
+.theme-color-blue{
+    --primary-bg: #009fd4;
+    --primary-tab-btn-bg: #00aae3;
+    --primary-tab-btn-box-shadow: 0px 3px 11px rgba(0, 159, 212, 0.6);  
+    --primary-light-bg: #bdedfd;  
+    --primary-light-bg-border-color: #92cfe3;  
+    --primary-dark-bg: #027499;  
+}
+.theme-color-brown{
+    --primary-bg: #bf7124;
+    --primary-tab-btn-bg: rgb(207 109 12);
+    --primary-tab-btn-box-shadow: 0px 3px 11px rgba(207, 109, 12, 0.6); 
+    --primary-light-bg: #ffd7b0;  
+    --primary-light-bg-border-color: #c18651;  
+    --primary-dark-bg: #87511b;  
+}
+.theme-color-orange{
+    --primary-bg: #F18501;
+    --primary-tab-btn-bg: #ff8d02;
+    --primary-tab-btn-box-shadow: 0px 3px 11px rgba(255, 141, 2, 0.6);
+    --primary-light-bg: #fbc37f;  
+    --primary-light-bg-border-color: #d57f15;  
+    --primary-dark-bg: #a95f03;  
+}
+.theme-color-pink{
+    --primary-bg: #FC6C86;
+    --primary-tab-btn-bg: #fd5271;
+    --primary-tab-btn-box-shadow: 0px 3px 11px rgba(253, 82, 113, 0.6);
+    --primary-light-bg: #ffd0d8;  
+    --primary-light-bg-border-color: #d58b99;  
+    --primary-dark-bg: #dd3452;  
+}
+.theme-color-purple{
+    --primary-bg: #AF69EF;
+    --primary-tab-btn-bg: #ae56ff;
+    --primary-tab-btn-box-shadow: 0px 3px 11px rgba(174, 86, 255, 0.6);
+    --primary-light-bg: #d3b3f1;  
+    --primary-light-bg-border-color: #ab7ad7;  
+    --primary-dark-bg: #7e45b3;  
+}
+// black', 'white', 'red', 'green', 'yellow', 'blue', 'brown', 'orange', 'pink', 'purple',
+

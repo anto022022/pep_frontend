@@ -1,0 +1,199 @@
+.supplier-quote-card-comp {
+    border: 1px solid $badge-draft-bg;
+    border-radius: 10px;
+    background: $primary-solid-color;
+    overflow: hidden;
+
+    @media screen and (max-width:1200px) {
+        border: unset;
+        border-radius: unset;
+        background: $color-white-1;
+    }
+
+    .s-q-c-c-head {
+        border-bottom: 1px solid $badge-draft-bg;
+        background: $primary-solid-color;
+        padding: 20px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        @media screen and (max-width:1200px) {
+            display: none;
+        }
+
+        .s-q-c-c-h-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+
+            .s-q-c-c-h-i-txt {
+                color: $black;
+                font-family: $body-font;
+                font-size: 16px;
+                font-weight: 500;
+                letter-spacing: 0.28px;
+            }
+
+            .btn-comp {
+                &.b-c-icon {
+                    &.icon-only {
+                        padding: unset;
+                        width: auto;
+                        height: auto;
+                        min-width: auto;
+                        height: 16px;
+
+                        svg {
+                            width: 16px;
+                            height: 16px;
+                            min-width: 16px;
+
+                            path {
+                                stroke: $color-grey-22;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .s-q-c-c-body {
+        @media screen and (max-width:1200px) {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .s-q-c-c-b-item {
+            padding: 20px 15px;
+            border-bottom: 1px solid $color-grey-21;
+
+            @media screen and (max-width:1200px) {
+                padding: 0;
+                border-bottom: unset;
+                background: $primary-solid-color;
+            }
+
+            &:nth-child(odd) {
+                background-color: $bg-primary;
+
+                @media screen and (max-width:1200px) {
+                    background: $primary-solid-color;
+                }
+            }
+
+            &:last-child {
+                border-bottom: unset;
+            }
+        }
+
+        .company-info {
+            @media screen and (max-width:1200px) {
+               align-items: flex-start;
+            }
+
+            .c-i-img {
+                width: 65px;
+                height: 65px;
+                min-width: 65px;
+
+                @media screen and (max-width:767px) {
+                    width: 40px;
+                    height: 40px;
+                    min-width: 40px;
+                }
+
+                img {
+                    border-radius: 8px;
+                    border: 1px solid $color-grey-92;
+                    background: linear-gradient(0deg, #FFF 0%, #FFF 100%), #EAEAEA;
+                }
+            }
+
+            .c-i-details {
+                gap: 4px;
+
+                .c-i-d-title {
+                    line-height: unset;
+                }
+            }
+        }
+    }
+}
+
+.waiting-qoutes-block {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    height: 360px;
+    align-items: center;
+    justify-content: center;
+
+    .w-q-b-img {
+        margin: 0 auto;
+    }
+
+    .w-q-b-title {
+        color: $black;
+        font-family: $body-font;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0.18px;
+    }
+
+    .w-q-b-subtxt {
+        color: $black;
+        font-family: $body-font;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0.32px;
+    }
+}
+
+.seller-details-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+
+    .s-d-b-left {
+        @media screen and (max-width:1200px) {
+            padding: 15px 15px 0 15px;
+        }
+    }
+
+    .s-d-b-right {
+        @media screen and (max-width:1200px) {
+            border-top: 1px solid $color-grey-24;
+            border-bottom: 1px solid $color-grey-24;
+            width: 100%;
+            padding: 8px 15px;
+        }
+    }
+
+    .btn-comp {
+        &.btn-outline {
+            &.send-msg {
+                border: unset;
+                box-shadow: unset;
+
+                &:hover {
+                    background-color: unset;
+                }
+
+                svg {
+                    width: 25px;
+                    min-width: 25px;
+                    height: 25px;
+                }
+            }
+        }
+    }
+
+}

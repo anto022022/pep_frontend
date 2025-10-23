@@ -1,0 +1,303 @@
+.chip-input-dropdown {
+    width: 100%;
+    position: relative;
+
+    .f-i-chip {
+        &.p-chips {
+            .p-chips-multiple-container {
+                overflow: unset;
+
+                .p-chips-token {
+                    padding: unset;
+                    background: unset;
+                    display: block;
+
+                    .p-chips-token-label {
+                        .chip-custom {
+                            display: flex;
+                            align-items: center;
+                            min-width: 55px;
+                            justify-content: center;
+                            border-radius: 100px;
+                            padding: 0 15px;
+                            min-height: 23px;
+                            background-color: $color-blue-1;
+                            border: 1px dashed $color-blue-2;
+                            position: relative;
+                            transition: .2s all;
+
+                            &:hover {
+                                .chip-close {
+                                    cursor: pointer;
+                                    opacity: 1;
+                                    visibility: visible;
+                                    transition: .2s all;
+                                    width: 14px;
+                                    padding-left: 5px;
+                                }
+
+                                .click-accept-block {
+                                    transition: .2s all;
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                            }
+
+                            .chip-text {
+                                color: $color-grey-2;
+                                font-family: $body-font;
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: normal;
+                                letter-spacing: 0.21px;
+                            }
+
+                            .chip-close {
+                                position: relative;
+                                top: 1.5px;
+                                cursor: pointer;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition: .2s all;
+                                width: 0;
+                            }
+
+                            .click-accept-block {
+                                position: absolute;
+                                bottom: calc(100%);
+                                width: max-content;
+                                z-index: 9;
+                                opacity: 0;
+                                transition: .2s all;
+                                visibility: hidden;
+                                padding-bottom: 4px;
+
+                                .btn-click-accept {
+                                    border-radius: 6px;
+                                    border: 1px solid $primary-outlined-border;
+                                    background: $background-surface;
+                                    box-shadow: $shadow-depth-12;
+                                    color: $primary-outlined-color;
+                                    font-family: $body-font;
+                                    font-size: 12px;
+                                    font-weight: 500;
+                                    line-height: normal;
+                                    letter-spacing: 0.21px;
+                                    padding: 6px;
+                                    cursor: pointer;
+                                }
+                            }
+
+
+
+                            &.chip-selected {
+                                background-color: $color-grey-38;
+                                border: 1px dashed $color-grey-38;
+                                color: $color-grey-15;
+
+                                &:hover {
+
+                                    .click-accept-block,
+                                    .chip-close {
+                                        display: none;
+                                    }
+                                }
+
+                                .chip-text {
+                                    color: $color-grey-2;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .p-chips-input-token {
+                    input {
+                        color: $color-grey-15;
+                        font-family: $body-font;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: normal;
+                        letter-spacing: 0.21px;
+                    }
+                }
+
+                .p-chips-token-icon {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .c-i-d-dropdown-block {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        max-height: 0;
+        z-index: 1;
+
+        .c-i-d-d-b-ul {
+            border-radius: 8px;
+            border: 1px solid $primary-outlined-border;
+            background: $primary-solid-color;
+            box-shadow: $shadow-depth-13;
+            padding: 16px 12px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            max-height: 300px;
+            overflow-y: auto;
+
+            .forms-checkbox {
+
+                .f-r-label {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    &.mention-inputs-comp {
+        .f-i-chip {
+            &.p-chips {
+                border: unset;
+                box-shadow: unset;
+                padding: unset;
+
+                .p-chips-multiple-container {
+                    padding: unset;
+                    overflow-y: auto;
+                    max-height: 50px;
+
+                    .p-chips-token {
+                        .p-chips-token-label {
+                            .chip-custom {
+                                border: 1px solid $badge-approval-pending-border;
+                                background: $color-brown-1;
+                                padding: 2px 8px 2px 12px;
+
+                                .chip-text {
+                                    color: $badge-approval-pending-txt;
+                                    font-family: $secondary-body-font;
+                                    font-size: 13px;
+                                    font-weight: 500;
+                                    line-height: 17px;
+                                    letter-spacing: 0.36px;
+                                }
+
+                                .chip-close {
+                                    width: auto;
+                                    opacity: 1;
+                                    visibility: visible;
+                                    padding-left: 2.5px;
+                                    position: relative;
+                                    top: 1px;
+
+                                    svg {
+                                        path {
+                                            fill: $badge-approval-pending-txt;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .c-i-d-dropdown-block {
+            .c-i-d-d-b-ul {
+                border-radius: 8px;
+                border: 1px solid $color-grey-38;
+                background: $primary-solid-color;
+                box-shadow: $shadow-depth-24;
+                padding: unset;
+                gap: unset;
+
+                .suggest-txt {
+                    border-bottom: 1px solid $color-grey-21;
+                    padding: 10px 12px;
+
+                    .s-t-txt {
+                        color: $text-primary;
+                        font-family: $secondary-body-font;
+                        font-size: 14px;
+                        font-weight: 600;
+                        line-height: 150%;
+                    }
+                }
+
+                .profile-list-block {
+                    overflow-y: auto;
+                    max-height: 190px;
+                }
+
+                .profile-info-item {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    padding: 10px 12px;
+                    border-bottom: 1px solid $color-grey-21;
+
+                    .p-i-i-img {
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 100px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border: 1px solid $color-grey-92;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                            border-radius: 100px;
+                        }
+
+                        .p-i-i-i-short-name {
+                            color: $color-grey-85;
+                            font-family: $secondary-body-font;
+                            font-size: 14px;
+                            font-weight: 500;
+                            line-height: 150%;
+                        }
+
+                        &.bg-1 {
+                            background: rgba(255, 190, 27, 0.20);
+                        }
+
+                        &.bg-2 {
+                            background: #DAFCEA;
+                        }
+                    }
+
+                    .p-i-i-details {
+                        display: flex;
+                        flex-direction: column;
+
+                        span {
+                            font-family: $secondary-body-font;
+                        }
+
+                        .p-i-i-d-name {
+                            color: $color-grey-85;
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 24px;
+                        }
+
+                        .p-i-i-d-mail {
+                            color: $color-grey-88;
+                            font-size: 14px;
+                            font-weight: 500;
+                            line-height: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

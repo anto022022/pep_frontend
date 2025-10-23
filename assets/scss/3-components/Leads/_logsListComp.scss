@@ -1,0 +1,15 @@
+.logs-list-comp{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    .l-l-c-list{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .logs-card-block{
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+    }
+}

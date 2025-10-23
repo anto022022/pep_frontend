@@ -1,0 +1,100 @@
+{
+  "moduleName": "الإعدادات الشخصية",
+  "profileSettingsStepper": {
+    "Profile": "المعلومات الشخصية",
+    "Profile_1": "الملف الشخصي",
+    "NotificationPreferences": "تفضيلات الإشعارات",
+    "ChatPreferences": {
+      "title": "تفضيلات الدردشة",
+      "description": "قريباً..."
+    }
+  },
+  "profileSettings": {
+    "fieldsAddress": {
+      "firstName": "الاسم الأول",
+      "middleNameOptional": "اسم الأب (اختياري)",
+      "lastName": "اسم العائلة",
+      "workEmail": "البريد الإلكتروني للعمل",
+      "mobileNumber": "رقم الجوال",
+      "whatsappNumber": "رقم واتساب",
+      "jobTitle": "المسمى الوظيفي",
+      "additionalInformationOptional": "معلومات إضافية (اختياري)",
+      "optional":"(اختياري)",
+
+      "dateOfBirth": "تاريخ الميلاد",
+      "dobSubText": "يساعدنا هذا في التحقق من هويتك بأمان",
+      "address": "العنوان",
+      "country": "البلد",
+      "state": "الولاية",
+      "city": "المدينة",
+      "pinCode": "الرمز البريدي",
+      "enterPinCode": "أدخل الرمز البريدي",
+      "nationalIdType": "نوع الهوية الوطنية",
+      "nationalIdNumber": "رقم الهوية الوطنية",
+      "Select": "اختر",
+      "SameAsMobileNo": "نفس رقم الجوال",
+      "UploadProfilePic":"تحميل صورة الملف الشخصي",
+      "Uploading":"جارٍ التحميل..."
+    },
+    "formHelpers": {
+      "firstName": "أدخل اسمك الأول القانوني كما هو مسجل في عملك.",
+      "middleName": "أدخل اسم الأب القانوني كما هو مسجل في عملك.",
+      "lastName": "أدخل اسم العائلة الكامل كما هو مسجل في عملك.",
+      "workEmail": "بريدك الإلكتروني للعمل لتلقي التحديثات المتعلقة بالحساب",
+      "whatsapp": "أدخل رقم واتساب لتلقي العملاء والتحديثات فوراً."
+    },
+    "placeholder": {
+      "EnterEmail": "أدخل بريدك الإلكتروني",
+      "EnterPhoneNumber": "أدخل رقم هاتفك",
+      "EnterWhatsappNumber": "أدخل رقم الواتساب الخاص بك",
+      "EnterJobTitle": "أدخل المسمى الوظيفي",
+      "EnterAdditionalInformation": "أدخل معلومات إضافية",
+      "Select": "اختر",
+      "EnterNationalIdType": "أدخل نوع بطاقة الهوية الوطنية",
+      "EnterPinCode": "أدخل الرمز البريدي",
+      "enteraddresline1": "أدخل السطر الأول من العنوان",
+      "owner": "أدخل اسم المالك",
+      "nationalIdNumber": "أدخل رقم الهوية الوطنية",
+      "EnterAddress": "أدخل العنوان"
+    } 
+  },
+  "notificationPreferences": {
+    "Notifications": "الإشعارات",
+    "Email": "البريد الإلكتروني",
+    "Mobile": "الجوال",
+    "General": {
+      "title": "التحديثات العامة",
+      "menu_1": {
+        "title": "رسالة",
+        "subTitle": "أعلمني عند استلام استفسار أو رد جديد"
+      },
+      "menu_2": {
+        "title": "المتابعة",
+        "subTitle": "ذكرني بالمتابعة بعد 48 ساعة من عدم الرد"
+      },
+      "menu_3": {
+        "title": "تنبيهات الصفقات",
+        "subTitle": "ذكرني بالمتابعة بعد 48 ساعة من عدم الرد"
+      }
+    },
+    "Platform": {
+      "title": "تحديثات المنصة",
+      "menu_1": {
+        "title": "تحديث الميزة",
+        "subTitle": "أعلمني بتحديثات الميزات الجديدة"
+      },
+      "menu_2": {
+        "title": "تحديثات المنتج والعمل",
+        "subTitle": "أعلمني بتحديثات المنتج والعمل"
+      },
+      "menu_3": {
+        "title": "العروض الترويجية",
+        "subTitle": "أعلمني بالعروض الترويجية من بيباجورا (وصول مبكر، خصومات، إلخ)"
+      },
+      "menu_4": {
+        "title": "الرؤى والاتجاهات",
+        "subTitle": "أعلمني بالرؤى والاتجاهات الأسبوعية"
+      }
+    }
+  }
+}

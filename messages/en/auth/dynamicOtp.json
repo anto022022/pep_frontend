@@ -1,0 +1,18 @@
+{
+  "otpPage": {
+    "backButton": "Back",
+    "title": "Enter code",
+    "subtitle": "Please enter the 6 digit code we sent to your {title} account registered with {payload}",
+    "subtitle-wa": "Please enter the 6 digit code we sent to your Whatsapp account registered with {payload}.",
+    "subtitle-sms": "Enter the 6-digit code we sent via SMS to {payload}.",
+    "otpInput": {
+      "error": "Invalid code. Please try again."
+    },
+    "resend": {
+      "label": "Resend in {minutes}:{seconds}",
+      "button": "Resend OTP"
+    },
+    "submitting": "Submitting...",
+    "paste_code": "Paste Code"
+  }
+}

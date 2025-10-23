@@ -1,0 +1,61 @@
+{
+  "contactForm": {
+    "title": "नए संपर्क को जोड़े",
+    "searchContactButton": {
+      "title": "मौजूदा संपर्क/ग्राहक",
+      "subtitle": "अपने संपर्कों और ग्राहकों से ब्राउज़ करें"
+    },
+    "addContactButton": {
+      "title": "संपर्क जोड़ें",
+      "subtitle": "अपनी सूची में शीघ्रता से एक नया संपर्क जोड़ें"
+    },
+    "contactPicker": {
+      "searchContacts": "संपर्क खोजें...",
+      "noContactsFound": "कोई संपर्क नहीं मिला",
+      "label": "एक संपर्क चुनें"
+    }
+  },
+  "contactDetails": {
+    "title": "संपर्क जानकारी",
+    "name": {
+      "label": "नाम",
+      "placeholder": "नाम दर्ज करें"
+    },
+    "email": {
+      "label": "ईमेल",
+      "placeholder": "ईमेल दर्ज करें"
+    },
+    "phoneNo": {
+      "label": "फोन नंबर",
+      "placeholder": "फ़ोन दर्ज करें"
+    },
+    "whatsappNo": {
+      "label": "व्हाट्सएप नंबर",
+      "placeholder": "व्हाट्सएप नंबर दर्ज करें"
+    },
+    "company": {
+      "label": "कंपनी का नाम (वैकल्पिक)",
+      "placeholder": "कंपनी का नाम दर्ज करें"
+    },
+    "jobTitle": {
+      "label": "पदनाम (वैकल्पिक)",
+      "placeholder": "पदनाम दर्ज करें"
+    },
+    "country": {
+      "label": "देश",
+      "placeholder": "देश दर्ज करें"
+    },
+    "state": {
+      "label": "राज्य",
+      "placeholder": "राज्य दर्ज करें"
+    },
+    "city": {
+      "label": "शहर",
+      "placeholder": "शहर दर्ज करें"
+    },
+    "zipCode": {
+      "label": "पिन कोड",
+      "placeholder": "पिन कोड दर्ज करें"
+    }
+  }
+}

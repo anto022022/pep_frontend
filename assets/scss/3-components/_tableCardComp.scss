@@ -1,0 +1,112 @@
+.table-card-comp {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 15px;
+    width: 100%;
+    border-bottom: 1px solid $color-grey-109;
+    background: $primary-solid-color;
+    user-select: none;
+    -webkit-user-select: none;
+    position: relative;
+
+    .forms-checkbox {
+        gap: unset;
+        transition: .3s all;
+        opacity: 0;
+        visibility: hidden;
+        width: 0;
+    }
+
+    .t-c-c-left {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .t-c-c-l-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+
+        .stock-txt {
+            text-align: center;
+            font-size: 11px;
+
+            &.instock {
+                color: $badge-active-txt;
+            }
+
+            &.out-of-stock {
+                color: $lost;
+            }
+
+            &.limited-stock {
+                color: $quote;
+            }
+        }
+    }
+
+    .t-c-c-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .t-c-c-img {
+        border-radius: 8px;
+        width: 70px;
+        min-width: 70px;
+        height: 70px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+    }
+
+    .t-c-c-info {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        width: 100%;
+    }
+
+    .table-badge-comp {
+        font-size: 12px;
+        line-height: normal;
+        padding: 3px 8px;
+        font-size: 10px;
+    }
+
+    .t-c-c-txt {
+        color: $color-grey-2;
+        font-family: $secondary-body-font;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: normal;
+        @include line-clamp(1);
+
+        &.txt-bold {
+            font-weight: 600;
+        }
+    }
+
+    .colored-block {
+        svg {
+            width: 16px;
+            min-width: 16px;
+            height: 16px;
+        }
+    }
+
+    .colored-txt {
+        font-size: 11px;
+        line-height: normal;
+        white-space: nowrap;
+    }
+}

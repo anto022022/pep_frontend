@@ -1,0 +1,185 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+div,
+span,
+object,
+iframe,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: unset;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: none;
+    text-decoration: unset;
+}
+
+footer,
+header,
+nav,
+section,
+main {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input,
+select,
+textarea {
+    border-radius: 0;
+
+    &:focus-visible {
+        outline: unset;
+    }
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+
+input[type=radio] {
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    min-height: 20px;
+    margin-top: unset;
+    vertical-align: top;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: $neutral-soft-bg;
+    border: 1px solid $primary-outlined-border;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    border-radius: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+input[type=radio]:checked {
+    background-color: #000;
+    border-color: #000;
+    background-image: url('../img/icons/radio-dot.svg');
+}
+
+.check-radio {
+    input[type=radio]:checked {
+        background-image: url('../img/icons/check-tick.svg');
+    }
+}
+
+// Disable tap highlight color
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* Autofill styling */
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    -webkit-text-fill-color: $text-primary !important;
+    /* Enforce white text color */
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+    /* Transparent background */
+    transition: background-color 9999s ease-in-out 0s, color 9999s ease-in-out 0s;
+    /* Keep styles applied */
+}
+
+/* Autofill styling on focus to ensure consistency */
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill:focus {
+    -webkit-text-fill-color: $text-primary !important;
+    /* Enforce white text color on focus */
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    input {
+        color: $text-primary;
+    }
+}

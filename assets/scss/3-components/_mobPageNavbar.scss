@@ -1,0 +1,35 @@
+.mob-page-navbar-comp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    border-bottom: 1px solid $color-grey-14;
+    background: $primary-solid-color;
+    padding: 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+
+    .m-p-n-c-left,
+    .m-p-n-c-right {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        .m-b-n-c-l-title {
+            color: $text-primary;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 20px;
+            @include line-clamp(1);
+        }
+    }
+
+    .search-icon {
+        min-width: 24px;
+        width: 24px;
+        height: 25px;
+    }
+}

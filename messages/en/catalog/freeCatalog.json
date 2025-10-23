@@ -1,0 +1,528 @@
+{
+  "stepper": {
+    "homepage": {
+      "title": "Homepage",
+      "description": "Showcase brand identity, highlight hero campaigns, and guide users to featured products"
+    },
+    "products": {
+      "title": "Products",
+      "description": "Showcase upto 25 Products on your website."
+    }
+  },
+  "homepage": {
+    "title": "Homepage",
+    "description": "Showcase brand identity, highlight hero campaigns, and guide users to featured products",
+    "alert": {
+      "productVisible": "This product will be visible once all the required details are uploaded."
+    },
+    "fields": {
+      "ownerName": {
+        "label": "Legal Owner Name",
+        "placeholder": "Enter Legal Owner Name"
+      },
+      "businessType": {
+        "label": "Legal Status",
+        "placeholder": "Select Legal Status"
+      },
+      "businessTypeSpecific": {
+        "label": "Business Type",
+        "placeholder": "Select Business Type"
+      },
+      "industry": {
+        "label": "Industry",
+        "placeholder": "Select Industry"
+      }
+    },
+    "businessTypeSpecific": {
+      "options": {
+        "manufacturer": "Manufacturer",
+        "distributor_wholesaler": "Distributor / Wholesaler",
+        "tradingCompany": "Trading Company",
+        "retailer": "Retailer",
+        "importerExporter": "Importer / Exporter"
+      }
+    },
+    "errors": {
+      "businessTypeSpecificRequired": "Business Type is required"
+    }
+  },
+  "businessTypes": {
+    "unregister": {
+      "title": "Unregistered Business",
+      "subtitle": "Owned by one person and not registered with the government"
+    },
+    "register": {
+      "title": "Registered Business",
+      "subtitle": "Includes LLCs, partnerships, sole proprietorships, or corporations"
+    },
+    "nonprofit": {
+      "title": "Nonprofit Organization",
+      "subtitle": "Tax-exempt organizations recognized by government authorities"
+    }
+  },
+  "multiSelect": {
+    "selectAll": "Select All",
+    "unselectAll": "Unselect All"
+  },
+  "continue": "Continue",
+  "processing": "Submitting...",
+  "errors": {
+    "businessLocation": "Business location is required",
+    "businessType": "Business type is required"
+  },
+  "products": {
+    "title": "Products",
+    "description": "Showcase upto 25 Products on your website.",
+    "tab": {
+      "all": {
+        "name": "All"
+      },
+      "selected": {
+        "name": "Selected"
+      },
+      "unSelected": {
+        "name": "Un Selected"
+      }
+    },
+    "tableHeaders": {
+      "addRemove": "Toggle to enable disable product visibility"
+    },
+    "modal": {
+      "title": "Your online catalog is ready to go live!",
+      "planLabel": "Start",
+      "planValueFree": "Free",
+      "change": "Change",
+      "launchCta": "Launch →"
+    }
+  },
+  "subdomain": {
+    "title": "URL Setup",
+    "readyTitle": "Almost there! Your Online Catalog Is Ready to Go Live!",
+    "readySubtitle": "To launch catalog, please set your custom domain URL and subdomain URL. This will allow you to create and share a personalized, branded catalog with your customers.",
+    "goPublicTitle": "Go Public with Your Pepagora Catalog",
+    "goPublicSubtitle": "Your storefront will appear under this unique Pepagora URL — making your business searchable and sharable instantly.",
+    "billing": {
+      "yearly": "Yearly",
+      "monthly": "Monthly"
+    },
+    "sslMonthly": "SSL Monthly",
+    "sslYearly": "SSL Yearly",
+    "comparePlans": "Compare Plans",
+    "badges": {
+      "mostPopular": "Most Popular",
+      "mostAdvanced": "Most Advanced"
+    },
+    "enterprise": {
+      "strikePrice": "Start from ${price}"
+    },
+    "actions": {
+      "chooseFree": "Choose Free",
+      "contactSales": "Contact Sales",
+      "choosePackageCta": "Choose {name}"
+    },
+    "toasts": {
+      "validationErrorTitle": "Validation Error",
+      "validationErrorMessage": "Please enter a subdomain before continuing.",
+      "warningTitle": "Warning",
+      "subdomainExists": "Subdomain already exists. Please choose another one.",
+      "successTitle": "Success!",
+      "updated": "Subdomain successfully updated",
+      "errorTitle": "Error!",
+      "updateFailed": "Something went wrong while updating the subdomain."
+    },
+    "packages": {
+      "free": {
+        "name": "Free",
+        "price": "Free",
+        "description": "Perfect for small to medium businesses",
+        "features": [
+          "No code Content Management",
+          "Enterprise-Grading Hosting(AWS)",
+          "CDN for Global Speed",
+          "Basic Catalog"
+        ]
+      },
+      "grow": {
+        "name": "Grow",
+        "description": "Perfect for small to medium businesses",
+        "features": [
+          "Storefront with single website with features",
+          "No-Code website management",
+          "E-mail and phone support",
+          "Trusted SSL certificate",
+          "Live chat and phone integration",
+          "4+ Languages for your website",
+          "Basic Blog"
+        ]
+      },
+      "scale": {
+        "name": "Scale",
+        "description": "Everything from growing businesses",
+        "features": [
+          "More Business Plus",
+          "Connect your own domain from multiple portals",
+          "Dedicated account manager",
+          "Trusted SSL certificate backup",
+          "Trusted SSL certificate backup",
+          "Premium website service support"
+        ]
+      },
+      "global": {
+        "name": "Global",
+        "description": "2 websites included with advanced features",
+        "features": [
+          "All Expert Features Plus",
+          "Store catalog with No-Bugs and multi-currency",
+          "Advanced reporting and multi-currency layout",
+          "10 Integrations included with channels",
+          "Priority chat and phone support",
+          "Store distribution levels",
+          "50+ Language and other websites"
+        ]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "description": "Everything included with unlimited features",
+        "features": [
+          "All Social Features Plus",
+          "Fully customizable website & API integration",
+          "200 Integrations included with channels",
+          "High-end performance backups",
+          "Enhanced chat support",
+          "Trusted/verified enterprise-grade verification",
+          "International business profile access",
+          "Enterprise infrastructure support"
+        ]
+      }
+    }
+  },
+  "catalog": {
+    "header": {
+      "title": "Template Manager",
+      "preview": "Preview",
+      "edit": "Edit"
+    },
+    "view": {
+      "getLiveTitle": "Lets Get Your Catalog Live in 3 Simple Steps!",
+      "setupWebsite": "Setup Website",
+      "launchMainTitle": "Launch Your Business Online in 3 Simple Steps!",
+      "launchMainSub": "Create a powerful digital catalog, build trust with verified credentials, and showcase your products to the world — all from one place"
+    },
+    "steps": {
+      "choosePackage": {
+        "title": "1. Choose Package",
+        "sub": "Select a package that fits your needs"
+      },
+      "addContent": {
+        "title": "2. Add Content",
+        "sub": "Upload Business Info, banners and products"
+      },
+      "launch": {
+        "title": "3. Launch",
+        "sub": "Make your catalog public on a domain"
+      }
+    },
+    "successDialog": {
+      "title": "Success! Your Catalog is Published",
+      "subTxt": "It's now waiting for admin approval. We'll notify you once it's live!",
+      "ok": "Okay"
+    },
+    "tabs": {
+      "products": "Products",
+      "profile": "Profile",
+      "contacts": "Contact"
+    },
+    "actions": {
+      "contactSuppliers": "Contact Supplier",
+      "share": "Share",
+      "wishlist": "Wishlist",
+      "seePlans": "See Plans",
+      "requestQuote": "Request a Quote",
+      "shareTitle": "My Page",
+      "shareText": "Check out this amazing page!",
+      "shareNotSupported": "Your browser does not support native sharing."
+    },
+    "feed": {
+      "title": "Take your Business to next level",
+      "features": {
+        "unlimitedProducts": "Unlimited Products Display",
+        "leadsLevel": "5X leads Level 1 Products Display",
+        "ownDomain": "Own Domain Website"
+      },
+      "seePlans": "See Plans"
+    },
+    "analytics": {
+      "title": "Analytics",
+      "views": "Views",
+      "impressions": "Impressions",
+      "lastEdited": "Last Edited",
+      "lastEditedBy": "Last Edited By",
+      "status": "Status",
+      "catalogLink": "Catalog Link",
+      "active": "Active",
+      "pending": "Pending",
+      "published": "Published",
+      "verifyPending": "Verify Pending..."
+    },
+    "filters": {
+      "sortBy": {
+        "label": "Sort By:",
+        "options": {
+          "select": "-- Select --",
+          "latest": "Latest",
+          "priceLowHigh": "Price: Low to High",
+          "priceHighLow": "Price: High to Low"
+        }
+      },
+      "stockStatus": {
+        "label": "Stock Status:",
+        "all": "All",
+        "inStock": "In Stock",
+        "outOfStock": "Out of Stock"
+      },
+      "priceRange": {
+        "label": "Price Range:"
+      },
+      "apply": "Apply"
+    },
+    "packageSidebar": {
+      "title": "Choose a Package",
+      "savePercentYearly": "Save {percent}% on Yearly",
+      "mostPopularShort": "Most Popular",
+      "startingAt": "Starting at",
+      "monthlySuffix": "/monthly, great for building traction",
+      "knowMore": "Know more"
+    },
+    "breadcrumb": {
+      "apparels": "Apparels",
+      "suppliers": "Suppliers"
+    },
+    "common": {
+      "loading": "Loading..."
+    },
+    "contactFlow": {
+      "needHelp": "Need help?",
+      "mainHeading": "Tell us what you need - we'll do the rest",
+      "features": {
+        "postRequirement": {
+          "title": "Post your requirement",
+          "description": "Tell us what you are looking for — product, quantity, location"
+        },
+        "matchSellers": {
+          "title": "We match you with sellers",
+          "description": "Verified suppliers get notified instantly"
+        },
+        "getOffers": {
+          "title": "Get offers directly",
+          "description": "Compare deals, chat, and close the best one"
+        }
+      },
+      "postRequirementButton": "Post Your Requirement",
+      "notification": {
+        "title": "Received Quote from Number One Industrial Co.,Ltd",
+        "topMember": "Top Member",
+        "country": "CN",
+        "time": "1 hr"
+      },
+      "workerImageAlt": "Industrial worker with laptop"
+    },
+    "footer": {
+      "listCompany": "List your Company",
+      "forFree": "For Free",
+      "joinAsSupplier": "Join as Supplier",
+      "lookingTo": "Looking to",
+      "sourceProducts": "Source Products?",
+      "postBuyingRequest": "Post Buying Request",
+      "getToKnowUs": "Get to Know Us",
+      "trustCenter": "Trust Center",
+      "aboutPepagora": "About Pepagora",
+      "leadershipAdvisors": "Leadership & Advisors",
+      "impactAtPepagora": "Impact at Pepagora",
+      "innovationAtPepagora": "Innovation at Pepagora",
+      "mediaPress": "Media & Press",
+      "careers": "Careers",
+      "contactUs": "Contact Us",
+      "blog": "Blog",
+      "sales": "Sales",
+      "sourcing": "Sourcing",
+      "marketing": "Marketing",
+      "productUpdates": "Product Updates",
+      "industries": "Industries",
+      "apparelFashion": "Apparel & Fashion",
+      "industrialEquipmentMachinery": "Industrial Equipment & Machinery",
+      "homeLifestyle": "Home & Lifestyle",
+      "healthPersonalCare": "Health & Personal Care",
+      "foodAgriculture": "Food & Agriculture",
+      "constructionRealEstate": "Construction & Real Estate",
+      "electronicsElectrical": "Electronics & Electrical",
+      "automotiveTransport": "Automotive & Transport",
+      "rawMaterialsChemicals": "Raw Materials & Chemicals",
+      "sportsEntertainment": "Sports & Entertainment",
+      "toolsHardware": "Tools & Hardware",
+      "packagingPrinting": "Packaging & Printing",
+      "officeSuppliesEquipment": "Office Supplies & Equipment",
+      "serviceSupport": "Service & Support",
+      "businessTools": "Business Tools",
+      "postSellOffer": "Post Sell Offer",
+      "createBusinessWebsite": "Create your Business Website",
+      "manageLeads": "Manage Your Leads",
+      "manageCustomers": "Manage your Customers",
+      "postBuyingRequestRfq": "Post a Buying Request (RFQ)",
+      "getInstantSupplierMatch": "Get Instant Supplier Match",
+      "becomeVerifiedMember": "Become a Verified Member",
+      "partners": "Partners",
+      "affiliateProgram": "Affiliate Program",
+      "channelPartner": "Channel Partner",
+      "pricing": "Pricing",
+      "startingFromPrice": "Starting from 10$ per month",
+      "helpLegal": "Help & Legal",
+      "helpCenter": "Help Center",
+      "faqs": "FAQ's",
+      "refundCancellation": "Refund & Cancellation",
+      "dataProtectionGuidelines": "Data Protection Guidelines",
+      "termsPrivacyPolicy": "Terms & Privacy Policy",
+      "company": "Company",
+      "browseByIndustries": "Browse by Industries",
+      "supportLegal": "Support & Legal",
+      "businessSolutions": "Business Solutions",
+      "resources": "Resources",
+      "globalSites": "Global Sites",
+      "english": "English",
+      "espanol": "Español",
+      "deutsch": "Deutsch",
+      "francais": "Français",
+      "portugues": "Português",
+      "bahasa": "Bahasa",
+      "indonesia": "Indonesia",
+      "arabic": "العربية",
+      "getTipsTrendsTradeUpdates": "Get tips, trends & trade updates straight to your inbox.",
+      "enterYourEmail": "Enter your email",
+      "subscribe": "Subscribe",
+      "serving": "Serving",
+      "india": "India",
+      "enEnglish": "EN - English",
+      "frFrench": "FR - French",
+      "deGerman": "DE - German",
+      "copyright": "Copyright © 2025 Pepagora.com All rights reserved"
+    },
+    "relativeSuppliers": {
+      "title": "Other Suppliers",
+      "loadError": "Failed to load suppliers",
+      "supplierLogoAlt": "Supplier Logo",
+      "notAvailable": "N/A",
+      "years": "yrs",
+      "productAlt": "Product {number}"
+    },
+    "companySection": {
+      "iecNumber": "IEC Number",
+      "noProductionLines": "No. Production Lines",
+      "annualProductionCapacity": "Annual Production Capacity",
+      "annualOutputValue": "Annual Output Value",
+      "exportPercentage": "Export Percentage",
+      "mainMarkets": "Main Markets",
+      "nearestPort": "Nearest Port",
+      "languageSpoken": "Language Spoken",
+      "catalogOwnerLogoAlt": "Catalog Owner Logo",
+      "verificationStatus": "Verification Status",
+      "verificationStatusAlt": "Verification Status",
+      "verified": "Verified",
+      "verifyPending": "Verify Pending...",
+      "legalOwnerAlt": "Legal Owner",
+      "companyRegistrationNumber": "Company Registration Number",
+      "yearOfEstablishment": "Year of Establishment",
+      "yearOfEstablishmentAlt": "Year of Establishment",
+      "businessTypeAlt": "Business Type",
+      "gst": "GST",
+      "noOfEmployees": "No. of Employees",
+      "noOfEmployeesAlt": "No. of Employees",
+      "people": "People",
+      "registeredOfficeSizeAlt": "Registered Office Size",
+      "paymentMethods": "Payment Methods",
+      "annualTurnoverAlt": "Annual Turnover",
+      "turnover": "Turnover",
+      "contractManufacturing": "Contract Manufacturing",
+      "contractManufacturingAlt": "Contract Manufacturing",
+      "certification": "Certification",
+      "certificationAlt": "Certification",
+      "legalStatusAlt": "Legal Status",
+      "shippingModes": "Shipping Modes",
+      "no": "No"
+    },
+    "enquirySection": {
+      "title": "Connect with this supplier",
+      "fields": {
+        "name": "Name",
+        "email": "Email",
+        "mobile": "Mobile",
+        "country": "Country",
+        "message": "Message"
+      },
+      "placeholders": {
+        "fullName": "Full Name (as per business card)",
+        "businessEmail": "Business Email Address",
+        "mobileWhatsapp": "Mobile / WhatsApp Number",
+        "message": "Briefly describe your requirement. E.g., Product type, specs, quantity, target price, delivery needs."
+      },
+      "selectOption": "Select Option",
+      "countries": {
+        "india": "India"
+      },
+      "sending": "Sending...",
+      "send": "Send",
+      "validation": {
+        "nameRequired": "Name is required",
+        "nameMinLength": "Name must be at least 2 characters",
+        "nameFormat": "Name should only contain letters and spaces",
+        "emailRequired": "Email is required",
+        "emailFormat": "Please enter a valid email address",
+        "mobileRequired": "Mobile number is required",
+        "mobileFormat": "Please enter a valid mobile number (minimum 10 digits)",
+        "countryRequired": "Please select a country",
+        "messageRequired": "Message is required",
+        "messageMinLength": "Message must be at least 10 characters",
+        "messageMaxLength": "Message cannot exceed 5000 characters"
+      },
+      "toast": {
+        "validationError": {
+          "title": "Validation Error",
+          "message": "Please fix the errors in the form"
+        },
+        "error": {
+          "title": "Error",
+          "noId": "No catalog ID provided",
+          "failed": "Failed to submit enquiry. Please try again."
+        },
+        "warning": {
+          "title": "Warning!",
+          "alreadyEnquired": "Enquiry form Already submitted by this email id or mobile number"
+        },
+        "success": {
+          "title": "Success!",
+          "created": "Enquiry form created successfully"
+        }
+      }
+    },
+    "productList": {
+      "noProducts": "No products available.",
+      "notAvailable": "N/A",
+      "minOrder": "Min. order",
+      "all": "All",
+      "loadMore": "Load More Products"
+    },
+    "stepCards": {
+      "completeProfile": {
+        "title": "Complete your profile",
+        "description": "Fill in your business and personal details to set up your account."
+      },
+      "verifyBusiness": {
+        "title": "Verify Your Business (KYC/KYB)",
+        "description": "Upload your verification documents like GST, PAN, or Business Registration to build trust and authenticity."
+      },
+      "addFirstProduct": {
+        "title": "Add Your First Product",
+        "description": "Add at least one product and super admin should approve the product to start showcasing.",
+        "linkText": "Add Products"
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "moduleName": "व्यक्तिगत सेटिंग्स",
+  "profileSettingsStepper": {
+    "Profile": "व्यक्तिगत जानकारी",
+    "Profile_1": "प्रोफ़ाइल",
+    "NotificationPreferences": "सूचना प्राथमिकताएं",
+    "ChatPreferences": {
+      "title": "चैट प्राथमिकताएं",
+      "description": "जल्द आ रहा है..."
+    }
+  },
+
+  "profileSettings": {
+    "fieldsAddress": {
+      "firstName": "पहला नाम",
+      "middleNameOptional": "मध्य नाम (वैकल्पिक)",
+      "lastName": "अंतिम नाम",
+      "workEmail": "काम का ईमेल",
+      "mobileNumber": "मोबाइल नंबर",
+      "whatsappNumber": "व्हाट्सऐप नंबर",
+      "jobTitle": "पदनाम",
+      "additionalInformationOptional": "अतिरिक्त जानकारी ",
+      "optional":"(वैकल्पिक)",
+
+      "dateOfBirth": "जन्म तिथि",
+      "dobSubText": "यह आपकी पहचान को सुरक्षित रूप से सत्यापित करने में मदद करता है",
+      "address": "पता",
+      "country": "देश",
+      "state": "राज्य",
+      "city": "शहर",
+      "pinCode": "पिन कोड",
+      "enterPinCode": "पिन कोड दर्ज करें",
+      "nationalIdType": "राष्ट्रीय पहचान प्रकार",
+      "nationalIdNumber": "राष्ट्रीय पहचान संख्या",
+      "Select": "चुनें",
+      "SameAsMobileNo": "मोबाइल नंबर के समान",
+      "UploadProfilePic": "प्रोफ़ाइल चित्र अपलोड करें",
+      "Uploading":"अपलोड हो रहा है..."
+    },
+    "formHelpers": {
+      "firstName": "अपने व्यवसाय के साथ पंजीकृत कानूनी पहला नाम दर्ज करें।",
+      "middleName": "अपने व्यवसाय के साथ पंजीकृत कानूनी मध्य नाम दर्ज करें।",
+      "lastName": "अपने व्यवसाय के साथ पंजीकृत पूरा अंतिम नाम दर्ज करें।",
+      "workEmail": "खाता संबंधित अपडेट के लिए आपका संपर्क कार्य ईमेल",
+      "whatsapp": "व्यवसाय के लीड और अपडेट तुरंत प्राप्त करने के लिए अपना व्हाट्सऐप सक्षम नंबर दर्ज करें।"
+    },
+    "placeholder": {
+      "EnterEmail": "अपना ईमेल दर्ज करें",
+      "EnterPhoneNumber": "अपना फोन नंबर दर्ज करें",
+      "EnterWhatsappNumber": "अपना व्हाट्सएप नंबर दर्ज करें",
+      "EnterJobTitle": "अपना पद दर्ज करें",
+      "EnterAdditionalInformation": "अतिरिक्त जानकारी दर्ज करें",
+      "Select": "चुनें",
+      "EnterNationalIdType": "अपना राष्ट्रीय पहचान पत्र प्रकार दर्ज करें",
+      "EnterPinCode": "अपना पिन कोड दर्ज करें",
+      "enteraddresline1": "पता पंक्ति 1 दर्ज करें",
+      "owner": "मालिक का नाम दर्ज करें",
+      "nationalIdNumber": "अपना राष्ट्रीय पहचान संख्या दर्ज करें",
+      "EnterAddress": "अपना पता दर्ज करें"
+    }
+  },
+  "notificationPreferences": {
+    "Notifications": "सूचनाएं",
+    "Email": "ईमेल",
+    "Mobile": "मोबाइल",
+    "General": {
+      "title": "सामान्य अपडेट",
+      "menu_1": {
+        "title": "संदेश",
+        "subTitle": "जब मुझे नया पूछताछ, प्रतिक्रिया मिले तो सूचित करें"
+      },
+      "menu_2": {
+        "title": "फॉलो अप",
+        "subTitle": "48 घंटे बिना जवाब के बाद मुझे फॉलो अप करने की याद दिलाएं"
+      },
+      "menu_3": {
+        "title": "डील अलर्ट",
+        "subTitle": "48 घंटे बिना जवाब के बाद मुझे फॉलो अप करने की याद दिलाएं"
+      }
+    },
+    "Platform": {
+      "title": "प्लेटफ़ॉर्म अपडेट",
+      "menu_1": {
+        "title": "फ़ीचर अपडेट",
+        "subTitle": "मुझे नए फ़ीचर अपडेट के बारे में सूचित करें"
+      },
+      "menu_2": {
+        "title": "उत्पाद और व्यवसाय अपडेट",
+        "subTitle": "मुझे उत्पाद और व्यवसाय अपडेट के बारे में सूचित करें"
+      },
+      "menu_3": {
+        "title": "प्रमोशन",
+        "subTitle": "Pepagora से प्रमोशन के बारे में सूचित करें (प्रारंभिक पहुँच, छूट आदि)"
+      },
+      "menu_4": {
+        "title": "जानकारी और रुझान",
+        "subTitle": "मुझे साप्ताहिक जानकारी और रुझानों के बारे में सूचित करें"
+      }
+    }
+  }
+}

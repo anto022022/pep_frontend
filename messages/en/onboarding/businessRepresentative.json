@@ -1,0 +1,36 @@
+{
+  "title": "Verify Your Business Representative Details",
+  "description": "This information helps us confirm your identity, ensure account security, and meet regulatory requirements. For more details, check our Privacy Policy.",
+  "firstName": {
+    "label": "First Name",
+    "placeholder": "John",
+    "helper": "Enter your First legal name as registered with your business."
+  },
+  "midName": {
+    "label": "Middle Name(Optional)",
+    "placeholder": "Mark",
+    "helper": "Enter your Middle legal name as registered with your business."
+  },
+  "lastName": {
+    "label": "Last Name",
+    "placeholder": "Anthony",
+    "helper": "Enter your Last legal name as registered with your business."
+  },
+  "email": {
+    "label": "Work Email",
+    "placeholder": "example@business.com",
+    "helper": "Your contact email for account-related updates"
+  },
+  "jobTitle": {
+    "label": "Job Title",
+    "placeholder": "CEO, Manager, Partner"
+  },
+  "phoneNo": {
+    "label": "Phone Number",
+    "placeholder": "0000000000"
+  },
+  "buttons": {
+    "continue": "Continue",
+    "processing": "Submitting..."
+  }
+}

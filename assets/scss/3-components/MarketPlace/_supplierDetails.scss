@@ -1,0 +1,302 @@
+.supplier-details-card {
+    border-radius: 16px;
+    background-color: $primary-solid-color;
+
+    .s-d-c-body {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        padding: 24px 24px 16px 24px;
+
+        @media screen and (max-width:991px) {
+            flex-direction: column;
+        }
+
+        @media screen and (max-width:600px) {
+            padding: 15px 15px 16px 15px;
+        }
+
+        .s-d-c-b-left,
+        .s-d-c-b-right {
+            width: 50%;
+
+            @media screen and (max-width:991px) {
+                width: 100%;
+            }
+        }
+
+        .s-d-c-b-left {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+
+    .s-d-c-footer {
+        border-top: 1px solid $color-grey-24;
+        padding: 8px 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+
+        @media screen and (max-width:600px) {
+            flex-direction: column-reverse;
+            padding: 8px 15px;
+        }
+
+        .s-d-c-f-right {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+            @media screen and (max-width:600px) {
+                width: 100%;
+                overflow-x: auto;
+                white-space: nowrap;
+
+                &::-webkit-scrollbar {
+                    width: 0;
+                    height: 0;
+                }
+            }
+
+            @media screen and (min-width:425px) {
+                justify-content: center;
+            }
+        }
+
+        .btn-comp {
+            .b-c-txt {
+                font-size: 14px;
+                font-family: $body-font;
+                font-weight: 400;
+            }
+        }
+    }
+
+    .product-image-card-group-comp {
+        justify-content: flex-start;
+        max-width: none;
+    }
+}
+
+.company-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .c-i-img {
+        width: 48px;
+        height: 48px;
+        min-width: 48px;
+        border-radius: 8px;
+        border: 1px solid $primary-solid-color;
+        background: $gradient-4;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+    }
+
+    .c-i-details {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        .c-i-d-title {
+            color: $color-grey-2;
+            font-size: clamp(0.938rem, 0.925rem + 0.06vw, 1rem); //15, 16px
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: 0.28px;
+            @include line-clamp(1);
+
+            &.dark-txt {
+                color: $black;
+                font-weight: 600;
+            }
+        }
+
+        .c-i-d-features-list {
+            display: flex;
+            align-items: center;
+            gap: 0px 15px;
+            flex-wrap: wrap;
+
+            @media screen and (max-width:1200px) {
+                gap: 0 8px;
+            }
+
+            .c-i-d-l-item {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+
+                @media screen and (max-width:1200px) {
+                    gap: 8px;
+                }
+
+                &:last-child {
+                    .c-i-d-f-l-dot {
+                        display: none;
+                    }
+                }
+            }
+
+            .c-i-d-f-l-txt {
+                color: $black;
+                font-family: $body-font;
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 20px;
+                letter-spacing: 0.28px;
+            }
+        }
+    }
+}
+
+.company-meta-badge {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    flex-wrap: wrap;
+    gap: 5px 0px;
+
+    .c-m-b-item {
+        padding: 0 8px 0 8px;
+        border-right: 1px solid $color-grey-14;
+
+        &:last-child {
+            border-right: unset;
+        }
+
+        &:first-child {
+            padding-left: unset;
+        }
+
+        &:has(.c-m-b-i-country) {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+    }
+
+    .c-m-b-i-txt {
+        color: $color-grey-2;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0.24px;
+
+        &.txt-grey {
+            color: $text-tertiary;
+        }
+    }
+
+    .c-m-b-i-country {
+        color: $neutral-solid-disabledcolor;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0.24px;
+    }
+}
+
+.verify-img {
+    min-width: 78px;
+    height: 15px;
+}
+
+.supplier-features-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    .s-f-l-item {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        @media screen and (max-width:600px) {
+            flex-direction: column;
+            gap: 0px;
+            align-items: flex-start;
+        }
+
+        .s-f-l-i-txt {
+            color: $color-grey-54;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.28px;
+            @include line-clamp(1);
+
+            &.s-f-l-i-value {
+                color: $black;
+                width: 100%;
+            }
+        }
+
+        .s-f-l-i-label {
+            width: 200px;
+            min-width: 200px;
+        }
+    }
+}
+
+.trusted-img-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    img {
+        object-fit: contain;
+    }
+}
+
+.product-image-card-group-comp {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 400px;
+    overflow-x: auto;
+    padding-bottom: 5px;
+
+    @media screen and (max-width:576px) {
+        max-width: 300px;
+    }
+
+    .p-i-c-g-c-item {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        @media screen and (max-width:600px) {
+            gap: 5px;
+        }
+
+        .p-i-c-g-c-i-img {
+            width: 140px;
+            height: 135px;
+
+            img {
+                @include img-cover;
+                border-radius: 8px;
+            }
+        }
+
+        .p-i-c-g-c-i-txt {
+            color: $text-primary;
+            text-align: center;
+            font-size: clamp(0.875rem, 0.85rem + 0.13vw, 1rem); //14, 16px
+            font-weight: 400;
+            line-height: 15.621px;
+            @include line-clamp(1);
+        }
+    }
+}

@@ -1,0 +1,68 @@
+.select-product-comp {
+    border-radius: 12px;
+    border: 1px solid $neutral-solid-disabledcolor;
+    background: $primary-solid-color;
+    padding: 24px 21px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    cursor: pointer;
+
+    @media screen and (max-width:640px) {
+        padding: 20px;
+        gap: 10px;
+    }
+
+    &.active {
+        border-color: $black;
+
+        .s-p-c-icon {
+            svg {
+                path {
+                    stroke: $btn-primary;
+                }
+            }
+        }
+    }
+
+    .s-p-c-icon {
+        svg {
+            @media screen and (max-width:640px) {
+                width: 35px;
+                height: 35px;
+                min-width: 35px;
+            }
+
+            path {
+                stroke: $text-primary;
+            }
+        }
+    }
+
+    .s-p-c-content {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+
+        @media screen and (max-width:640px) {
+            gap: 2px;
+        }
+
+        .s-p-c-c-title {
+            color: $text-primary;
+            font-family: $body-font;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        .s-p-c-c-label {
+            color: $color-grey-33;
+            font-family: $secondary-body-font;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+        }
+    }
+}

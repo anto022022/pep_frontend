@@ -1,0 +1,144 @@
+{
+  "similar_product": "منتجات مشابهة",
+  "supplier_products":"المزيد من المنتجات من المورد",
+  "description": "الوصف",
+  "specification": {
+    "label": "المواصفات",
+    "key": "السمات الرئيسية",
+    "additionalInformation": {
+      "label": "معلومات إضافية",
+      "brand": "العلامة التجارية",
+      "sku": "رمز التخزين (SKU)",
+      "countryOfOrigin": "بلد المنشأ",
+      "customisable": "قابل للتخصيص"
+    }
+  },
+  "showMore": "عرض المزيد",
+  "showLess": "عرض أقل",
+  "productsAvailable": "{count} منتج متاح",
+  "application": "الاستخدام",
+  "tradeDetails": {
+    "label": "تفاصيل التجارة",
+    "productionLeadTime": "مدة الإنتاج",
+    "availableStock": "المخزون المتوفر",
+    "productionCapacity": "الطاقة الإنتاجية",
+    "sampleAvailability": "توفر العينة",
+    "samplePricing": "سعر العينة",
+    "sampleLeadTime": "مدة تجهيز العينة"
+  },
+  "paymentTerms": {
+    "label": "شروط الدفع",
+    "paymentTerms": "شروط الدفع",
+    "paymentMethods": "طرق الدفع"
+  },
+  "shipping": {
+    "label": "الشحن واللوجستيات",
+    "shippingInternationally": "شحن دولي",
+    "methods": "طرق الشحن",
+    "incoTerms": "شروط التجارة الدولية (إنكوترمز)",
+    "portOfDispatch": "ميناء الإرسال",
+    "packagingType": "نوع التعبئة",
+    "unitsPerPackage": "عدد الوحدات لكل عبوة",
+    "barcode": "الرمز الشريطي / HSN / GTIN / UPC",
+    "dispatchLeadTime": "مدة التجهيز للإرسال"
+  },
+  "certificates": "الشهادات",
+  "companyProfile": {
+    "label": "ملف الشركة",
+    "engagementRate": "معدل التفاعل",
+    "responseTime": "زمن الاستجابة",
+    "turnOver": "حجم الأعمال"
+  },
+  "factoryDetails": {
+    "label": "تفاصيل المصنع",
+    "factorySize": "حجم المصنع",
+    "contractManufacturing": "التصنيع التعاقدي",
+    "numberOfQCStaff": "عدد موظفي مراقبة الجودة",
+    "numberOfRDStaff": "عدد موظفي البحث والتطوير",
+    "numberOfProductionLines": "عدد خطوط الإنتاج",
+    "annualProductionCapacity": "الطاقة الإنتاجية السنوية",
+    "mainMarkets": "الأسواق الرئيسية",
+    "qualityCertification": "الجودة والشهادات",
+    "profile": "عرض الملف الشخصي",
+    "message": "إرسال رسالة"
+  },
+  "productDetailCard": {
+    "sku": "رمز التخزين",
+    "reviews": "({reviews}) مراجعة",
+    "sold": "{sold} تم البيع",
+    "minOrderQty": "الحد الأدنى للطلب",
+    "price": "السعر",
+    "totalAvailableOptions": "إجمالي الخيارات المتاحة",
+    "shipping": "الشحن",
+    "shippingSubtitle": "سيتم التفاوض على رسوم الشحن وتاريخ التسليم. اتصل بالمورد الآن لمزيد من التفاصيل.",
+    "shippingInternationally": "الشحن دولياً",
+    "estimatedDelivery": "موعد التسليم المتوقع",
+    "businessDays": " أيام عمل",
+    "selectVarQty": "اختر التنوعات والكمية",
+    "express": "سريع",
+    "estimatedDel": "التسليم المتوقع خلال",
+    "shippingDet": "*تكاليف الشحن المدرجة هي تقديرات للرجوع إليها. يرجى التواصل مع المورد للحصول على السعر النهائي.",
+    "shippingTotal": "إجمالي الشحن",
+    "est": "تقريباً",
+    "shippingFee": "رسوم الشحن: تقريباً {fee} لمجموعة واحدة",
+    "subTotal": "المجموع الفرعي",
+    "itemSubtotal": "المجموع الفرعي ({variationCount} تنوع {totalItems} عناصر)",
+    "chatNow": "تحدث الآن",
+    "contactSupplier": "اتصل بالمورد",
+    "requestQuote": "طلب عرض سعر",
+    "viewDetails": "عرض التفاصيل",
+    "selectMultiVar": "اختر تنوعات متعددة",
+    "from": "من",
+    "to": "إلى",
+    "yearWithSuffix": "{count} سنة",
+    "yearsWithSuffix": "{count} سنوات",
+    "seeProfile": "عرض الملف الشخصي",
+    "message": "رسالة",
+    "addToRfqList": "أضف إلى قائمة RFQ",
+    "minOrderQtyError": "الحد الأدنى للطلب هو {minOrderQty} {unit}",
+    "messageError": "الرسالة مطلوبة.",
+    "agreeError": "يجب أن توافق للمتابعة.",
+    "agreeToTerms": {
+      "part1": "أوافق على الشروط و",
+      "part2": "الأحكام",
+      "part3": "و",
+      "part4": "سياسة الخصوصية."
+    },
+    "minOrder": "الحد الأدنى للطلب",
+    "expectedDelivery": "التسليم المتوقع بحلول"
+  },
+  "enquiryCart": {
+    "agreeToTerms": {
+      "part1": "أوافق على الشروط و",
+      "part2": "الأحكام",
+      "part3": "و",
+      "part4": "سياسة الخصوصية."
+    },
+    "title": "قائمة طلب عرض الأسعار",
+    "selectAll": "تحديد الكل ({count})",
+    "sendAllEnquiry": "إرسال جميع الاستفسارات",
+    "message": "رسالة",
+    "enterMsg": "أدخل الرسالة",
+    "messageError": "الرسالة مطلوبة.",
+    "agreeError": "يجب أن توافق للمتابعة.",
+    "requestQuote": "طلب عرض أسعار",
+    "cancel": "إلغاء",
+    "relatedProducts": "منتجات ذات صلة",
+    "products": "المنتجات",
+    "minOrder": "الحد الأدنى للطلب",
+    "expectedDelivery": "التسليم المتوقع بحلول",
+    "yearWithSuffix": "{count} سنة",
+    "yearsWithSuffix": "{count} سنوات",
+    "addToRfqList": "إضافة إلى قائمة RFQ",
+    "emptyCart": {
+      "title": "لا توجد عناصر في عربة الاستفسارات الخاصة بك.",
+      "subTitle": "أضف منتجات إلى عربة الاستفسارات لطلب عروض أسعار.",
+      "browseProduct": "تصفح المنتجات",
+      "loginAndBrowse": "تسجيل الدخول والتصفح"
+    }
+  },
+  "logNotes": {
+    "placeholder": "اكتب رسالة هنا...",
+    "send": "إرسال"
+  }
+}

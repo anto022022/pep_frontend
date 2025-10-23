@@ -1,0 +1,1203 @@
+@media(max-width:1920px) {
+    .what-we-offer-main .container-main {
+        padding-left: 330px;
+    }
+}
+
+@media(max-width:1870px) {
+    .what-we-offer-main .container-main {
+        padding-left: 300px;
+    }
+}
+
+@media(max-width:1850px) {
+    .what-we-offer-main .container-main {
+        padding-left: 290px;
+    }
+}
+
+@media(max-width:1800px) {
+    .what-we-offer-main .container-main {
+        padding-left: 250px;
+    }
+}
+
+@media(max-width:1750px) {
+    .what-we-offer-main .container-main {
+        padding-left: 220px;
+    }
+}
+
+@media(max-width:1640px) {
+    .what-we-offer-main .container-main {
+        padding-left: 190px;
+    }
+}
+
+@media(max-width:1600px) {
+    .what-we-offer-main .container-main {
+        padding-left: 170px;
+    }
+}
+
+@media(max-width:1550px) {
+    .what-we-offer-main .container-main {
+        padding-left: 150px;
+    }
+}
+
+@media(max-width:1500px) {
+    .what-we-offer-main .container-main {
+        padding-left: 120px;
+    }
+}
+
+@media(max-width:1440px) {
+    .container-main {
+        padding: 0px 40px;
+    }
+
+    .about-banner-main.home .about-banner-left h2 {
+        font-size: 55px;
+        line-height: 70px;
+    }
+
+    .our-mission h2,
+    .our-brand h2,
+    .founder-slider-heading h2,
+    .what-we-offer h2,
+    .about-banner-left h2,
+    .the-solutions-heading h2,
+    .powerful-partners h2,
+    .what-we-offer-main.partners h2,
+    .real-opportunity h2,
+    .partner-with-us h2 {
+        font-size: 55px;
+    }
+
+    .img-block.img-4 {
+        right: 25px;
+    }
+
+    .img-block.img-2 {
+        left: 290px;
+    }
+
+    .what-we-offer-main .container-main {
+        padding-right: 0;
+    }
+
+    .founder-sign p {
+        font-size: 18px;
+    }
+
+    .about-banner-main.home.partnership .about-banner-left h2 {
+        font-size: 62px;
+        line-height: 74px;
+    }
+
+}
+
+@media(max-width:1366px) {
+
+    .the-solutions,
+    .our-brand {
+        padding: 60px;
+    }
+
+    .img-block.img-2 {
+        bottom: 40px;
+        left: 235px;
+    }
+
+    .img-block.img-4 {
+        right: 64px;
+    }
+}
+
+@media(max-width:1315px) {
+    .founder-sign::before {
+        bottom: -130px;
+    }
+}
+
+@media(max-width:1280px) {
+
+    .our-mission h2,
+    .our-brand h2,
+    .founder-slider-heading h2,
+    .what-we-offer h2,
+    .about-banner-left h2,
+    .the-solutions-heading h2,
+    .powerful-partners h2,
+    .what-we-offer-main.partners h2,
+    .real-opportunity h2,
+    .partner-with-us h2 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .founder-text h1,
+    .movement-text h1 {
+        font-size: 165px;
+    }
+
+    .about-banner-main.home .about-banner-left h2 {
+        font-size: 50px;
+        line-height: 67px;
+    }
+
+    .img-block img {
+        width: 125px;
+        height: 125px;
+    }
+
+    .img-block.img-2 {
+        bottom: 80px;
+        left: 250px;
+    }
+
+    .img-block.img-4 {
+        right: 25px;
+    }
+
+    .partner-with-us h2 {
+        max-width: 965px;
+    }
+
+    .partners-box-left h5 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .about-banner-main.home.partnership .about-banner-left h2 {
+        font-size: 56px;
+        line-height: 70px;
+    }
+
+    .the-solutions-main.m-width,
+    .our-mission-main.p-btm {
+        padding-bottom: 150px;
+    }
+
+    .our-mission.vision {
+        padding: 140px 100px;
+    }
+}
+
+@media(max-width:1200px) {
+    .quote p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .quote {
+        padding: 22px;
+        margin-bottom: 0;
+    }
+
+    .quote::before {
+        bottom: -25px;
+        border-top: 30px solid var(--red-color);
+        border-right: 30px solid transparent;
+    }
+
+    .solutions-block {
+        padding: 15px 20px;
+    }
+
+    .solutions-flex {
+        margin: -15px -20px;
+    }
+
+    .solutions-box {
+        max-width: 80px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .about-banner-flex.why-us.movement .about-banner-left p,
+    .about-banner-flex.why-us.movement .about-banner-left ul li,
+    .img-block p {
+        font-size: 19px;
+        line-height: 28px;
+    }
+
+    .img-block.img-4 {
+        right: 0px;
+    }
+
+    .img-block.img-3 {
+        top: 70px;
+    }
+
+    .our-mission h2,
+    .our-brand h2,
+    .founder-slider-heading h2,
+    .what-we-offer h2,
+    .about-banner-left h2,
+    .the-solutions-heading h2,
+    .powerful-partners h2,
+    .what-we-offer-main.partners h2,
+    .real-opportunity h2,
+    .partner-with-us h2 {
+        font-size: 44px;
+        line-height: 55px;
+    }
+
+    .founder-sign::before {
+        bottom: -115px;
+    }
+
+    .why-us-box p,
+    .content-box p,
+    .ceo-prof h6,
+    .ceo-prof span {
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    .why-us-box p span {
+        font-size: 23px;
+    }
+
+    .why-us-box {
+        padding: 18px 30px;
+    }
+
+    .about-banner-main.home.partnership {
+        padding-bottom: 180px;
+    }
+
+    .what-we-offer-main.partners,
+    .partner-with-us-main {
+        padding-bottom: 160px;
+    }
+
+    .partner-with-us h2 {
+        max-width: 875px;
+    }
+
+    .partners-box-left h5 {
+        font-size: 26px;
+        line-height: 35px;
+    }
+}
+
+@media(max-width:1024px) {
+    .footer-block:first-child {
+        width: 100%;
+    }
+
+    .company-block {
+        width: 50%;
+        float: right;
+    }
+
+    .bottom-left,
+    .bottom-right {
+        width: 100%;
+    }
+
+    .img-block img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .img-block.img-4 {
+        right: -10px;
+        top: 0px;
+    }
+
+    .img-block p {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:991px) {
+    .header-main {
+        display: none;
+    }
+
+    .mob-header {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        -webkit-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s;
+    }
+
+    .mob-header .navbar {
+        background-color: var(--white-color);
+        padding: 6px 0px;
+    }
+
+    .mob-header .navbar>.container-fluid {
+        padding: 0px 20px;
+    }
+
+    .mob-header .navbar-brand img {
+        max-width: 200px;
+    }
+
+    .mob-header .navbar-brand {
+        padding: 0;
+        margin: 0;
+        position: relative;
+        z-index: 12;
+    }
+
+    .mob-header .navbar-toggler {
+        padding: 0;
+        border: unset;
+        position: relative;
+        z-index: 12;
+    }
+
+    .mob-header .navbar-toggler-icon {
+        background-image: url(../images/menu-open.webp);
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 28px;
+    }
+
+    body.menu-open .mob-header .navbar-toggler-icon {
+        background-image: url(../images/close-icon.webp);
+        height: 30px;
+        margin-right: 7px;
+    }
+
+    body.menu-open {
+        overflow: hidden;
+    }
+
+    .mob-header .navbar-collapse {
+        position: absolute;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        background-color: var(--white-color);
+        padding: 0px 20px;
+        z-index: 10;
+    }
+
+    .mob-header .navbar-nav {
+        padding-bottom: 600px;
+        padding-top: 105px;
+    }
+
+    .mob-header .nav-link {
+        font-family: Neue Haas Grotesk Display Pro, sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--dark-gray-color);
+        padding: 10px 0px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: unset;
+    }
+
+    .breadcrumbs-main {
+        padding-top: 120px;
+        padding-bottom: 0px;
+    }
+
+    .about-banner-main.home .about-banner-left {
+        width: 60%;
+    }
+
+    .about-banner-main.home .about-banner-right {
+        width: 40%;
+    }
+
+    .about-banner-main.home .about-banner-left h2 {
+        font-size: 44px;
+        line-height: 56px;
+    }
+
+    .about-banner-main.home {
+        padding-bottom: 25px;
+    }
+
+    .our-mission h2,
+    .our-brand h2,
+    .founder-slider-heading h2,
+    .what-we-offer h2,
+    .about-banner-left h2,
+    .the-solutions-heading h2,
+    .powerful-partners h2,
+    .what-we-offer-main.partners h2,
+    .real-opportunity h2,
+    .partner-with-us h2 {
+        font-size: 40px;
+        line-height: 52px;
+        margin-bottom: 17px;
+    }
+
+    .about-banner-main.our-story .about-banner-right {
+        width: 45%;
+        padding-left: 30px;
+    }
+
+    .about-banner-main.our-story .about-banner-left {
+        width: 55%;
+    }
+
+    .founder-text h1,
+    .movement-text h1 {
+        font-size: 145px;
+    }
+
+    .solutions-block {
+        width: 50%;
+    }
+
+    .about-banner-flex.why-us.movement .about-banner-right {
+        width: 50%;
+    }
+
+    .about-banner-flex.why-us.movement .about-banner-left {
+        width: 50%;
+    }
+
+    .about-banner-main.home.partnership .about-banner-left h2 {
+        font-size: 48px;
+        line-height: 62px;
+    }
+
+    .about-banner-main.home.partnership {
+        padding-bottom: 130px;
+    }
+
+    .about-banner-flex.partenrs .about-banner-left {
+        padding-right: 25px;
+    }
+
+    .about-banner-flex.partenrs .about-banner-left h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .what-we-offer-main.partners,
+    .partner-with-us-main {
+        padding-top: 100px;
+    }
+
+    .solutions-flex.partners .solutions-block {
+        width: 50%;
+    }
+
+    .what-we-offer-main.partners,
+    .partner-with-us-main {
+        padding-bottom: 130px;
+    }
+
+    .real-opportunity-main {
+        padding-top: 115px;
+    }
+
+    .real-opportunity p {
+        padding-top: 25px;
+    }
+
+    .partner-with-us h6 {
+        margin-bottom: 33px;
+    }
+
+    .partners-box-flex {
+        padding-top: 45px;
+    }
+
+    .partner-with-us h2 {
+        max-width: 800px;
+    }
+}
+
+@media(max-width:800px) {
+
+    .about-banner-main.home .about-banner-left,
+    .about-banner-main.home .about-banner-right,
+    .about-banner-main.our-story .about-banner-left,
+    .about-banner-main.our-story .about-banner-right,
+    .about-banner-left,
+    .about-banner-right {
+        width: 100%;
+    }
+
+    .about-banner-right {
+        padding-left: 0px;
+        padding-top: 40px;
+    }
+
+    .about-banner-main {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .about-banner-main.home {
+        padding-bottom: 25px;
+    }
+
+    .about-banner-main.our-story,
+    .the-solutions-main,
+    .founder-slider-main,
+    .our-mission-main,
+    .what-we-offer-main,
+    .our-brand-main {
+        padding-bottom: 70px;
+    }
+
+    .about-banner-main.grow {
+        padding-top: 70px;
+    }
+
+    .img-block img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .img-block.img-1 {
+        left: 80px;
+    }
+
+    .img-block.img-3 {
+        top: 135px;
+        left: 145px;
+    }
+
+    .img-block.img-4 {
+        right: 95px;
+        top: -20px;
+    }
+
+    .img-block.img-2 {
+        left: 195px;
+        bottom: 0px;
+    }
+
+    .footer-block {
+        width: 50%;
+    }
+
+    .about-banner-flex.why-us.movement.partenrs {
+        flex-flow: column-reverse;
+    }
+
+    .about-banner-flex.why-us.movement.partenrs .about-banner-right,
+    .about-banner-flex.why-us.movement.partenrs .about-banner-left {
+        width: 100%;
+    }
+
+    .about-banner-flex.why-us.movement.partenrs .about-banner-left {
+        padding-right: 0;
+        padding-bottom: 40px;
+    }
+
+    .partners-box {
+        width: 100%;
+    }
+}
+
+@media(max-width:768px) {
+
+    .founder-text h1,
+    .movement-text h1 {
+        font-size: 110px;
+        margin-bottom: -22px;
+    }
+}
+
+@media(max-width:600px) {
+    .container-main {
+        padding: 0px 20px;
+    }
+
+    .mob-header .navbar-brand img {
+        max-width: 130px;
+    }
+
+    .mob-header .navbar>.container-fluid {
+        padding: 0px 20px;
+    }
+
+    .mob-header .navbar-toggler-icon {
+        width: 23px;
+        height: 20px;
+    }
+
+    .mob-header .navbar-nav {
+        padding-top: 80px;
+    }
+
+    .breadcrumbs-main {
+        padding-top: 85px;
+    }
+
+    .breadcrumb-item {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .about-banner-main {
+        padding-top: 50px;
+    }
+
+    .about-banner-main.home .about-banner-left h2 {
+        font-size: 28px;
+        line-height: 33px;
+        text-align: center;
+    }
+
+    .about-banner-main.home .about-banner-left a {
+        display: none;
+    }
+
+    .explore-btn.mob {
+        display: block;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .explore-btn.mob a {
+        width: 100%;
+        height: 44px;
+    }
+
+    .about-banner-main.home {
+        padding-bottom: 0;
+    }
+
+    .our-mission h2,
+    .our-brand h2,
+    .founder-slider-heading h2,
+    .what-we-offer h2,
+    .about-banner-left h2,
+    .the-solutions-heading h2,
+    .powerful-partners h2,
+    .what-we-offer-main.partners h2,
+    .real-opportunity h2,
+    .partner-with-us h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .quote p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .quote {
+        max-width: 300px;
+        padding: 15px;
+    }
+
+    .founder-sign p {
+        font-size: 15px;
+
+    }
+
+    .about-banner-main.our-story .about-banner-right {
+        padding-left: 0;
+    }
+
+    .quote::before {
+        left: 65%;
+    }
+
+    .founder-sign::before {
+        bottom: -93px;
+    }
+
+    .movement-main.founder-text h1 {
+        display: none;
+    }
+
+    .the-solutions {
+        padding: 30px;
+    }
+
+    .the-solutions-heading h2 span {
+        color: var(--red-color);
+    }
+
+    .solutions-box {
+        max-width: 50px;
+    }
+
+    .solutions-content h4 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .solutions-content p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .solutions-block {
+        padding: 15px 10px;
+    }
+
+    .solutions-flex {
+        margin: -15px -10px;
+    }
+
+    .our-mission.vision {
+        padding: 80px 20px;
+    }
+
+    .what-we-offer-main .container-main {
+        padding-left: 20px;
+    }
+
+    .what-we-offer-slider {
+        margin-top: 20px;
+    }
+
+    .our-brand {
+        padding: 30px 10px;
+        border: unset;
+    }
+
+    .solutions-flex.brands .solutions-block-inner {
+        padding: 20px 10px;
+    }
+
+    .solutions-flex.brands .solutions-box {
+        max-width: 38px;
+        margin-bottom: 10px;
+    }
+
+    .solutions-flex.brands {
+        margin: -5px;
+    }
+
+    .solutions-flex.brands .solutions-block {
+        padding: 5px;
+    }
+
+    .our-brand::before {
+        width: 90px;
+        height: 110px;
+    }
+
+    .our-brand-main {
+        padding-bottom: 50px;
+    }
+
+    .about-banner-flex.why-us .about-banner-right {
+        padding-right: 0px;
+        padding-bottom: 30px;
+    }
+
+    .our-brand-main.why-us {
+        background-color: var(--white-color);
+    }
+
+    .why-us-box {
+        padding: 10px 15px;
+        border-radius: 10px;
+        margin-block-end: 15px;
+    }
+
+    .why-us-box p span {
+        font-size: 18px;
+    }
+
+    .why-us-box p,
+    .content-box p,
+    .ceo-prof h6,
+    .ceo-prof span {
+        font-size: 17px;
+        line-height: 26px;
+    }
+
+    .founder-slider-main {
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+
+    .founder-slider-heading {
+        margin-bottom: 40px;
+    }
+
+    .content-box {
+        padding: 20px;
+    }
+
+    .founder-text h1,
+    .movement-text h1 {
+        font-size: 65px;
+        margin-bottom: -15px;
+    }
+
+    .about-banner-flex.why-us.movement .about-banner-left h5 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .img-block img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .img-block.img-4 {
+        display: none;
+    }
+
+    .about-banner-flex.why-us.movement .about-banner-left p,
+    .about-banner-flex.why-us.movement .about-banner-left ul li,
+    .img-block p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .about-banner-flex.why-us.movement .about-banner-left ul {
+        padding-left: 25px;
+    }
+
+    .our-brand-main.why-us.movement {
+        background-color: unset;
+    }
+
+    .our-brand.why-us.movement::before {
+        width: 73%;
+    }
+
+    .img-block.img-1 {
+        left: 8px;
+        top: -90px;
+    }
+
+    .img-block p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .img-block.img-2 {
+        left: 93px;
+        bottom: 115px;
+    }
+
+    .img-block.img-3 {
+        top: 53px;
+        left: 28px;
+    }
+
+    .about-banner-flex.grow .about-banner-left h2 {
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .about-banner-flex.grow .about-banner-right {
+        padding-top: 20px;
+    }
+
+    .grow-accordion .accordion-header img {
+        width: 25px;
+        height: 25px;
+        margin-top: -5px;
+        margin-right: 15px;
+    }
+
+    .grow-accordion .accordion-button,
+    .grow-accordion .accordion-body p {
+        font-size: 17px;
+        line-height: 26px;
+    }
+
+    .grow-accordion .accordion-item {
+        padding: 15px 15px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+
+    .grow-accordion .accordion-button::after {
+        background-size: 25px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .about-banner-main.grow {
+        padding-bottom: 30px;
+    }
+
+    .footer-logo {
+        margin-bottom: 40px;
+    }
+
+    .company-block {
+        width: 100%;
+        float: unset;
+        margin-bottom: 20px;
+    }
+
+    .company-block a {
+        height: 45px;
+    }
+
+    .footer-block {
+        width: 100%;
+    }
+
+    .input-flex {
+        flex-flow: column;
+    }
+
+    .input-flex button {
+        width: 100%;
+    }
+
+    .footer-bottom {
+        padding: 20px 0px;
+        border-radius: 10px;
+        border: unset;
+    }
+
+    .toggle-icon {
+        display: block;
+        width: 13px;
+        height: 13px;
+        margin-top: -14px;
+    }
+
+    .footer-block h6 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #f1f1f1;
+    }
+
+    .footer-block ul {
+        display: none;
+    }
+
+    .footer-block:first-child {
+        margin-bottom: 10px;
+    }
+
+    .footer-block:nth-child(2) ul:last-child,
+    .footer-block:last-child ul:last-child {
+        margin-bottom: 30px;
+    }
+
+    .bottom-flex {
+        flex-flow: column-reverse;
+    }
+
+    .bottom-left {
+        margin-top: 25px;
+    }
+
+    .global,
+    .copyright-flex {
+        flex-flow: column;
+        justify-content: unset;
+        align-items: unset;
+    }
+
+    .global h6 {
+        text-align: unset;
+    }
+
+    .global-select {
+        width: max-content;
+    }
+
+    .copyright-flex {
+        gap: 20px;
+        border-top: unset;
+        padding-top: 0;
+    }
+
+    .about-banner-flex.partnership .about-banner-left h6,
+    .about-banner-main.home.partnership .about-banner-left h2,
+    .about-banner-main.home.partnership .about-banner-left p {
+        text-align: center;
+    }
+
+    .about-banner-flex.partnership .about-banner-left h6 {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .about-banner-main.home.partnership .about-banner-left h2 {
+        font-size: 24px;
+        line-height: 28px;
+        max-width: 280px;
+        margin: 0 auto;
+        margin-bottom: 17px;
+    }
+
+    .about-banner-flex.partnership .about-banner-right,
+    .about-banner-flex.partnership .explore-btn.mob {
+        display: none;
+    }
+
+    .mob-image {
+        display: block;
+        margin-bottom: 13px;
+    }
+
+    .about-banner-main.home.partnership {
+        padding-bottom: 45px;
+    }
+
+    .current-opening-main,
+    .company-culture-main,
+    .what-we-value-main,
+    .powerful-partners-main {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .partenrs-tab ul.nav {
+        display: -webkit-box;
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+    }
+
+    .partenrs-tab ul.nav::-webkit-scrollbar {
+        display: none;
+    }
+
+    .partenrs-tab .nav-link {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 8px 10px;
+    }
+
+    .partenrs-tab {
+        margin-top: 25px;
+    }
+
+    .about-banner-flex.why-us.movement.partenrs {
+        flex-flow: column;
+    }
+
+    .about-banner-flex.partenrs .about-banner-left h2 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .partners-content h5 {
+        font-size: 18px !important;
+    }
+
+    .partners-content a {
+        width: 100%;
+    }
+
+    .about-banner-flex.why-us.movement.partenrs .about-banner-left {
+        padding-bottom: 0;
+    }
+
+    .what-we-offer-main.partners,
+    .partner-with-us-main {
+        padding-top: 45px;
+        padding-bottom: 50px;
+    }
+
+    .what-we-offer-main.partners .container-main {
+        padding: 0px 20px;
+    }
+
+    .what-we-offer-main.partners h2,
+    .real-opportunity h2,
+    .partner-with-us h6 {
+        margin-bottom: 7px;
+    }
+
+    .solutions-flex.partners {
+        padding-top: 35px;
+    }
+
+    .solutions-flex.partners .solutions-block h4,
+    .solutions-flex.partners .solutions-content p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .solutions-flex.partners .solutions-box {
+        max-width: 90px !important;
+    }
+
+    .real-opportunity-main,
+    .opportunity-bg {
+        padding-top: 45px;
+    }
+
+    .real-opportunity p {
+        padding-top: 0;
+    }
+
+    .partners-box-flex {
+        margin: -10px 0px;
+        padding-bottom: 35px;
+    }
+
+    .partners-box {
+        padding: 10px 0px;
+    }
+
+    .partners-box-inner {
+        flex-flow: column;
+        border-radius: 0;
+        box-shadow: unset;
+    }
+
+    .partners-box-left,
+    .partners-box-right {
+        width: 100%;
+    }
+
+    .partners-box-left h5 {
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        max-width: unset;
+        margin-bottom: 13px;
+    }
+
+    .apply-btn-flex.mob {
+        display: flex;
+        margin-top: 14px;
+        flex-flow: row-reverse;
+    }
+
+    .partners-box-left .apply-btn-flex {
+        display: none;
+    }
+
+    .apply-btn-flex.mob a {
+        width: 50%;
+    }
+
+    .the-solutions-main.m-width,
+    .our-mission-main.p-btm {
+        padding-bottom: 100px;
+    }
+
+    .bg-color {
+        padding-bottom: 0;
+    }
+
+    header {
+        margin-bottom: 50px;
+    }
+}

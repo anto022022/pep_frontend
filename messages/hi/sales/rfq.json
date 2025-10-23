@@ -1,0 +1,223 @@
+{
+  "buyingRequest": {
+    "pageTitle": "खरीद अनुरोध",
+    "pageTitleMob": "खरीद अनुरोध विवरण",
+    "title": "आइए पता करें कि आपको क्या चाहिए।",
+    "subTitle": "निर्माताओं (suppliers) से जुड़ने का तरीका चुनें — एक अनुरोध पोस्ट करें या तत्काल मिलान प्राप्त करें।",
+    "info": "संदेह है कि क्या चुनना है? यदि आपकी ज़रूरतें विस्तार से हैं, तो अनुरोध पोस्ट करें। त्वरित स्रोत के लिए Instant Match का उपयोग करें।",
+    "requestForQuote": {
+      "title": "उद्धरण के लिए अनुरोध",
+      "subTitle": "अपना उत्पाद, मात्रा, और वितरण विवरण जोड़ें। निर्माता (suppliers) विशेष उद्धरण देंगे।",
+      "button": "खरीदने का अनुरोध पोस्ट करें"
+    },
+    "instantSupplierMatch": {
+      "title": "तत्काल सप्लायर मैच",
+      "subTitle": "इंतजार छोड़ें। अभी उन सप्लायर्स को ढूँढें जो आपकी आवश्यकता से मेल खाते हैं।",
+      "button": "तत्काल मैच खोजें"
+    },
+    "buyingRequestTable": {
+      "rfqId": "RFQ आईडी",
+      "productName": "उत्पाद नाम",
+      "estOrderQty": "अनुमानित मात्रा",
+      "preferredUnitPrice": "प्राथमिक इकाई मूल्य",
+      "source": "सूत्र",
+      "validTill": "वैध till",
+      "responses": "प्रतिक्रियाएँ",
+      "status": "स्थिति",
+      "orderQty": "ऑर्डर मात्रा",
+      "addedOn": "जोड़ा गया दिनांक"
+    },
+    "buyingRequestForm": {
+      "title": "खरीदने का अनुरोध पोस्ट करें",
+      "additionalRequirements": {
+        "title": "अतिरिक्त आवश्यकताएँ (वैकल्पिक)",
+        "subTitle": "प्राथमिक स्रोत क्षेत्र, अपेक्षित वितरण समय, गंतव्य पोर्ट, भुगतान शर्तें आदि जोड़ें"
+      },
+      "additionalBuyingReqDetails": {
+        "label": "अतिरिक्त खरीद अनुरोध विवरण",
+        "optional": "(वैकल्पिक)",
+        "placeHolder": "अतिरिक्त विवरण दर्ज करें"
+      },
+      "productName": {
+        "label": "उत्पाद नाम",
+        "placeHolder": "उत्पाद नाम दर्ज करें"
+      },
+      "productCategory": {
+        "label": "उत्पाद श्रेणी",
+        "placeHolder": "श्रेणी खोजें"
+      },
+      "productDescription": {
+        "label": "उत्पाद विवरण",
+        "optional": "(वैकल्पिक)",
+        "placeHolder": "विस्तृत विवरण प्रदान करें ताकि सप्लायर्स जल्दी और प्रभावी रूप से प्रतिक्रिया दें: सामग्री, आकार/आयाम, ग्रेड/गुणवत्ता मानक, पैकेजिंग आवश्यकताएँ आदि।"
+      },
+      "estimatedOrderQuantity": {
+        "label": "अनुमानित ऑर्डर मात्रा",
+        "unitPlaceHolder": "इकाइयाँ",
+        "placeholder": "उदा: 50"
+      },
+      "preferredUnitPrice": {
+        "label": "पसंदीदा इकाई मूल्य",
+        "minPlaceholder": "न्यूनतम मूल्य",
+        "maxPlaceholder": "अधिकतम मूल्य",
+        "currencyPlaceholder": "मुद्रा चुनें"
+      },
+      "rfqValidity": {
+        "label": "RFQ वैधता तिथि (तक वैध)"
+      },
+      "rfqTitle": {
+        "label": "RFQ शीर्षक (AI-Generated)",
+        "placeHolder": "RFQ शीर्षक दर्ज करें / जनरेट करें",
+        "aiSuggest": "एआई सुझाव"
+      },
+      "upload": {
+        "label": "उत्पाद छवि / संलग्नक अपलोड करें"
+      },
+      "preferredRegion": {
+        "label": "प्राथमिक स्रोत क्षेत्र",
+        "countriesPlaceHolder": "देश चुनें",
+        "citiesPlaceHolder": "शहर चुनें",
+        "options": {
+          "nearby": "पास में",
+          "withinMyCountry": "देश के भीतर",
+          "international": "अंतर्राष्ट्रीय"
+        }
+      },
+      "sourcingFrequency": {
+        "label": "स्रोत आवृत्ति",
+        "placeHolder": "आपको कितनी बार आवश्यकता है चुनें"
+      },
+      "annualPurchaseVolume": {
+        "label": "वार्षिक खरीद मात्रा",
+        "placeHolder": "अपनी वार्षिक आवश्यकता दर्ज करें"
+      },
+      "expectedDeliveryTime": {
+        "label": "अपेक्षित वितरण समय",
+        "placeHolder": "डिलीवरी का प्रकार चुनें"
+      },
+      "destinationPort": {
+        "label": "गंतव्य पोर्ट (वैकल्पिक)",
+        "placeHolder": "पोर्ट खोजें"
+      },
+      "supplyContractType": {
+        "label": "सप्लाई अनुबंध प्रकार",
+        "placeHolder": "भुगतान शर्तें चुनें"
+      },
+      "paymentTerms": {
+        "label": "भुगतान शर्तें (वैकल्पिक)",
+        "placeHolder": "भुगतान शर्तें चुनें"
+      },
+      "requiredCertifications": {
+        "label": "आवश्यक प्रमाणपत्र",
+        "description": "क्या यह सूची में नहीं है? कृपया इसे यहाँ जोड़ें!",
+        "placeHolder": "अन्य प्रमाणपत्र यहाँ उल्लेख करें"
+      },
+      "sampleRequired": {
+        "label": "नमूना चाहिए?",
+        "placeHolder": "क्या उत्पाद का नमूना चाहिए? कृपया बताएं!"
+      },
+      "customisationRequired": {
+        "label": "अनुकूलन आवश्यक?",
+        "placeHolder": "क्या आप अनुकूलित उत्पाद चाहते हैं? अपनी जानकारी साझा करें"
+      },
+      "customizationDetails": {
+        "label": "कस्टमाइज़ेशन विवरण",
+        "placeHolder": "कस्टमाइज़्ड उत्पाद की तलाश है? अपने विवरण साझा करें"
+      },
+      "pricingType": {
+        "label": "मूल्य निर्धारण प्रकार"
+      },
+      "shippingMethod": {
+        "label": "शिपिंग विधि",
+        "placeHolder": "शिपिंग विधि चुनें"
+      }
+    },
+    "buyingRequestSuccess": {
+      "title": "Buying Request सफलतापूर्वक सबमिट किया गया",
+      "description": "हम आपके अनुरोध की समीक्षा कर रहे हैं। एक बार स्वीकृति मिलने पर, सप्लायर्स आपके साथ उद्धरण साझा करेंगे। आप अपनी डैशबोर्ड में कभी भी अपडेट को ट्रैक कर सकते हैं।"
+    },
+    "buyingRequestDetails": {
+      "lookingFor": "खोजनwendung",
+      "editButton": "विवरण संपादित करें",
+      "repostButton": "पुनः पोस्ट करें",
+      "orderQty": "ऑर्डर मात्रा",
+      "requirements": "आवश्यकताएँ",
+      "sourcingPreference": "स्रोत वरीयता",
+      "preferredCountry": "पसंदीदा देश",
+      "preferredCity": "पसंदीदा शहर",
+      "destinationPort": "गंतव्य बंदरगाह",
+      "paymentTerms": "भुगतान",
+      "deliveryInformation": "वितरण जानकारी",
+      "contractDetails": "अनुबंध विवरण",
+      "validityDate": "आरएफक्यू वैधता",
+      "ProductImages": "उत्पाद चित्र",
+      "status": "स्थिति",
+      "quotesReceived": "प्राप्त उद्धरण",
+      "moreDetails": "अधिक विवरण देखें",
+      "lessDetails": "कम विवरण दिखाएँ",
+      "analytics": {
+        "title": "विश्लेषण",
+        "impressions": "इम्प्रेशन",
+        "views": "दृश्य",
+        "quotesReceived": "प्राप्त उद्धरण"
+      },
+      "quotesList": {
+        "emptyList": {
+          "title": "सप्लायर्स के उद्धरणों की प्रतीक्षा है",
+          "description": "आपका अनुरोध मेल खाने वाले सप्लायर्स को भेजा गया है। जैसे ही वे उत्तर देंगे, उद्धरण यहाँ दिखाई देंगे।"
+        },
+        "sellerDetails": "बिक्रेता विवरण",
+        "interestedSuppliersMessage": "सप्लायर ने आपके अनुरोध में रुचि दिखाई",
+        "action": "कार्रवाई",
+        "sendMessageButton": "संदेश भेजें",
+        "seeQuote": "उद्धरण देखें"
+      },
+      "quoteDetails": {
+        "title": "उद्धरण विवरण",
+        "supplierDetails": {
+          "title": "सप्लायर जानकारी",
+          "contactPerson": "संपर्क व्यक्ति",
+          "email": "ईमेल‑आईडी",
+          "contactNo": "संपर्क संख्या"
+        },
+        "productDetails": {
+          "title": "उत्पाद विवरण",
+          "priceRange": "मूल्य सीमा",
+          "descriptionTitle": "विवरण"
+        },
+        "quoteAmount": "उद्धरण राशि",
+        "rejectQuote": {
+          "btn": "उद्धरण को अस्वीकार करें",
+          "description": "अस्वीकृति करने पर, आप प्रस्ताव को खारिज करते हैं और आगे की बातचीत बंद कर देते हैं।"
+        },
+        "acceptQuote": {
+          "btn": "उद्धरण स्वीकार करें",
+          "description": "स्वीकार करने पर, प्रस्ताव अस्थायी रूप से स्वीकार किया जाएगा। आप फिर One Inbox के माध्यम से शर्तों पर चर्चा कर सकते हैं।"
+        }
+      }
+    }
+  },
+  "requestForm": {
+    "title": "खरीद अनुरोध पोस्ट करें",
+    "rfqTitle": "कोटेशन के लिए अनुरोध शीर्षक",
+    "aiSuggest": "एआई सुझाव",
+    "titlePlaceholder": "RFQ शीर्षक दर्ज करें",
+    "productName": "उत्पाद का नाम",
+    "namePlaceholder": "उत्पाद का नाम दर्ज करें",
+    "category": "उत्पाद श्रेणी",
+    "description": "उत्पाद विवरण",
+    "indicateDesc": "कृपया अपने उत्पाद का विस्तृत विवरण दें",
+    "additional": "अतिरिक्त विवरण",
+    "addnDetails": "तेजी से और कुशल प्रतिक्रिया सुनिश्चित करने के लिए कृपया अपनी विस्तृत आवश्यकताओं को इंगित करें, आप इसमें सामग्री, आकार/आयाम, ग्रेड/गुणवत्ता मानक, पैकेजिंग आवश्यकताएं आदि शामिल कर सकते हैं।",
+    "optional": "(वैकल्पिक)",
+    "estOrderQuantity": "अनुमानित ऑर्डर मात्रा",
+    "currency": "मुद्रा",
+    "priceRange": "मूल्य सीमा",
+    "minPrice": "न्यूनतम मूल्य दर्ज करें",
+    "maxPrice": "अधिकतम मूल्य दर्ज करें",
+    "validityDate": "RFQ वैधता तिथि (वैकल्पिक)",
+    "continue": "बचाएँ और बाद में जारी रखें",
+    "submit": "सबमिट करें",
+    "posted": "नई खरीद अनुरोध पोस्ट की गई है"
+  }
+}

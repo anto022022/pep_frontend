@@ -1,0 +1,94 @@
+.kyc-kyb-dialog .p-dialog-content {
+    padding: 1px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* HEADER */
+.kyc-kyb-header {
+    background-color: #eafbea;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    /* so close button can be positioned inside */
+}
+
+.kyc-kyb-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+.kyc-kyb-subtitle {
+    font-size: 14px;
+    color: #555;
+}
+
+/* CLOSE BUTTON INSIDE HEADER */
+.kyc-kyb-header .p-dialog-header-close {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: #2e7d32;
+    /* match title color */
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.kyc-kyb-header .p-dialog-header-close:hover {
+    color: #1b5e20;
+}
+
+/* BENEFITS LIST */
+.kyc-kyb-benefits {
+    list-style: none;
+    padding: 16px;
+    margin: 0;
+}
+
+.kyc-kyb-benefits li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    /* margin-bottom: 10px; */
+    font-size: 14px;
+}
+
+.kyc-kyb-benefits li img {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+}
+
+/* ACTION BUTTONS */
+.kyc-kyb-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    border-top: 1px solid #eee;
+}
+
+.remind-btn {
+    background: none;
+    border: none;
+    color: black;
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.complete-btn {
+    background: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 32%;
+}

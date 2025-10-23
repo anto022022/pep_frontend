@@ -1,0 +1,93 @@
+.category-group-block-comp {
+    border-radius: 10px;
+    border: 1px solid $primary-outlined-border;
+    overflow: hidden;
+    width: 100%;
+    overflow-x: auto;
+    display: flex;
+
+    .category-block {
+        width: calc(100% / 3);
+        border-right: 1px solid $primary-outlined-border;
+        min-width: 230px;
+
+        &:last-child {
+            border-right: unset;
+        }
+
+        .c-b-header {
+            padding: 10px 15px;
+
+            .icon-input-comp {
+                width: 100%;
+
+                .forms-input {
+                    width: 100%;
+                    border-radius: 8px;
+                    border: 1px solid $neutral-solid-disabledcolor;
+                    background: $primary-solid-color;
+                    font-family: $secondary-body-font;
+                    font-weight: 400;
+
+                    &::placeholder {
+                        font-family: $secondary-body-font;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+
+        .c-b-body {
+            height: 270px;
+            overflow-y: auto;
+            @media screen and (max-width:1300px) {
+                height: 230px;
+            }
+
+            .category-ul {
+                padding-bottom: 5px;
+
+                .category-li {
+                    padding: 4px 18px;
+                    color: $text-primary;
+                    font-family: $secondary-body-font;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 150%;
+                    letter-spacing: 0.24px;
+                    transition: .2s all;
+                    cursor: pointer;
+
+                    &.active {
+                        background: $color-grey-45;
+                    }
+
+                    &:hover {
+                        transition: .2s all;
+                        background: lighten($color: $color-grey-45, $amount: 5);
+                    }
+                }
+            }
+        }
+    }
+
+    .placeholder-txt-block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        height: 100%;
+
+        .p-t-b-txt {
+            color: $color-grey-8;
+            text-align: center;
+            font-family: $secondary-body-font;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 150%;
+            letter-spacing: 0.225px;
+        }
+    }
+}

@@ -1,0 +1,126 @@
+{
+  "title": "வழிநடத்துகிறது",
+  "searchPlaceHolder": "தேடல் தடங்கள்",
+  "addLead": "முன்னணியைச் சேர்",
+  "viewPage": {
+    "title": "முன்னணி விவரங்கள்",
+    "information": "தகவல்",
+    "logs": "பதிவுகள்",
+    "leadDetails": "வழங்கல் விவரங்கள்",
+    "contactInformation": {
+      "title": "தொடர்பு தகவல்",
+      "contactName": "தொடர்பு பெயர்",
+      "contactEmail": "தொடர்பு மின்னஞ்சல்",
+      "contactPhone": "தொடர்பு தொலைபேசி",
+      "contactWhatsapp": "Whatsapp ஐ தொடர்பு கொள்ளவும்",
+      "contactJobTitle": "வேலைப் பதவி"
+    },
+    "companyInformation": {
+      "title": "நிறுவனத்தின் தகவல்",
+      "companyName": "நிறுவனத்தின் பெயர்",
+      "companyEmail": "நிறுவனத்தின் மின்னஞ்சல்",
+      "companyPhone": "நிறுவனத்தின் தொலைபேசி",
+      "companyWebsite": "நிறுவனத்தின் இணையதளம்",
+      "companyAddress": "நிறுவனத்தின் முகவரி",
+      "companyCity": "நிறுவனத்தின் நகரம்",
+      "companyState": "நிறுவனத்தின் மாநிலம்",
+      "companyCountry": "நிறுவனத்தின் நாடு",
+      "companyZip": "நிறுவனத்தின் ஜிப்",
+      "companyType": "நிறுவனத்தின் வகை",
+      "companyIndustry": "நிறுவன தொழில்",
+      "companySize": "நிறுவனத்தின் அளவு",
+      "companyRevenue": "நிறுவனத்தின் வருவாய்",
+      "buyingRole": "பாத்திரத்தை வாங்குதல்",
+      "permissionToContact": "தொடர்பு கொள்ள அனுமதி"
+    },
+    "requirementDetails": {
+      "title": "முன்னணி விவரங்கள்",
+      "interestedProducts": "ஆர்வமுள்ள தயாரிப்புகள்",
+      "quantity": "அளவு",
+      "preferredPrice": "விருப்பமான விலை",
+      "preferredDeliveryTime": "விருப்பமான டெலிவரி நேரம்"
+    },
+    "savedContact": {
+      "savedContact": "சேமிக்கப்பட்ட தொடர்பு"
+    },
+    "productDetails": {
+      "leadDetails": "தலைப்பு விவரங்கள்",
+      "interestedProducts": "ஆசைப்பட்ட பொருட்கள்",
+      "quantityRequired": "தேவைப்படும் அளவு",
+      "preferredPrice": "விருப்பமான விலை",
+      "preferredDeliveryTimeline": "விருப்பமான வழங்கல் காலம்",
+      "pieces": "கொடைகள்",
+      "perUnit": "ஒரு அலகிற்கு",
+      "days": "நாட்கள்",
+      "sendQuote": "உத்தரவு அனுப்பு"
+    }
+  },
+  "noLeads": {
+    "title": "வாடிக்கையாளர்களின் ஆர்வத்தை மாற்றத் தொடங்குங்கள்",
+    "extraTitle": " வணிக வாய்ப்புகள்",
+    "subtitle": "வாங்குபவர்களின் விசாரணைகளை ஒரே இடத்தில் கண்காணித்து பதிலளிக்கவும். உங்கள் தொடர்பு, பின்தொடர்வுகள் மற்றும் லீட் மாற்றத்தை எளிதாக நிர்வகிக்கவும்.",
+    "createButtonTitle": "முன்னணி உருவாக்கவும்",
+    "importButtonTitle": "இம்போர்ட் லீட்ஸ்"
+  },
+  "LeadsTable": {
+    "contactName": "தொடர்பு பெயர்",
+    "companyName": "நிறுவனத்தின் பெயர்",
+    "email": "மின்னஞ்சல்",
+    "phoneNo": "தொலைபேசி எண்",
+    "interestedProducts": "ஆர்வமுள்ள தயாரிப்புகள்",
+    "source": "ஆதாரம்",
+    "stage": "மேடை",
+    "status": "நிலை",
+    "takeAction": "நடவடிக்கை எடு",
+    "lastContact": "கடைசி தொடர்பு",
+    "dateCreated": "உருவாக்கப்பட்ட தேதி",
+    "lifecycleTags": "வாழ்க்கைச் சுழற்சி குறிச்சொற்கள்"
+  },
+  "LeadsForm": {
+    "title": "புதிய ஈயத்தைச் சேர்க்கவும்",
+    "name": {
+      "label": "தொடர்பு பெயர்",
+      "placeholder": "பெயரை உள்ளிடவும்"
+    },
+    "email": {
+      "label": "மின்னஞ்சல் முகவரி",
+      "placeholder": "மின்னஞ்சல் முகவரியை உள்ளிடவும்"
+    },
+    "phone": {
+      "label": "தொலைபேசி எண்",
+      "placeholder": "தொலைபேசி எண்ணை உள்ளிடவும்"
+    },
+    "source": {
+      "label": "மூலம் (விருப்பத்தேர்வு)",
+      "placeholder": "மூலத்தை உள்ளிடவும்"
+    },
+    "stage": {
+      "label": "நிலை (விருப்பத்தேர்வு)",
+      "placeholder": "நிலையை உள்ளிடவும்"
+    },
+    "status": {
+      "label": "நிலை",
+      "placeholder": "நிலையை உள்ளிடவும்"
+    },
+    "interestProducts": {
+      "label": "ஆர்வமான தயாரிப்புகள் (விருப்பத்தேர்வு)",
+      "placeholder": "ஆர்வமான தயாரிப்புகளை உள்ளிடவும்"
+    },
+    "requirementDetails": {
+      "label": "தேவையின் விவரங்கள் (விருப்பத்தேர்வு)",
+      "placeholder": "தேவையின் விவரங்களை உள்ளிடவும்"
+    },
+    "permission": {
+      "label": "தொடர்புகொள்வதற்கான அனுமதி (விருப்பத்தேர்வு)",
+      "placeholder": "தொடர்புகொள்வதற்கான அனுமதியை உள்ளிடவும்"
+    }
+  },
+  "successDialog": {
+    "title": "முன்னணி வெற்றிகரமாக உருவாக்கப்பட்டது",
+    "subtitle": "லீட் வெற்றிகரமாக உருவாக்கப்பட்டது."
+  },
+  "updateDialog": {
+    "title": "வாடிக்கையாளர் வெற்றிகரமாக புதுப்பிக்கப்பட்டது",
+    "subtitle": "வாடிக்கையாளர் வெற்றிகரமாக புதுப்பிக்கப்பட்டுள்ளார்"
+  }
+}

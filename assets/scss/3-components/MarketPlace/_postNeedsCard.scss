@@ -1,0 +1,99 @@
+.post-needs-card-comp {
+    border-radius: 16px;
+    background-color: $primary-solid-color;
+    box-shadow: $shadow-depth-1;
+
+    .p-n-c-c-info {
+        padding: 24px 24px 16px 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        @media screen and (max-width:600px) {
+            padding: 16px;
+        }
+
+        .p-n-c-c-i-posted-info {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .posted-date {
+                color: $color-grey-56;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 18px;
+                letter-spacing: 0.24px;
+            }
+
+            .content-breadcrumb-wrapper {
+                display: flex;
+                flex-direction: column;
+                gap: 2px;
+
+                .c-b-w-title {
+                    color: $color-black-4;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 130%;
+                    letter-spacing: 0.32px;
+                    @include line-clamp(2);
+                }
+
+                .c-b-w-breadcrumb {
+                    color: $color-grey-57;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 18px;
+                    letter-spacing: 0.24px;
+                    @include line-clamp(1);
+                }
+            }
+        }
+
+        .p-n-c-c-features {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+
+            .p-n-c-c-f-item {
+                display: flex;
+                flex-direction: column;
+                gap: 2px;
+
+                .p-n-c-c-f-i-label {
+                    color: $text-tertiary;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 18px;
+                    letter-spacing: 0.24px;
+                }
+
+                .p-n-c-c-f-i-value {
+                    color: $color-black-6;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0.32px;
+                    @include line-clamp(1);
+
+                    &.bold {
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+
+    .p-n-c-c-footer {
+        border-top: 1px solid $color-grey-24;
+        padding: 16px 24px 24px 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        @media screen and (max-width:600px) {
+            padding: 16px;
+        }
+    }
+}

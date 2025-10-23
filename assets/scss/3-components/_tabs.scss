@@ -1,0 +1,38 @@
+.tabs-comp {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid $color-grey-4;
+    width: max-content;
+    overflow: hidden;
+
+    .t-c-btn {
+        padding: 10px;
+        color: $color-grey-5;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        border-right: 1px solid $color-grey-6;
+        border-radius: unset;
+        background-color: unset;
+        transition: .2s all;
+        min-width: 100px;
+
+        &.active {
+            font-weight: 500;
+            background-color: $color-white-4;
+        }
+
+        &:hover {
+            background-color: $color-white-4;
+        }
+
+        &:last-child {
+            border-right: unset;
+        }
+    }
+
+    &.white-bg {
+        background-color: $primary-solid-color;
+    }
+}

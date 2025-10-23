@@ -1,0 +1,24 @@
+.rating-star-comp {
+    gap: 3px;
+
+    .p-rating-item {
+        svg {
+            path {
+                fill: $color-grey-14;
+            }
+        }
+
+        &.p-rating-item-active {
+            svg {
+                path {
+                    fill: $yellow-color-1;
+                }
+            }
+        }
+
+        &.p-focus {
+            box-shadow: unset;
+        }
+    }
+
+}

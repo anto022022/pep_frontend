@@ -1,0 +1,73 @@
+.profile-group-comp {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    @media screen and (max-width:1200px) {
+        justify-content: space-between;
+    }
+
+    .p-g-c-image-group {
+        display: flex;
+        align-items: center;
+        width: 125px;
+
+        .p-g-c-i-g-item {
+            margin-left: -7px;
+            width: 32px;
+            height: 32px;
+            min-width: 32px;
+
+            @media screen and (max-width:767px) {
+                width: 24px;
+                height: 24px;
+                min-width: 24px;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 100px;
+                object-fit: cover;
+                border: 2px solid $primary-solid-color;
+            }
+        }
+    }
+
+    .p-g-c-response-count {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+
+        @media screen and (max-width:1200px) {
+            align-items: center;
+            flex-direction: row-reverse;
+            gap: 5px;
+            position: relative;
+            right: -10px;
+        }
+
+        .p-g-c-r-c-count {
+            color: $black;
+            font-family: $body-font;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0.42px;
+
+            @media screen and (max-width:1200px) {
+                font-size: 13px;
+                font-weight: 500;
+            }
+        }
+
+        .p-g-c-r-c-txt {
+            color: $color-grey-110;
+            font-family: $body-font;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 12px;
+            letter-spacing: 0.27px;
+        }
+    }
+}

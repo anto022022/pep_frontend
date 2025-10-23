@@ -1,0 +1,215 @@
+{
+  "searchResults": {
+    "title": "Over {count}  {name} listed from trusted global suppliers."
+  },
+  "subCategorySection": {
+    "subTitle": "Explore the World of {name}: Trusted Suppliers, Trending Products, and bulk discounts",
+    "marketSize": "Market Size",
+    "annualGrowth": "Annual Growth (YoY)",
+    "averageMargin": "Average Margin",
+    "marketDesc": "* Market Size: Market Size is the total sales potential your market holds.",
+    "annualDesc": "* Annual Growth(YOY) : Yearly growth rate that signals how fast the category is expanding.",
+    "averageDec": "* Average Margin is the profit you keep per unit sold after covering all costs.",
+    "disclaimer": "*The above data subject to change when new information becomes available.",
+    "showMoreBtn": "Show More",
+    "showLessBtn": "Show Less"
+  },
+  "trending": {
+    "title": "Trending Now",
+    "subTitle": "Products gaining traction across global buyers.Discover what's in demand right now",
+    "viewAll": "View All",
+    "sourcingTrends": {
+      "label": "Sourcing Trends",
+      "description": "Driven by buyer demand,saved item & supplier engagement."
+    },
+    "supplierSpotlight": {
+      "label": "Supplier Spotlight",
+      "description": "Recently Listed,frequently reordered or restocked by verified manufacturers."
+    },
+    "marketInsights": {
+      "label": "Market Insights",
+      "description": "Growing trends in global trade data,industry reports and seasonal demand"
+    },
+    "categoryLeaders": {
+      "label": "Category Leaders",
+      "description": "Actively Listed & Promoted by multiple trusted suppliers"
+    },
+    "filters": {
+      "mostViewed": "Most Viewed",
+      "recentlyListed": "Recently Listed",
+      "exportInterest": "Top Export Interest"
+    },
+    "supplierFilters": {
+      "topManufacturer": "Top Manufacturer",
+      "highlyEngaged": "Highly Engaged",
+      "mostRecommended": "Most Recommended"
+    }
+  },
+  "featuredSuppliers": {
+    "title": "Featured Suppliers",
+    "description": "Discover verified,top-rated suppliers delivering quality and reliability for your business",
+    "filters": {
+      "top": "Top Manufacturers",
+      "engaged": "Highly Engaged Suppliers",
+      "recommend": "Most Recommended"
+    }
+  },
+  "offersAndDiscounts": {
+    "title": "Offers & Discounts",
+    "description": "Unlock Exclusive Bulk Offers from Verified Suppliers",
+    "deals": "Handpicked Business Deals",
+    "offers": "Verified Offers,No Surprises",
+    "categories": "Deals Across diverse categories",
+    "discounts": "Unlock Exclusive Discounts",
+    "viewAll": "View All"
+  },
+  "postRequest": {
+    "title": "Post your needs,get the best offers",
+    "description": "Let verified sellers compete to fulfill your requirements.Share what you need and receive tailored responses that match your sourcing goals.",
+    "seller": "Verified Sellers,Guaranteed Trust",
+    "time": "Save Time and Effort",
+    "offer": "One Request Multiple Offers",
+    "network": "Expand Your Sourcing Network",
+    "post": "Post Your Buying Request",
+    "explore": "Explore More Buyers Requests"
+  },
+  "insights": {
+    "title": "Insights to Empower Your Apparel Business"
+  },
+  "pepagora": {
+    "title": "Why Businesses Trust Pepagora",
+    "description": "Thousands of companies trust Pepagora to source smarter and sell faster",
+    "selling": {
+      "title": "Expand Your Sales Globally",
+      "products": "25000+Products listed.Get discovered by global buyers",
+      "visibility": "Tools to boost visibility",
+      "catalog": "Build your own catalog",
+      "button": "Start Selling Now"
+    },
+    "sourcing": {
+      "title": "Source Smarter,Grow Faster",
+      "rfq": "4000+Active RFQs",
+      "countries": "100+ Countries served",
+      "tools": "Easy Sourcing Tools",
+      "button": "Start Sourcing Now"
+    },
+    "tradeShow": {
+      "label": "Upcoming TradeShows"
+    }
+  },
+  "requestForm": {
+    "productName": {
+      "label": "Product Name",
+      "placeholder": "Enter Product Name"
+    },
+    "productCategory": {
+      "label": "Product Category",
+      "placeholder": "Search for Category"
+    },
+    "productDescription": {
+      "label": "Product Description",
+      "placeholder": "Please indicate your detailed requirements to ensure fast and efficient responses from suppliers,you may include Material,Size/Dimension,Grade/Quality Standard,Packaging requirements and or others"
+    },
+    "estimatedOrderQuantity": {
+      "label": "Estimated Order Quantity",
+      "units": "Units"
+    },
+    "preferredUnitPrice": {
+      "label": "Preferred Unit Price",
+      "placeholder": "INR"
+    },
+    "rfq": {
+      "label": "RFQ Validity Date (Valid Till)"
+    }
+  },
+  "cards": {
+    "productCardWithOffer": {
+      "minOrder": "Min. order",
+      "expectedDeliveryBy": "Expected Delivery by",
+      "requestQuote": "Request a Quote",
+      "newBuyerOffer": "New Buyer Offer",
+      "endsInDays": "Ends in {days} days",
+      "buyGetOffer": "Buy {buy} Get {free} FREE",
+      "yearWithSuffix": "{count} yr",
+      "yearsWithSuffix": "{count} yrs",
+      "validTill": "Valid Till",
+      "offerTypes": {
+        "buyMore": "Buy More, Save More",
+        "lowMOQ": "Low MOQ Deal",
+        "limitedTime": "Limited Time Offer",
+        "fixedDiscount": "Fixed Discount"
+      },
+      "noProduct": {
+        "title": "“Products Not Available in the selected category. Please refer other categories below or Be the first to Add Product”  (Add product link to signup) ..",
+        "description": "Check back later for updates"
+      }
+    },
+    "postNeedsCard": {
+      "posted": "Posted",
+      "days": "days ago",
+      "today": "Today",
+      "priceRange": "Price Range",
+      "reqQuantity": "Required Quantity",
+      "pieces": "pieces",
+      "timeline": "Timeline",
+      "quoteNow": "Quote Now"
+    }
+  },
+  "supplier": {
+    "profile": "View Profile",
+    "contact": "Contact Supplier",
+    "businessType": "Business Type",
+    "mainProducts": "Main Products",
+    "contract": "Contract Manufacturing",
+    "mainMarkets": "Main Markets",
+    "employees": "No. of Employees"
+  },
+  "common": {
+    "products": "Products",
+    "suppliers": "Suppliers",
+    "filterBy": "Filter by",
+    "sortBy": "Sort by",
+    "relevance": "Relevance",
+    "highToLow": "High to Low",
+    "lowToHigh": "Low to High",
+    "recommended": "Recommended",
+    "filter": "Filter",
+    "clearAll": "Clear All",
+    "applyFilters": "Apply Filters"
+  },
+  "rfq": {
+    "title": "Buying Requests",
+    "detailPage": {
+      "title": "RFQ",
+      "posted": "Posted",
+      "days": "days ago",
+      "valid": "Valid Till:",
+      "description": "Product Description",
+      "showMore": "Show more Details",
+      "buying": "Buying Preferences",
+      "sampling": "Customization & Sampling",
+      "related": "Related Products",
+      "noRequest": "No Requests",
+      "errorMessage": "Something went wrong while loading requests",
+      "buyingTab": {
+        "sourcing": "Sourcing Region",
+        "delivery": "Expected Delivery Time",
+        "port": "Destination Port",
+        "contract": "Supply Contract Type",
+        "payment": "Payment Terms"
+      },
+      "customization": {
+        "title": " Customization Details",
+        "sample": "Sample"
+      }
+    },
+    "detailCard": {
+      "request": "Request Details",
+      "quantity": "Required Quantity",
+      "unitPrice": "Preferred Unit Price",
+      "urgency": "Urgency",
+      "chat": "Chat now",
+      "quote": "Send Quote"
+    }
+  }
+}

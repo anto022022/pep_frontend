@@ -1,0 +1,224 @@
+.p-sidebar {
+  &.bottom-sheet-comp {
+    height: 90vh;
+    border-radius: 16px 16px 0 0;
+
+    &.max-height {
+      height: max-content;
+    }
+
+    &.sort-bottom-sheet {
+      .b-s-c-body {
+        padding: 15px;
+      }
+    }
+
+    .p-sidebar-header {
+      display: none;
+    }
+
+    .b-s-c-header {
+      padding: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid $color-grey-24;
+
+      .b-s-c-h-right {
+        .btn-comp {
+          &.btn-txt {
+            .b-c-txt {
+              color: $black;
+              font-family: $secondary-body-font;
+              font-size: 0.875rem;
+              font-weight: 400;
+              line-height: normal;
+            }
+          }
+
+          &.btn-icon {
+            padding: unset;
+            width: auto;
+            min-width: unset;
+            height: 20px;
+
+            svg {
+              path {
+                stroke: $text-icon;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .b-s-c-body {
+      height: calc(100% - 108px);
+    }
+
+    .b-s-c-footer {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      border-top: 1px solid $color-grey-24;
+      background: $primary-solid-color;
+      padding: 8px 16px;
+
+      .btn-comp {
+        width: 100%;
+      }
+    }
+
+    .b-s-c-title {
+      color: $text-primary;
+      font-family: $body-font;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 18px;
+    }
+
+    .filter-tab-view {
+      display: flex;
+      height: 100%;
+
+      .p-tabview-nav-container {
+        width: 170px;
+        min-width: 170px;
+        border-right: 1px solid $color-grey-65;
+
+        .p-tabview-nav-content {
+          .p-tabview-nav {
+            flex-direction: column;
+
+            .p-unselectable-text {
+              &.p-tabview-selected {
+                .p-tabview-nav-link {
+                  border-left: 3px solid $btn-primary;
+                  background: $color-red-3;
+                }
+              }
+            }
+
+            .p-tabview-nav-link {
+              padding: 16px 8px;
+              border-radius: unset;
+              font-size: 14px;
+              border-left: 3px solid transparent;
+
+              .p-tabview-title {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+
+      .p-tabview-panels {
+        padding: 10px;
+        width: 100%;
+
+        .tabs-content {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+
+          .forms-checkbox {
+            .f-r-label {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+
+      .f-t-v-navs-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+
+        .f-t-v-n-i-txt {
+          color: $color-black-15;
+          font-family: $body-font;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 16px;
+          letter-spacing: 0.24px;
+          white-space: normal;
+        }
+
+        .f-t-v-n-i-badge {
+          color: $primary-solid-color;
+          font-family: $body-font;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 16px;
+          letter-spacing: 0.2px;
+          background-color: $btn-primary;
+          padding: 0 5px;
+          border-radius: 60px;
+        }
+      }
+    }
+
+    .sort-options-ul {
+      .s-o-u-li {
+        padding: 8px 12px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        justify-content: space-between;
+
+        .s-o-u-li-txt {
+          color: $color-black-4;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 20px;
+          letter-spacing: 0.28px;
+        }
+
+        .s-o-u-li-icon {
+          display: none;
+        }
+
+        &.active {
+          background-color: $color-grey-11;
+
+          .s-o-u-li-icon {
+            display: block;
+          }
+        }
+      }
+    }
+
+    .three-dots-options-ul {
+      li {
+        a,
+        button {
+          padding: 15px;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          border-bottom: 1px solid $color-white-6;
+          width: 100%;
+
+          .t-d-o-u-txt {
+            color: $color-black-4;
+            font-family: $secondary-body-font;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 0.28px;
+          }
+        }
+
+        &:last-child {
+          a,
+          button {
+            border-bottom: unset;
+          }
+        }
+      }
+    }
+  }
+}

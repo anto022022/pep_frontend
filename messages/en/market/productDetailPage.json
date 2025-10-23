@@ -1,0 +1,145 @@
+{
+  "similar_product": "Similar Products",
+  "supplier_products":"More Products From Supplier",
+  "description": "Description",
+  "specification": {
+    "label": "Specifications",
+    "key": "Key Attributes",
+    "additionalInformation": {
+      "label": "Additional Information",
+      "brand": "Brand",
+      "sku": "SKU",
+      "countryOfOrigin": "Country of Origin",
+      "customisable": "Customisable"
+    }
+  },
+  "application": "Application",
+  "tradeDetails": {
+    "label": "Trade Details",
+    "productionLeadTime": "Production Lead Time",
+    "availableStock": "Available Stock",
+    "productionCapacity": "Production Capacity",
+    "sampleAvailability": "Sample Availability",
+    "samplePricing": "Sample Pricing",
+    "sampleLeadTime": "Sample Lead Time"
+  },
+  "paymentTerms": {
+    "label": "Payment Terms",
+    "paymentTerms": "Payment Terms",
+    "paymentMethods": "Payment Methods"
+  },
+  "shipping": {
+    "label": "Shipping & Logistics",
+    "shippingInternationally": "Shipping Internationally",
+    "methods": "Methods",
+    "incoTerms": "IncoTerms",
+    "portOfDispatch": "Port of Dispatch",
+    "packagingType": "Packaging Type",
+    "unitsPerPackage": "Units per Package",
+    "barcode": "Barcode / HSN / GTIN / UPC",
+    "dispatchLeadTime": "Dispatch Lead time"
+  },
+  "showMore": "Show more",
+  "showLess": "Show less",
+  "productsAvailable": "{count} products available",
+  "certificates": "Certifications",
+  "companyProfile": {
+    "label": "Company Profile",
+    "engagementRate": "Engagement Rate",
+    "responseTime": "Response Time",
+    "turnOver": "Turn Over"
+  },
+  "factoryDetails": {
+    "label": "Factory Details",
+    "factorySize": "Factory Size",
+    "contractManufacturing": "Contract Manufacturing",
+    "numberOfQCStaff": "No. of QC Staff",
+    "numberOfRDStaff": "No. of R&D Staff",
+    "numberOfProductionLines": "No. of Production Lines",
+    "annualProductionCapacity": "Annual Production Capacity",
+    "mainMarkets": "Main Markets",
+    "qualityCertification": "Quality & Certification",
+    "profile": "View Profile",
+    "message": "Send Message"
+  },
+  "productDetailCard": {
+    "sku": "SKU",
+    "reviews": "({reviews}) Reviews",
+    "sold": "{sold} Sold",
+    "minOrderQty": "Min. Order Quantity",
+    "price": "Price",
+    "totalAvailableOptions": "Total available options",
+    "shipping": "Shipping",
+    "shippingSubtitle": "Shipping fee and delivery date to be negotiated. Contact supplier now for more details.",
+    "shippingInternationally": "Shipping Internationally",
+    "estimatedDelivery": "Estimated Delivery",
+    "businessDays": " business days",
+    "selectVarQty": "Select variations and quantity",
+    "express": "Express",
+    "estimatedDel": " Estimated delivery in",
+    "shippingDet": "*Shipping costs listed are estimates for your reference. Please contact the supplier for the final quote.",
+    "shippingTotal": "Shipping total",
+    "est": "Est.",
+    "shippingFee": "Shipping fee: Est.{fee} for 1 set",
+    "subTotal": "Subtotal",
+    "itemSubtotal": "Item subtotal ({variationCount} variation {totalItems} items)",
+    "chatNow": "Chat Now",
+    "contactSupplier": "Contact Supplier",
+    "requestQuote": "Request Quote",
+    "viewDetails": "View Details",
+    "selectMultiVar": "Select Multiple Variants",
+    "from": "From",
+    "to": "To",
+    "yearWithSuffix": "{count} yr",
+    "yearsWithSuffix": "{count} yrs",
+    "seeProfile": "See Profile",
+    "message": "Message",
+    "messagePlaceholder": "Enter your sourcing requirements: product type, material, size, quantity, delivery timeline, or certifications.",
+    "addToRfqList": "Add to RFQ List",
+    "minOrderQtyError": "Minimum order quantity is {minOrderQty} {unit}",
+    "messageError": "Message is required.",
+    "agreeError": "You must agree to proceed.",
+    "agreeToTerms": {
+      "part1": "I agree to the Terms and ",
+      "part2": "Conditions",
+      "part3": "and",
+      "part4": "Privacy Policy."
+    },
+    "minOrder": "Min. Order",
+    "expectedDelivery": "Expected Delivery by"
+  },
+  "enquiryCart": {
+    "agreeToTerms": {
+      "part1": "I agree to the Terms and ",
+      "part2": "Conditions",
+      "part3": "and",
+      "part4": "Privacy Policy."
+    },
+    "title": "RFQ List",
+    "selectAll": "Select All ({count})",
+    "sendAllEnquiry": "Send All Enquiry",
+    "message": "Message",
+    "enterMsg": "Enter your sourcing requirements: product type, material, size, quantity, delivery timeline, or certifications.",
+    "messageError": "Message is required.",
+    "agreeError": "You must agree to proceed.",
+    "requestQuote": "Request Quote",
+    "cancel": "Cancel",
+    "relatedProducts": "Related Products",
+    "products": "Products",
+    "minOrder": "Min. Order",
+    "expectedDelivery": "Expected Delivery by",
+    "yearWithSuffix": "{count} yr",
+    "yearsWithSuffix": "{count} yrs",
+    "addToRfqList": "Add to RFQ List",
+    "emptyCart": {
+      "title": "No items in your Enquiry cart.",
+      "subTitle": "Add products to your Enquiry cart to request quotes.",
+      "browseProduct": "Browse Products",
+      "loginAndBrowse": "Login and Browse"
+    }
+  },
+  "logNotes": {
+    "placeholder": "Type a message here...",
+    "send": "Send"
+  }
+}

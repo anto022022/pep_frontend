@@ -1,0 +1,317 @@
+.auth-layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    .card-catergory-nav-group{
+        display: flex;
+        flex-direction: column;
+    }
+    .body-wrapper {
+        padding: 30px;
+
+        @media screen and (max-width:640px) {
+            padding: 30px 15px;
+        }
+    }
+
+    &:has(.timeline-steps-comp) {
+        justify-content: flex-start;
+
+        .auth-footer-comp {
+            display: none;
+        }
+    }
+
+
+    .providers-group {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        .providers-button {
+            border-radius: 56px;
+            background: $neutral-soft-bg;
+            padding: 14px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            cursor: pointer;
+
+            img{
+                height: 0.87494rem;
+                width: auto;
+            }
+
+            .p-b-txt {
+                color: $text-primary; 
+                font-family: $body-font;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 20px;
+                letter-spacing: 0.42px;
+                margin-bottom: -3px;
+            }
+        }
+    }
+
+    .forms-container {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+
+        &.f-c-md {
+            max-width: 750px;
+        }
+
+        .btn-comp {
+            @media screen and (max-width:576px) {
+                max-width: 100% !important;
+            }
+        }
+    }
+
+    .form-arrow {
+        position: relative;
+
+        .form-back {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: -30%;
+            width: 36px;
+            height: 36px;
+            background-color: $color-white-2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $text-tertiary;
+
+            @media screen and (max-width:991px) {
+                display: none;
+            }
+        }
+    }
+
+    .form-scroll {
+        height: calc(100vh - 310px);
+        overflow-y: auto;
+        padding-right: 5px;
+        padding-bottom: 5px;
+    }
+
+    .cpy-paste-resend-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .resend-txt {
+            color: $color-grey-2;
+            font-size: 14px;
+            font-weight: 450;
+            line-height: 20px;
+            letter-spacing: 0.42px;
+        }
+    }
+
+    .other-option {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .o-o-txt {
+            text-decoration: underline;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 24px;
+            letter-spacing: 0.48px;
+            cursor: pointer;
+        }
+    }
+
+    .choose-service-main {
+        .service-card-group {
+            padding: 5px;
+        }
+
+        .service-continue-btn {
+            width: 100%;
+            max-width: 200px;
+        }
+    }
+
+    .service-card-group {
+        display: flex;
+        gap: 25px;
+
+        @media screen and (max-width:640px) {
+            flex-direction: column;
+            width: 100%;
+        }
+    }
+
+
+
+    .timeline-step-form-wrap {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+
+        @media screen and (max-width:767px) {
+            gap: 30px;
+        }
+    }
+}
+
+.business-type-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    &.col-2-layout {
+        flex-wrap: wrap;
+        flex-direction: row;
+
+        .business-type-card-comp {
+            width: calc(50% - 4px);
+
+            @media screen and (max-width:767px) {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.otp-card {
+    .forms-button-gaps {
+        gap: 15px;
+    }
+}
+
+
+//Common Styling
+.form-box-shadow {
+    border-radius: 16px;
+    border: 1px solid $color-white-1;
+    background: $primary-solid-color;
+    box-shadow: $shadow-depth-1;
+    padding: 60px;
+
+    @media screen and (max-width:640px) {
+        padding: 30px;
+    }
+}
+
+.form-gaps {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+
+    @media screen and (max-width:640px) {
+        gap: 30px;
+    }
+}
+
+.form-title-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+}
+
+.title-txt {
+    color: $text-primary;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    font-family: $body-font;
+
+    @media screen and (max-width:640px) {
+        font-size: 23px;
+        line-height: 28px;
+    }
+}
+
+.dark-txt {
+    color: $text-primary;
+}
+
+.sub-txt {
+    color: #9FA6AD;
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+    letter-spacing: 0.01125rem;
+
+    @media screen and (max-width:640px) {
+        font-size: 16px;
+        line-height: 23px;
+    }
+}
+
+.or-divider {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    background-color: $divider;
+
+    .o-d-txt {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        right: 0;
+        text-align: center;
+        color: $black;
+        font-family: $body-font;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 12px;
+        padding: 0 25px;
+        background-color: $primary-solid-color;
+        width: max-content;
+        margin: 0 auto;
+    }
+}
+
+.forms-button-gaps {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2.3rem;
+
+    @media screen and (max-width:640px) {
+        gap: 20px;
+    }
+}
+
+.wth-back-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    .back-block {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        cursor: pointer;
+
+        img {
+            transform: scale(1.7);
+            position: relative;
+            top: -1.5px;
+        }
+
+        .b-b-txt {
+            color: $text-tertiary;
+            font-size: 14px;
+            font-weight: 450;
+            line-height: 133%;
+            letter-spacing: 0.5px;
+        }
+    }
+}

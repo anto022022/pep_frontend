@@ -1,0 +1,62 @@
+.auth-navbar-comp {
+    padding: 20px 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: $bg-primary;
+    width: 100%;
+    z-index: 3;
+
+    @media screen and (max-width:640px) {
+        padding: 15px 20px;
+        align-items: center;
+    }
+
+    .a-n-c-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        .btn-comp {
+            &.btn-plain-txt {
+                text-decoration: none;
+                position: relative;
+                top: -2px;
+
+                .b-c-txt {
+                    color: $text-icon;
+                    font-family: $secondary-body-font;
+                    font-size: 0.875rem;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: -0.176px;
+                }
+            }
+        }
+    }
+
+    .site-logo {
+        width: 200px;
+        height: 40px;
+        display: block;
+
+        @media screen and (max-width:640px) {
+            width: 150px;
+        }
+
+        img {
+            @include img-contain;
+        }
+    }
+
+    .forms-select-noborder {
+        position: relative;
+        top: -10px;
+
+        @media screen and (max-width:767px) {
+            top: unset;
+        }
+    }
+}

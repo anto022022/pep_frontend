@@ -1,0 +1,101 @@
+.timeline-steps-comp {
+    .t-s-c-ul {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        @media screen and (max-width:400px) {
+            justify-content: flex-start;
+        }
+        li {
+            padding-top: 15px;
+            cursor: pointer;
+            position: relative;
+            width: 120px;
+            z-index: 1;
+
+            @media screen and (max-width:767px) {
+                width: 55px;
+
+                span {
+                    display: none;
+                }
+
+                &.latest-active {
+                    span {
+                        display: block;
+                    }
+                }
+
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: -72px;
+                right: 0;
+                width: 100%;
+                background-color: $primary-outlined-border;
+                height: 1px;
+                z-index: 1;
+
+                @media screen and (max-width:767px) {
+                    left: -7px;
+                }
+            }
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: -5px;
+                left: 35px;
+                right: 0;
+                width: 12px;
+                height: 12px;
+                border-radius: 100px;
+                background-color: $primary-outlined-border;
+                border: 2px solid $primary-solid-color;
+                z-index: 2;
+            }
+
+            &:first-child {
+                z-index: 2;
+
+                &::after {
+                    left: 35px;
+                }
+
+            }
+
+            &.active {
+                &::before {
+                    background-color: $btn-primary;
+                    width: 15px;
+                    height: 15px;
+                    top: -7px;
+                }
+
+                &::after {
+                    background-color: $btn-primary;
+                }
+
+                span {
+                    color: $text-primary;
+                }
+            }
+
+        }
+
+        span {
+            color: $text-tertiary;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 450;
+            line-height: 18px;
+            letter-spacing: 0.36px;
+            display: block;
+            width: 80px;
+            user-select: none;
+        }
+    }
+}

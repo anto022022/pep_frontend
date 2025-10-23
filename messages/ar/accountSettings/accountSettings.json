@@ -1,0 +1,341 @@
+{
+  "moduleName": "إعدادات الحساب",
+  "accountSettingsStepper": {
+    "businessSettings": "إعدادات العمل",
+    "complianceSettings": "إعدادات الامتثال",
+    "taxSettings": "إعدادات الضرائب",
+    "dataPrivacySettings": "إعدادات البيانات والخصوصية",
+    "SubscriptionDetails": "تفاصيل الاشتراك",
+    "UserSettings": "إعدادات المستخدم"
+  },
+  "complianceSettings": {
+    "kycVerification": {
+      "title": "التحقق من KYC",
+      "subTitle": "تحقق من هويتك",
+      "step_1": {
+        "title": "1. التحقق من مستند الهوية",
+        "subTitle": "قم بتحميل بطاقة هوية صالحة صادرة عن الحكومة (مثل جواز السفر أو البطاقة الوطنية أو رخصة القيادة)."
+      },
+      "step_2": {
+        "title": "2. التحقق من العنوان",
+        "subTitle": "قدّم فاتورة خدمات حديثة أو كشف حساب بنكي لتأكيد عنوانك السكني الحالي."
+      },
+      "step_3": {
+        "title": "3. التحقق البصري",
+        "subTitle": "التقط صورة سيلفي مباشرة لمطابقة مظهرك مع الهوية المقدمة."
+      },
+      "formInfo": {
+        "identityVerification": "التحقق من الهوية",
+        "addressVerification": "التحقق من العنوان",
+        "uploadDocument": "تحميل المستند"
+      },
+      "button": {
+        "getStarted": "ابدأ",
+        "submitting": "جارٍ الإرسال...",
+        "continue": "متابعة",
+        "gotIt": "فهمت",
+        "updateVerification": "تحديث التحقق",
+        "completeBusinessProfile": "إكمال ملف العمل"
+      },
+      "errorMsg": {
+        "document": "اختر نوع الهوية"
+      }
+    },
+    "kybVerification": {
+      "title": "التحقق من KYB",
+      "subTitle": "قم بمصادقة هوية عملك للحصول على شارة موثقة وزيادة الثقة مع المشترين العالميين والشركاء على Pepagora.",
+      "step_1": {
+        "title": "1. مستند تسجيل العمل",
+        "subTitle": "قم بتحميل إثبات تسجيل الشركة مثل شهادة التأسيس أو رخصة العمل."
+      },
+      "step_2": {
+        "title": "2. التحقق من الرقم الضريبي",
+        "subTitle": "قدّم الرقم الضريبي الرسمي الخاص بك (مثل GST أو VAT أو EIN أو PAN أو ما يعادلها)."
+      },
+      "step_3": {
+        "title": "3. إثبات عنوان العمل",
+        "subTitle": "قدّم مستندات (مثل فاتورة خدمات أو عقد إيجار) تؤكد عنوان شركتك المسجل."
+      },
+      "formInfo": {
+        "businessRegistrationDocument": "مستند تسجيل العمل",
+        "taxIdentificationVerification": "التحقق من الهوية الضريبية",
+        "businessAddressProof": "إثبات عنوان العمل",
+        "uploadDocument": "تحميل المستند"
+      },    
+      "button": {
+        "getStarted": "ابدأ",
+        "submitting": "جارٍ الإرسال...",
+        "continue": "متابعة",
+        "gotIt": "فهمت",
+        "updateVerification": "تحديث التحقق",
+        "completeBusinessProfile": "إكمال ملف العمل"
+      },
+      "errorMsg": {
+        "document": "اختر نوع الهوية"
+      },
+      "successDialog": {
+        "title": "سنعلمك حالما يتم التحقق منك",
+        "subTitle": "سوف نرسل إليك بريدًا إلكترونيًا خلال 24 ساعة لإعلامك إذا تم التحقق منك بنجاح أو إذا كنا بحاجة إلى مزيد من المعلومات"
+      }
+    },
+    "uboVerification": {
+      "title": "التحقق من UBO",
+      "subTitle": "أكد ملكية شركتك الفعلية لتمكين خدمات التمويل التجاري والدعم اللوجستي وخدمات الضمان، مع تعزيز الشفافية وثقة المشترين على Pepagora",
+      "step_1": {
+        "title": "1. التحقق من مستند الهوية",
+        "subTitle": "قم بتحميل هوية صالحة صادرة عن الحكومة للمالك الفعلي النهائي (UBO)."
+      },
+      "step_2": {
+        "title": "2. التحقق من السيلفي",
+        "subTitle": "التقط صورة حية لـ UBO لمطابقة الهوية المقدمة."
+      },
+      "step_3": {
+        "title": "3. التحقق من حصة الملكية",
+        "subTitle": "صرّح بتفاصيل ملكية UBO وقم بتحميل إثبات صالح لحصة الملكية."
+      },
+      "formInfo": {
+        "title": "التحقق من UBO",
+        "subTitle": "أدخل البريد الإلكتروني المرتبط بهذا الحساب. سنرسل رابطًا للتحقق.",
+        "input_1": {
+          "name": "الاسم",
+          "placeholder": "أدخل اسمك",
+          "errorMsg": "الاسم مطلوب"
+        },
+        "input_2": {
+          "name": "البريد الإلكتروني",
+          "placeholder": "أدخل البريد الإلكتروني",
+          "errorMsg": "البريد الإلكتروني مطلوب",
+          "patternMsg": "تنسيق البريد الإلكتروني غير صالح",
+          "min": "الحد الأدنى هو 0",
+          "max": "الحد الأقصى هو 100"
+        },
+        "input_3": {
+          "name": "نسبة الملكية",
+          "placeholder": "%",
+          "errorMsg": "نسبة الملكية مطلوبة",
+          "min": "الحد الأدنى هو 0",
+          "max": "الحد الأقصى هو 100"
+        }
+      },
+      "button": {
+        "cancel": "إلغاء",
+        "submitting": "جارٍ الإرسال...",
+        "submit": "إرسال",
+        "addMember": "إضافة عضو"
+      }
+    }
+  },
+  "businessSettings": {
+    "fields": {
+      "AccountID": "معرّف الحساب",
+      "BusinessName": "اسم العمل",
+      "BusinessAddress": "عنوان العمل",
+      "Country": "البلد",
+      "State": "الولاية",
+      "City": "المدينة",
+      "Pincode": "الرمز البريدي",
+      "TimeZone": "المنطقة الزمنية",
+      "PhoneNumber": "رقم الهاتف",
+      "ChangeNumber": "تغيير الرقم",
+      "ChangeEmail": "تغيير البريد الإلكتروني",
+      "AddNumber": "+ إضافة رقم",
+      "Email": "البريد الإلكتروني",
+      "VerifyNumber": "تحقق من الرقم",
+      "Verified": "تم التحقق",
+      "Cancel": "إلغاء",
+      "AdditionalMobileNumber": "رقم هاتف إضافي",
+      "VerifyEmail": "تحقق من البريد الإلكتروني"
+    },
+    "placeholder": {
+      "EnterBusinessName": "أدخل اسم النشاط التجاري",
+      "EnterAddress": "أدخل عنوانك",
+      "EnterCity": "أدخل مدينتك",
+      "EnterPincode": "أدخل الرمز البريدي",
+      "EnterState": "أدخل ولايتك",
+      "EnterCountry": "أدخل بلدك",
+      "EnterTimeZone": "أدخل المنطقة الزمنية",
+      "EnterPhoneNumber": "أدخل رقم هاتفك",
+      "Select": "اختر",
+      "EnterEmail": "أدخل البريد الإلكتروني"
+    }
+  },
+  "taxSettings": {
+    "fields": {
+      "RegisteredCountry": "البلد المسجل",
+      "Currency": "العملة",
+      "TaxIdentificationNumber": "رقم التعريف الضريبي",
+      "ApplicableTaxType": "نوع الضريبة المطبق",
+      "TaxRate": "معدل الضريبة (%)",
+      "TaxIDCountry": "بلد رقم التعريف الضريبي",
+      "AddAnotherTaxType": "+ إضافة نوع ضريبة آخر",
+      "Remove": "إزالة"
+    },
+    "placeholder": {
+      "Select": "اختر",
+      "EnterCurrency": "أدخل العملة",
+      "GSTINNumber": "رقم GSTIN",
+      "EnterTaxRate": "أدخل معدل الضريبة",
+      "EnterTaxIDNumber": "أدخل رقم التعريف الضريبي",
+      "EnterTaxType": "أدخل نوع الضريبة"
+    },
+    "helperText": {
+      "EnterTaxIDNumber": "أدخل رقم التعريف الضريبي"
+    }
+  },
+  "dataPrivacySettings": {
+    "PersonalDataControl": "التحكم في البيانات الشخصية",
+    "PersonalInformation": "المعلومات الشخصية",
+    "CompanyInformation": "معلومات الشركة",
+    "DataSharingPreferences": "تفضيلات مشاركة البيانات",
+    "TermsPrivacyPolicy": "شروط الخدمة وسياسة الخصوصية",
+    "ConsentProcessData": "الموافقة على معالجة البيانات",
+    "ViewTermsPrivacy": "عرض الشروط والخصوصية",
+    "Accept_1": "أوافق على أن",
+    "Accept_2": "بياناتي",
+    "Accept_3": "تُستخدم لإرسال إعلانات مخصصة لي من شركائنا",
+    "Switch_1": {
+      "title": "المشاركة مع الشركاء الموثوقين",
+      "subTitle": "تمكين المشاركة مع الشركاء الموثوقين"
+    },
+    "Switch_2": {
+      "title": "البيانات لأغراض التحليل",
+      "subTitle": "تمكين البيانات المجهولة لأغراض التحليل"
+    },
+    "NoCompanyInformation": "لا توجد معلومات عن الشركة.",
+    "NoPersonalInformation": "لا توجد معلومات شخصية."
+  },
+  "subscriptionDetails": {
+    "annualCard": {
+      "title_1": "تحوّل إلى الدفع السنوي ووفّر 8%",
+      "title_2": "$50/سنوياً",
+      "title_3": "(فقط ادفع",
+      "title_4": "$50",
+      "title_5": "$46/شهرياً)",
+      "subTxt": "سوف نقوم بتعديل المبلغ الذي نحصّله وفقاً للأيام المتبقية في اشتراكك الحالي",
+      "button": "التحول إلى PepScale"
+    },
+    "pepScale": {
+      "stateTxt": "عضو منذ",
+      "endTxt": "التجديد القادم",
+      "AutoRenewal": "التجديد التلقائي",
+      "title": "PepScale",
+      "subTxt": "طريقة الشحن، أنواع الدفع، شروط التسليم، الحد الأدنى للطلب، العملة، شروط الدفع",
+      "ChangePlan": "تغيير الخطة",
+      "PayNow": "ادفع الآن"
+    },
+    "CancelSubscription": "إلغاء الاشتراك",
+    "PaymentDetails": "تفاصيل الدفع",
+    "BillingInformation": "معلومات الفوترة",
+    "Paymentmethod": "طريقة الدفع",
+    "UpdateBillingInformation": "تحديث معلومات الفوترة",
+    "UpdatePaymentMethod": "تحديث طريقة الدفع",
+    "AddPaymentMethod": "أضف طريقة دفع",
+    "PaymentHistory": "سجل الدفع",
+    "AddBillingInformation": "أضف معلومات الفوترة",
+    "tableData": {
+      "PaymentDate": "التاريخ",
+      "Paymentmethod": "طريقة الدفع",
+      "PaymentStatus": "حالة الدفع",
+      "Invoice": "فاتورة",
+      "Total": "الإجمالي"
+    },
+    "billingInformationForm": {
+      "fields": {
+        "title": "تحديث معلومات الفوترة",
+        "name": "الاسم",
+        "businessName": "اسم العمل",
+        "address": "أضف السطر الأول من العنوان",
+        "country": "البلد",
+        "state": "الولاية",
+        "city": "المدينة",
+        "pinCode": "الرمز البريدي",
+        "button": "تحديث",
+        "Add": "إضافة",
+        "cancel": "إلغاء",
+        "loading": "جارٍ التحميل..."
+      },
+      "placeholder": {
+        "EnterName": "أدخل اسمك",
+        "EnterBusinessName": "أدخل اسم العمل",
+        "EnterAddress": "أضف السطر الأول من العنوان",
+        "EnterCountry": "أدخل البلد",
+        "EnterState": "أدخل الولاية",
+        "EnterCity": "أدخل المدينة",
+        "EnterPincode": "أدخل الرمز البريدي",
+        "Select": "اختر"
+      },
+      "highlight": {
+        "bussingessName": "الاسم التجاري لشركتك، إذا كان يختلف عن الاسم القانوني."
+      }
+    },
+    "paymentMethodForm": {
+      "fields": {
+        "title": "تحديث طريقة الدفع",
+        "cardHolderName": "اسم حامل البطاقة",
+        "cardNo": "رقم البطاقة",
+        "Expired by": "تاريخ الانتهاء",
+        "cvv": "رمز التحقق (CVV)",
+        "Add": "إضافة",
+        "SaveCard": "احفظ البطاقة بأمان حسب إرشادات RBI",
+        "button": "تحديث",
+        "cancel": "إلغاء",
+        "loading": "جارٍ التحميل..."
+      },
+      "placeholder": {
+        "EnterCardHolderName": "الاسم كما هو على البطاقة",
+        "EnterCardNo": "أدخل رقم البطاقة المكون من 16 رقمًا",
+        "EnterExpiredDate": "MM/YY",
+        "EnterCVV": "***",
+        "Accept": "احفظ البطاقة بأمان حسب إرشادات RBI"
+      }
+    },
+    "cancelMembershipForm": {
+      "fields": {
+        "title": "انتظر! قبل أن تلغي...",
+        "subTitle": "لقد وصلت إلى هذا الحد — لا تتوقف عن نموك الآن."
+      },
+      "menu_1": {
+        "title": "آلاف الشركات الصغيرة تستخدم Pepagora من أجل",
+        "point_1": "اكتساب الاهتمام من المشترين العالميين",
+        "point_2": "تلقي استفسارات موثقة كل أسبوع",
+        "point_3": "عرض منتجاتهم بشكل احترافي",
+        "point_4": "البقاء في الطليعة من خلال التسويق المدعوم بالذكاء الاصطناعي",
+        "point_5": "ولكن رحلتك بدأت للتو."
+      },
+      "menu_2": {
+        "title": "ماذا يحدث إذا ألغيت؟",
+        "point_1": "سوف",
+        "point_1_highlight": "تفقد الاستفسارات",
+        "point_2": "ملف عملك",
+        "point_2_highlight": "سيتوقف عن النشاط",
+        "point_3": "ستفقد الوصول إلى",
+        "point_3_highlight": "الأدوات وتتبع العملاء",
+        "point_4": "سيتم إزالة شارات الثقة والرؤية"
+      },
+      "menu_3": {
+        "title": "ما زلت غير متأكد؟ لنُسهّل الأمر"
+      },
+      "cards": {
+        "card_1": {
+          "title": "تفضل استراحة قصيرة؟",
+          "subTitle": "أوقف اشتراكك لمدة 30 يومًا",
+          "button": "إيقاف خطتي مؤقتًا"
+        },
+        "card_2": {
+          "title": "تحتاج مساعدة؟",
+          "subTitle": "تحدث مع فريق الدعم لدينا",
+          "button": "الدردشة مع الدعم"
+        },
+        "card_3": {
+          "title": "تريد تقليل الخطة؟",
+          "subTitle": "انتقل إلى خطة أقل",
+          "button": "تقليل خطتي"
+        }
+      },
+      "decision": "نحترم قرارك.",
+      "feedback": "لكننا نحب أن نسمع ملاحظاتك لتحسين Pepagora.",
+      "hopeBtn": "لكننا نأمل حقًا ألا تفعل",
+      "ContinueCancelBtn": "الاستمرار في الإلغاء"
+    }
+  }
+}

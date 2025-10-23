@@ -1,0 +1,172 @@
+.alert-message-comp {
+    .p-message {
+        .alert-icon {
+            width: 22px;
+            min-width: 22px;
+            height: 22px;
+        }
+
+        .p-message-wrapper {
+            padding: 12px;
+            gap: 8px;
+            align-items: center;
+
+            @media screen and (max-width:640px) {
+                padding: 8px 10px;
+            }
+        }
+
+        .p-message-detail {
+            font-family: $body-font;
+            font-size: clamp(0.813rem, 0.799rem + 0.06vw, 0.875rem); // 13, 14px
+            font-style: normal;
+            font-weight: 300;
+            line-height: 16px;
+            letter-spacing: 0.42px;
+        }
+
+        .p-message-summary:empty {
+            display: none;
+        }
+
+        .p-message-close {
+            margin-left: auto;
+            height: auto;
+
+            &:hover {
+                background: unset;
+            }
+
+            svg {
+                color: $text-tertiary;
+                width: 12px;
+                height: 12px;
+            }
+        }
+
+        &.p-message-info {
+            border-radius: 8px;
+            border: 1px solid $alert-info-border;
+            background: $alert-info-bg;
+
+            .p-message-detail,
+            .alert-icon {
+                color: $alert-info-color;
+            }
+        }
+
+        &.p-message-error {
+            border-radius: 8px;
+            border: 1px solid $alert-error-border;
+            background: $alert-error-bg;
+
+            .p-message-detail {
+                color: $alert-error-color;
+            }
+
+            .alert-icon {
+                path {
+                    fill: $alert-error-color;
+                }
+            }
+        }
+    }
+}
+
+.alert-message-custom {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background: var(--primary-100, #E3EFFB);
+    cursor: default;
+
+    @media screen and (max-width:767px) {
+        padding: 8px 10px;
+    }
+
+    &:has(.btn-accept) {
+        align-items: center;
+    }
+
+    &.a-m-c-sm {
+        .a-m-c-left {
+            .a-m-c-icon-message {
+                gap: 5px;
+
+                svg {
+                    min-width: 22px;
+                    width: 22px;
+                }
+
+                .a-m-c-message {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    &.info-bg {
+        background-color: $alertCustom-info-bg;
+        color: $alertCustom-info-color;
+        border: 1px solid $alert-info-border;
+
+        .btn-accept {
+            color: $alertCustom-info-color;
+        }
+
+        svg {
+            path {
+                fill: $alertCustom-info-color;
+            }
+        }
+    }
+
+    .a-m-c-message {
+        font-family: $body-font;
+        font-size: clamp(0.875rem, 0.847rem + 0.13vw, 1rem); // 14, 16px
+        font-weight: 400;
+        line-height: clamp(1.063rem, 1.035rem + 0.13vw, 1.188rem); // 17, 19px
+        letter-spacing: 0.32px;
+        position: relative;
+        top: 1px;
+    }
+
+    .a-m-c-icon-message {
+        display: flex;
+        gap: 10px;
+
+        @media screen and (max-width:640px) {
+            gap: 5px;
+        }
+
+        svg {
+            position: relative;
+            top: 0.5px;
+            min-width: 24px;
+        }
+    }
+
+    .a-m-c-right {
+        .close-icon {
+            cursor: pointer;
+            position: relative;
+            top: 3px
+        }
+    }
+
+    .btn-accept {
+        padding: 8px 12px;
+        border-radius: 100px;
+        background-color: $primary-solid-color;
+        border: unset;
+        font-family: $body-font;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 14px;
+        letter-spacing: 0.5px;
+        cursor: pointer;
+    }
+}

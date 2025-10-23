@@ -1,0 +1,78 @@
+.trade-shows-card-comp {
+    border-radius: 16px;
+    border: 1px solid $color-white-1;
+    background: $primary-solid-color;
+    box-shadow: $shadow-depth-3;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+    user-select: none;
+
+    .t-s-c-c-top {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 10px;
+
+        .t-s-c-c-t-img {
+            width: 145px;
+            min-width: 145px;
+            height: 140px;
+
+            img {
+                @include img-cover;
+                border-radius: 15px;
+            }
+
+            @media screen and (max-width:600px) {
+                width: 80px;
+                min-width: 80px;
+                height: 75px;
+
+                img {
+                    border-radius: 6px;
+                }
+            }
+        }
+
+        .t-s-c-c-t-left {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .date-show-name {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+
+                .d-s-n-name {
+                    color: $text-primary;
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    letter-spacing: 0.32px;
+                    @include line-clamp(2);
+                }
+            }
+        }
+    }
+
+    .t-s-c-c-bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .attend-group {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+
+        .min-order-txt {
+            font-size: 15px;
+            color: $text-tertiary;
+        }
+    }
+}

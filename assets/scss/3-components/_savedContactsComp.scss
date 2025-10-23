@@ -1,0 +1,55 @@
+.saved-contacts-comp {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+
+    .forms-checkbox {
+        gap: unset;
+    }
+
+    .s-c-c-info-block {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        .s-c-c-i-b-img {
+            width: 48px;
+            height: 48px;
+            min-width: 48px;
+
+            @media screen and (max-width:767px) {
+                width: 38px;
+                height: 38px;
+                min-width: 38px;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 100px;
+            }
+        }
+
+        .s-c-c-i-b-content {
+            display: flex;
+            flex-direction: column;
+
+            .s-c-c-i-b-c-title {
+                color: $color-grey-13;
+                font-family: $secondary-body-font;
+                font-size: clamp(0.938rem, 0.924rem + 0.06vw, 1rem); // 15, 16px
+                font-weight: 500;
+                line-height: clamp(1.188rem, 1.118rem + 0.32vw, 1.5rem); // 19, 24px
+            }
+
+            .s-c-c-i-b-c-subtxt {
+                color: $color-grey-52;
+                font-size: clamp(0.813rem, 0.799rem + 0.06vw, 0.875rem); // 13, 14px
+                font-weight: 500;
+                line-height: clamp(1.063rem, 1.021rem + 0.19vw, 1.25rem); // 17, 20px
+            }
+        }
+    }
+}

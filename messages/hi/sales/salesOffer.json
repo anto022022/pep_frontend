@@ -1,0 +1,329 @@
+{
+  "progressHeader": "बिक्री प्रस्ताव जानकारी",
+  "stepper": {
+    "productDetails": {
+      "title": "उत्पाद विवरण",
+      "description": " नया या मौजूदा उत्पाद जोड़ें"
+    },
+    "offerDetails": {
+      "title": "ऑफ़र विवरण",
+      "description": " ऑफ़र का प्रकार, छूट और वैधता निर्धारित करें."
+    },
+    "paymentAndShipping": {
+      "title": "भुगतान और शिपिंग",
+      "description": "मात्रा, भुगतान विधियाँ और शिपिंग शर्तें निर्धारित करें."
+    }
+  },
+  "productDetails": {
+    "alert": "आप जल्दी से एक नया उत्पाद जोड़ सकते हैं जिसे ड्राफ्ट के रूप में सहेजा जाएगा!",
+    "selectProduct": {
+      "title": "उत्पाद का चयन करें"
+    },
+    "existingProduct": {
+      "title": "मौजूदा उत्पाद",
+      "description": "अपने उत्पाद सूची से ब्राउज़ करें",
+      "dropdownTitle": "मौजूदा उत्पाद ब्राउज़ करें"
+    },
+    "newProduct": {
+      "title": "नया उत्पाद जोड़ें",
+      "description": "छूट देने के लिए जल्दी से नया उत्पाद जोड़ें"
+    },
+    "offerMessage": "उत्पाद को पहले से ही एक ऐसे प्रस्ताव से मैप किया गया है जो पूरी तरह से पूरा नहीं हुआ है"
+  },
+  "addNewProduct": {
+    "alert": "यह उत्पाद मार्केटप्लेस में मूल मूल्य (बिना छूट के) पर सूचीबद्ध रहेगा, भले ही ऑफ़र समाप्त हो जाए। आप अपने उत्पाद लिस्टिंग को 'मैं जो उत्पाद बेचता हूँ' में प्रबंधित कर सकते हैं।",
+    "confirmationMessage": "नए जोड़े गए उत्पाद के साथ बिक्री ऑफ़र बनाना जारी रखें। आप इस उत्पाद को अपनी लिस्टिंग में ड्राफ्ट के रूप में पा सकते हैं",
+    "Continue": "जारी रखें",
+    "newProduct": {
+      "title": "नया उत्पाद जोड़ें",
+      "subtitle": "नाम एवं श्रेणी",
+      "fields": {
+        "productName": {
+          "label": "प्रोडक्ट का नाम",
+          "placeholder": "उत्पाद का नाम दर्ज करें"
+        },
+        "Description": {
+          "label": "उत्पाद वर्णन",
+          "placeholder": "उत्पाद विवरण जोड़ें"
+        },
+        "brand": {
+          "label": "ब्रांड का नाम",
+          "placeholder": "ब्रांड नाम दर्ज करें",
+          "optional": "वैकल्पिक"
+        },
+        "category": {
+          "label": "वर्ग",
+          "placeholder": "एआई श्रेणी का चयन करें",
+          "helper": "अपनी उत्पाद श्रेणी चुनें"
+        },
+        "productImage": {
+          "label": " उत्पाद छवियाँ",
+          "placeholder": "सर्वोत्तम गुणवत्ता के लिए JPG, PNG (अधिकतम 5MB) अपलोड करें"
+        },
+        "currency": {
+          "label": "मुद्रा सेट करें",
+          "placeholder": "मुद्रा चुनें"
+        },
+        "basePrice": {
+          "title": "आधार मूल्य"
+        },
+        "pricing": {
+          "label": "मूल्य निर्धारण"
+        },
+        "fixed_pricing": {
+          "label": "यूनिट मूल्य",
+          "placeholder": "इकाई मूल्य दर्ज करें"
+        },
+        "nego_pricing": {
+          "label": "परक्राम्य मूल्य",
+          "placeholder": "बातचीत योग्य मूल्य दर्ज करें"
+        },
+        "quote_pricing": {
+          "label": "कीमत उद्धृत करें",
+          "placeholder": "कोट मूल्य दर्ज करें"
+        },
+        "variable_pricing": {
+          "label": "मूल्य सीमा",
+          "minPrice_placeholder": "न्यूनतम दर्ज करें. कीमत",
+          "maxPrice_placeholder": "अधिकतम दर्ज करें. कीमत"
+        },
+        "bulk_pricing": {
+          "label": "थोक मूल्य निर्धारण",
+          "unitTypeLabel": "इकाई प्रकार",
+          "placeholder": "इकाई का चयन करें"
+        },
+        "add_tier": {
+          "label": "टियर जोड़ें",
+          "add_qty_label": "मात्रा सीमा जोड़ें",
+          "quantity_from_placeholder": "मात्रा (उदाहरणार्थ - 100)",
+          "quantity_to_placeholder": "मात्रा (उदाहरणार्थ - 500)",
+          "price_label": "कीमत",
+          "price_placeholder": "मूल्य $ दर्ज करें",
+          "helper": "बड़े ऑर्डर को प्रोत्साहित करें। आप थोक में जोड़ सकते हैं, उदाहरण के लिए $11.00 में 100 - 500 पीस"
+        },
+        "moq": {
+          "label": "न्यूनतम ऑर्डर मात्रा (MOQ)",
+          "placeholder": "संख्यात्मक दर्ज करें",
+          "unit_placeholder": "इकाई का चयन करें"
+        },
+        "optionLabels": {
+          "pricing": {
+            "fixed_price": "एक ही दाम:",
+            "fixed_price_helper": "मानक प्रति यूनिट कीमत",
+            "negotiable": "बातचीत योग्य:",
+            "negotiable_helper": "खरीदार कीमत का अनुरोध कर सकता है",
+            "bulk_pricing": "थोक मूल्य निर्धारण:",
+            "bulk_pricing_helper": "मात्रा में छूट",
+            "price_range": "मूल्य सीमा:",
+            "price_range_helper": "परिवर्तनीय/कस्टम आइटम के लिए",
+            "request_quote": "कोट अनुरोध करें",
+            "request_quote_helper": "खरीदार मूल्य का अनुरोध कर सकता है"
+          }
+        }
+      }
+    }
+  },
+  "shippingPayment": {
+    "title": "भुगतान एवं शिपिंग",
+    "label": "शीर्षक, श्रेणी और मुख्य विशेषताओं सहित प्रस्ताव के बारे में मूलभूत विवरण प्रदान करें।",
+    "fields": {
+      "paymentTerms": {
+        "label": "भुगतान की शर्तें",
+        "optionalLabel": "वैकल्पिक",
+        "placeholder": "भुगतान अवधि चुनें",
+        "customPaymentTerm": "कस्टम भुगतान अवधि दर्ज करें"
+      },
+      "paymentMethod": {
+        "label": "भुगतान विधि",
+        "otherPaymentPlaceHolder": "अन्य भुगतान विधि दर्ज करें"
+      },
+      "dispatchLeadTime": {
+        "label": "डिस्पैच लीड समय",
+        "placeholder": "लीड समय चुनें",
+        "dispatchDayLabel": "{days} दिन में भेजा जाएगा",
+        "dispatchDaysLabel": "{days} दिनों में भेजा जाएगा",
+        "madeToOrder": "ऑर्डर पर तैयार किया गया"
+      },
+      "shipsInternationally": {
+        "label": "अंतरराष्ट्रीय स्तर पर जहाज",
+        "yes": "हाँ",
+        "no": "नहीं",
+        "uponRequest": "अनुरोध पर"
+      },
+      "shippingModes": {
+        "label": "शिपिंग मोड"
+      }
+    }
+  },
+  "offerDetails": {
+    "title": "ऑफ़र विवरण",
+    "fields": {
+      "offerTitle": {
+        "label": "ऑफ़र शीर्षक",
+        "placeHolder": "शीर्षक दर्ज करें",
+        "aiSuggest": "एआई सुझाव"
+      },
+      "offerType": {
+        "label": "ऑफ़र प्रकार"
+      },
+      "discountPercentage": {
+        "label": "छूट %",
+        "optional": "वैकल्पिक",
+        "placeHolder": "मान दर्ज करें"
+      },
+      "offMinOrderQuantity": {
+        "label": "न्यूनतम ऑर्डर मात्रा",
+        "placeHolder": "मात्रा दर्ज करें"
+      },
+      "offMaxOrderQuantity": {
+        "label": "अधिकतम ऑर्डर मात्रा",
+        "placeHolder": "मात्रा दर्ज करें"
+      },
+      "pricing": {
+        "label": "ऑफ़र मूल्य",
+        "unitPricePlaceholder": "मूल्य दर्ज करें",
+        "minPricePlaceholder": "न्यूनतम मूल्य दर्ज करें",
+        "maxPricePlaceholder": "अधिकतम मूल्य दर्ज करें"
+      },
+      "buyMore": {
+        "buyQtyLabel": "खरीद मात्रा",
+        "freeQtyLabel": "फ्री मात्रा",
+        "placeholder": "मात्रा दर्ज करें"
+      },
+      "offerDescription": {
+        "label": "ऑफ़र विवरण",
+        "placeholder": "ऑफ़र विवरण दर्ज करें"
+      },
+      "immediateStart": {
+        "label": "वैधता",
+        "helper": "बेचने के ऑफ़र 30 दिनों के बाद अपने आप समाप्त हो जाते हैं",
+        "toggleLabel": "आज से ऑफ़र शुरू करें"
+      },
+      "offerStartDate": {
+        "label": "प्रारंभ तिथि"
+      },
+      "offerEndDate": {
+        "label": "अंतिम तिथि"
+      },
+      "marketFocus": {
+        "label": "बाजार फोकस",
+        "optionLabels": "(वैकल्पिक)",
+        "placeholder": "देश चुनें"
+      },
+      "keyword": {
+        "label": "टैग / कीवर्ड",
+        "placeholder": "कीवर्ड दर्ज करें"
+      },
+      "actualMoq": {
+        "label": "वास्तविक MOQ"
+      },
+      "bulk_pricing": {
+        "placeholder": "इकाई का चयन करें"
+      }
+    }
+  },
+  "optionLabels": {
+    "offerType": {
+      "fixedDiscount": "स्थिर छूट ऑफ़र",
+      "limitedTime": "सीमित समय ऑफ़र",
+      "lowMOQ": "कम MOQ",
+      "buyMore": "ज़्यादा खरीदें, ज़्यादा पाएं"
+    }
+  },
+  "viewPage": {
+    "mainTitle": "ऑफर विवरण बेचें",
+    "editDetails": "विवरण संपादित करें",
+    "completed": "पुरा होना।",
+    "productInfoLabel": "उत्पाद विवरण",
+    "offerLabel": "प्रस्ताव विवरण",
+    "pricingLabel": "मूल्य निर्धारण और भुगतान",
+    "rePost": "फिर से पोस्ट करें",
+    "productInformation": {
+      "productName": "प्रोडक्ट का नाम",
+      "shortDescription": "उत्पाद वर्णन",
+      "productCategory": "उत्पाद श्रेणी",
+      "brand": "ब्रांड",
+      "currency": "मुद्रा",
+      "price": "आधार मूल्य",
+      "moq": "MOQ"
+    },
+    "offerDetails": {
+      "offerType": "ऑफर का प्रकार",
+      "offerTitle": "प्रस्ताव शीर्षक",
+      "offerDescription": "प्रस्ताव विवरण",
+      "offerPrice": "रखी गयी क़ीमत",
+      "cratedDate": "बनाया गया दिनांक",
+      "endDate": "ऑफर तक वैध है",
+      "marketFocus": "बाज़ार फोकस",
+      "offerMOQ": "न्यूनतम ऑर्डर मात्रा प्रदान करें",
+      "MOQ": "अधिकतम ऑर्डर मात्रा"
+    },
+    "pricingPayment": {
+      "paymentTerm": "भुगतान की शर्तें",
+      "paymentMethod": "भुगतान विधि",
+      "shippingModes": "शिपिंग मोड",
+      "dispatchLeadTime": "डिस्पैच लीड टाइम",
+      "shipsInternationally": "अंतरराष्ट्रीय स्तर पर जहाज"
+    }
+  },
+  "previewSidebar": {
+    "preview": "पूर्वावलोकन",
+    "qtyFrom": "मात्रा से",
+    "qtyTo": "मात्रा तक",
+    "price": "मूल्य",
+    "productName": "उत्पाद का नाम",
+    "category": "श्रेणी",
+    "subCategory": "उप श्रेणी",
+    "productCategory": "उत्पाद श्रेणी",
+    "actualMoq": "वास्तविक MOQ",
+    "offerMoq": "ऑफ़र MOQ",
+    "buyQty": "खरीद मात्रा",
+    "freeQty": "मुफ्त मात्रा",
+    "discount": "छूट",
+    "discountedPrice": "डिस्काउंटेड मूल्य",
+    "postSellOffer": "बिक्री ऑफ़र पोस्ट करें",
+    "pricePlaceHolder": "यूएस डॉलर में उत्पाद मूल्य",
+    "rangePlaceHolder": "US$ 0.00 - $ 0.00"
+  },
+  "noOffersScreen": {
+    "table-headers": {
+      "productName": "प्रोडक्ट का नाम",
+      "offer-type": "ऑफर का प्रकार",
+      "offer-title": "प्रस्ताव शीर्षक",
+      "offer-price": "रखी गयी क़ीमत",
+      "minQty": "MOQ",
+      "display": "प्रदर्शन",
+      "createdAt": "बनाया गया दिनांक",
+      "offerEndDate": "में समाप्त हो रहा है",
+      "status": "स्थिति"
+    },
+    "title": "अपने उत्पादों को वैश्विक बिक्री के अवसरों में बदलें",
+    "subtitle": "अपना बिक्री ऑफ़र अभी बनाएं। दुनियाभर के गंभीर खरीदारों से जल्दी और आसानी से जुड़ें।",
+    "tooltip": "उत्पाद का नाम, मूल्य, विवरण और छवियाँ जोड़ें — इसमें केवल कुछ चरण लगते हैं।",
+    "buttonTitle": "अपना पहला ऑफ़र बनाएं"
+  },
+  "offerTable": {
+    "sellOffers": "ऑफर बेचें",
+    "newSellOffer": "नया विक्रय प्रस्ताव",
+    "all_offers": "सभी",
+    "drafts_offers": "ड्राफ्ट",
+    "archive_offers": "पुरालेख",
+    "selectProduct": "उत्पाद का चयन करें",
+    "viewDetails": "विवरण देखें",
+    "edit": "संपादन करना",
+    "archive": "पुरालेख",
+    "duplicate": "डुप्लिकेट"
+  },
+  "sideView": {
+    "visibility": "दृश्यता",
+    "analytics": "एनालिटिक्स",
+    "shares": "शेयरों",
+    "likes": "पसंद है",
+    "clicks": "क्लिक्स",
+    "view": "देखना",
+    "inquiries": "पूछताछ",
+    "see_requests": "अनुरोध देखें",
+    "status": "स्थिति",
+    "re_post": "पुन: पोस्ट"
+  }
+}

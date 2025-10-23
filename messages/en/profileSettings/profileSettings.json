@@ -1,0 +1,102 @@
+{
+  "moduleName": "Personal Settings",
+  "profileSettingsStepper": {
+    "Profile": "Personal Information",
+    "Profile_1": "Profile",
+    "NotificationPreferences": "Notification Preferences",
+    "ChatPreferences": {
+      "title": "Chat Preferences",
+      "description": "Coming soon..."
+    }
+  },
+
+  "profileSettings": {
+    "fieldsAddress": {
+      "firstName": "First Name",
+      "middleNameOptional": "Middle Name (optional)",
+      "lastName": "Last Name",
+      "workEmail": "Work Email",
+      "mobileNumber": "Mobile Number",
+      "whatsappNumber": "WhatsApp Number",
+      "jobTitle": "Job Title",
+      "additionalInformationOptional": "Additional Information ",
+      "optional": "(Optional)",
+
+      "dateOfBirth": "Date of Birth",
+      "dobSubText": "This helps us verify your identity securely",
+      "address": "Address",
+      "country": "Country",
+      "state": "State",
+      "city": "City",
+      "pinCode": "Zip code",
+      "enterPinCode": "Enter your Zip code",
+      "nationalIdType": "National Id Type",
+      "nationalIdNumber": "National ID number",
+      "Select": "Select",
+      "SameAsMobileNo": "Same as Mobile Number",
+      "UploadProfilePic": "Upload Profile Pic",
+      "Uploading": "Uploading..."
+    },
+    "formHelpers": {
+      "firstName": "Enter your legal First name as registered with your business.",
+      "middleName": "Enter your legal Middle name as registered with your business.",
+      "lastName": "Enter your full Last name as registered with your business.",
+      "workEmail": "Your contact workEmail for account-related updates",
+      "whatsapp": "Enter your WhatsApp-enabled number to receive business leads and updates instantly."
+    },
+    "placeholder": {
+      "EnterEmail": "Enter your email",
+      "EnterPhoneNumber": "Enter your phone number",
+      "EnterWhatsappNumber": "Enter your WhatsApp number",
+      "EnterJobTitle": "Enter your job title",
+      "EnterAdditionalInformation": "Enter additional information",
+      "Select": "Select",
+      "EnterNationalIdType": "Enter your national ID type",
+      "EnterPinCode": "Enter your ZIP code",
+      "enteraddresline1": "Enter address line 1",
+      "owner": "Enter owner's name",
+      "nationalIdNumber": "Enter your national ID number",
+      "EnterAddress": "Enter your address"
+
+    }
+  },
+  "notificationPreferences": {
+    "Notifications": "Notifications",
+    "Email": "Email",
+    "Mobile": "Mobile",
+    "General": {
+      "title": "General Updates",
+      "menu_1": {
+        "title": "Message",
+        "subTitle": "Notify me when I receive a new enquiry, response,"
+      },
+      "menu_2": {
+        "title": "Follow Up",
+        "subTitle": "Remind me to follow up after 48 hours of no reply"
+      },
+      "menu_3": {
+        "title": "Deal Alerts",
+        "subTitle": "Remind me to follow up after 48 hours of no reply"
+      }
+    },
+    "Platform": {
+      "title": "Platform Updates",
+      "menu_1": {
+        "title": "Feature Update",
+        "subTitle": "Notify me of new feature updates"
+      },
+      "menu_2": {
+        "title": "Product & Business Updates",
+        "subTitle": "Notify me of product & business updates"
+      },
+      "menu_3": {
+        "title": "Promotions",
+        "subTitle": "Notify me of promotions from Pepagora (early access, discounts, etc)"
+      },
+      "menu_4": {
+        "title": "Insights & trends",
+        "subTitle": "Notify me of weekly insights and trends"
+      }
+    }
+  }
+}

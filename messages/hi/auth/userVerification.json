@@ -1,0 +1,40 @@
+{
+  "title": "Link Phone Number",
+  "description": "Link your phone number to receive reminders via Whatsapp. and find friends",
+  "phoneLabel": "Phone Number",
+  "countryPlaceholder": "+91",
+  "emailTitle": "Link Email",
+  "emailDescription": "Link your email to receive reminders via mail. and find friends",
+  "emailLabel": "Email",
+  "button": {
+    "submitting": "Submitting...",
+    "continue": "Continue"
+  },
+  "errors": {
+    "phoneNumberRequired": "Phone number is required",
+    "invalidPhoneNumber": "Invalid phone number",
+    "sendingOtpFailed": "Sending OTP failed"
+  },
+  "email_errors": {
+    "invalidEmailNumber": "Invalid email number",
+    "emailNumberRequired": "Email number is required",
+    "sendingOtpFailed": "Sending OTP failed"
+  },
+  "toast": {
+    "successTitle": "Success",
+    "otpSent": "OTP sent successfully!"
+  },
+  "sendCode": "Send Code",
+  "tryAnotherWay": "Try another way",
+  "linkNo": "Link new number",
+  "linkDescriptio1": "To keep your account safe. Enter phone Number Associated with ",
+  "linkDescriptio2": "{hashCredential} to get message with verification code",
+  "phoneNoError": {
+    "required": "phone number cannot be empty",
+    "invalid": "invalid phone number"
+  },
+  "emailError": {
+    "required": "email cannot be empty",
+    "invalid": "invalid email address"
+  }
+}

@@ -1,0 +1,81 @@
+.connects-message-card-comp {
+    border-radius: 12px;
+    background: $primary-solid-color;
+    box-shadow: $shadow-depth-20;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    .c-m-c-c-title {
+        color: $text-primary;
+        font-family: $secondary-body-font;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 140%;
+        @include line-clamp(2);
+    }
+
+    .c-m-c-c-head {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 20px;
+
+        @media screen and (max-width:640px) {
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+
+    .c-m-c-c-h-right {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .stage-tracker-comp {
+            border: unset;
+            padding-right: 15px;
+        }
+    }
+
+    .connects-info-block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        flex-wrap: wrap;
+
+        .stage-tracker-comp {
+            .s-t-c-item {
+                padding: 6px 10px;
+            }
+        }
+
+
+        .c-i-b-i-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+
+            .c-i-b-i-w-txt {
+                color: $badge-draft-txt;
+                font-family: $secondary-body-font;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 20px;
+            }
+
+
+        }
+
+        .c-i-b-i-w-light-txt {
+            color: $color-grey-100;
+            font-family: $secondary-body-font;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 17px;
+        }
+    }
+
+}

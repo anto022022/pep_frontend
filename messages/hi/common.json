@@ -1,0 +1,267 @@
+{
+  "welcomeToPepagoraDashboard": "Pepagora डैशबोर्ड में आपका स्वागत है",
+  "saveAndContinue": "सहेजें और बाद में जारी रखें",
+  "update": "अपडेट करें",
+  "Continue": "जारी रखें",
+  "Confirm": "पुष्टि करें",
+  "dragAndDrop": "कंप्यूटर से फ़ाइल खींचें और छोड़ें",
+  "or": "या",
+  "chooseFile": "फ़ाइल चुनें",
+  "save": "सहेजें",
+  "comingSoon": "जल्द आ रहा है...",
+  "cancel": "रद्द करें",
+  "title": "दस्तावेज़ का नाम अपडेट करें",
+  "placeholder": "दस्तावेज़ का नाम दर्ज करें",
+  "previous": "पिछला",
+  "successMsg": "संदेश सफलतापूर्वक भेजा गया",
+  "ItemSelected": "आइटम चुनें",
+  "Customize": "संशोधित करें",
+  "Select": "चयन करें",
+  "selectAll": "सभी चुनें",
+  "clearAll": "सभी हटाएं",
+  "dndPlaceholder": {
+    "single": "फ़ाइल अपलोड करें ({types}), अधिकतम आकार {size}MB",
+    "singleNoDimension": "फ़ाइल अपलोड करें ({types}), अधिकतम आकार {size}MB",
+    "multiple": "अधिकतम {maxUpload} फ़ाइलें अपलोड करें ({types}), प्रत्येक का अधिकतम आकार {size}MB",
+    "multipleNoDimension": "अधिकतम {maxUpload} फ़ाइलें अपलोड करें ({types}), प्रत्येक का अधिकतम आकार {size}MB"
+  },
+  "mobTable": {
+    "selected": "चयनित",
+    "sortBy": "क्रमबद्ध करें",
+    "totalResponses": "कुल प्रतिक्रियाएँ",
+    "selectAll": "सभी चुनें",
+    "unSelectAll": "सभी अनचुने"
+  },
+  "mobileNav": {
+    "home": {
+      "title": "होम"
+    },
+    "sales": {
+      "title": "बिक्री",
+      "productsISell": {
+        "title": "मैं जो उत्पाद बेचता हूँ",
+        "description": "अपने सक्रिय उत्पाद लिस्टिंग्स को प्रबंधित और अपडेट करें।"
+      },
+      "sellOffer": {
+        "title": "बिक्री प्रस्ताव",
+        "description": "सीमित समय के सौदे और छूट पोस्ट करें।"
+      },
+      "leads": {
+        "title": "लीड्स",
+        "description": "खरीदारों की पूछताछ देखें और प्रबंधित करें।"
+      },
+      "connects": {
+        "title": "कनेक्ट्स",
+        "description": "अपने व्यवसाय संपर्कों तक पहुँचें और उन्हें व्यवस्थित करें।"
+      }
+    },
+    "sourcing": {
+      "title": "सोर्सिंग",
+      "rfqSupplierMatch": {
+        "title": "RFQ और सप्लायर मैच",
+        "description": "खरीदारों की पूछताछ देखें और प्रबंधित करें।"
+      }
+    },
+    "business": {
+      "title": "व्यवसाय"
+    },
+    "settings": {
+      "title": "सेटिंग्स"
+    },
+    "catalog": {
+      "title": "कैटलॉग"
+    }
+  },
+  "dndVideo": {
+    "dragAndDrop": "वीडियो यहाँ खींचें और छोड़ें, या नीचे दिए गए विकल्पों में से एक चुनें",
+    "or": "या",
+    "chooseFile": "अपने कंप्यूटर से अपलोड करें।",
+    "URL": "YouTube वीडियो URL पेस्ट करें",
+    "pasteUrl": "वीडियो URL पेस्ट करें",
+    "helper": "बेहतरीन गुणवत्ता के लिए mov, mp4 (अधिकतम 10MB) समर्थित।",
+    "remove": "वीडियो हटाएं"
+  },
+  "sidebar": {
+    "connect": "संपर्क",
+    "myPepagora": "मेरा Pepagora",
+    "oneInbox": "एक इनबॉक्स",
+    "manage": "प्रबंधित करें",
+    "sales": "बिक्री",
+    "productISell": "मैं जो उत्पाद बेचता हूँ",
+    "sellOffer": "बिक्री प्रस्ताव",
+    "leads": "लीड्स",
+    "crm": "सीआरएम",
+    "quotations": "कोटेशन्स",
+    "customers": "ग्राहक",
+    "catalogWebsite": "कैटलॉग & वेबसाइट",
+    "marketing": "मार्केटिंग",
+    "sourcing": "सोर्सिंग",
+    "productISource": "मैं जो उत्पाद खरीदता हूँ",
+    "rfq": "RFQ और सप्लायर मैच",
+    "purchaseOrder": "खरीद आदेश",
+    "bills": "बिल्स",
+    "vendors": "विक्रेता",
+    "analytics": "विश्लेषण",
+    "setup": "सेटअप",
+    "businessProfile": "व्यवसाय प्रोफ़ाइल",
+    "settings": "सेटिंग्स",
+    "media": "मीडिया"
+  },
+  "navbar": {
+    "searchPlaceholder": "उत्पाद और सेवाएं खोजें",
+    "getStarted": "शुरू करें",
+    "postBuyingReq": "खरीद आवश्यकता पोस्ट करें",
+    "rfqListTotal": "RFQ सूची ({count}) कुल",
+    "rfqNoData": "कार्ट में कोई आइटम नहीं",
+    "goToRfqBtn": "RFQ सूची पर जाएं",
+    "welcome": "Pepagora में आपका स्वागत है!",
+    "login": "लॉगिन",
+    "newCustomer": "नया ग्राहक?",
+    "signup": "साइन अप",
+    "hi": "नमस्ते",
+    "viewProfile": "प्रोफ़ाइल और सेटिंग्स देखें",
+    "leads": "लीड्स",
+    "productsISell": "मैं जो उत्पाद बेचता हूँ",
+    "quotes": "कोट्स",
+    "postRFQ": "खरीद अनुरोध पोस्ट करें (RFQ)",
+    "settings": "खाता सेटिंग्स",
+    "help": "सहायता & सपोर्ट",
+    "signOut": "साइन आउट",
+    "buyingMode": "खरीद मोड",
+    "sellingMode": "बिक्री मोड",
+    "businessTools": "व्यवसाय उपकरण",
+    "sellingTools": "बिक्री उपकरण"
+  },
+  "currency": {
+    "AED": "संयुक्त अरब अमीरात सेराह",
+    "INR": "भारतीय रुपया",
+    "USD": "संयुक्त राज्य डॉलर",
+    "EUR": "यूरो",
+    "GBP": "ब्रिटिश पाउंड",
+    "JPY": "जापानी येन",
+    "CNY": "चीनी युआन"
+  },
+  "fieldsAddress": {
+    "firstName": "पहला नाम",
+    "middleNameOptional": "मध्य नाम (वैकल्पिक)",
+    "lastName": "अंतिम नाम",
+    "workEmail": "कार्य ईमेल",
+    "mobileNumber": "मोबाइल नंबर",
+    "whatsappNumber": "व्हाट्सएप नंबर",
+    "jobTitle": "पदनाम",
+    "additionalInformationOptional": "अतिरिक्त जानकारी (वैकल्पिक)",
+    "dateOfBirth": "जन्म तिथि",
+    "dobSubText": "यह हमें आपकी पहचान सुरक्षित रूप से सत्यापित करने में मदद करता है",
+    "address": "पता",
+    "country": "देश",
+    "state": "राज्य / प्रांत",
+    "city": "शहर",
+    "pincode": "पिन कोड",
+    "nationalIdType": "राष्ट्रीय पहचान प्रकार",
+    "nationalIdNumber": "राष्ट्रीय पहचान संख्या",
+    "enterPinCode": "पिन कोड दर्ज करें",
+    "enteraddresline1": "पता पंक्ति 1 जोड़ें"
+  },
+  "optionLabels": {
+    "unitOption": {
+      "pieces": "टुकड़े",
+      "sets": "सेट",
+      "ton": "टन",
+      "litres": "लीटर",
+      "kg": "किलोग्राम",
+      "meter": "मीटर",
+      "dozen": "डजन",
+      "boxes": "बक्से",
+      "sqft": "वर्ग फीट",
+      "cans": "डिब्बे",
+      "rolls": "रोल",
+      "coil": "कुंडली"
+    },
+    "supplyContractType": {
+      "oneTime": "एक‑बार",
+      "longTerm": "दीर्घकालिक",
+      "repeatOrder": "दोबारा आदेश (मांग पर)",
+      "fixedScheduleContract": "नियत अनुसूची अनुबंध"
+    },
+    "shippingMethods": {
+      "Sea": "समुद्र मार्ग",
+      "Air": "हवाई मार्ग",
+      "Road": "सड़क मार्ग",
+      "Rail": "रेल मार्ग",
+      "Courier": "कूरियर",
+      "Buyer-Arranged": "खरीदार ने व्यवस्था की",
+      "Local Delivery": "स्थानीय डिलीवरी"
+    }
+  },
+  "footer": {
+    "looking": "खोज रहे हैं",
+    "sourceTitle": "उत्पाद स्रोत करें?",
+    "postBR": "अपनी खरीद आवश्यकता पोस्ट करें",
+    "list": "अपनी",
+    "company": "कंपनी मुफ्त में सूचीबद्ध करें",
+    "join": "अभी जुड़ें",
+    "sell": {
+      "title": "Pepagora पर बेचें",
+      "subTitle1": "अपना कैटलॉग बनाएं",
+      "subTitle2": "अपनी लिस्टिंग प्रबंधित करें",
+      "subTitle3": "अपने उत्पादों को प्रचारित करें",
+      "subTitle4": "विक्रेता अक्सर पूछे जाने वाले प्रश्न"
+    },
+    "source": {
+      "title": "Pepagora पर स्रोत करें",
+      "subTitle1": "उत्पाद ब्राउज़ करें",
+      "subTitle2": "तुरंत सप्लायर मैच",
+      "subTitle3": "आपूर्तिकर्ताओं का प्रबंधन करें",
+      "subTitle4": "सत्यापित विक्रेताओं को खोजें",
+      "subTitle5": "खरीद अनुरोध पोस्ट करें"
+    },
+    "support": {
+      "title": "सहायता & समर्थन",
+      "subTitle1": "लाइव चैट",
+      "subTitle2": "सहायता केंद्र",
+      "subTitle3": "टिकट उठाएं",
+      "subTitle4": "दुरुपयोग रिपोर्ट करें",
+      "subTitle5": "सपोर्ट से संपर्क करें"
+    },
+    "aboutUs": {
+      "title": "हमारे बारे में",
+      "subTitle1": "Pepagora के बारे में",
+      "subTitle2": "करियर",
+      "subTitle3": "निवेशक",
+      "subTitle4": "प्रेस और मीडिया",
+      "subTitle5": "साझेदार",
+      "subTitle6": "संबद्ध",
+      "subTitle7": "कानूनी",
+      "subTitle8": "सेवा स्थिति"
+    },
+    "copyrights": {
+      "terms": "सेवा की शर्तें",
+      "policy": "गोपनीयता नीति",
+      "sitemap": "साइटमैप",
+      "privacy": "गोपनीयता विकल्प"
+    }
+  },
+  "stageTracker": {
+    "title": "घर की सजावट इनडोर क्रोटन पौधा, काला चमड़ा जैकेट हाथ से कढ़ाई और सफेद सॉक्स",
+    "new": "नया",
+    "quote": "उद्धरण",
+    "negotiation": "सौदेबाजी",
+    "won": "जीत",
+    "lost": "हार",
+    "lastActive": "अंतिम सक्रिय",
+    "seeDetails": "विवरण देखें",
+    "bulkOrder": "बड़ी ऑर्डर",
+    "inbox": "इनबॉक्स",
+    "logNotes": "लॉग नोट्स"
+  },
+  "pageNotFound": {
+    "title_1": "पृष्ठ",
+    "title_2": "नहीं मिला",
+    "description_1": "माफ़ कीजिए, आप जिस पृष्ठ को ढूंढ रहे हैं वह नहीं मिला",
+    "description_step_1": "हमारी",
+    "description_step_2": "मुख्य पृष्ठ",
+    "description_step_3": "पर जाएं",
+    "description_step_4": "सहायता लें",
+    "description_step_5": "या खोजने का प्रयास करें"
+  }
+}

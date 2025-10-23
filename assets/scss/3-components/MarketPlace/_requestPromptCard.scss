@@ -1,0 +1,83 @@
+.request-prompt-card {
+    border-radius: 16px;
+    background: $primary-solid-color;
+    width: 100%;
+
+    &.cant-find-card {
+        padding: 35px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        @media screen and (max-width:991px) {
+            display: none;
+        }
+
+        .c-f-c-left {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 50%;
+            gap: 70px;
+        }
+
+        .c-f-c-l-top {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .c-f-c-l-bottom {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            .btn-comp{
+                width: max-content;
+            }
+        }
+
+        .c-f-c-title {
+            color: $text-primary;
+            font-family: "Neue Haas Grotesk Display Pro";
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 24px;
+        }
+
+        .c-f-c-subtxt {
+            color: $neutral-solid-disabledcolor;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.28px;
+        }
+
+        .posted-count {
+            display: flex;
+            flex-direction: column;
+
+            .p-c-label {
+                color: $color-black-4;
+                font-family: $secondary-body-font;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 26px;
+                text-transform: uppercase;
+            }
+
+            .p-c-title {
+                color: $color-red-1;
+                font-size: 56px;
+                font-weight: 400;
+                line-height: 64px;
+                letter-spacing: -1.12px;
+            }
+
+            .p-c-helper {
+                color: $color-grey-12;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+            }
+        }
+    }
+}

@@ -1,0 +1,319 @@
+{
+  "businessProfileStepper": {
+    "businessInformation": {
+      "title": "معلومات الأعمال",
+      "description": "اعرض هويتك وعملياتك وحضورك — وابنِ ثقة المشترين"
+    },
+    "businessDetails": "تفاصيل الأعمال",
+    "companyRegistrationDetails": "تفاصيل تسجيل الشركة",
+    "taxIdentityVerification": "التحقق من الضرائب والهوية",
+    "additional": "إضافي",
+    "brandingAndMedia": {
+      "title": "العلامات التجارية والوسائط",
+      "subTxt": "حدد التفاصيل والكمية والمادة والجودة "
+    },
+    "tradeInformation": {
+      "title": "معلومات التجارة",
+      "description": "حدد التفاصيل والكمية والمادة والجودة "
+    },
+    "marketAndLogistics": "السوق والخدمات اللوجستية",
+    "shippingAndPaymentTerms": "شروط الشحن والدفع",
+    "tradeInformationAdditional": "إضافي",
+    "factoryWarehouseDetails": {
+      "title": "تفاصيل المصنع والمستودع",
+      "description": "اعرض إعداد المصنع الخاص بك، وقدرة الإنتاج، وتفاصيل التخزين"
+    }
+  },
+  "profileCompletion": {
+    "title": "اكتمال الملف الشخصي",
+    "description": "أكمل ملفك الشخصي لتبرز أمام المشترين",
+    "approx": "تقريبا",
+    "mins": "دقيقة",
+    "completeSetup": {
+      "title": "الإعداد الكامل",
+      "description": "أكمل إعدادك لفتح الوصول الكامل إلى الميزات والتواصل مع شركاء موثوق بهم وتبسيط عمليات عملك."
+    },
+    "completionKycAndKyb": {
+      "title": "إكمال KYC وKYB",
+      "description": "قم بإكمال عملية KYC الخاصة بك للبدء في الاتصال بالموردين الأكثر موثوقية."
+    },
+    "addProducts": {
+      "title": "أضف منتجات",
+      "description": "ابدأ بإدراج منتجاتك لجذب المشترين، وعرض عروضك، والبدء في تلقي الاستفسارات."
+    }
+  },
+  "businessInformation": {
+    "title": "معلومات النشاط التجاري",
+    "businessProfile": "الملف التجاري",
+    "businessDetails": {
+      "title": "تفاصيل النشاط التجاري",
+      "AllFieldsAreRequired": "جميع الحقول مطلوبة",
+      "legalBusinessName": "الاسم القانوني للنشاط التجاري",
+      "legalBusinessNamePlaceholder": "أدخل الاسم القانوني للنشاط التجاري",
+      "legalBusinessNameHelperText": "ما هو الاسم الرسمي المسجل لدى السلطات؟",
+      "legalBusinessNameRequired": "الاسم القانوني للنشاط التجاري مطلوب",
+      "legalBusinessNameMin": "أدخل الاسم القانوني بحد أدنى 3 أحرف",
+      "legalBusinessNameMax": "يجب أن يكون الاسم القانوني أقل من 100 حرف",
+      "businessName": "اسم النشاط التجاري",
+      "businessNamePlaceholder": "أدخل اسم النشاط التجاري",
+      "businessNameHelperText": "اسم الشركة الذي يتم استخدامه، إذا كان مختلفاً عن الاسم القانوني.",
+      "businessNameRequired": "اسم النشاط التجاري مطلوب",
+      "businessNameMax": "يجب أن يكون الاسم التجاري أقل من 250 حرفًا",
+      "legalOwnerName": "اسم المالك القانوني",
+      "legalOwnerNamePlaceholder": "أدخل اسم المالك القانوني",
+      "legalStatus": "الوضع القانوني",
+      "legalStatusRequired": "الوضع القانوني مطلوب",
+      "businessType": "نوع النشاط التجاري",
+      "businessTypePlaceholder": "اختر نوع النشاط التجاري",
+      "businessTypeRequired": "نوع النشاط التجاري مطلوب",
+      "businessAddress": "عنوان النشاط التجاري",
+      "businessAddressPlaceholder": "أضف سطر العنوان",
+      "businessAddressRequired": "العنوان مطلوب",
+      "businessAddressCityPlaceholder": "المدينة",
+      "businessAddressStatePlaceholder": "الولاية",
+      "shippingAddress": "عنوان الشحن الخاص بي هو نفسه عنوان عملي",
+      "save": "حفظ",
+      "cancel": "إلغاء",
+      "unregister": {
+        "title": "عمل غير مسجل",
+        "subTxt": "يمتلكه شخص واحد وغير مسجل لدى الحكومة"
+      },
+      "register": {
+        "title": "عمل مسجل",
+        "subTxt": "يشمل الشركات ذات المسؤولية المحدودة والشراكات والمؤسسات والشركات."
+      },
+      "nonprofit": {
+        "title": "منظمة غير ربحية",
+        "subTxt": "منظمات معفاة من الضرائب معترف بها من قبل السلطات الحكومية المختصة."
+      },
+      "employee": {
+        "title": "عدد الموظفين",
+        "placeholder": "اختر عدد الموظفين"
+      },
+      "mainProduct": {
+        "title": "المنتجات الرئيسية",
+        "placeholder": "أدخل المنتج الرئيسي"
+      },
+      "Industry": {
+        "title": "الصناعة",
+        "placeholder": "اختر الصناعة"
+      },
+      "year": {
+        "title": "سنة التأسيس",
+        "placeholder": "أدخل سنة التأسيس"
+      },
+      "contactInfo": {
+        "title": "معلومات الاتصال",
+        "country": "البلد",
+        "address": {
+          "title": "العنوان",
+          "state": "الولاية",
+          "city": "المدينة",
+          "pincode": "الرمز البريدي",
+          "mobile": "رقم الهاتف المحمول",
+          "bEmail": "البريد الإلكتروني للأعمال"
+        },
+        "enterGoogleMapLink": "أدخل رابط خرائط جوجل"
+      }
+    },
+    "companyRegn": {
+      "docType": "نوع المستند",
+      "docNo": "رقم المستند",
+      "aadhaar": "رقم هوية آدهار",
+      "voters": "رقم بطاقة الناخب",
+      "emirates": "رقم هوية الإمارات",
+      "docNoPlaceholder": "أدخل رقم تعريف المستند",
+      "docTypePlaceholder": "اختر نوع المستند"
+    },
+    "businessAdditional": {
+      "shippingAddress": {
+        "title": "عنوان الشحن",
+        "placeholder": "أضف سطر العنوان",
+        "state": "الولاية",
+        "city": "المدينة",
+        "pincode": "الرمز البريدي"
+      },
+      "turnover": "حجم المبيعات السنوي",
+      "website": {
+        "title": "الموقع الإلكتروني",
+        "placeholder": "www.apparel.com"
+      }
+    },
+    "factoryDetails": {
+      "factorySize": {
+        "title": "إجمالي مساحة المصنع",
+        "placeholder": "1500 متر مربع"
+      },
+      "infaImage": "صورة البنية التحتية",
+      "overview": "نظرة عامة على البنية التحتية",
+      "overViewEnter": "أدخل النظرة العامة",
+      "productionLines": "عدد خطوط الإنتاج",
+      "productionLinesPlaceholder": "أدخل عدد خطوط الإنتاج",
+      "annualOutput": "قيمة الإنتاج السنوي",
+      "qcstaff": "عدد موظفي مراقبة الجودة",
+      "qcstaffPlaceholder": "أدخل عدد موظفي مراقبة الجودة",
+      "r&dStaff": "عدد موظفي البحث والتطوير",
+      "r&dStaffPlaceholder": "أدخل عدد موظفي البحث والتطوير",
+      "productionFacility": "مرافق الإنتاج",
+      "productionFacilityPlaceholder": "أدخل مرافق الإنتاج",
+      "productionCapacity": {
+        "title": "الطاقة الإنتاجية السنوية",
+        "productName": "أدخل اسم المنتج",
+        "productQuantity": "أدخل الكمية",
+        "unit": "أدخل الوحدة",
+        "add": "إضافة منتج"
+      },
+      "warehouse": {
+        "title": "مساحة تخزين المستودع",
+        "placeholder": "أدخل مساحة تخزين المستودع",
+        "certificate": "شهادة المستودع"
+      },
+      "officeBranch": {
+        "title": "المكتب-الفرع / موقع آخر",
+        "division": {
+          "title": "القسم",
+          "placeholder": "أدخل القسم"
+        },
+        "company": {
+          "title": "اسم الشركة",
+          "placeholder": "أدخل اسم الشركة"
+        },
+        "contact": {
+          "title": "اسم جهة الاتصال",
+          "placeholder": "أدخل اسم جهة الاتصال"
+        },
+        "phone": {
+          "title": "رقم الهاتف",
+          "placeholder": "أدخل رقم الهاتف"
+        },
+        "address": {
+          "enter": "أدخل سطر العنوان",
+          "city": "المدينة",
+          "state": "الولاية",
+          "pincode": "الرمز البريدي",
+          "title": "العنوان"
+        },
+        "googleMap": "رابط خرائط جوجل",
+        "addDiv": "إضافة قسم"
+      }
+    },
+    "manufacturingTerms": {
+      "title": "شروط التصنيع",
+      "contractManufacturing": {
+        "title": "التصنيع التعاقدي",
+        "placeholder": "اختر التصنيع التعاقدي"
+      }
+    }
+  },
+  "save": "حفظ",
+  "cancel": "إلغاء",
+  "brandingMedia": {
+    "title": "العلامة التجارية والإعلام",
+    "companyLogo": "شعار الشركة",
+    "companyVideo": "فيديو الشركة",
+    "brochures": "كتيبات الشركة",
+    "ownBrands": {
+      "title": "العلامات التجارية الخاصة",
+      "brandTitle": "أدخل اسم العلامة التجارية",
+      "add": "أضف علامة تجارية خاصة"
+    },
+    "otherBrands": {
+      "title": "علامات تجارية أخرى",
+      "add": "أضف علامات تجارية أخرى"
+    },
+    "awards": {
+      "title": "الجوائز والتقديرات",
+      "awardTitle": "أدخل اسم الجائزة",
+      "year": "أدخل سنة الجائزة",
+      "add": "أضف الجوائز"
+    },
+    "certificates": {
+      "title": "الشهادات ومعايير الجودة",
+      "certTitle": "أدخل اسم الشهادة",
+      "add": "أضف الشهادات"
+    },
+    "social": "روابط وسائل التواصل الاجتماعي",
+    "facebook": "فيسبوك",
+    "youtube": "يوتيوب",
+    "linkedin": "لينكدإن",
+    "instagram": "إنستغرام",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "enterLink": "أدخل الرابط"
+  },
+  "marketLogistics": {
+    "mainMarkets": "الأسواق الرئيسية",
+    "placeholder": "اختر الأسواق الرئيسية",
+    "save": "حفظ",
+    "cancel": "إلغاء"
+  },
+  "shippingDetails": {
+    "shipment": "طرق الشحن",
+    "currency": "العملة المقبولة",
+    "accepted": "اختر العملة المقبولة",
+    "payment": "طرق الدفع",
+    "otherPayment": "طريقة دفع أخرى",
+    "paymentTerm": "شروط الدفع",
+    "selectTerm": "اختر شروط الدفع",
+    "customTerm": "أدخل شروط دفع مخصصة",
+    "save": "حفظ",
+    "cancel": "إلغاء"
+  },
+  "tradeAdditional": {
+    "basicInfo": "معلومات أساسية",
+    "iecNo": "رقم IEC",
+    "enterIec": "أدخل رقم IEC",
+    "iecDoc": "وثيقة IEC",
+    "market": "السوق واللوجستيات",
+    "shipping": "الشحن وشروط الدفع",
+    "percent": {
+      "title": "نسبة التصدير",
+      "placeholder": "أدخل نسبة التصدير"
+    },
+    "language": {
+      "title": "اللغات المحكية",
+      "placeholder": "اختر اللغات المحكية"
+    },
+    "port": {
+      "title": "أقرب ميناء",
+      "placeholder": "أدخل أقرب ميناء"
+    },
+    "leadTime": {
+      "title": "متوسط وقت التسليم",
+      "value": "أدخل القيمة",
+      "duration": "اختر المدة"
+    },
+    "minValue": {
+      "title": "الحد الأدنى لقيمة الطلب",
+      "currency": "اختر العملة",
+      "value": "أدخل القيمة"
+    },
+    "deliveryTerms": {
+      "title": "شروط التسليم المقبولة",
+      "placeholder": "اختر شروط التسليم المقبولة"
+    },
+    "save": "حفظ",
+    "cancel": "إلغاء"
+  },
+  "easyGuide": {
+    "easySetupGuide": "دليل الإعداد السهل",
+    "stepsCompleted": "تم إكمال خطوة واحدة من 3",
+    "completeYourBusinessProfile": "أكمل ملف عملك الشخصي",
+    "completeYourSetup": "أكمل الإعداد للوصول الكامل إلى الميزات، والتواصل مع الشركاء الموثوقين، وتسهيل عمليات عملك.",
+    "KYCAndKYBVerification": "أكمل التحقق من KYC وKYB",
+    "KYBVerification": "أكمل التحقق من KYB",
+    "KYCVerification": "أكمل التحقق من KYC",
+    "firstProduct": "أضف منتجك الأول"
+  },
+  "verificationPopup": {
+    "getVerified": "احصل على التحقق!",
+    "completeYourProfile": "أكمل ملفك الشخصي و",
+    "getVerifiedBadge": "احصل على شارة التحقق",
+    "trustBadges": "احصل على شارات الثقة",
+    "getPriorityListing": "احصل على قائمة ذات أولوية",
+    "newCustomerDiscovery": "تمكين اكتشاف العملاء الجدد",
+    "increaseVisibility": "زيادة الظهور",
+    "remindMeLater": "ذكرني لاحقًا",
+    "completeNow": "أكمل الآن"
+  }
+}

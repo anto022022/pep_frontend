@@ -1,0 +1,334 @@
+{
+  "progressHeader": "Sell Offer Information",
+  "stepper": {
+    "productDetails": {
+      "title": "Product Details",
+      "description": "Add New or Existing Product."
+    },
+    "offerDetails": {
+      "title": "Offer Details",
+      "description": "Define offer type,discount and offer validity."
+    },
+    "paymentAndShipping": {
+      "title": "Payment & Shipping",
+      "description": "Specify quantity,payment methods and shipping terms."
+    }
+  },
+  "productDetails": {
+    "alert": "You can quickly add a new product that will be saved as a draft!.",
+    "selectProduct": {
+      "title": "Select Product"
+    },
+    "existingProduct": {
+      "title": "Existing Product",
+      "description": "Browse from your product Listing",
+      "dropdownTitle": "Browse Existing Products"
+    },
+    "newProduct": {
+      "title": "Add New Product",
+      "description": "Quickly add a new product to offer discounts"
+    },
+    "offerMessage": "This product has already been mapped to an existing offer."
+  },
+  "addNewProduct": {
+    "alert": " This Product will be listed in the marketplace at the original price (without the discount) even after the offer is expired. You can manage your product listings in Products i sell",
+    "confirmationMessage": "Continue creating Sell Offer with the newly added product.You can find this product in your listing as drafts",
+    "Continue": "Continue",
+    "newProduct": {
+      "title": "Add New Product",
+      "subtitle": "Name & Category",
+      "fields": {
+        "productName": {
+          "label": "Product Name",
+          "placeholder": "Enter  Product Name"
+        },
+        "Description": {
+          "label": "Product Description",
+          "placeholder": "Add Product Description"
+        },
+        "brand": {
+          "label": "Brand Name ",
+          "placeholder": "Enter Brand Name",
+          "optional": "Optional"
+        },
+        "category": {
+          "label": "Category",
+          "placeholder": "Select AI Category",
+          "helper": "Select your product category"
+        },
+        "productImage": {
+          "label": " Product Images",
+          "placeholder": "Upload JPG, PNG(Max 5MB) for best quality"
+        },
+        "currency": {
+          "label": "Set Currency",
+          "placeholder": "Select Currency"
+        },
+        "basePrice": {
+          "title": "Base Price"
+        },
+        "pricing": {
+          "label": "Pricing"
+        },
+        "fixed_pricing": {
+          "label": "Unit Price",
+          "placeholder": "Enter Unit Price"
+        },
+        "nego_pricing": {
+          "label": "Negotiable Price",
+          "placeholder": "Enter Negotiable Price"
+        },
+        "quote_pricing": {
+          "label": "Quote Price",
+          "placeholder": "Enter Quote Price"
+        },
+        "variable_pricing": {
+          "label": "Price Range",
+          "minPrice_placeholder": "Enter Min. Price",
+          "maxPrice_placeholder": "Enter Max. Price"
+        },
+        "bulk_pricing": {
+          "label": "Bulk Pricing",
+          "unitTypeLabel": "Unit Type",
+          "placeholder": "Select Unit"
+        },
+        "add_tier": {
+          "label": "Add Tier",
+          "add_qty_label": "Add Quantity Range",
+          "quantity_from_placeholder": "Quantity From (e.g. - 100)",
+          "quantity_to_placeholder": "Quantity to (e.g. - 500)",
+          "price_label": "Price",
+          "price_placeholder": "Enter Price $",
+          "helper": "Encourage larger orders. You can add in bulk for e.g. 100 - 500 pieces for $11.00"
+        },
+        "moq": {
+          "label": "Minimum Order Quantity (MOQ)",
+          "placeholder": "Enter Numeric",
+          "unit_placeholder": "Select Unit"
+        },
+        "optionLabels": {
+          "pricing": {
+            "fixed_price": "Fixed Price:",
+            "fixed_price_helper": "Standard Unit",
+            "negotiable": "Negotiable:",
+            "negotiable_helper": "Buyer can request price",
+            "bulk_pricing": "Bulk Pricing:",
+            "bulk_pricing_helper": "Volume discounts",
+            "price_range": "Price Range:",
+            "price_range_helper": "For variable/custom items",
+            "request_quote": "Request Quote",
+            "request_quote_helper": "Buyer can request Quote"
+          }
+        }
+      }
+    }
+  },
+  "shippingPayment": {
+    "title": "Payments & Shipping",
+    "label": "Provide fundamental details about the offer, including title, category, and key highlights.",
+    "fields": {
+      "paymentTerms": {
+        "label": "Payment Terms",
+        "optionalLabel": "Optional",
+        "placeholder": "Select Payment Term",
+        "customPaymentTerm": "Enter Custom Payment Term"
+      },
+      "paymentMethod": {
+        "label": "Payment Method",
+        "otherPaymentPlaceHolder": "Enter Other Payment Method"
+      },
+      "dispatchLeadTime": {
+        "label": "Dispatch Lead Time",
+        "placeholder": "Select Lead Time",
+        "dispatchDayLabel": "Ships in {days} day",
+        "dispatchDaysLabel": "Ships in {days} days",
+        "madeToOrder": "Made to Order"
+      },
+      "shipsInternationally": {
+        "label": "Ships Internationally",
+        "yes": "Yes",
+        "no": "No",
+        "uponRequest": "Upon Request"
+      },
+      "shippingModes": {
+        "label": "Shipping Modes"
+      }
+    }
+  },
+  "offerDetails": {
+    "title": "Offer Details",
+    "fields": {
+      "offerTitle": {
+        "label": "Offer Title",
+        "placeHolder": "Enter Title",
+        "aiSuggest": "AI Suggestion"
+      },
+      "offerType": {
+        "label": "Offer Type"
+      },
+      "unit": {
+        "placeholder": "Select Unit"
+      },
+      "discountPercentage": {
+        "label": "Discount %",
+        "optional": "Optional",
+        "placeHolder": "Enter Value"
+      },
+      "offMinOrderQuantity": {
+        "label": "Offer Minimum Order Quantity",
+        "placeHolder": "Enter Quantity"
+      },
+      "offMaxOrderQuantity": {
+        "label": "Offer Maximum Order Quantity (Optional)",
+        "placeHolder": "Enter Quantity"
+      },
+      "bulk_pricing": {
+        "placeholder": "Select Unit"
+      },
+      "pricing": {
+        "label": "Offer Price",
+        "unitPricePlaceholder": "Enter Price",
+        "minPricePlaceholder": "Enter Min.Price",
+        "maxPricePlaceholder": "Enter Max.Price"
+      },
+      "buyMore": {
+        "buyQtyLabel": "Buy Quantity",
+        "freeQtyLabel": "Free Quantity",
+        "placeholder": "Enter Quantity"
+      },
+      "offerDescription": {
+        "label": "Offer Description",
+        "placeholder": "Enter Offer Description"
+      },
+      "immediateStart": {
+        "label": "Validity",
+        "helper": "Sell offers expire automatically after 30 day",
+        "toggleLabel": "Start Offer Today"
+      },
+      "offerStartDate": {
+        "label": "Start Date"
+      },
+      "offerEndDate": {
+        "label": "End Date"
+      },
+      "marketFocus": {
+        "label": "Market Focus",
+        "optionLabels": "(Optional)",
+        "placeholder": "Select country"
+      },
+      "keyword": {
+        "label": "Tag / Keywords",
+        "placeholder": "Enter Keywords"
+      },
+      "actualMoq": {
+        "label": "Actual MOQ"
+      }
+    }
+  },
+  "optionLabels": {
+    "offerType": {
+      "fixedDiscount": "Fixed Discount",
+      "limitedTime": "Limited Time Discount",
+      "lowMOQ": "Low MOQ Discount",
+      "buyMore": "Buy More Get More"
+    }
+  },
+  "viewPage": {
+    "mainTitle": "Sell Offer Details",
+    "editDetails": "Edit Details",
+    "completed": "Completed",
+    "productInfoLabel": "Product Details",
+    "offerLabel": "Offer Details",
+    "pricingLabel": "Pricing & Payment",
+    "rePost": "Re-Post",
+    "productInformation": {
+      "productName": "Product Name",
+      "shortDescription": "Product Description",
+      "productCategory": "Product Category",
+      "brand": "Brand",
+      "currency": "Currency",
+      "price": "Base Price",
+      "moq": "MOQ"
+    },
+    "offerDetails": {
+      "offerType": "Offer Type",
+      "offerTitle": "Offer Title",
+      "offerDescription": "Offer Description",
+      "offerPrice": "Offer Price",
+      "cratedDate": "Date Created",
+      "endDate": "Offer valid till",
+      "marketFocus": "Market Focus",
+      "offerMOQ": "Offer Minimum Order Quantity",
+      "MOQ": "Maximum Order Quantity"
+    },
+    "pricingPayment": {
+      "paymentTerm": "Payment Terms",
+      "paymentMethod": "Payment Method",
+      "shippingModes": "Shipping Modes",
+      "dispatchLeadTime": "Dispatch Lead Time",
+      "shipsInternationally": "Ships Internationally"
+    }
+  },
+  "previewSidebar": {
+    "preview": "Preview",
+    "qtyFrom": "Qty From",
+    "qtyTo": "Qty to",
+    "price": "Price",
+    "productName": "Product Name",
+    "category": "Category",
+    "subCategory": "Sub Category",
+    "productCategory": "Product Category",
+    "actualMoq": "Actual MOQ",
+    "offerMoq": " Offer MOQ",
+    "buyQty": "Buy Quantity",
+    "freeQty": "Free Quantity",
+    "discount": "Discount",
+    "discountedPrice": "Discounted Price",
+    "postSellOffer": "Post Sell Offer",
+    "pricePlaceHolder": "US$ product price",
+    "rangePlaceHolder": "US$ 0.00 - $ 0.00"
+  },
+  "noOffersScreen": {
+    "table-headers": {
+      "productName": "Product Name",
+      "offer-type": "Offer Type",
+      "offer-title": "Offer Title",
+      "offer-price": "Offer Price",
+      "minQty": "MOQ",
+      "display": "Display",
+      "createdAt": "Date Created",
+      "offerEndDate": "Expiring In",
+      "status": "Status"
+    },
+    "title": "Turn Your Products into Global Sales Opportunities",
+    "subtitle": "Create your Sell Offer now. Connect with serious buyers worldwide — faster and easier.",
+    "tooltip": "Add a product name, price, description, and images — it only takes a few steps.",
+    "buttonTitle": "Create Your First Offer"
+  },
+  "offerTable": {
+    "sellOffers": "Sell Offers",
+    "newSellOffer": "New Sell Offer",
+    "all_offers": "All",
+    "drafts_offers": "Drafts",
+    "archive_offers": "Archive",
+    "selectProduct": "Select Product",
+    "viewDetails": "View Details",
+    "edit": "Edit",
+    "archive": "Archive",
+    "duplicate": "Duplicate",
+    "unarchive": "Unarchive",
+    "createVariant": "Create Variants"
+  },
+  "sideView": {
+    "visibility": "Visibility",
+    "analytics": "Analytics",
+    "shares": "Shares",
+    "likes": "Likes",
+    "clicks": "Clicks",
+    "view": "View",
+    "inquiries": "Inquiries",
+    "see_requests": "See requests",
+    "status": "Status",
+    "re_post": "Re-Post"
+  }
+}

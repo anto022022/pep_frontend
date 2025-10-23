@@ -1,0 +1,92 @@
+.select-all-enquiry-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    .s-a-e-b-left {
+        padding-left: 15px;
+    }
+
+    .s-a-e-b-right {
+        @media screen and (max-width:1200px) {
+            display: none;
+        }
+    }
+
+    .forms-checkbox {
+        gap: 15px;
+
+        @media screen and (max-width:1200px) {
+            gap: 7.5px;
+        }
+
+        .f-r-label {
+            line-height: unset;
+            font-weight: 400;
+            font-size: 16px;
+            top: unset;
+        }
+    }
+}
+
+.quote-request-card-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-height: calc(100vh - 220px);
+    overflow-y: auto;
+    padding: 3px 5px 3px 3px;
+    position: relative;
+
+    @media screen and (max-width:1200px) {
+        max-height: none;
+        padding: unset;
+    }
+
+    .compose-card-comp {
+        @media screen and (max-width:1200px) {
+            border-radius: unset;
+        }
+
+        .c-c-c-body {
+            padding-top: unset;
+        }
+    }
+}
+
+.related-products {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    .r-p-label {
+        color: $black;
+        font-family: $secondary-body-font;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 120%;
+    }
+
+    .r-p-group {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        max-height: calc(100vh - 250px);
+        overflow-y: auto;
+        padding-right: 5px;
+        position: relative;
+
+        @media screen and (max-width:1200px) {
+            max-height: none;
+            overflow-y: hidden;
+        }
+
+        .product-listing-card-comp {
+            &.rfq-product-card-comp {
+                border: unset;
+                box-shadow: unset;
+            }
+        }
+    }
+}

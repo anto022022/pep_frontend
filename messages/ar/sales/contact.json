@@ -1,0 +1,61 @@
+{
+  "contactForm": {
+    "title": "إضافة جهة اتصال جديدة",
+    "searchContactButton": {
+      "title": "جهة الاتصال/العميل الحالي",
+      "subtitle": "تصفح من جهات الاتصال والعملاء لديك"
+    },
+    "addContactButton": {
+      "title": "إضافة جهة اتصال",
+      "subtitle": "أضف جهة اتصال جديدة إلى قائمتك بسرعة"
+    },
+    "contactPicker": {
+      "searchContacts": "بحث في جهات الاتصال...",
+      "noContactsFound": "لم يتم العثور على جهات اتصال",
+      "label": "اختر جهة اتصال"
+    }
+  },
+  "contactDetails": {
+    "title": "معلومات الاتصال",
+    "name": {
+      "label": "اسم",
+      "placeholder": "أدخل الاسم"
+    },
+    "email": {
+      "label": "بريد إلكتروني",
+      "placeholder": "أدخل البريد الإلكتروني"
+    },
+    "phoneNo": {
+      "label": "رقم الهاتف",
+      "placeholder": "أدخل الهاتف"
+    },
+    "whatsappNo": {
+      "label": "واتس اب رقم",
+      "placeholder": "أدخل رقم واتس اب"
+    },
+    "company": {
+      "label": "اسم الشركة (اختياري)",
+      "placeholder": "أدخل اسم الشركة"
+    },
+    "jobTitle": {
+      "label": "المسمى الوظيفي (اختياري)",
+      "placeholder": "أدخل المسمى الوظيفي"
+    },
+    "country": {
+      "label": "الدولة",
+      "placeholder": "أدخل الدولة"
+    },
+    "state": {
+      "label": "الولاية",
+      "placeholder": "أدخل الولاية"
+    },
+    "city": {
+      "label": "المدينة",
+      "placeholder": "أدخل المدينة"
+    },
+    "zipCode": {
+      "label": "الرمز البريدي",
+      "placeholder": "أدخل الرمز البريدي"
+    }
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "hero": {
+    "title": "The Growth Engine",
+    "titleBreak": " for ",
+    "titleHighlight": "Global B2B Trade",
+    "subtitle": "Stop just listing. Start growing.",
+    "description": "Pepagora provides the tools, trust, and technology for your business to connect with verified partners, generate high quality leads, and scale across the globe.",
+    "planPicker": {
+      "text": "Choose the plan that powers your ambition.",
+      "grow": "Grow",
+      "foundation": "Foundation"
+    }
+  },
+  "foundationPlans": {
+    "title": "Foundation Plans",
+    "subtitle": "Plans to Get Started",
+    "description": "Build your foundation, make connections, and explore the marketplace.",
+    "billingToggle": {
+      "monthly": "Pay Monthly",
+      "yearly": "Pay Yearly (Best Value)"
+    },
+    "free": {
+      "title": "Free",
+      "subtitle": "Forever, Explore with limited access.",
+      "price": "₹0",
+      "billingInfo": "billed monthly",
+      "features": {
+        "title": "Includes",
+        "items": [
+          "Basic online catalog on a pepagora subdomain",
+          "Post unlimited buy requirements",
+          "Marketplace descriptions (up to 5 products)",
+          "Basic KYC verification",
+          "Email support"
+        ]
+      },
+      "button": "Get Started For Free"
+    },
+    "explore": {
+      "title": "Explore",
+      "subtitle": "Micro-Business",
+      "price": "₹599",
+      "billingInfo": "billed yearly",
+      "features": {
+        "title": "Everything in Free, Plus:",
+        "items": [
+          "Respond to RFQs (10 per month)",
+          "Post sell offers in the marketplace",
+          "Basic + Catalog with multi-section layout",
+          "TruAccess verification badge",
+          "Live chat with translation for your buyers",
+          "Email & chat support"
+        ]
+      },
+      "button": "Get Explore"
+    }
+  },
+  "foundationPlansToggle": {
+    "title": "Foundation Plans",
+    "subtitle": "Plans to Get Started",
+    "description": "Build your foundation, make connections, and explore the marketplace.",
+    "billingToggle": {
+      "monthly": "Pay Monthly",
+      "yearly": "Pay Yearly (Best Value)"
+    },
+    "free": {
+      "title": "Free",
+      "subtitle": "New User Exploring",
+      "price": "₹0",
+      "billingInfo": "billed monthly",
+      "features": {
+        "title": "Feature List:",
+        "items": [
+          "Standard Multi-Page Website",
+          "Full Smart CRM Suite to Manage Leads",
+          "TruCertified Verification Badge",
+          "Marketplace Listing & RFQ Access",
+          "1 Language for Your Website"
+        ]
+      },
+      "button": "Choose Free"
+    },
+    "explore": {
+      "title": "Explore",
+      "subtitle": "Micro-Business",
+      "price": "₹599",
+      "billingInfo": "billed yearly",
+      "features": {
+        "title": "Feature List:",
+        "items": [
+          "Standard Multi-Page Website",
+          "Full Smart CRM Suite to Manage Leads",
+          "TruCertified Verification Badge",
+          "Marketplace Listing & RFQ Access",
+          "2 Languages for Your Website"
+        ]
+      },
+      "button": "Choose Explore"
+    }
+  },
+  "growthPlans": {
+    "title": "Growth Plans",
+    "subtitle": "Plans to Grow Your Business",
+    "description": "Activate your sales engine with advanced tools to build your brand and attract customers.",
+    "billingToggle": {
+      "monthly": "Pay Monthly",
+      "yearly": "Pay Yearly (Best Value)"
+    },
+    "enterprise": {
+      "title": "Enterprise",
+      "subtitle": "Large Corporation",
+      "billingInfo": "For Large Teams Needing Custom Solutions.",
+      "features": {
+        "title": "Feature List:",
+        "items": [
+          "Everything in Global, plus:",
+          "Fully Customizable Website & API Integration",
+          "Highest Marketplace Visibility (Level 1)",
+          "TruSecure Enterprise-Grade Verification",
+          "Bespoke Onboarding & Premium Support SLAs",
+          "Advanced Admin & Security Controls"
+        ]
+      },
+      "button": "Contact Sales"
+    },
+    "taxNote": "* All taxes are additional to the quoted price"
+  },
+  "featureComparison": {
+    "title": "Detailed Feature",
+    "titleHighlight": "Comparison",
+    "toggleButton": "View Detailed Feature Comparison",
+    "table": {
+      "headers": {
+        "free": "Free",
+        "explore": "Explore",
+        "grow": "Grow",
+        "scale": "Scale",
+        "global": "Global",
+        "enterprise": "Enterprise"
+      },
+      "sections": {
+        "pricing": {
+          "title": "Pricing",
+          "free": "₹0",
+          "explore": "₹599",
+          "grow": "₹2,999",
+          "scale": "₹4,999",
+          "global": "₹9,999",
+          "enterprise": "Contact Sales"
+        },
+        "websitePresence": {
+          "title": "Website & Presence",
+          "features": {
+            "multiPageWebsite": "Multi-Page Website",
+            "customDomain": "Custom Domain",
+            "seoOptimization": "SEO Optimization",
+            "mobileResponsive": "Mobile Responsive Design",
+            "brandedPages": "Branded Pages"
+          }
+        },
+        "verification": {
+          "title": "Verification & Trust",
+          "features": {
+            "basicKyc": "Basic KYC Verification",
+            "truCertified": "TruCertified Badge",
+            "truAccess": "TruAccess Badge",
+            "truSecure": "TruSecure Badge",
+            "enterpriseVerification": "Enterprise-Grade Verification"
+          }
+        },
+        "marketplace": {
+          "title": "Marketplace & Listing",
+          "features": {
+            "basicListing": "Basic Marketplace Listing",
+            "rfqAccess": "RFQ Access",
+            "sellOffers": "Post Sell Offers",
+            "buyRequests": "Post Buy Requests",
+            "marketplaceVisibility": "Marketplace Visibility"
+          }
+        },
+        "crm": {
+          "title": "CRM & Lead Management",
+          "features": {
+            "basicCrm": "Basic CRM Suite",
+            "leadManagement": "Lead Management",
+            "contactManagement": "Contact Management",
+            "salesAnalytics": "Sales Analytics",
+            "advancedCrm": "Advanced CRM Features"
+          }
+        },
+        "communication": {
+          "title": "Communication & Support",
+          "features": {
+            "emailSupport": "Email Support",
+            "chatSupport": "Chat Support",
+            "liveChat": "Live Chat with Translation",
+            "prioritySupport": "Priority Support",
+            "dedicatedSupport": "Dedicated Support Team"
+          }
+        },
+        "languages": {
+          "title": "Languages & Localization",
+          "features": {
+            "oneLanguage": "1 Language",
+            "twoLanguages": "2 Languages",
+            "multipleLanguages": "Multiple Languages",
+            "fullLocalization": "Full Localization",
+            "customLocalization": "Custom Localization"
+          }
+        }
+      }
+    },
+    "mobileComparison": {
+      "title": "Mobile Comparison",
+      "annualPlan": "Annual Plan (INR)",
+      "free": "₹6,000",
+      "explore": "₹7,188",
+      "grow": "₹35,988",
+      "scale": "₹59,988",
+      "global": "₹119,988",
+      "enterprise": "Contact Sales"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked <span>Questions</span>",
+    "items": [
+      {
+        "id": "01",
+        "title": "Plan & Account Basics",
+        "items": [
+          {
+            "question": "What is the main difference between \"Foundation\" and \"Growth\" plans?",
+            "answer": "Foundation is a basic plan, while Growth includes more advanced tools to help you grow your business faster."
+          },
+          {
+            "question": "I'm not sure which plan is right for my business. Can you help?",
+            "answer": "Yes! You can start with the Free plan and upgrade as your business grows."
+          },
+          {
+            "question": "Can I really use all plans for both sourcing and selling?",
+            "answer": "Yes, absolutely. Every Pepagora account is a unified business account. You can post buy requirements and search for suppliers on every plan. The Growth plans simply add more powerful tools to help you proactively market and sell your own products.",
+            "isRed": true
+          },
+          {
+            "question": "Can I change my plan later?",
+            "answer": "Yes, you can upgrade or downgrade your plan anytime based on your needs."
+          },
+          {
+            "question": "Do you offer a free trial for the Growth plans?",
+            "answer": "We do offer limited-time trials during special promotions. Stay tuned for updates."
+          },
+          {
+            "question": "Are there limits on products, contacts, or buy requirements?",
+            "answer": "Some limits may apply depending on your plan. Growth plans typically offer higher limits."
+          }
+        ]
+      },
+      {
+        "id": "02",
+        "title": "Billing & Subscription",
+        "items": [
+          {
+            "question": "How does the billing cycle work?",
+            "answer": "Billing is processed yearly for paid plans, starting from the date of purchase."
+          },
+          {
+            "question": "Can I get an invoice?",
+            "answer": "Yes, invoices are automatically emailed after payment."
+          }
+        ]
+      },
+      {
+        "id": "03",
+        "title": "Global & International Business",
+        "items": [
+          {
+            "question": "Can I sell internationally?",
+            "answer": "Yes, the platform supports global buyers and sellers."
+          }
+        ]
+      },
+      {
+        "id": "04",
+        "title": "Features, Security & Support",
+        "items": [
+          {
+            "question": "How secure is my data?",
+            "answer": "We use industry-standard security practices to protect your data."
+          }
+        ]
+      }
+    ]
+  },
+  "common": {
+    "loading": "Loading plans...",
+    "error": "Error loading plans",
+    "noLinkConfigured": "No link configured for this plan.",
+    "paymentLinkMissing": "Sorry, payment link not available.",
+    "billedMonthly": "billed monthly",
+    "billedYearly": "billed yearly",
+    "billedOnceYearly": "billed once yearly",
+    "billingInfo": "Billing Info",
+    "featureList": "Feature List",
+    "choosePlan": "Choose"
+  }
+}

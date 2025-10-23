@@ -1,0 +1,41 @@
+{
+  "title": "ربط رقم الهاتف",
+  "description": "قم بربط رقم هاتفك لاستلام التذكيرات عبر الرسائل القصيرة والعثور على الأصدقاء",
+  "phoneLabel": "رقم الهاتف",
+  "countryPlaceholder": "+91",
+  "emailTitle": "ربط البريد الإلكتروني",
+  "emailDescription": "قم بربط بريدك الإلكتروني لتلقي التذكيرات عبر البريد والعثور على الأصدقاء",
+  "emailLabel": "البريد الإلكتروني",
+  "button": {
+    "submitting": "جاري الإرسال...",
+    "continue": "متابعة"
+  },
+  "email_errors": {
+    "invalidEmailNumber": "بريد إلكتروني غير صالح",
+    "emailNumberRequired": "البريد الإلكتروني مطلوب",
+    "sendingOtpFailed": "فشل إرسال رمز التحقق"
+  },
+  "errors": {
+    "phoneNumberRequired": "رقم الهاتف مطلوب",
+    "invalidPhoneNumber": "رقم الهاتف غير صالح",
+    "sendingOtpFailed": "فشل إرسال رمز التحقق"
+  },
+  "toast": {
+    "successTitle": "نجاح",
+    "otpSent": "تم إرسال رمز التحقق بنجاح!"
+  },
+  "sendCode": "إرسال الرمز",
+  "tryAnotherWay": "جرّب طريقة أخرى",
+  "linkNo": "ربط رقم جديد",
+  "linkDescriptio1": "للحفاظ على أمان حسابك، أدخل رقم الهاتف المرتبط بـ",
+  "linkDescriptio2": "{hashCredential} للحصول على رسالة تحتوي على رمز التحقق",
+  "phoneNoError": {
+    "required": "لا يمكن أن يكون رقم الهاتف فارغًا",
+    "invalid": "رقم هاتف غير صالح"
+  },
+  "emailError": {
+    "required": "لا يمكن أن يكون البريد الإلكتروني فارغًا",
+    "invalid": "عنوان بريد إلكتروني غير صالح"
+  }
+  
+}

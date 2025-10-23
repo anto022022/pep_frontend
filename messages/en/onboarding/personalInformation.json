@@ -1,0 +1,44 @@
+{
+  "title": "Sourcing Details ",
+  "subtitle": "This information helps us confirm your identity, ensure account security, and meet regulatory requirements. For more details, check our Privacy Policy.",
+  "firstName": {
+    "label": "First Name",
+    "placeholder": "John Mark",
+    "helper": "Enter your First legal name as registered with your business."
+  },
+  "midName": {
+    "label": "Middle Name (Optional)",
+    "placeholder": "John Mark",
+    "helper": "Enter your Middle legal name as registered with your business."
+  },
+  "lastName": {
+    "label": "Last Name",
+    "placeholder": "John Mark",
+    "helper": "Enter your Last legal name as registered with your business."
+  },
+  "email": {
+    "label": "Work Email",
+    "placeholder": "example@business.com",
+    "helper": "Your contact email for account-related updates"
+  },
+  "website": {
+    "label": "Website (Optional)",
+    "placeholder": "Your business website URL (if you have one)",
+    "helper": "This helps us verify your business and connect you with relevant opportunities"
+  },
+  "businessName": {
+    "label": "Business Name (Optional)",
+    "placeholder": "Enter your business name"
+  },
+  "productISource": {
+    "label": "Product I Source",
+    "placeholder": "Enter product names",
+    "helper": "ex; Apparels, Clothing"
+  },
+  "industry": {
+    "label": "Industry",
+    "placeholder": "Please Select"
+  },
+  "continue": "Continue",
+  "processing": "Submitting..."
+}

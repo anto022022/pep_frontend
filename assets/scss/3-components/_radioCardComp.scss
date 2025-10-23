@@ -1,0 +1,37 @@
+.radio-card-comp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 12px;
+    border-bottom: 1px solid $color-white-2;
+    &:last-child{
+        border-bottom: unset;
+    }
+
+    .icon-txt-wrap {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .txt-wrapper {
+            display: flex;
+            flex-direction: column;
+
+            .t-w-title {
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: 0.48px;
+            }
+
+            .t-w-subtxt {
+                color: $text-tertiary;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 18px;
+                letter-spacing: 0.36px;
+            }
+        }
+    }
+}

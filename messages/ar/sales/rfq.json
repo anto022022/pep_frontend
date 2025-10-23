@@ -1,0 +1,223 @@
+{
+  "buyingRequest": {
+    "pageTitle": "طلب شراء",
+    "pageTitleMob": "تفاصيل طلب الشراء",
+    "title": "دعنا نجد ما تحتاجه.",
+    "subTitle": "اختر كيف تريد التواصل مع الموردين — نشر طلب أو الحصول على تطابقات فورية.",
+    "info": "غير متأكد مما تختاره؟ انشر طلبًا إذا كانت لديك احتياجات مفصلة. استخدم التطابق الفوري للحصول على مصادر سريعة.",
+    "requestForQuote": {
+      "title": "طلب عرض سعر",
+      "subTitle": "أضف المنتج والكمية وتفاصيل التسليم. سيرد الموردون بعروض أسعار مخصصة.",
+      "button": "نشر طلب الشراء"
+    },
+    "instantSupplierMatch": {
+      "title": "مطابقة المورد الفورية",
+      "subTitle": "تجاوز الانتظار. اعثر على موردين يطابقون احتياجاتك — الآن.",
+      "button": "الحصول على تطابقات فورية"
+    },
+    "buyingRequestTable": {
+      "rfqId": "رقم RFQ",
+      "productName": "اسم المنتج",
+      "estOrderQty": "الكمية المتوقعة",
+      "preferredUnitPrice": "سعر الوحدة المفضل",
+      "source": "المصدر",
+      "validTill": "صالحة حتى",
+      "responses": "الردود",
+      "status": "الحالة",
+      "orderQty": "كمية الطلب",
+      "addedOn": "تمت الإضافة في"
+    },
+    "buyingRequestForm": {
+      "title": "نشر طلب الشراء",
+      "additionalRequirements": {
+        "title": "متطلبات إضافية (اختياري)",
+        "subTitle": "بما في ذلك منطقة المصدر المفضلة، وقت التسليم المتوقع، ميناء الوجهة، شروط الدفع، إلخ"
+      },
+      "additionalBuyingReqDetails": {
+        "label": "تفاصيل طلب الشراء الإضافية",
+        "optional": "(اختياري)",
+        "placeHolder": "أدخل تفاصيل إضافية لطلب الشراء"
+      },
+      "productName": {
+        "label": "اسم المنتج",
+        "placeHolder": "أدخل اسم المنتج"
+      },
+      "productCategory": {
+        "label": "فئة المنتج",
+        "placeHolder": "ابحث عن فئة"
+      },
+      "productDescription": {
+        "label": "وصف المنتج",
+        "optional": "(اختياري)",
+        "placeHolder": "يرجى الإشارة إلى متطلباتك التفصيلية لضمان استجابة سريعة وفعالة من الموردين. يمكنك تضمين: المواد، الحجم/الأبعاد، الجودة/المعيار، متطلبات التعبئة، وغيرها."
+      },
+      "estimatedOrderQuantity": {
+        "label": "الكمية المتوقعة",
+        "unitPlaceHolder": "الوحدات",
+        "placeholder": "مثال: 50"
+      },
+      "preferredUnitPrice": {
+        "label": "سعر الوحدة المفضل",
+        "minPlaceholder": "السعر الأدنى",
+        "maxPlaceholder": "السعر الأقصى",
+        "currencyPlaceholder": "اختر العملة"
+      },
+      "rfqValidity": {
+        "label": "تاريخ صلاحية RFQ (صالحة حتى)"
+      },
+      "rfqTitle": {
+        "label": "عنوان RFQ (مولّد باستخدام الذكاء الاصطناعي)",
+        "placeHolder": "أدخل/انشئ عنوان RFQ الخاص بك",
+        "aiSuggest": "اقتراحات الذكاء الاصطناعي"
+      },
+      "upload": {
+        "label": "تحميل صورة المنتج / إرفاق ملف"
+      },
+      "preferredRegion": {
+        "label": "المنطقة المصدر المفضلة",
+        "countriesPlaceHolder": "اختر الدولة",
+        "citiesPlaceHolder": "اختر المدينة",
+        "options": {
+          "nearby": "بالقرب",
+          "withinMyCountry": "داخل بلدي",
+          "international": "دولي"
+        }
+      },
+      "sourcingFrequency": {
+        "label": "وتيرة التوريد",
+        "placeHolder": "اختر مدى احتياجك"
+      },
+      "annualPurchaseVolume": {
+        "label": "حجم الشراء السنوي",
+        "placeHolder": "أدخل احتياجاتك السنوية"
+      },
+      "expectedDeliveryTime": {
+        "label": "وقت التسليم المتوقع",
+        "placeHolder": "اختر نوع التوصيل"
+      },
+      "destinationPort": {
+        "label": "ميناء الوجهة (اختياري)",
+        "placeHolder": "ابحث عن الميناء"
+      },
+      "supplyContractType": {
+        "label": "نوع عقد التوريد",
+        "placeHolder": "اختر شروط الدفع"
+      },
+      "paymentTerms": {
+        "label": "شروط الدفع (اختياري)",
+        "placeHolder": "اختر شروط الدفع"
+      },
+      "requiredCertifications": {
+        "label": "الشهادات المطلوبة",
+        "description": "لا تجدها في القائمة؟ لا تتردد بإضافتها هنا!",
+        "placeHolder": "اذكر شهادات أخرى هنا"
+      },
+      "sampleRequired": {
+        "label": "العينة مطلوبة",
+        "placeHolder": "هل تحتاج عينة؟ فقط أخبرنا!"
+      },
+      "customisationRequired": {
+        "label": "تفاصيل التخصيص",
+        "placeHolder": "هل تبحث عن منتج مخصص؟ شارك تفاصيلك"
+      },
+      "customizationDetails": {
+        "label": "Customisation Details",
+        "placeHolder": "Looking for a customized product?  share your details"
+      },
+      "pricingType": {
+        "label": "نوع التسعير"
+      },
+      "shippingMethod": {
+        "label": "طريقة الشحن",
+        "placeHolder": "اختر طريقة الشحن"
+      }
+    },
+    "buyingRequestSuccess": {
+      "title": "تم تقديم طلب الشراء بنجاح",
+      "description": "نقوم الآن بمراجعة طلبك. بمجرد الموافقة، سيشارك الموردون عروض الأسعار معك. يمكنك تتبع التحديثات في لوحة التحكم الخاصة بك."
+    },
+    "buyingRequestDetails": {
+      "lookingFor": "البحث عن",
+      "editButton": "تعديل التفاصيل",
+      "repostButton": "إعادة النشر",
+      "moreDetails": "عرض تفاصيل أكثر",
+      "lessDetails": "إظهار تفاصيل أقل",
+      "orderQty": "كمية الطلب",
+      "requirements": "المتطلبات",
+      "sourcingPreference": "تفضيل التوريد",
+      "preferredCountry": "الدولة المفضلة",
+      "preferredCity": "المدينة المفضلة",
+      "destinationPort": "ميناء الوجهة",
+      "paymentTerms": "الدفع",
+      "deliveryInformation": "معلومات التسليم",
+      "contractDetails": "تفاصيل العقد",
+      "validityDate": "صلاحية عرض السعر (RFQ)",
+      "ProductImages": "صور المنتج",
+      "status": "الحالة",
+      "quotesReceived": "العروض المستلمة",
+      "analytics": {
+        "title": "تحليلات",
+        "impressions": "الانطباعات",
+        "views": "المشاهدات",
+        "quotesReceived": "العروض المستلمة"
+      },
+      "quotesList": {
+        "emptyList": {
+          "title": "في انتظار عروض الموردين",
+          "description": "تم إرسال طلبك إلى الموردين المتطابقين. بمجرد استجابتهم بعروض أسعارهم، ستظهر هنا."
+        },
+        "sellerDetails": "تفاصيل البائع",
+        "interestedSuppliersMessage": "أبدى المورد اهتمامًا بطلبك",
+        "action": "الإجراء",
+        "sendMessageButton": "إرسال رسالة",
+        "seeQuote": "عرض العرض"
+      },
+      "quoteDetails": {
+        "title": "تفاصيل العرض",
+        "supplierDetails": {
+          "title": "تفاصيل المورد",
+          "contactPerson": "اسم جهة الاتصال",
+          "email": "البريد الإلكتروني",
+          "contactNo": "رقم الاتصال"
+        },
+        "productDetails": {
+          "title": "تفاصيل المنتج",
+          "priceRange": "نطاق السعر",
+          "descriptionTitle": "الوصف"
+        },
+        "quoteAmount": "مقدار العرض",
+        "rejectQuote": {
+          "btn": "رفض العرض",
+          "description": "برفضك، أنت ترفض العرض وتُنهي التواصل."
+        },
+        "acceptQuote": {
+          "btn": "قبول العرض",
+          "description": "بقبولك، سيتم قبول العرض مبدئيًا. يمكنك بعدها التفاوض عبر صندوق الرسائل."
+        }
+      }
+    }
+  },
+  "requestForm": {
+    "title": "نشر طلب شراء",
+    "rfqTitle": "عنوان طلب عرض الأسعار",
+    "aiSuggest": "اقتراحات الذكاء الاصطناعي",
+    "titlePlaceholder": "أدخل عنوان طلب عرض الأسعار",
+    "productName": "اسم المنتج",
+    "namePlaceholder": "أدخل اسم المنتج",
+    "category": "فئة المنتج",
+    "description": "وصف المنتج",
+    "indicateDesc": "يرجى توضيح وصف المنتج بالتفصيل",
+    "additional": "تفاصيل إضافية",
+    "addnDetails": "يرجى توضيح متطلباتك التفصيلية لضمان استجابات سريعة وفعالة من الموردين، يمكنك تضمين المواد، الحجم/الأبعاد، المعايير/الجودة، متطلبات التعبئة والتغليف أو غيرها.",
+    "optional": "(اختياري)",
+    "estOrderQuantity": "الكمية التقديرية للطلب",
+    "currency": "العملة",
+    "priceRange": "نطاق السعر",
+    "minPrice": "أدخل الحد الأدنى للسعر",
+    "maxPrice": "أدخل الحد الأقصى للسعر",
+    "validityDate": "تاريخ صلاحية الطلب (اختياري)",
+    "continue": "حفظ ومتابعة لاحقاً",
+    "submit": "إرسال",
+    "posted": "تم نشر طلب شراء جديد"
+  }
+}

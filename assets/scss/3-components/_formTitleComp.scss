@@ -1,0 +1,24 @@
+.form-title-comp {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    svg {
+        width: 30px;
+        height: 25px;
+        object-fit: contain;
+
+        @media screen and (max-width:991px) {
+            width: 25px;
+            height: 20px;
+        }
+    }
+
+    .f-t-c {
+        color: $neutral-outlined-Color;
+        font-family: $secondary-body-font;
+        font-size: clamp(1.188rem, 1.118rem + 0.32vw, 1.5rem); // 19, 24px
+        font-weight: 500;
+        line-height: clamp(1.125rem, 0.93rem + 0.89vw, 2rem); // 18, 32px
+    }
+}

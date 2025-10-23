@@ -1,0 +1,267 @@
+{
+  "welcomeToPepagoraDashboard": "Welcome to Pepagora Dashboard",
+  "saveAndContinue": "Save & Continue Later",
+  "update": "Update",
+  "Continue": "Continue",
+  "Confirm": "Confirm",
+  "dragAndDrop": "Drag & Drop file from computer",
+  "or": "or",
+  "chooseFile": "Choose File",
+  "save": "Save",
+  "comingSoon": "Coming soon...",
+  "cancel": "Cancel",
+  "title": "Update Document name",
+  "placeholder": "Enter Document name",
+  "previous": "Previous",
+  "successMsg": "Message Sent Successfully",
+  "ItemSelected": "items selected",
+  "Customize": "Customize",
+  "Select": "Select",
+  "selectAll": "Select All",
+  "clearAll": "Clear All",
+  "dndPlaceholder": {
+    "single": "Upload a file ({types}), max size {size}MB",
+    "singleNoDimension": "Upload a file ({types}), max size {size}MB",
+    "multiple": "Upload up to {maxUpload} files ({types}), each max {size}MB",
+    "multipleNoDimension": "Upload up to {maxUpload} files ({types}), each max {size}MB"
+  },
+  "mobTable": {
+    "selected": "Selected",
+    "sortBy": "SortBy",
+    "totalResponses": "Total Responses",
+    "selectAll": "Select All",
+    "unSelectAll": "UnSelect All"
+  },
+  "mobileNav": {
+    "home": {
+      "title": "Home"
+    },
+    "sales": {
+      "title": "Sales",
+      "productsISell": {
+        "title": "Products I Sell",
+        "description": "Manage and update your active product listings."
+      },
+      "sellOffer": {
+        "title": "Sell Offer",
+        "description": "Post limited-time deals and discounts."
+      },
+      "leads": {
+        "title": "Leads",
+        "description": "View and manage buyer inquiries."
+      },
+      "connects": {
+        "title": "Connects",
+        "description": "Access and organize your business contacts."
+      }
+    },
+    "sourcing": {
+      "title": "Sourcing",
+      "rfqSupplierMatch": {
+        "title": "RFQ & Supplier Match",
+        "description": "View and manage buyer inquiries."
+      }
+    },
+    "business": {
+      "title": "Business"
+    },
+    "settings": {
+      "title": "Settings"
+    },
+    "catalog": {
+      "title": "Catalog"
+    }
+  },
+  "dndVideo": {
+    "dragAndDrop": "Drag & Drop a video here, or choose one of the options below",
+    "or": "or",
+    "chooseFile": "Upload from your computer.",
+    "URL": "Paste YouTube video URL",
+    "pasteUrl": "Paste Video URL",
+    "helper": "Supports mov, mp4 (Max 10MB) for best quality.",
+    "remove": "Remove Video"
+  },
+  "sidebar": {
+    "connect": "Contacts",
+    "myPepagora": "My Pepagora",
+    "oneInbox": "One Inbox",
+    "manage": "Manage",
+    "sales": "Sales",
+    "productISell": "Product I Sell",
+    "sellOffer": "Sell Offer",
+    "leads": "Leads",
+    "crm": "CRM",
+    "quotations": "Quotations",
+    "customers": "Customers",
+    "catalogWebsite": "Catalog & Website",
+    "marketing": "Marketing",
+    "sourcing": "Sourcing",
+    "productISource": "Product I Source",
+    "rfq": "RFQ & Supplier Match",
+    "purchaseOrder": "Purchase Order",
+    "bills": "Bills",
+    "vendors": "Vendors",
+    "analytics": "Analytics",
+    "setup": "Setup",
+    "businessProfile": "Business Profile",
+    "settings": "Settings",
+    "media": "Media"
+  },
+  "navbar": {
+    "searchPlaceholder": "Search for Product and Services",
+    "getStarted": "Get Started",
+    "postBuyingReq": "Post Buying Requirement",
+    "rfqListTotal": "RFQ List ({count}) Total",
+    "rfqNoData": "No Items in cart",
+    "goToRfqBtn": "Go to RFQ List",
+    "welcome": "Welcome to pepagora!",
+    "login": "Login",
+    "newCustomer": "New customer?",
+    "signup": "Signup",
+    "hi": "Hi",
+    "viewProfile": "View Profile & Settings",
+    "leads": "Leads",
+    "productsISell": "Product I Sell",
+    "quotes": "Quotes",
+    "postRFQ": "Post a Buying Request (RFQ)",
+    "settings": "Account Settings",
+    "help": "Help & Support",
+    "signOut": "Sign Out",
+    "buyingMode": "Buying Mode",
+    "sellingMode": "Selling Mode",
+    "businessTools": "Business Tools",
+    "sellingTools": "Selling Tools"
+  },
+  "currency": {
+    "AED": "United Arab Emirates Dirham",
+    "INR": "Indian Rupee",
+    "USD": "United States Dollar",
+    "EUR": "Euro",
+    "GBP": "British Pound",
+    "JPY": "Japanese Yen",
+    "CNY": "Chinese Yuan"
+  },
+  "fieldsAddress": {
+    "firstName": "First Name",
+    "middleNameOptional": "Middle Name (optional)",
+    "lastName": "Last Name",
+    "workEmail": "Work Email",
+    "mobileNumber": "Mobile Number",
+    "whatsappNumber": "WhatsApp Number",
+    "jobTitle": "Job Title",
+    "additionalInformationOptional": "Additional Information (Optional)",
+    "dateOfBirth": "Date of Birth",
+    "dobSubText": "This helps us verify your identity securely",
+    "address": "Address",
+    "country": "Country",
+    "state": "State",
+    "city": "City",
+    "pincode": "Pin code",
+    "nationalIdType": "National Id Type",
+    "nationalIdNumber": "National ID number",
+    "enterPinCode": "Enter Pin code",
+    "enteraddresline1": "Add addressLine line 1"
+  },
+  "optionLabels": {
+    "unitOption": {
+      "pieces": "Pieces",
+      "sets": "Sets",
+      "ton": "Ton",
+      "litres": "Litres",
+      "kg": "Kg",
+      "meter": "Meter",
+      "dozen": "Dozen",
+      "boxes": "Boxes",
+      "sqft": "Sqft",
+      "cans": "Cans",
+      "rolls": "Rolls",
+      "coil": "Coil"
+    },
+    "supplyContractType": {
+      "oneTime": "One-Time",
+      "longTerm": "Long-Term",
+      "repeatOrder": "Repeat Order (On Demand)",
+      "fixedScheduleContract": "Fixed Schedule Contract"
+    },
+    "shippingMethods": {
+      "Sea": "Sea",
+      "Air": "Air",
+      "Road": "Road",
+      "Rail": "Rail",
+      "Courier": "Courier",
+      "Buyer-Arranged": "Buyer-Arranged",
+      "Local Delivery": "Local Delivery"
+    }
+  },
+  "footer": {
+    "looking": "Looking to",
+    "sourceTitle": "Source Products?",
+    "postBR": "Post your Buying Request",
+    "list": "List your",
+    "company": "Company for Free",
+    "join": "Join Now",
+    "sell": {
+      "title": "Sell on Pepagora",
+      "subTitle1": "Create your Catalog",
+      "subTitle2": "Manage your Listings",
+      "subTitle3": "Promote Your Products",
+      "subTitle4": "Seller FAQs"
+    },
+    "source": {
+      "title": "Source on Pepagora",
+      "subTitle1": "Browse Products",
+      "subTitle2": "Instant Supplier Match",
+      "subTitle3": "Manage Suppliers",
+      "subTitle4": "Find Verified Sellers",
+      "subTitle5": "Post Buying Request"
+    },
+    "support": {
+      "title": "Support & Help",
+      "subTitle1": "Live Chat",
+      "subTitle2": "Help Center",
+      "subTitle3": "Raise a Ticket",
+      "subTitle4": "Report Abuse",
+      "subTitle5": "Contact Support"
+    },
+    "aboutUs": {
+      "title": "About Us",
+      "subTitle1": "About Pepagora",
+      "subTitle2": "Careers",
+      "subTitle3": "Investors",
+      "subTitle4": "Press and Media",
+      "subTitle5": "Partners",
+      "subTitle6": "Affiliates",
+      "subTitle7": "Legal",
+      "subTitle8": "Service Status"
+    },
+    "copyrights": {
+      "terms": "Terms of Service",
+      "policy": "Privacy Policy",
+      "sitemap": "Sitemap",
+      "privacy": "Privacy Choices"
+    }
+  },
+  "stageTracker": {
+    "title": "Home decor indoor Croton Pot plant, Black Leather Jacket with hand embroidery & Flat knit White socks",
+    "new": "New",
+    "quote": "Quote",
+    "negotiation": "Negotiation",
+    "won": "Won",
+    "lost": "Lost",
+    "lastActive": "Last Active",
+    "seeDetails": "See Details",
+    "bulkOrder": "Bulk Order",
+    "inbox": "Inbox",
+    "logNotes": "Log Notes"
+  },
+  "pageNotFound": {
+    "title_1": "Page",
+    "title_2": "not found",
+    "description_1": "Sorry, the page you’re looking for cannot be found",
+    "description_step_1": "Visit our",
+    "description_step_2": "homepage",
+    "description_step_3": "get",
+    "description_step_4": "help",
+    "description_step_5": "or try searching"
+  }
+}

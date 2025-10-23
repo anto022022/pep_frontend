@@ -1,0 +1,558 @@
+[{
+  "_id": {
+    "$oid": "68948005c11c5f78ce470ff9"
+  },
+  "Country Name": "United Arab Emirates",
+  "Country Code": "AE",
+  "Accepted Documents": {
+    "CBLS": "CBLS",
+    "Local Business Number": "BL Local"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce470ffa"
+  },
+  "Country Name": "Argentina",
+  "Country Code": "AR",
+  "Accepted Documents": {
+    "Argentina Unique Tax Identification Key": "CUIT or CUIL"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce470ffb"
+  },
+  "Country Name": "Austria",
+  "Country Code": "AT",
+  "Accepted Documents": {
+    "Commercial Register Number (Firmenbuchnummer)": "FN",
+    "Value Added Tax ID": "VAT Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce470ffc"
+  },
+  "Country Name": "Australia",
+  "Country Code": "AU",
+  "Accepted Documents": {
+    "Australian Business Number": "ABN",
+    "Australian Company Number": "ACN"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce470ffd"
+  },
+  "Country Name": "Belgium",
+  "Country Code": "BE",
+  "Accepted Documents": {
+    "Company Number": "Numéro d'entreprise",
+    "Value Added Tax ID": "VAT Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce470ffe"
+  },
+  "Country Name": "Bermuda",
+  "Country Code": "BM",
+  "Accepted Documents": {
+    "Bermuda Registration Number": "Registration Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce470fff"
+  },
+  "Country Name": "Brazil",
+  "Country Code": "BR",
+  "Accepted Documents": {
+    "Legal entity tax identification number": "CNPJ"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce471000"
+  },
+  "Country Name": "Bahamas",
+  "Country Code": "BS",
+  "Accepted Documents": {
+    "Bahamas Tax Identification Number": "Tax Identification Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce471001"
+  },
+  "Country Name": "Canada",
+  "Country Code": "CA",
+  "Accepted Documents": {
+    "Corporations Number": "CN",
+    "Business Number": "BN"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce471002"
+  },
+  "Country Name": "Switzerland",
+  "Country Code": "CH",
+  "Accepted Documents": {
+    "Business Identification Number (Unternehmens-Identifikationsnummer)": "UID"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce471003"
+  },
+  "Country Name": "China",
+  "Country Code": "CN",
+  "Accepted Documents": {
+    "Unified Social Credit Identifier (USCN)": "USCN"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce471004"
+  },
+  "Country Name": "Colombia",
+  "Country Code": "CO",
+  "Accepted Documents": {
+    "Mercantile Enrolment Number": "Numero de Matricula",
+    "Número de Identificación Tributaria": "NIT"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce471005"
+  },
+  "Country Name": "Cyprus",
+  "Country Code": "CY",
+  "Accepted Documents": {
+    "Registration Number": "Reg Number",
+    "Value Added Tax ID": "VAT Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce471006"
+  },
+  "Country Name": "Czech Republic",
+  "Country Code": "CZ",
+  "Accepted Documents": {
+    "Identifikační číslo (ID Number)": "IČO",
+    "Value Added Tax ID": "VAT Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce471007"
+  },
+  "Country Name": "Germany",
+  "Country Code": "DE",
+  "Accepted Documents": {
+    "Handelsregisternummer": "Registernummer",
+    "Value Added Tax ID": "VAT Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce471008"
+  },
+  "Country Name": "Denmark",
+  "Country Code": "DK",
+  "Accepted Documents": {
+    "Central Business Register Number - Det Centrale Virksomhedsregister Number": "CVR Number",
+    "Value Added Tax ID": "VAT Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce471009"
+  },
+  "Country Name": "Estonia",
+  "Country Code": "EE",
+  "Accepted Documents": {
+    "Registry Code": "Registrikood",
+    "Value Added Tax ID": "VAT Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce47100a"
+  },
+  "Country Name": "Spain",
+  "Country Code": "ES",
+  "Accepted Documents": {
+    "Número de Identificación Fiscal - Tax Identification Number": "TIN (formerly known as a CIF)",
+    "Value Added Tax ID": "VAT Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce47100b"
+  },
+  "Country Name": "Finland",
+  "Country Code": "FI",
+  "Accepted Documents": {
+    "Business ID": "Y-tunnus",
+    "Value Added Tax ID": "VAT Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce47100c"
+  },
+  "Country Name": "France",
+  "Country Code": "FR",
+  "Accepted Documents": {
+    "SIREN number": "SIREN",
+    "Value Added Tax ID": "VAT Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce47100d"
+  },
+  "Country Name": "United Kingdom",
+  "Country Code": "GB",
+  "Accepted Documents": {
+    "Company Registration Number": "Company Number",
+    "Value Added Tax ID": "VAT Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce47100e"
+  },
+  "Country Name": "Guernsey",
+  "Country Code": "GG",
+  "Accepted Documents": {
+    "Guernsey Corporate Registry Number": "Reg Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce47100f"
+  },
+  "Country Name": "Gibraltar",
+  "Country Code": "GI",
+  "Accepted Documents": {
+    "Gibraltar Corporate Registration Number": "Registration Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce471010"
+  },
+  "Country Name": "Hong Kong",
+  "Country Code": "HK",
+  "Accepted Documents": {
+    "Company Registration Number": "CRN"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce471011"
+  },
+  "Country Name": "Hungary",
+  "Country Code": "HU",
+  "Accepted Documents": {
+    "Corporate Registration Number": "Cégjegyzékszám",
+    "Value Added Tax ID": "VAT Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce471012"
+  },
+  "Country Name": "Indonesia",
+  "Country Code": "ID",
+  "Accepted Documents": {
+    "Business Identification Number": "NIB"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce471013"
+  },
+  "Country Name": "Ireland",
+  "Country Code": "IE",
+  "Accepted Documents": {
+    "Company Number": "Company Number",
+    "Value Added Tax ID": "VAT Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce471014"
+  },
+  "Country Name": "India",
+  "Country Code": "IN",
+  "Accepted Documents": {
+    "Corporate Identity Number": "CIN",
+    "Limited Liability Partnership Identification Number": "LLPIN"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce471015"
+  },
+  "Country Name": "Italy",
+  "Country Code": "IT",
+  "Accepted Documents": {
+    "Codice fiscale": "CF",
+    "Value Added Tax ID": "VAT Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce471016"
+  },
+  "Country Name": "Jersey",
+  "Country Code": "JE",
+  "Accepted Documents": {
+    "Jersey Corporate Registry Number": "Register Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce471017"
+  },
+  "Country Name": "Japan",
+  "Country Code": "JP",
+  "Accepted Documents": {
+    "Japan Corporate Number": "JCN"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce471018"
+  },
+  "Country Name": "South Korea",
+  "Country Code": "KR",
+  "Accepted Documents": {
+    "Corporate registration number": "Registration Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce471019"
+  },
+  "Country Name": "Cayman Islands",
+  "Country Code": "KY",
+  "Accepted Documents": {
+    "Cayman Islands Company Registration Number": "Company Registration Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce47101a"
+  },
+  "Country Name": "Lithuania",
+  "Country Code": "LT",
+  "Accepted Documents": {
+    "Juridinio asmens kodas (Legal entity code)": "Kodas",
+    "Value Added Tax ID": "VAT Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce47101b"
+  },
+  "Country Name": "Luxembourg",
+  "Country Code": "LU",
+  "Accepted Documents": {
+    "RCS Number": "RCS Number",
+    "Value Added Tax ID": "VAT Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce47101c"
+  },
+  "Country Name": "Latvia",
+  "Country Code": "LV",
+  "Accepted Documents": {
+    "Registration Number": "Reģistrācijas numurs",
+    "Value Added Tax ID": "VAT Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce47101d"
+  },
+  "Country Name": "Malta",
+  "Country Code": "MT",
+  "Accepted Documents": {
+    "Company Registration Number": "Registration Number",
+    "Value Added Tax ID": "VAT Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce47101e"
+  },
+  "Country Name": "Mexico",
+  "Country Code": "MX",
+  "Accepted Documents": {
+    "Registro Federal de Contribuyentes": "RFC"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce47101f"
+  },
+  "Country Name": "Malaysia",
+  "Country Code": "MY",
+  "Accepted Documents": {
+    "Company Registration Number or Business Registration Number": "CRN, BRN"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce471020"
+  },
+  "Country Name": "Netherlands",
+  "Country Code": "NL",
+  "Accepted Documents": {
+    "KVK-nummer": "KVK-nummer",
+    "Value Added Tax ID": "VAT Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce471021"
+  },
+  "Country Name": "Norway",
+  "Country Code": "NO",
+  "Accepted Documents": {
+    "Organisation Number": "Organisasjonsnummer"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce471022"
+  },
+  "Country Name": "New Zealand",
+  "Country Code": "NZ",
+  "Accepted Documents": {
+    "New Zealand Business Number": "NZBN"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce471023"
+  },
+  "Country Name": "Philippines",
+  "Country Code": "PH",
+  "Accepted Documents": {
+    "Philippines Certificate No. / BNN": "BNN"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce471024"
+  },
+  "Country Name": "Poland",
+  "Country Code": "PL",
+  "Accepted Documents": {
+    "Registration number": "Numer KRS",
+    "Value Added Tax ID": "VAT Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce471025"
+  },
+  "Country Name": "Sweden",
+  "Country Code": "SE",
+  "Accepted Documents": {
+    "Business Registration Number": "Organisationsnummer",
+    "Value Added Tax ID": "VAT Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce471026"
+  },
+  "Country Name": "Singapore",
+  "Country Code": "SG",
+  "Accepted Documents": {
+    "Unique Entity Number": "UEN"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce471027"
+  },
+  "Country Name": "Slovenia",
+  "Country Code": "SI",
+  "Accepted Documents": {
+    "National business register identifier": "Matična številka",
+    "Value Added Tax ID": "VAT Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce471028"
+  },
+  "Country Name": "Slovakia",
+  "Country Code": "SK",
+  "Accepted Documents": {
+    "Business register number": "Identifikačné číslo organizácie",
+    "Value Added Tax ID": "VAT Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce471029"
+  },
+  "Country Name": "Thailand",
+  "Country Code": "TH",
+  "Accepted Documents": {
+    "Thailand Company Registration Number": "Registration Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce47102a"
+  },
+  "Country Name": "Taiwan",
+  "Country Code": "TW",
+  "Accepted Documents": {
+    "Unified Business Number": "UBN"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce47102b"
+  },
+  "Country Name": "United States",
+  "Country Code": "US",
+  "Accepted Documents": {
+    "Tax Identification Number (or Employer Identification Number)": "TIN / EIN"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce47102c"
+  },
+  "Country Name": "British Virgin Islands",
+  "Country Code": "VG",
+  "Accepted Documents": {
+    "British Virgin Islands Company Number": "Company Number"
+  }
+},
+{
+  "_id": {
+    "$oid": "68948005c11c5f78ce47102d"
+  },
+  "Country Name": "South Africa",
+  "Country Code": "ZA",
+  "Accepted Documents": {
+    "Registration Number": "Registration Number"
+  }
+}]

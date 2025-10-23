@@ -1,0 +1,56 @@
+{
+  "title": "How can we reach you?",
+  "subtitle": "This helps us keep you updated and provide support when you need it.",
+  "fields": {
+    "phoneNo": {
+      "label": "Business Phone Number",
+      "placeholder": "9876543210",
+      "error": "Phone number is required",
+      "helper": "Your mobile number for account recovery and secure communication."
+    },
+    "email": {
+      "label": "Business Email",
+      "placeholder": "example@gmail.com",
+      "error": "Business email is required",
+      "validationError": "Enter a valid email address",
+      "helper": "Where should we send updates and important notifications?"
+    },
+    "businessAddress": {
+      "title": "Business Address",
+      "helper": "Your official residential address for verification purposes",
+      "country": {
+        "label": "Country",
+        "placeholder": "Select Country",
+        "error": "Country is required"
+      },
+      "streetAddress": {
+        "label": "Street Address",
+        "placeholder": "Street Address",
+        "error": "Street Address is required"
+      },
+      "apartmentUnitOrOther": {
+        "label": "State",
+        "placeholder": "State"
+      },
+      "cityTown": {
+        "label": "City/Town",
+        "placeholder": "Select City/Town",
+        "error": "City/Town is required"
+      },
+      "postalCode": {
+        "label": "Postal Code",
+        "placeholder": "Postal Code",
+        "error": "Postal Code is required"
+      }
+    },
+    "productServiceDescription": {
+      "label": "Brief Product/Service Description",
+      "placeholder": "We sell sustainable home décor products to retail customers globally",
+      "error": "Product/Service Description is required"
+    }
+  },
+  "buttons": {
+    "continue": "Continue",
+    "processing": "Submitting..."
+  }
+}

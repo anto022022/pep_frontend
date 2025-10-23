@@ -1,0 +1,329 @@
+{
+  "progressHeader": "விற்பனை சலுகை தகவல்",
+  "stepper": {
+    "productDetails": {
+      "title": "தயாரிப்பு விவரங்கள்",
+      "description": " புதியது அல்லது உள்ள தயாரிப்பை சேர்க்கவும்"
+    },
+    "offerDetails": {
+      "title": "சலுகை விவரங்கள்",
+      "description": "சலுகை வகை, தள்ளுபடி மற்றும் செல்லுபடியாகும் காலத்தை குறிப்பிடவும்."
+    },
+    "paymentAndShipping": {
+      "title": "கட்டணம் மற்றும் கப்பல் அனுப்பு",
+      "description": "அளவு, கட்டண முறைகள் மற்றும் கப்பல் விதிமுறைகளை குறிப்பிடவும்."
+    }
+  },
+  "productDetails": {
+    "alert": "நீங்கள் புதிய தயாரிப்பை விரைவாகச் சேர்க்கலாம், அது வடிவமைப்பாகச் சேமிக்கப்படும்!",
+    "selectProduct": {
+      "title": "தயாரிப்பைத் தேர்ந்தெடுக்கவும்"
+    },
+    "existingProduct": {
+      "title": "தற்போதுள்ள தயாரிப்பு",
+      "description": "உங்கள் தயாரிப்பு பட்டியலிலிருந்து உலாவவும்",
+      "dropdownTitle": "ஏற்கனவே உள்ள தயாரிப்புகளை உலாவவும்"
+    },
+    "newProduct": {
+      "title": "புதிய தயாரிப்பு சேர்க்கவும்",
+      "description": "தள்ளுபடிகளை வழங்க புதிய தயாரிப்பை விரைவாகச் சேர்க்கவும்"
+    },
+    "offerMessage": "தயாரிப்பு ஏற்கனவே முழுமையாக முடிக்கப்படாத ஒரு சலுகையுடன் இணைக்கப்பட்டுள்ளது."
+  },
+  "addNewProduct": {
+    "alert": "இந்த உற்பத்தி சலுகை காலாவதியான பிறகும் சந்தையில் அசல் விலைக்கு (தள்ளுபடிக்கின்றி) பட்டியலிடப்படும். நீங்கள் உங்கள் தயாரிப்பு பட்டியல்களை 'நான் விற்பவை' பகுதியில் நிர்வகிக்கலாம்.",
+    "confirmationMessage": "புதிதாக சேர்க்கப்பட்ட தயாரிப்புடன் விற்பனை சலுகையை உருவாக்குவதைத் தொடரவும். இந்த தயாரிப்பை உங்கள் பட்டியலில் வரைவுகளாகக் காணலாம்.",
+    "newProduct": {
+      "title": "புதிய தயாரிப்பு சேர்க்கவும்",
+      "subtitle": "பெயர் & வகை",
+      "Continue": "தொடரவும்",
+      "fields": {
+        "productName": {
+          "label": "தயாரிப்பு பெயர்",
+          "placeholder": "தயாரிப்பு பெயரை உள்ளிடவும்"
+        },
+        "Description": {
+          "label": "தயாரிப்பு விளக்கம்",
+          "placeholder": "தயாரிப்பு விளக்கத்தைச் சேர்க்கவும்"
+        },
+        "brand": {
+          "label": "பிராண்ட் பெயர்",
+          "placeholder": "பிராண்ட் பெயரை உள்ளிடவும்",
+          "optional": "விருப்பமானது"
+        },
+        "category": {
+          "label": "வகை",
+          "placeholder": "Ai வகையைத் தேர்ந்தெடுக்கவும்",
+          "helper": "உங்கள் தயாரிப்பு வகையைத் தேர்ந்தெடுக்கவும்"
+        },
+        "productImage": {
+          "label": " தயாரிப்பு படங்கள்",
+          "placeholder": "சிறந்த தரத்திற்கு JPG, PNG (அதிகபட்சம் 5MB) பதிவேற்றவும்."
+        },
+        "currency": {
+          "label": "நாணயத்தை அமைக்கவும்",
+          "placeholder": "நாணயத்தைத் தேர்ந்தெடுக்கவும்"
+        },
+        "basePrice": {
+          "title": "அடிப்படை விலை"
+        },
+        "pricing": {
+          "label": "விலை நிர்ணயம்"
+        },
+        "fixed_pricing": {
+          "label": "அலகு விலை",
+          "placeholder": "யூனிட் விலையை உள்ளிடவும்"
+        },
+        "nego_pricing": {
+          "label": "பேச்சுவார்த்தைக்குட்பட்ட விலை",
+          "placeholder": "பேச்சுவார்த்தைக்குட்பட்ட விலையை உள்ளிடவும்"
+        },
+        "quote_pricing": {
+          "label": "மேற்கோள் விலை",
+          "placeholder": "மேற்கோள் விலையை உள்ளிடவும்"
+        },
+        "variable_pricing": {
+          "label": "விலை வரம்பு",
+          "minPrice_placeholder": "நிமிடத்தை உள்ளிடவும். விலை",
+          "maxPrice_placeholder": "Max ஐ உள்ளிடவும். விலை"
+        },
+        "bulk_pricing": {
+          "label": "மொத்த விலை நிர்ணயம்",
+          "unitTypeLabel": "அலகு வகை",
+          "placeholder": "அலகு தேர்ந்தெடுக்கவும்"
+        },
+        "add_tier": {
+          "label": "அடுக்கைச் சேர்க்கவும்",
+          "add_qty_label": "அளவு வரம்பைச் சேர்க்கவும்",
+          "quantity_from_placeholder": "அளவு (எ.கா. - 100)",
+          "quantity_to_placeholder": "அளவு (எ.கா. - 500)",
+          "price_label": "விலை",
+          "price_placeholder": "விலையை உள்ளிடவும் $",
+          "helper": "பெரிய ஆர்டர்களை ஊக்குவிக்கவும். நீங்கள் மொத்தமாகச் சேர்க்கலாம், எ.கா. 100 - 500 துண்டுகள் $11.00க்கு."
+        },
+        "moq": {
+          "label": "குறைந்தபட்ச ஆர்டர் அளவு (MOQ)",
+          "placeholder": "எண்களை உள்ளிடவும்",
+          "unit_placeholder": "அலகு தேர்ந்தெடுக்கவும்"
+        },
+        "optionLabels": {
+          "pricing": {
+            "fixed_price": "நிலையான விலை:",
+            "fixed_price_helper": "ஒரு யூனிட் விலை நிலையானது",
+            "negotiable": "பேச்சுவார்த்தைக்குட்பட்டது:",
+            "negotiable_helper": "வாங்குபவர் விலையை கோரலாம்",
+            "bulk_pricing": "மொத்த விலை நிர்ணயம்:",
+            "bulk_pricing_helper": "தொகுதி தள்ளுபடிகள்",
+            "price_range": "விலை வரம்பு:",
+            "price_range_helper": "மாறி/தனிப்பயன் உருப்படிகளுக்கு",
+            "request_quote": "கோரிக்கை மேற்கோள்",
+            "request_quote_helper": "வாங்குபவர் விலையை கோரலாம்"
+          }
+        }
+      }
+    }
+  },
+  "shippingPayment": {
+    "title": "பணம் செலுத்துதல் & ஷிப்பிங்",
+    "label": "தலைப்பு, வகை மற்றும் முக்கிய சிறப்பம்சங்கள் உட்பட சலுகை பற்றிய அடிப்படை விவரங்களை வழங்கவும்..",
+    "fields": {
+      "paymentTerms": {
+        "label": "கட்டண விதிமுறைகள்",
+        "optionalLabel": "விருப்பமானது",
+        "placeholder": "கட்டண காலத்தைத் தேர்ந்தெடுக்கவும்",
+        "customPaymentTerm": "தனிப்பயன் கட்டண காலத்தை உள்ளிடவும்"
+      },
+      "paymentMethod": {
+        "label": "பணம் செலுத்தும் முறை",
+        "otherPaymentPlaceHolder": "பிற கட்டண முறையை உள்ளிடவும்"
+      },
+      "dispatchLeadTime": {
+        "label": "அனுப்பும் நேரம்",
+        "placeholder": "நேரத்தைத் தேர்ந்தெடுக்கவும்",
+        "dispatchDayLabel": "{days} நாளில் கப்பல் அனுப்பப்படும்",
+        "dispatchDaysLabel": "{days} நாட்களில் கப்பல் அனுப்பப்படும்",
+        "madeToOrder": "வாடிக்கையாளர் கோரிக்கைப்படி தயாரிக்கப்படும்"
+      },
+      "shipsInternationally": {
+        "label": "சர்வதேச அளவில் கப்பல்கள்",
+        "yes": "ஆம்",
+        "no": "இல்லை",
+        "uponRequest": "கோரிக்கையின் பேரில்"
+      },
+      "shippingModes": {
+        "label": "கப்பல் முறைகள்"
+      }
+    }
+  },
+  "offerDetails": {
+    "title": "சலுகை விவரங்கள்",
+    "fields": {
+      "offerTitle": {
+        "label": "சலுகையின் தலைப்பு",
+        "placeHolder": "தலைப்பை உள்ளிடவும்",
+        "aiSuggest": "ஏஐ பரிந்துரைகள்"
+      },
+      "offerType": {
+        "label": "சலுகை வகை"
+      },
+      "discountPercentage": {
+        "label": "தள்ளுபடி %",
+        "optional": "விருப்பமானது",
+        "placeHolder": "மதிப்பை உள்ளிடவும்"
+      },
+      "offMinOrderQuantity": {
+        "label": "குறைந்தபட்ச ஆர்டர் அளவு",
+        "placeHolder": "அளவை உள்ளிடவும்"
+      },
+      "offMaxOrderQuantity": {
+        "label": "அதிகபட்ச ஆர்டர் அளவு",
+        "placeHolder": "அளவை உள்ளிடவும்"
+      },
+      "pricing": {
+        "label": "சலுகை விலை",
+        "unitPricePlaceholder": "விலையை உள்ளிடவும்",
+        "minPricePlaceholder": "குறைந்தபட்ச விலையை உள்ளிடவும்",
+        "maxPricePlaceholder": "அதிகபட்ச விலையை உள்ளிடவும்"
+      },
+      "buyMore": {
+        "buyQtyLabel": "வாங்கும் அளவு",
+        "freeQtyLabel": "இலவச அளவு",
+        "placeholder": "அளவை உள்ளிடவும்"
+      },
+      "offerDescription": {
+        "label": "சலுகை விளக்கம்",
+        "placeholder": "சலுகை விளக்கத்தை உள்ளிடவும்"
+      },
+      "immediateStart": {
+        "label": "செல்லுபடித் தன்மை",
+        "helper": "சலுகைகள் 30 நாட்கள் கழித்து தானாகவே முடிவடையும்",
+        "toggleLabel": "இன்று சலுகையைத் தொடங்கவும்"
+      },
+      "offerStartDate": {
+        "label": "தொடங்கும் தேதி"
+      },
+      "offerEndDate": {
+        "label": "முடியும் தேதி"
+      },
+      "marketFocus": {
+        "label": "சந்தை கவனம்",
+        "optionLabels": "(விருப்பமானது)",
+        "placeholder": "நாட்டைத் தேர்ந்தெடுக்கவும்"
+      },
+      "keyword": {
+        "label": "கீவேர்ட்கள் / குறிச்சொற்கள்",
+        "placeholder": "கீவேர்ட்களை உள்ளிடவும்"
+      },
+      "actualMoq": {
+        "label": "உண்மையான MOQ"
+      },
+      "bulk_pricing": {
+        "placeholder": "அலகு தேர்ந்தெடுக்கவும்"
+      }
+    }
+  },
+  "optionLabels": {
+    "offerType": {
+      "fixedDiscount": "நிலையான தள்ளுபடி சலுகை",
+      "limitedTime": "வரையறுக்கப்பட்ட நேர சலுகை",
+      "lowMOQ": "குறைந்த MOQ",
+      "buyMore": "அதிகமாக வாங்குங்கள், அதிகமாக பெறுங்கள்"
+    }
+  },
+  "viewPage": {
+    "mainTitle": "சலுகை விவரங்களை விற்கவும்",
+    "editDetails": "விவரங்களைத் திருத்தவும்",
+    "completed": "முடிக்கப்பட்டது",
+    "productInfoLabel": "தயாரிப்பு விவரங்கள்",
+    "offerLabel": "சலுகை விவரங்கள்",
+    "pricingLabel": "விலை மற்றும் கட்டணம்",
+    "rePost": "மீண்டும் பதிவிடு",
+    "productInformation": {
+      "productName": "தயாரிப்பு பெயர்",
+      "shortDescription": "தயாரிப்பு விளக்கம்",
+      "productCategory": "தயாரிப்பு வகை",
+      "brand": "பிராண்ட்",
+      "currency": "நாணயம்",
+      "price": "அடிப்படை விலை",
+      "moq": "MOQ"
+    },
+    "offerDetails": {
+      "offerType": "சலுகை வகை",
+      "offerTitle": "சலுகை தலைப்பு",
+      "offerDescription": "சலுகை விளக்கம்",
+      "offerPrice": "சலுகை விலை",
+      "cratedDate": "உருவாக்கப்பட்ட தேதி",
+      "endDate": "வரை சலுகை செல்லுபடியாகும்",
+      "marketFocus": "சந்தை கவனம்",
+      "offerMOQ": "குறைந்தபட்ச ஆர்டர் அளவை வழங்கவும்",
+      "MOQ": "அதிகபட்ச ஆர்டர் அளவு"
+    },
+    "pricingPayment": {
+      "paymentTerm": "கட்டண விதிமுறைகள்",
+      "paymentMethod": "பணம் செலுத்தும் முறை",
+      "shippingModes": "கப்பல் முறைகள்",
+      "dispatchLeadTime": "அனுப்புதல் முன்னணி நேரம்",
+      "shipsInternationally": "சர்வதேச அளவில் கப்பல்கள்"
+    }
+  },
+  "previewSidebar": {
+    "preview": "முன்நோட்டம்",
+    "qtyFrom": "அளவு முதல்",
+    "qtyTo": "அளவு வரை",
+    "price": "விலை",
+    "productName": "தயாரிப்பு பெயர்",
+    "category": "வகை",
+    "subCategory": "துணை வகை",
+    "productCategory": "தயாரிப்பு வகை",
+    "actualMoq": "உண்மையான MOQ",
+    "offerMoq": "சலுகை MOQ",
+    "buyQty": "வாங்கும் அளவு",
+    "freeQty": "இலவச அளவு",
+    "discount": "தள்ளுபடி",
+    "discountedPrice": "தள்ளுபடி விலை",
+    "postSellOffer": "விற்பனை சலுகையை இடுகையிடு",
+    "pricePlaceHolder": "அமெரிக்க டாலர் தயாரிப்பு விலை",
+    "rangePlaceHolder": "US$ 0.00 - $ 0.00"
+  },
+  "noOffersScreen": {
+    "table-headers": {
+      "productName": "தயாரிப்பு பெயர்",
+      "offer-type": "சலுகை வகை",
+      "offer-title": "சலுகை தலைப்பு",
+      "offer-price": "சலுகை விலை",
+      "minQty": "MOQ",
+      "display": "காட்சி",
+      "createdAt": "உருவாக்கப்பட்ட தேதி",
+      "offerEndDate": "காலாவதியாகிறது",
+      "status": "நிலை"
+    },
+    "title": "உங்கள் தயாரிப்புகளை உலகளாவிய விற்பனை வாய்ப்புகளாக மாற்றுங்கள்",
+    "subtitle": "உங்கள் விற்பனை சலுகையை இப்போது உருவாக்குங்கள். உலகம் முழுவதிலும் உள்ள நம்பகமான வாடிக்கையாளர்களை விரைவாகவும் எளிதாகவும் தொடர்பு கொள்ளுங்கள்.",
+    "tooltip": "தயாரிப்பு பெயர், விலை, விளக்கம் மற்றும் படங்களைச் சேர்க்கவும் — சில கட்டங்களே போதும்.",
+    "buttonTitle": "உங்கள் முதல் சலுகையை உருவாக்குங்கள்"
+  },
+  "offerTable": {
+    "sellOffers": "சலுகைகளை விற்கவும்",
+    "newSellOffer": "புதிய விற்பனை சலுகை",
+    "all_offers": "அனைத்து",
+    "drafts_offers": "வரைவுகள்",
+    "archive_offers": "காப்பகம்",
+    "selectProduct": "தயாரிப்பைத் தேர்ந்தெடுக்கவும்",
+    "viewDetails": "விவரங்களைக் காண்க",
+    "edit": "திருத்தவும்",
+    "archive": "காப்பகம்",
+    "duplicate": "நகல்"
+  },
+  "sideView": {
+    "visibility": "தெரிவுநிலை",
+    "analytics": "பகுப்பாய்வு",
+    "shares": "பங்குகள்",
+    "likes": "விரும்புகிறது",
+    "clicks": "கிளிக்குகள்",
+    "view": "காண்க",
+    "inquiries": "விசாரணைகள்",
+    "see_requests": "கோரிக்கைகளைப் பார்க்கவும்",
+    "status": "நிலை",
+    "re_post": "மறு இடுகை"
+  }
+}

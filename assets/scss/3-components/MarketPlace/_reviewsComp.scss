@@ -1,0 +1,282 @@
+.reviews-comp {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    .tabs-block-group {}
+
+    .r-c-helper-txt {
+        color: $color-grey-55;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.28px;
+        padding-top: 5px;
+        display: block;
+
+        @media screen and (max-width:991px) {
+            display: none;
+        }
+    }
+
+    .r-c-tabview {}
+
+    .overall-rating-block {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .o-r-b-txt {
+            color: $black;
+            font-family: $body-font;
+            font-size: 48px;
+            font-weight: 500;
+            line-height: 24px;
+        }
+
+        .statis-txt {
+            color: $color-green-6;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 20px;
+        }
+    }
+
+    .star-rating-global {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+
+        .star-statis {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .global-rating-txt {
+            color: $color-grey-55;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.28px;
+        }
+    }
+
+    .overall-rating-filters-block {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .reviews-filters {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+
+        .r-f-left,
+        .r-f-right {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+
+            @media screen and (max-width:600px) {
+                display: none;
+            }
+        }
+
+        .r-f-right {
+            .forms-select-2 {
+                border-radius: 8px;
+                border: 1px solid $color-grey-24;
+                background: $color-grey-82;
+                padding: 8px 0px 8px 16px;
+
+                .p-dropdown-label {
+                    line-height: normal;
+                    width: 120px;
+                }
+            }
+        }
+    }
+
+    .rounded-select {
+        &.forms-select-2 {
+            padding: 8px 0px 8px 16px;
+            border-radius: 100px;
+            box-shadow: unset;
+            border: 1px solid $color-grey-24;
+
+            .p-dropdown-label {
+                line-height: normal;
+                width: 50px;
+                font-weight: 400;
+            }
+
+            .custom-dropdown {
+                margin-top: 5px !important;
+            }
+        }
+    }
+
+    .overall-rating-list-block {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .reviews-list-group {
+        .reviews-item {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 25px 0 25px 0;
+            border-bottom: 1px solid $color-grey-24;
+
+            &:last-child {
+                padding-bottom: unset;
+                border-bottom: unset;
+            }
+
+            &:first-child {
+                padding-top: unset;
+            }
+
+            .r-i-header {
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                gap: 10px;
+
+                .r-p-i-date {
+                    color: $black;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 18px;
+                    letter-spacing: 0.24px;
+                }
+            }
+
+            .r-i-body {
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+                justify-content: space-between;
+
+                .rating-review-content {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 4px;
+
+                    .r-r-c-txt {
+                        color: $color-grey-55;
+                        font-size: 15px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        letter-spacing: 0.28px;
+                    }
+                }
+
+                .help-report-group {
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+
+                    .rounded-select {
+                        padding: 6px 0 6px 12px;
+
+                        .custom-dropdown {
+                            margin-top: 2px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .review-profile-info-block {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .r-p-i-b-img {
+            width: 40px;
+            height: 40px;
+            border-radius: 100px;
+            background-color: $text-tertiary;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .r-p-i-b-i-txt {
+                color: $primary-solid-color;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0.16px;
+            }
+        }
+
+        .r-p-i-b-details {
+            display: flex;
+            flex-direction: column;
+
+            .r-p-i-b-d-name {
+                color: $black;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 20px;
+                letter-spacing: 0.28px;
+            }
+        }
+    }
+}
+
+.tabs-block {
+    border-bottom: 1px solid $color-grey-24;
+
+    .btn-comp {
+        border: unset;
+        box-shadow: unset;
+        padding: 8px 16px;
+        border-bottom: 1px solid transparent;
+        border-radius: unset;
+
+        &:hover {
+            background-color: unset;
+        }
+
+        &.active {
+            border-bottom: 1px solid $black;
+        }
+
+        .b-c-txt {
+            color: $color-grey-55;
+            font-family: $body-font;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+
+    &.leads-inbox-tabs {
+        border-color: $color-grey-4;
+
+        .btn-comp {
+            color: $badge-draft-txt;
+
+            .b-c-txt {
+                font-weight: 400;
+                font-family: $secondary-body-font;
+                font-size: 14px;
+            }
+            &.active{
+                border-color: $btn-primary;
+                .b-c-txt{
+                    color: $black;
+                }
+            }
+        }
+    }
+}

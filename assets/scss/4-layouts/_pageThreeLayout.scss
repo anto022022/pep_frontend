@@ -1,0 +1,73 @@
+.page-three-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 25px;
+
+    @media screen and (max-width:991px) {
+        display: none;
+    }
+
+    &.scroll-page {
+        padding: 25px 25px 0 25px;
+    }
+
+    .p-t-l-head{
+        .p-t-l-h-left{
+            @media screen and (max-width:991px) {
+                display: none;
+            }
+        }
+    }
+
+    .p-t-l-body {
+        display: flex;
+        gap: 15px;
+        max-height: calc(100vh - 180px);
+
+        .p-t-l-b-left {
+            width: 430px;
+            min-width: 430px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 3px 5px 3px 3px;
+            overflow-y: auto;
+
+            @media screen and (max-width:1400px) {
+                width: 300px;
+                min-width: 300px;
+            }
+
+            .accordion-comp {
+                .p-accordion {
+                    gap: 15px;
+                }
+            }
+        }
+
+        .p-t-l-b-center {
+            width: 100%;
+            padding: 3px 5px 3px 3px;
+            overflow-y: auto;
+        }
+
+        .p-t-l-b-right {
+            width: 320px;
+            min-width: 320px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 3px 5px 3px 3px;
+            overflow-y: auto;
+
+            @media screen and (max-width:1400px) {
+                width: 300px;
+                min-width: 300px;
+            }
+        }
+    }
+}

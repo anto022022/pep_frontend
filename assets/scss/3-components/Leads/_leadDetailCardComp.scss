@@ -1,0 +1,123 @@
+.lead-detail-card-comp {
+    border-radius: 16px;
+    border: 1px solid $color-white-1;
+    background: $color-white-7;
+    box-shadow: $shadow-depth-1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    @media screen and (max-width:640px) {
+        padding: 15px;
+    }
+
+    .p-accordion-tab {
+        padding: 15px 0;
+        border-bottom: 1px solid $color-grey-24;
+       
+        &:first-child{
+            padding-top: unset;
+        }
+        .p-accordion-header {
+            .p-accordion-header-link {
+                flex-direction: row-reverse;
+                background-color: unset;
+                gap: 10px;
+
+                .p-icon {
+                    border: 1px solid $color-grey-8;
+                    padding: 4px;
+                    width: 20px;
+                    height: 20px;
+                    min-width: 20px;
+                    border-radius: 100px;
+
+                    path {
+                        fill: $color-grey-8;
+                    }
+                }
+            }
+        }
+        .p-toggleable-content{
+            padding: 8px 0 0 0;
+        }
+    }
+
+    .l-d-c-c-title {
+        color: $black;
+        font-family: $secondary-body-font;
+        font-size: clamp(1.063rem, 1.05rem + 0.06vw, 1.125rem); //16, 18px
+        font-weight: 500;
+        line-height: 17px;
+    }
+
+    .l-d-c-c-sub-txt {
+        color: $color-grey-96;
+        font-family: $secondary-body-font;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 150%;
+        border-bottom: 1px solid $color-grey-24;
+        padding-bottom: 4px;
+    }
+}
+
+.lead-detail-accrodion {
+    .lead-product-info {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .l-p-i-img {
+            width: 52px;
+            height: 52px;
+            min-width: 52px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 8px;
+            }
+        }
+
+        .l-p-i-i-details {
+            .l-p-i-i-d-txt {
+                color: $text-primary;
+                font-family: $secondary-body-font;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 20px;
+            }
+        }
+    }
+}
+
+.lead-details-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    .l-d-g-item {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+
+        .l-d-g-i-label {
+            color: $color-grey-96;
+            font-family: $secondary-body-font;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 150%;
+        }
+
+        .l-d-g-i-value {
+            color: $text-primary;
+            font-family: $secondary-body-font;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 20px;
+        }
+    }
+}

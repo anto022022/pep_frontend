@@ -1,0 +1,126 @@
+{
+  "title": "लीड्स",
+  "searchPlaceHolder": "लीड्स खोजें",
+  "addLead": "लीड जोड़ें",
+  "viewPage": {
+    "title": "लीड विवरण",
+    "information": "जानकारी",
+    "logs": "लॉग्स",
+    "leadDetails": "लीड विवरण",
+    "contactInformation": {
+      "title": "संपर्क जानकारी",
+      "contactName": "संपर्क नाम",
+      "contactEmail": "संपर्क ईमेल",
+      "contactPhone": "संपर्क फोन",
+      "contactWhatsapp": "संपर्क व्हाट्सएप",
+      "contactJobTitle": "पद का नाम"
+    },
+    "companyInformation": {
+      "title": "कंपनी जानकारी",
+      "companyName": "कंपनी का नाम",
+      "companyEmail": "कंपनी ईमेल",
+      "companyPhone": "कंपनी फोन",
+      "companyWebsite": "कंपनी वेबसाइट",
+      "companyAddress": "कंपनी का पता",
+      "companyCity": "कंपनी शहर",
+      "companyState": "कंपनी राज्य",
+      "companyCountry": "कंपनी देश",
+      "companyZip": "कंपनी पिन कोड",
+      "companyType": "कंपनी का प्रकार",
+      "companyIndustry": "कंपनी उद्योग",
+      "companySize": "कंपनी का आकार",
+      "companyRevenue": "कंपनी राजस्व",
+      "buyingRole": "खरीदने की भूमिका",
+      "permissionToContact": "संपर्क करने की अनुमति"
+    },
+    "requirementDetails": {
+      "title": "लीड विवरण",
+      "interestedProducts": "रुचिकर उत्पाद",
+      "quantity": "मात्रा",
+      "preferredPrice": "पसंदीदा मूल्य",
+      "preferredDeliveryTime": "पसंदीदा डिलीवरी समय"
+    },
+    "savedContact": {
+      "savedContact": "सहेजा गया संपर्क"
+    },
+    "productDetails": {
+      "leadDetails": "लीड विवरण",
+      "interestedProducts": "रुचिकर उत्पाद",
+      "quantityRequired": "आवश्यक मात्रा",
+      "preferredPrice": "पसंदीदा मूल्य",
+      "preferredDeliveryTimeline": "पसंदीदा डिलीवरी समयसीमा",
+      "pieces": "टुकड़े",
+      "perUnit": "प्रति इकाई",
+      "days": "दिन",
+      "sendQuote": "उद्धरण भेजें"
+    }
+  },
+  "noLeads": {
+    "title": "खरीदारों की रुचि को परिवर्तित करना शुरू करें",
+    "extraTitle": "व्यवसाय के अवसर",
+    "subtitle": "खरीदारों से प्राप्त पूछताछ को एक ही स्थान पर ट्रैक और उत्तर दें। अपनी संचार, फॉलो-अप और लीड रूपांतरण को आसानी से प्रबंधित करें",
+    "createButtonTitle": "लीड बनाएँ",
+    "importButtonTitle": "लीड्स आयात करें"
+  },
+  "LeadsTable": {
+    "contactName": "संपर्क नाम",
+    "companyName": "कंपनी का नाम",
+    "email": "ईमेल",
+    "phoneNo": "फोन नंबर",
+    "interestedProducts": "रुचिकर उत्पाद",
+    "source": "स्रोत",
+    "stage": "चरण",
+    "status": "स्थिति",
+    "takeAction": "कार्रवाई करें",
+    "lastContact": "अंतिम संपर्क",
+    "dateCreated": "निर्माण तिथि",
+    "lifecycleTags": "जीवनचक्र टैग"
+  },
+  "LeadsForm": {
+    "title": "नई लीड जोड़ें",
+    "source": {
+      "label": "स्रोत (वैकल्पिक)",
+      "placeholder": "स्रोत दर्ज करें"
+    },
+    "name": {
+      "label": "संपर्क नाम",
+      "placeholder": "नाम दर्ज करें"
+    },
+    "email": {
+      "label": "ईमेल पता",
+      "placeholder": "ईमेल पता दर्ज करें"
+    },
+    "phone": {
+      "label": "फ़ोन नंबर",
+      "placeholder": "फ़ोन नंबर दर्ज करें"
+    },
+    "stage": {
+      "label": "चरण (वैकल्पिक)",
+      "placeholder": "चरण दर्ज करें"
+    },
+    "status": {
+      "label": "स्थिति",
+      "placeholder": "स्थिति दर्ज करें"
+    },
+    "interestProducts": {
+      "label": "रुचिकर उत्पाद (वैकल्पिक)",
+      "placeholder": "रुचिकर उत्पाद दर्ज करें"
+    },
+    "requirementDetails": {
+      "label": "आवश्यकताओं का विवरण (वैकल्पिक)",
+      "placeholder": "आवश्यकताओं का विवरण दर्ज करें"
+    },
+    "permission": {
+      "label": "संपर्क करने की अनुमति (वैकल्पिक)",
+      "placeholder": "संपर्क करने की अनुमति दर्ज करें"
+    }
+  },
+  "successDialog": {
+    "title": "लीड सफलतापूर्वक बनाई गई",
+    "subtitle": "लीड सफलतापूर्वक बनाई गई है"
+  },
+  "updateDialog": {
+    "title": "लीड सफलतापूर्वक अपडेट की गई",
+    "subtitle": "लीड सफलतापूर्वक अपडेट की गई है"
+  }
+}

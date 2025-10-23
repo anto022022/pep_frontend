@@ -1,0 +1,267 @@
+{
+  "welcomeToPepagoraDashboard": "مرحبًا بك في لوحة معلومات Pepagora",
+  "saveAndContinue": "حفظ والمتابعة لاحقًا",
+  "update": "تحديث",
+  "Continue": "متابعة",
+  "Confirm": "تأكيد",
+  "dragAndDrop": "اسحب وأفلت الملف من الحاسوب",
+  "or": "أو",
+  "chooseFile": "اختر ملفًا",
+  "save": "حفظ",
+  "comingSoon": "قريبًا...",
+  "cancel": "إلغاء",
+  "title": "تحديث اسم المستند",
+  "placeholder": "أدخل اسم المستند",
+  "previous": "السابق",
+  "successMsg": "تم إرسال الرسالة بنجاح",
+  "ItemSelected": "عناصر محددة",
+  "Customize": "تخصيص",
+  "selectAll": "تحديد الكل",
+  "Select": "اختر",
+  "clearAll": "مسح الكل",
+  "dndPlaceholder": {
+    "single": "ارفع ملفًا ({types})، أقصى حجم {size} ميغابايت",
+    "singleNoDimension": "ارفع ملفًا ({types})، أقصى حجم {size} ميغابايت",
+    "multiple": "ارفع حتى {maxUpload} ملفات ({types})، كل منها بحد أقصى {size} ميغابايت",
+    "multipleNoDimension": "ارفع حتى {maxUpload} ملفات ({types})، كل منها بحد أقصى {size} ميغابايت"
+  },
+  "mobTable": {
+    "selected": "المحدد",
+    "sortBy": "رتب حسب",
+    "totalResponses": "إجمالي الردود",
+    "selectAll": "تحديد الكل",
+    "unSelectAll": "إلغاء تحديد الكل"
+  },
+  "mobileNav": {
+    "home": {
+      "title": "الرئيسية"
+    },
+    "sales": {
+      "title": "المبيعات",
+      "productsISell": {
+        "title": "المنتجات التي أبيعها",
+        "description": "إدارة وتحديث قوائم المنتجات النشطة."
+      },
+      "sellOffer": {
+        "title": "عرض البيع",
+        "description": "نشر عروض وخصومات محدودة."
+      },
+      "leads": {
+        "title": "الاستفسارات",
+        "description": "عرض وإدارة استفسارات المشترين."
+      },
+      "connects": {
+        "title": "جهات الاتصال",
+        "description": "الوصول إلى جهات عملك وتنظيمها."
+      }
+    },
+    "sourcing": {
+      "title": "المشتريات",
+      "rfqSupplierMatch": {
+        "title": "RFQ ومطابقة المورد",
+        "description": "عرض وإدارة استفسارات المشترين."
+      }
+    },
+    "business": {
+      "title": "الأعمال"
+    },
+    "settings": {
+      "title": "الإعدادات"
+    },
+    "catalog": {
+      "title": "الكتالوج"
+    }
+  },
+  "dndVideo": {
+    "dragAndDrop": "اسحب وأفلت فيديو هنا، أو اختر أحد الخيارات أدناه",
+    "or": "أو",
+    "chooseFile": "ارفع من حاسوبك.",
+    "URL": "الصق رابط فيديو يوتيوب",
+    "pasteUrl": "الصق رابط الفيديو",
+    "helper": "يدعم mov، mp4 (الحد الأقصى 10 ميغابايت) لأفضل جودة.",
+    "remove": "إزالة الفيديو"
+  },
+  "sidebar": {
+    "connect": "جهات الاتصال",
+    "myPepagora": "Pepagora الخاص بي",
+    "oneInbox": "علبة الوارد الموحدة",
+    "manage": "إدارة",
+    "sales": "المبيعات",
+    "productISell": "المنتج الذي أبيعُه",
+    "sellOffer": "عرض بيع",
+    "leads": "استفسارات",
+    "crm": "إدارة العملاء (CRM)",
+    "quotations": "عروض الأسعار",
+    "customers": "العملاء",
+    "catalogWebsite": "الكتالوج والموقع",
+    "marketing": "التسويق",
+    "sourcing": "المشتريات",
+    "productISource": "المنتج الذي أشتريه",
+    "rfq": "RFQ ومطابقة المورد",
+    "purchaseOrder": "أمر شراء",
+    "bills": "الفواتير",
+    "vendors": "الموردون",
+    "analytics": "التحليلات",
+    "setup": "الإعداد",
+    "businessProfile": "ملف الأعمال",
+    "settings": "الإعدادات",
+    "media": "الوسائط"
+  },
+  "navbar": {
+    "searchPlaceholder": "ابحث عن منتجات وخدمات",
+    "getStarted": "ابدأ",
+    "postBuyingReq": "نشر طلب شراء",
+    "rfqListTotal": "قائمة RFQ ({count}) الإجمالي",
+    "rfqNoData": "لا توجد عناصر في العربة",
+    "goToRfqBtn": "اذهب إلى قائمة RFQ",
+    "welcome": "مرحبًا بك في Pepagora!",
+    "login": "تسجيل الدخول",
+    "newCustomer": "عميل جديد؟",
+    "signup": "سجل",
+    "hi": "مرحبًا",
+    "viewProfile": "عرض الملف الشخصي والإعدادات",
+    "leads": "استفسارات",
+    "productsISell": "المنتجات التي أبيعها",
+    "quotes": "عروض",
+    "postRFQ": "نشر طلب شراء (RFQ)",
+    "settings": "إعدادات الحساب",
+    "help": "المساعدة والدعم",
+    "signOut": "تسجيل الخروج",
+    "buyingMode": "وضع الشراء",
+    "sellingMode": "وضع البيع",
+    "businessTools": "أدوات الأعمال",
+    "sellingTools": "أدوات البيع"
+  },
+  "currency": {
+    "AED": "درهم إماراتي",
+    "INR": "روبية هندية",
+    "USD": "دولار أمريكي",
+    "EUR": "يورو",
+    "GBP": "جنيه إسترليني",
+    "JPY": "ين ياباني",
+    "CNY": "يوان صيني"
+  },
+  "fieldsAddress": {
+    "firstName": "الاسم الأول",
+    "middleNameOptional": "اسم أبوي (اختياري)",
+    "lastName": "اسم العائلة",
+    "workEmail": "البريد الإلكتروني للعمل",
+    "mobileNumber": "رقم الجوال",
+    "whatsappNumber": "رقم واتساب",
+    "jobTitle": "المسمى الوظيفي",
+    "additionalInformationOptional": "معلومات إضافية (اختياري)",
+    "dateOfBirth": "تاريخ الميلاد",
+    "dobSubText": "يساعدنا هذا في التحقق من هويتك بأمان",
+    "address": "العنوان",
+    "country": "البلد",
+    "state": "المحافظة / الولاية",
+    "city": "المدينة",
+    "pincode": "الرمز البريدي",
+    "nationalIdType": "نوع الهوية الوطنية",
+    "nationalIdNumber": "رقم الهوية الوطنية",
+    "enterPinCode": "أدخل الرمز البريدي",
+    "enteraddresline1": "أضف السطر الأول من العنوان"
+  },
+  "optionLabels": {
+    "unitOption": {
+      "pieces": "قطع",
+      "sets": "مجموعات",
+      "ton": "طن",
+      "litres": "لتر",
+      "kg": "كيلوغرام",
+      "meter": "متر",
+      "dozen": "دزينة",
+      "boxes": "صناديق",
+      "sqft": "قدم مربع",
+      "cans": "علب",
+      "rolls": "لفات",
+      "coil": "لفافة"
+    },
+    "supplyContractType": {
+      "oneTime": "لمرة واحدة",
+      "longTerm": "لفترة طويلة",
+      "repeatOrder": "طلب متكرر (حسب الطلب)",
+      "fixedScheduleContract": "عقد بجدول ثابت"
+    },
+    "shippingMethods": {
+      "Sea": "بحري",
+      "Air": "جوي",
+      "Road": "بري",
+      "Rail": "سكك حديدية",
+      "Courier": "بريد سريع",
+      "Buyer-Arranged": "منظم من قبل المشتري",
+      "Local Delivery": "توصيل محلي"
+    }
+  },
+  "footer": {
+    "looking": "هل ترغب في",
+    "sourceTitle": "مصادر المنتجات؟",
+    "postBR": "انشر طلب الشراء الخاص بك",
+    "list": "عرّض شركتك مجانًا",
+    "company": "شركة مجاناً",
+    "join": "انضم الآن",
+    "sell": {
+      "title": "البيع على Pepagora",
+      "subTitle1": "أنشئ كتالوجك",
+      "subTitle2": "إدارة قوائمك",
+      "subTitle3": "روّج لمنتجاتك",
+      "subTitle4": "أسئلة البائع"
+    },
+    "source": {
+      "title": "المصدر على Pepagora",
+      "subTitle1": "تصفّح المنتجات",
+      "subTitle2": "مطابقة المورد الفورية",
+      "subTitle3": "إدارة الموردين",
+      "subTitle4": "اعثر على بائعين موثوقين",
+      "subTitle5": "انشر طلب شراء"
+    },
+    "support": {
+      "title": "الدعم والمساعدة",
+      "subTitle1": "دردشة مباشرة",
+      "subTitle2": "مركز المساعدة",
+      "subTitle3": "فتح تذكرة",
+      "subTitle4": "الإبلاغ عن إساءة",
+      "subTitle5": "اتصل بالدعم"
+    },
+    "aboutUs": {
+      "title": "من نحن",
+      "subTitle1": "حول Pepagora",
+      "subTitle2": "الفرص الوظيفية",
+      "subTitle3": "المستثمرون",
+      "subTitle4": "الصحافة والإعلام",
+      "subTitle5": "الشركاء",
+      "subTitle6": "الوكلاء",
+      "subTitle7": "القانونية",
+      "subTitle8": "حالة الخدمة"
+    },
+    "copyrights": {
+      "terms": "شروط الخدمة",
+      "policy": "سياسة الخصوصية",
+      "sitemap": "خريطة الموقع",
+      "privacy": "الاختيارات المتعلقة بالخصوصية"
+    }
+  },
+  "stageTracker": {
+    "title": "ديكور المنزل نبات كروتون داخلي في وعاء، سترة جلدية سوداء مع تطريز يدوي وجوارب بيضاء محاكة",
+    "new": "جديد",
+    "quote": "عرض سعر",
+    "negotiation": "مفاوضات",
+    "won": "فاز",
+    "lost": "خسر",
+    "lastActive": "آخر نشاط",
+    "seeDetails": "عرض التفاصيل",
+    "bulkOrder": "طلب بالجملة",
+    "inbox": "البريد الوارد",
+    "logNotes": "ملاحظات السجل"
+  },
+  "pageNotFound": {
+    "title_1": "الصفحة",
+    "title_2": "غير موجودة",
+    "description_1": "عذرًا، الصفحة التي تبحث عنها غير موجودة",
+    "description_step_1": "قم بزيارة",
+    "description_step_2": "الصفحة الرئيسية",
+    "description_step_3": "أو",
+    "description_step_4": "اطلب المساعدة",
+    "description_step_5": "أو جرّب البحث"
+  }
+}

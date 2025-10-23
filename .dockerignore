@@ -1,0 +1,39 @@
+# Node dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Build output
+.next
+dist
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Env files (never copy secrets into image)
+# .env
+# .env.local
+# .env.development
+# .env.production
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Misc
+*.swp
+*.swo
+*.zip
+*.tar
+*.tar.gz
+
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+.dockerignore

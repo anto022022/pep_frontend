@@ -1,0 +1,295 @@
+// Typography
+$body-font: 'Neue Haas Grotesk Display Pro', sans-serif;
+$secondary-body-font: 'Inter Tight', sans-serif;
+// Typography
+
+// Colors
+$text-primary: #171A1C;
+$text-tertiary: #636B74;
+$bg-primary: #FAFAFA;
+$neutral-soft-bg: #F0F4F8;
+$divider: #0000001F;
+$primary-outlined-color: #171A1C;
+$text-icon: #636B74;
+$primary-outlined-border: #CDD7E1;
+$background-surface: #FBFCFE;
+$primary-solid-color: #FFFFFF;
+$black: #000;
+$btn-primary: #D92C27;
+$error-txt: #ff2c2c;
+$neutral-solid-disabledcolor: #9FA6AD;
+$green: #89C949;
+$neutral-outlined-Color: #32383E;
+
+$color-green-1: #00BE41;
+$color-green-2: #1F7A1F;
+$color-green-3: #E3FBE3;
+$color-green-4: #A1E8A1;
+$color-green-5: #0A470A;
+$color-green-6: #17D080;
+$color-green-7: #00B744;
+$color-green-8: #D4EFD1;
+$color-green-9: #F8FEF7;
+$color-green-10: #3C782E;
+$color-green-11: #F0FDF4;
+
+$color-brown-1: #FDF0E1;
+$color-brown-2: #9A5B13;
+$color-brown-3: #492B08;
+
+$color-grey-1: #8C8C8C;
+$color-grey-2: #555E68;
+$color-grey-3: #BFC7CE;
+$color-grey-4: #00000024;
+$color-grey-5: #4B4B4B;
+$color-grey-6: #00000024;
+$color-grey-7: #7A7A7A;
+$color-grey-8: #757575;
+$color-grey-9: #f1f1f1;
+$color-grey-10: #4b5563;
+$color-grey-11: #F4F4F4;
+$color-grey-12: #616161;
+$color-grey-13: #303030;
+$color-grey-14: #D9D9D9;
+$color-grey-15: #171A1C;
+$color-grey-16: #A5A5A5;
+$color-grey-17: #798189;
+$color-grey-18: #C8C8C8;
+$color-grey-19: #5B5B5B;
+$color-grey-20: #D5D7DA;
+$color-grey-21: #DCDCDC;
+$color-grey-22: #949494;
+$color-grey-23: #E7E7E7;
+$color-grey-24: #E9E9E9;
+$color-grey-25: #91A2B5;
+$color-grey-26: #f9f9f9;
+$color-grey-27: #666;
+$color-grey-28: #686868;
+$color-grey-29: #6B6B6B;
+$color-grey-30: #D8D8D8;
+$color-grey-31: #E0E0E0;
+$color-grey-32: #8D8D8D;
+$color-grey-33: #6B6C6E;
+$color-grey-34: #6B7280;
+$color-grey-35: #9fa6ad73;
+$color-grey-36: #F2F2F2;
+$color-grey-37: #6A6C6D;
+$color-grey-38: #E6E6E6;
+$color-grey-39: #E5E4E4;
+$color-grey-40: #838383;
+$color-grey-41: #E4E4E4;
+$color-grey-42: #00000014;
+$color-grey-43: #d3d3d3;
+$color-grey-44: #E3E3E3;
+$color-grey-45: #E9E9E9;
+$color-grey-46: #636b7499;
+$color-grey-47: #696B6D;
+$color-grey-48: #d9d9d95e;
+$color-grey-49: #F5F5F5;
+$color-grey-50: #3f495594;
+$color-grey-51: #979797;
+$color-grey-52: #656565;
+$color-grey-53: #878a937a;
+$color-grey-54: #626262;
+$color-grey-55: #6A6A6A;
+$color-grey-56: #8E8E8E;
+$color-grey-57: #909090;
+$color-grey-58: #B1B1B1;
+$color-grey-59: #777c;
+$color-grey-60: #D6D7DA;
+$color-grey-61: #9D9D9D;
+$color-grey-62: #606060;
+$color-grey-63: #F0F0F0;
+$color-grey-64: #DADADA;
+$color-grey-65: #0000001a;
+$color-grey-66: #9C9C9C;
+$color-grey-67: #171a1c94;
+$color-grey-68: #BFBFBF;
+$color-grey-69: #ECECEC;
+$color-grey-70: #F3F3F3;
+$color-grey-80: #8F8F8F33;
+$color-grey-81: #00000033;
+$color-grey-82: #FBFAFA;
+$color-grey-83: #0003;
+$color-grey-84: #171a1c80;
+$color-grey-85: #535862;
+$color-grey-86: #535862;
+$color-grey-87: #839AAE;
+$color-grey-88: #53586266;
+$color-grey-89: #5f637099;
+$color-grey-90: #9fa6ad4d;
+$color-grey-91: #D3DEE9;
+$color-grey-92: #C1C1C1;
+$color-grey-93: #DCECF5;
+$color-grey-94: #F7FCFF;
+$color-grey-95: #78909E;
+$color-grey-96: #9E9E9E;
+$color-grey-97: #53586299;
+$color-grey-98: #B9BABB;
+$color-grey-99: #EEE;
+$color-grey-100: #5f637099;
+$color-grey-101: #0009;
+$color-grey-102: #636b744d;
+$color-grey-103: #D0D3D5;
+$color-grey-104: #666666;
+$color-grey-105: #171a1c99;
+$color-grey-106: #F7F7F7;
+$color-grey-107: #61616199;
+$color-grey-108: #BABABA;
+$color-grey-109: #E8E8E8;
+$color-grey-110: #9B9B9B;
+$color-grey-111: #474747;
+$color-grey-112: #CFD7E0;
+$color-grey-113: #E1E1E1;
+$color-grey-114: #B8B8B826;
+
+$color-white-1: #F8F8F8;
+$color-white-2: #DDE7EE;
+$color-white-3: #F6F6F6;
+$color-white-4: #F1F2F4;
+$color-white-5: #e5e7eb;
+$color-white-6: #EBEBEB;
+$color-white-7: #FEFEFE;
+$color-white-8: #ffffff33;
+$color-white-9: #ffffffe3;
+$color-white-10: #ffffff26;
+$color-white-11: #ffffff4d;
+$color-white-12: #f4f9ffe6;
+
+$color-black-1: #242424;
+$color-black-2: #0000007d;
+$color-black-3: #131;
+$color-black-4: #232323;
+$color-black-5: #212121;
+$color-black-6: #181D27;
+$color-black-7: #3C3C3C;
+$color-black-8: #00000080;
+$color-black-9: #444444;
+$color-black-10: #3F4955;
+$color-black-11: #000000de;
+$color-black-12: #000c;
+$color-black-13: #303030e6;
+$color-black-14: #0B0D0E;
+$color-black-15: #1E1E1E;
+$color-black-16: #2E2E2E;
+$color-black-17: #00000003;
+$color-black-18: #313131;
+$color-black-19: #414651;
+
+$color-red-1: #D92D27;
+$color-red-2: #ff2c2c0f;
+$color-red-3: #FFF6F6;
+$color-red-4: #FEE;
+$color-red-5: #DC2B26;
+$color-red-6: #FFF6F5;
+
+$color-blue-1: #C7DFF7;
+$color-blue-2: #185EA5;
+$color-blue-3: #F0F4F8;
+$color-blue-4: #E8EFFB;
+$color-blue-5: #5482B5;
+$color-blue-6: #EDF5FD;
+$color-blue-7: #e1eaf3;
+$color-blue-8: #DDECFF;
+$color-blue-9: #F6FAFF;
+
+
+$badge-active-bg: #EAF7EA;
+$badge-active-txt: #14AE5C;
+$badge-draft-bg: #DCDCDC;
+$badge-draft-txt: #5F6370;
+$badge-pending-bg: #E1E9FB;
+$badge-pending-txt: #0055FF;
+$badge-archieve-bg: #e57a1926;
+$badge-archieve-txt: #FF8210;
+$badge-awating-txt: #DCB01F;
+$badge-awating-bg: #F5F7DE;
+$badge-order-confirm-txt: #1E9A13;
+$badge-order-confirm-bg: #E4FDE1;
+$badge-new-inquiry-txt: #269DC5;
+$badge-new-inquiry-bg: #E1F0FE;
+$badge-deal-won-bg: #E2FFE6;
+
+
+$badge-approval-pending-txt: #9A5B13;
+$badge-approval-pending-bg: #FDF0E1;
+$badge-approval-pending-border: #F3C896;
+
+$badge-orange-color: #F6590B;
+$badge-orange-bg: #FFEADC;
+
+
+$alertCustom-info-bg: #E3EFFB;
+$alertCustom-info-color: #12467B;
+
+$alert-info-border: #B3E6FF;
+$alert-info-bg: #EAF8FF;
+$alert-info-color: #1A6BAE;
+
+$alert-error-border: #0000;
+$alert-error-bg: #FCE4E4;
+$alert-error-color: #C41C1C;
+
+$yellow-color: #FFC62A;
+$yellow-color-1: #FF9900;
+
+$pink-color-1: #F44CDE;
+
+$nego: #E25E10;
+$new: #0072CC;
+$quote: #F0C509;
+$won: #14AE5C;
+$lost: #D92D27;
+
+$new-border: #95D7FF;
+$new-bg: #CFEDFF;
+$new-color: #057AC0;
+
+$quote-border: #D92D27;
+$quote-bg: #FFEBEB;
+$quote-color: #D92D27;
+
+$quote-received-color: #D03AAA;
+$quote-received-border: #F5C9F3;
+$quote-received-bg: #FFF0F5;
+// Colors
+
+// Shadows
+$shadow-depth-1: 0px 0.5px 1px 0px rgba(0, 0, 0, 0.25);
+$shadow-depth-2: 0px 1px 2px 0px rgba(21, 21, 21, 0.08);
+$shadow-depth-3: 0px 0.547px 1.095px 0px rgba(0, 0, 0, 0.25);
+$shadow-depth-4: 0 0px 2px #15151514;
+$shadow-depth-5: 0px 0.5px 1px 0px rgba(0, 0, 0, 0.10);
+$shadow-depth-6: 0px 4px 10px 0px rgba(0, 0, 0, 0.20);
+$shadow-depth-7: 0px 1px 2px 0px rgba(10, 13, 18, 0.05);
+$shadow-depth-8: 0px 0.5px 1px 0px #00000040;
+$shadow-depth-9: 0 7px 10px #00000012;
+$shadow-depth-10: 0 1px 2px #15151514;
+$shadow-depth-11: rgba(0, 0, 0, 0.40);
+$shadow-depth-12: 0px 1px 2px 0px rgba(21, 21, 21, 0.08), 0px 2px 4px 0px rgba(21, 21, 21, 0.08);
+$shadow-depth-13: 0px 2px 8px 0px rgba(0, 0, 0, 0.39);
+$shadow-depth-14: 0px 4px 8px 0px rgba(0, 0, 0, 0.12);
+$shadow-depth-15: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+$shadow-depth-16: 0px 2px 8px -2px rgba(21, 21, 21, 0.08), 0px 12px 16px -4px rgba(21, 21, 21, 0.08);
+$shadow-depth-17: 0px 1px 1px 0px rgba(0, 0, 0, 0.25);
+$shadow-depth-18: 0px 0.476px 0.951px 0px rgba(0, 0, 0, 0.25);
+$shadow-depth-19: 0px -2px 4px 0px rgba(0, 0, 0, 0.12);
+$shadow-depth-20: 0px 1px 3px 0px rgba(0, 0, 0, 0.07);
+$shadow-depth-21: 0px 1px 2px 0px rgba(0, 0, 0, 0.20);
+$shadow-depth-22: 1px -1px 2px #0003;
+$shadow-depth-23: 0px 4px 4px 0px rgba(0, 0, 0, 0.00);
+$shadow-depth-24: 0px 1px 2px 0px rgba(0, 0, 0, 0.12);
+$shadow-depth-25: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
+$shadow-depth-26: 0px 1.5px 1px 0px rgba(0, 0, 0, 0.06);
+$shadow-depth-27: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+$shadow-depth-28: 0 0.5px 1px 0 rgba(0, 0, 0, 0.25);
+$shadow-depth-29: 0 4px 7px 0 rgba(0, 0, 0, 0.11);
+// Shadows
+
+
+// Gradient
+$gradient-1: linear-gradient(90deg, #fff0, #ffffff6e, #fff0);
+$gradient-2: linear-gradient(0deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%), #FFF;
+$gradient-3: linear-gradient(180deg, rgb(255 255 255 / 0%) 0%, rgb(0 0 0 / 65%) 100%);
+$gradient-4: linear-gradient(0deg, #FFF 0%, #FFF 100%), #EAEAEA;
+$gradient-5: linear-gradient(0deg, rgba(184, 184, 184, 0.15) 0%, rgba(184, 184, 184, 0.15) 100%), #FFF;

@@ -1,0 +1,918 @@
+@media (max-width: 1920px) {
+  .trust-hero-main .container-main {
+    padding-left: 330px;
+  }
+}
+
+@media (max-width: 1870px) {
+  .trust-hero-main .container-main {
+    padding-left: 300px;
+  }
+}
+
+@media (max-width: 1850px) {
+  .trust-hero-main .container-main {
+    padding-left: 290px;
+  }
+}
+
+@media (max-width: 1800px) {
+  .trust-hero-main .container-main {
+    padding-left: 250px;
+  }
+}
+
+@media (max-width: 1750px) {
+  .trust-hero-main .container-main {
+    padding-left: 180px;
+  }
+}
+
+@media (max-width: 1640px) {
+  .trust-hero-main .container-main {
+    padding-left: 150px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .trust-hero-main.container-main {
+    padding-left: 80px;
+  }
+}
+
+@media (max-width: 1550px) {
+  .trust-hero-main .container-main {
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .trust-hero-main .container-main {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .container-main {
+    padding: 0px 40px;
+  }
+
+  .trust-badges-heading h1,
+  .roi-trust-heading h1,
+  .creditibility-heading h1,
+  .trust-hero-heading h1,
+  .verification-works-heading h1,
+  .impact-hero-page .impact-heading h1,
+  .esg-enivornment-heading h1,
+  .make-difference-heading h1,
+  .business-empowerment-heading h1,
+  .year-goals-heading h1,
+  .part-movement-heading h1 {
+    font-size: 55px;
+  }
+
+  .impact-inner h1 {
+    font-size: 338px;
+  }
+}
+
+@media (max-width: 1320px) {
+  .tru-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+  }
+}
+
+@media (max-width: 1280px) {
+
+  .trust-badges-heading h1,
+  .roi-trust-heading h1,
+  .creditibility-heading h1,
+  .trust-hero-heading h1 .verification-works-heading h1,
+  .impact-hero-page .impact-heading h1,
+  .esg-enivornment-heading h1,
+  .make-difference-heading h1,
+  .business-empowerment-heading h1,
+  .year-goals-heading h1,
+  .year-goals-content h1,
+  .part-movement-heading h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .tru-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+  }
+
+  .trust-text-inner h1 {
+    font-size: 165px;
+  }
+
+  .trust-text-main {
+    padding-bottom: 20px;
+  }
+
+  .impact-inner h1 {
+    font-size: 300px;
+  }
+}
+
+@media (max-width: 1200px) {
+
+  .trust-badges-heading h1,
+  .roi-trust-heading h1,
+  .creditibility-heading h1,
+  .trust-hero-heading h1,
+  .verification-works-heading h1,
+  .impact-hero-page .impact-heading h1,
+  .esg-enivornment-heading h1,
+  .make-difference-heading h1,
+  .business-empowerment-heading h1,
+  .year-goals-heading h1,
+  .year-goals-content h1,
+  .part-movement-heading h1 {
+    font-size: 44px;
+    line-height: 55px;
+  }
+
+  .verification-block::before {
+    left: 120px;
+  }
+
+  .trust-left,
+  .trust-right {
+    width: 100%;
+  }
+
+  .trust-right {
+    padding-left: 0px;
+  }
+
+  .trust-hero-heading h6 {
+    text-align: center;
+  }
+
+  .trust-hero-heading h1,
+  .trust-hero-heading p {
+    text-align: center;
+  }
+
+  .trust-right img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .verification-works,
+  .year-goals {
+    padding: 70px;
+  }
+
+  .core-leadership-right {
+    padding-left: 60px;
+  }
+
+  .trust-right img {
+    width: 526px;
+    height: 314px;
+  }
+
+  .esg-environment-block-heading h4 {
+    font-size: 22px;
+    line-height: 28px;
+    min-height: 50px;
+  }
+
+}
+
+@media (max-width:1050px) {
+  .flex-direction-column .core-leadership-right {
+    padding-right: 75px;
+  }
+
+  .esg-environment-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .year-goals::after {
+    display: none;
+  }
+
+  .eco-grid {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .verification-grid {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 991px) {
+
+  .trust-badges-heading h1,
+  .roi-trust-heading h1,
+  .creditibility-heading h1,
+  .trust-hero-heading h1,
+  .verification-works-heading h1,
+  .impact-hero-page .impact-heading h1,
+  .esg-enivornment-heading h1,
+  .make-difference-heading h1,
+  .business-empowerment-heading h1,
+  .year-goals-heading h1,
+  .year-goals-content h1,
+  .part-movement-heading h1 {
+    font-size: 40px;
+    line-height: 52px;
+    margin-bottom: 17px;
+  }
+
+  .eco-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .global-leaders-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .trust-text-inner h1 {
+    font-size: 145px;
+    text-align: center;
+  }
+
+  .verification-works {
+    padding: 50px;
+  }
+
+  .verification-block::before {
+    left: 68px;
+  }
+
+  .trust-text-main {
+    padding-bottom: 15px;
+  }
+
+  .leadership-hero h1 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+
+  .leadership-hero h3 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .our-leadership-second-para p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .core-leadership-heading h1 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .business-empowerment-block {
+    padding: 22px;
+  }
+
+  .both-come-with-block .business-empowerment-block-para p {
+    font-size: 22px;
+    line-height: 28px;
+    min-height: 60px;
+  }
+
+  .year-goals {
+    padding: 50px;
+  }
+
+  .both-come-with-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .second-block,
+  .fourth-block,
+  .third-block {
+    transform: unset;
+  }
+
+  .impact-left,
+  .impact-right {
+    width: 100%;
+  }
+
+  .impact-flex {
+    position: unset;
+  }
+
+  .impact-hero-page-main {
+    padding-bottom: 0;
+  }
+
+  .impact-inner h1 {
+    font-size: 220px;
+    text-align: center;
+  }
+
+  .impact-heading {
+    padding-bottom: 70px;
+  }
+
+  .esg-enivornment-main::before {
+    content: unset;
+  }
+}
+
+@media (max-width: 850px) {
+  .roi-trust-img {
+    height: 78px;
+  }
+
+  .roi-trust-content h3 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .roi-trust-content p,
+  .creditibility-heading p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .creditibility-btns {
+    margin-top: 30px;
+  }
+
+  .tru-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+
+
+}
+
+@media (max-width: 800px) {
+  .core-leadership-flex {
+    flex-direction: column;
+  }
+
+  .core-leadership-left,
+  .core-leadership-right {
+    width: 100%;
+  }
+
+  .core-leadership-right {
+    padding-left: 0px;
+  }
+
+  .core-leadership-left {
+    margin-bottom: 16px;
+  }
+
+  .advisory-board-flex {
+    flex-direction: column;
+    align-items: unset;
+  }
+
+  .advisory-board-left,
+  .advisory-board-right {
+    width: 100%;
+  }
+
+  .advisory-board-right {
+    padding-left: 0px;
+  }
+
+  .advisory-board-left {
+    margin-bottom: 16px;
+    width: 50%;
+  }
+
+  .flex-adv-row .advisory-board-right {
+    padding-right: 0px;
+  }
+
+  .flex-direction-column .core-leadership-right {
+    padding-right: 0px;
+  }
+
+  .desk-img {
+    display: none;
+  }
+
+  .mob-img {
+    display: block;
+  }
+
+  .core-leadership-left img {
+    border-radius: 8px;
+    /* height: 445px; */
+  }
+
+  .advisory-board-left img {
+    border-radius: 8px;
+    /* height: 220px; */
+  }
+
+  .both-come-with-block .business-empowerment-block-para p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .eco-img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .eco-content h3,
+  .verification-content h4 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .eco-content p,
+  .verification-content p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .roi-trust-grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+  }
+
+  .roi-trust-block {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    /* justify-content: center; */
+    flex-wrap: nowrap;
+  }
+
+  .roi-trust-img {
+    margin: unset;
+  }
+
+  .roi-trust-content h3,
+  .roi-trust-content p,
+  .verification-content h4 {
+    text-align: unset;
+    margin-bottom: 10px;
+  }
+
+  .roi-trust-content p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .roi-trust-img {
+    max-width: 45px;
+    width: unset;
+    height: unset;
+  }
+
+  .trust-text-inner h1 {
+    font-size: 110px;
+    text-align: center;
+  }
+
+  .trust-text-main {
+    padding-bottom: 10px;
+  }
+
+  .business-empowerment-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .second-block,
+  .fourth-block,
+  .third-block {
+    transform: unset;
+  }
+
+  .both-come-with-block .business-empowerment-block-para p {
+    min-height: 80px;
+  }
+
+  .impact-inner h1 {
+    font-size: 165px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .trust-badges-heading h1,
+  .trust-badges-heading h4,
+  .roi-trust-heading h1,
+  .creditibility-heading h1,
+  .trust-hero-heading h1,
+  .verification-works-heading h1,
+  .impact-hero-page .impact-heading h1,
+  .esg-enivornment-heading h1,
+  .make-difference-heading h1,
+  .business-empowerment-heading h1,
+  .year-goals-heading h1,
+  .year-goals-content h1,
+  .part-movement-heading h1 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .tru-img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .tru-content h5,
+  .trust-badges-table th,
+  .verification-works-heading p,
+  .verification-content h4,
+  .esg-enivornment-heading p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .tru-content p,
+  .global-leaders-block-content p,
+  .trust-badges-heading p,
+  .trust-badges-table td,
+  .business-empowerment-block-para p,
+  .both-come-with-block .business-empowerment-block-para p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .trust-badges-heading p,
+  .esg-enivornment-heading p {
+    margin-bottom: 20px;
+  }
+
+  .business-empowerment-block-img,
+  .business-empowerment-block-img {
+    max-width: 40px;
+  }
+
+  .trust-badges-main,
+  .impact-purpose-main,
+  .trust-badges-table-main,
+  .global-leaders-main,
+  .creditibility-main,
+  .roi-trust-main,
+  .verification-works-main,
+  .impact-hero-page-main,
+  .make-difference-main,
+  .esg-enivornment-main,
+  .business-empowerment-main,
+  .part-movement-main {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .trust-badges-table th {
+    font-size: 16px;
+  }
+
+  .global-leaders-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .global-leaders-block-heading h3 {
+    font-size: 18px;
+    line-height: 26px;
+    min-height: 35px;
+  }
+
+  .creditibility-btns {
+    flex-flow: column;
+  }
+
+  .view-plans,
+  .start-veri {
+    width: 100%;
+  }
+
+  .view-plans a,
+  .start-veri a {
+    width: 100%;
+  }
+
+  .trust-right {
+    display: none;
+  }
+
+  .trust-text-main {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+
+  .verification-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .verification-block {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .verification-img {
+    margin: unset;
+  }
+
+  .verification-content p {
+    text-align: unset;
+  }
+
+  .verification-works-heading {
+    margin-bottom: 30px;
+  }
+
+  .verification-img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .verification-works::before,
+  .year-goals::before {
+    width: 90px;
+    height: 110px;
+  }
+
+  .trust-badges-table th {
+    padding: 15px;
+  }
+
+  .verification-works {
+    padding: 30px 10px;
+    border: unset;
+  }
+
+  /* .verification-img {
+        height: 25px;
+        width: 25px;
+    } */
+
+  .verification-block::before {
+    content: unset;
+  }
+
+  .verification-block::after {
+    position: absolute;
+    content: "";
+    background-image: url(../images/Vector-4817.png);
+    width: 3px;
+    height: 100%;
+    left: 17px;
+    background-repeat: no-repeat;
+    top: 30px;
+  }
+
+  .verification-img {
+    max-width: 20px;
+    width: unset;
+    height: unset;
+  }
+
+  .verification-block {
+    align-items: flex-start;
+  }
+
+  .verification-grid {
+    gap: 3px;
+  }
+
+  .verification-block:last-child::after {
+    content: unset;
+  }
+
+  .trust-hero-main .container-main {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .trust-left,
+  .trust-right {
+    width: 100%;
+  }
+
+  .trust-hero-heading h6 {
+    text-align: center;
+  }
+
+  .trust-hero-heading h1,
+  .impact-hero-page .impact-heading p,
+  .impact-hero-page .impact-heading h1 {
+    text-align: center;
+  }
+
+  .trust-hero-main {
+    padding-top: 60px;
+  }
+
+  .trust-text-inner h1,
+  .impact-inner h1 {
+    font-size: 110px;
+    text-align: center;
+  }
+
+  .leadership-hero-main,
+  .core-leadership-main {
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+
+  .core-leadership-heading h1,
+  .esg-enivornment-heading h4 {
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  .social-impact-badges-block-content h4 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .leadership-hero h3,
+  .esg-environment-block-para p,
+  .esg-environment-block-heading h4,
+  .social-impact-badges-block-content p,
+  .part-movement-heading p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .leadership-hero h1 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .our-leadership-second-para p,
+  .make-difference-heading p,
+  .impact-purpose-heading p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .partner-leadership-heading p,
+  .partner-leadership-content p,
+  .advisory-board-partner-heading p,
+  .advisory-board-partner-content p,
+  .business-empowerment-heading p,
+  .social-impact-badges-heading p,
+  .year-goals-content p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .partner-leadership-content p,
+  .make-difference-heading p {
+    margin-bottom: 16px;
+  }
+
+  .partner-leadership-heading h3,
+  .advisory-board-partner-heading h3,
+  .impact-purpose-heading h3,
+  .social-impact-badges-heading h4,
+  .both-come-with-heading h4 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .social-impact-badges-grid {
+    gap: 15px;
+    margin-top: 30px;
+  }
+
+  .year-goals-icon {
+    max-width: 14px;
+  }
+
+
+  .flex-flex-gap {
+    margin-top: 60px;
+  }
+
+  .flex-direction-column .core-leadership-right {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .year-goals-main,
+  .disclaimer-main {
+    padding-bottom: 60px;
+  }
+
+  .make-difference-eco-tiers {
+    margin-bottom: 40px;
+  }
+
+  .flex-gap {
+    margin-top: 54px;
+  }
+
+  .core-leadership-left img {
+    border-radius: 8px;
+    /* height: 350px; */
+  }
+
+  .social-impact-badges-block-img {
+    max-width: 64px;
+  }
+
+  .advisory-board-left img {
+    border-radius: 8px;
+    height: 220px;
+  }
+
+  .esg-environment-block-img {
+    max-width: 60px;
+  }
+
+  .esg-environment-block {
+    padding: 12px 15px;
+  }
+
+  .esg-environment-grid {
+    gap: 8px;
+  }
+
+  .esg-environment-block-heading h4 {
+    margin-bottom: 0px;
+  }
+
+  .both-come-with-block {
+    padding: 24px 12px;
+  }
+
+  .both-come-with-block .business-empowerment-block-para p {
+    min-height: unset;
+  }
+
+  .year-goals-content h1 {
+    margin-bottom: 10px;
+  }
+
+  .year-goals-grid {
+    gap: 40px;
+  }
+
+  .part-movement-btns {
+    flex-direction: column;
+  }
+
+  .disclaimer p {
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .disclaimer .para-heading {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .impactfounder-desk {
+    display: none;
+  }
+
+  .impactfounder-mob {
+    display: block;
+    margin-top: 50px;
+  }
+
+  .disclaimer-main {
+    padding-top: 0px;
+  }
+
+  .impact-hero-page-main {
+    padding-bottom: 0px;
+  }
+
+  .impact-heading {
+    padding-bottom: 35px;
+  }
+  .download-impact-btn a{
+    font-size: 14px;
+  }
+  .make-different-wrapper{
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 30px 20px;
+  }
+  .make-difference-main{
+    background-color: unset;
+    padding-top: 0px;
+  }
+}

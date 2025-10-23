@@ -1,0 +1,49 @@
+.p-overlaypanel {
+    &.selection-detail-overlaypanel {
+        width: 350px;
+        margin-top: 5px;
+        @media screen and (max-width:640px) {
+            width: 300px;
+            left: 20px !important;
+        }
+        .selection-detail-block{
+            .s-d-b-body{
+                padding: 15px;
+            }
+            .s-d-b-footer{
+                border-top: 1px solid $color-grey-38;
+                padding: 8px 5px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 10px;
+            }
+        }
+        .selection-list-block{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .sizesbutton-comp{
+                gap: 4px;
+                .s-c-label{
+                    font-size: 14px;
+                }
+                .s-c-buttons-block{
+                    .btn-comp{
+                        min-width: auto;
+                        padding: 5px 10px;
+                    }
+                }
+                &.colorsbutton-comp{
+                    &.colors-img-comp{
+                        .c-c-img{
+                            width: 35px;
+                            height: 35px;
+                            min-width: 35px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,79 @@
+.insights-card-comp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    border-radius: 14px;
+    box-shadow: $shadow-depth-18;
+    background-color: $primary-solid-color;
+    cursor: pointer;
+
+    .i-c-c-top {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        .i-c-c-t-img {
+            width: 100%;
+            height: 175px;
+
+            img {
+                @include img-cover;
+                border-radius: 13px 13px 0 0;
+            }
+        }
+
+        .i-c-c-t-info {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 0 20px;
+        }
+
+        .i-c-c-t-i-date-badge {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+        }
+    }
+
+    .i-c-c-bottom {
+        padding: 0 20px 15px 20px;
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        white-space: nowrap;
+
+        svg {
+            min-width: 17px;
+        }
+
+        .min-order-txt {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            max-width: 135px;
+        }
+    }
+
+    .insights-title {
+        color: $text-primary;
+        font-family: $body-font;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+        @include line-clamp(2);
+    }
+
+    .badge-comp {
+        &.insights-green {
+            background-color: $color-green-4;
+            color: $color-green-5;
+            font-weight: 500;
+            font-family: $body-font;
+            border-color: $color-green-4;
+        }
+    }
+}

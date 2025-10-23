@@ -1,0 +1,190 @@
+.compose-card-comp {
+    border-radius: 12px;
+    background: $primary-solid-color;
+    box-shadow: $shadow-depth-21;
+    padding: 12px;
+
+    &.inquires-compose-card{
+        .c-c-c-head{
+            padding-bottom: unset;
+        }
+    }
+
+    .c-c-c-head {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid $color-grey-90;
+        padding-bottom: 5px;
+
+        &.remove-border {
+            border-bottom: 1px solid transparent;
+        }
+
+        .c-c-c-h-actions {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            @media screen and (max-width:640px) {
+                flex-wrap: wrap;
+            }
+        }
+
+        .c-c-c-h-inputs {
+            .forms-input {
+                border: unset;
+                border-bottom: 1px solid $primary-outlined-border;
+                border-radius: unset;
+                background-color: unset;
+                box-shadow: unset;
+            }
+        }
+    }
+
+    .c-c-c-body {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding-top: 15px;
+
+        .compose-inputs-block {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .compose-bottom-action-block {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+
+            .c-b-c-b-left,
+            .c-b-c-b-right {
+                display: flex;
+                align-items: center;
+                gap: 12px;
+            }
+
+            .c-b-c-b-right {
+                .remove-compose {
+                    width: 22px;
+                    height: 22px;
+                    cursor: pointer;
+
+                    path {
+                        stroke: $color-grey-8;
+                    }
+                }
+            }
+
+            .btn-comp {
+                &.btn-c-primary {
+                    width: 130px;
+                }
+            }
+        }
+
+        .compose-attachment-block {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            flex-wrap: wrap;
+            margin-top: 5px;
+
+            .file-upload-list {
+                border-radius: 12px;
+                border: 1px solid $color-grey-93;
+                background: $color-grey-94;
+                width: max-content;
+                gap: 15px;
+
+                .f-u-l-info {
+                    .f-u-l-i-name {
+                        color: $black;
+                        font-family: $body-font;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        letter-spacing: 0.28px;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        max-width: 120px;
+                    }
+                }
+
+                .close-icon {
+                    path {
+                        stroke: $color-grey-95;
+                        fill: $color-grey-95;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    .pep-gmail-switch {
+        display: flex;
+        align-items: center;
+
+        .btn-comp {
+            padding: 8px;
+            width: auto;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid transparent;
+
+            &.active {
+                border-radius: 8px;
+                border: 1px solid $color-grey-91;
+                background: $color-white-12;
+                box-shadow: $shadow-depth-23;
+            }
+
+            svg {
+                path {
+                    stroke: none;
+                }
+            }
+        }
+    }
+
+    .mention-input-block {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        width: 100%;
+
+        .m-i-b-label {
+            color: $color-grey-85;
+            font-family: $secondary-body-font;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 24px;
+        }
+    }
+
+    .cc-bcc-switch {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .btn-comp {
+            padding: unset;
+            background-color: unset;
+
+            .b-c-txt {
+                color: $color-grey-85;
+                font-family: $secondary-body-font;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 24px;
+            }
+        }
+    }
+}
+

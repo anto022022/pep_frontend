@@ -1,0 +1,61 @@
+.easy-guide-comp {
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: $shadow-depth-29;
+    margin-bottom: 10px;
+
+    .e-g-c-head {
+        padding: 20px 25px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+
+        .e-g-c-h-left {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+
+            .e-g-c-h-title {
+                color: $neutral-outlined-Color;
+                font-family: $secondary-body-font;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 28px;
+            }
+
+            .e-g-c-h-subtxt {
+                color: $color-grey-12;
+                font-family: $secondary-body-font;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20px;
+            }
+        }
+
+        .e-g-c-h-right {
+            svg {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .e-g-c-body {
+        transition: .2s all;
+        visibility: visible;
+        opacity: 1;
+        user-select: none;
+        overflow: visible;
+        &.toggle-guide-close{
+            height: 0 !important;
+            visibility: hidden;
+            transition: .2s all;
+            opacity: 0;
+            overflow: hidden;
+        }
+        .stepper-card-block {
+            padding: 20px 25px;
+            border-top: 1px solid $color-grey-24;
+        }
+    }
+}

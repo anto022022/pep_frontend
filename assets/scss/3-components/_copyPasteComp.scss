@@ -1,0 +1,18 @@
+.copy-paste-comp {
+    border-radius: 100px;
+    background: $neutral-soft-bg;
+    padding: 7px 12px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    width: max-content;
+
+    .c-p-c-txt {
+        color: $text-primary;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 14px;
+        letter-spacing: 0.5px;
+    }
+}

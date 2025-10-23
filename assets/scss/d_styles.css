@@ -1,0 +1,86 @@
+.nested-wrapper {
+  /* width: 100%; */
+  /* max-width: 960px; */
+  margin: 15px auto;
+  /* padding: 10px; */
+  /* border: 1px solid #ddd; */
+  /* border-radius: 10px; */
+  /* background: #fff; */
+}
+.nested-wrapper .listsWrapper {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+.nested-wrapper .listsWrapper .listColumn {
+  flex: 1;
+  border: 1px solid #e3e3e3;
+  border-radius: 6px;
+  padding: 10px;
+}
+.nested-wrapper .listsWrapper .listColumn .searchInput {
+  width: 100%;
+  padding: 6px 8px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.nested-wrapper .listsWrapper .listColumn .optionList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 200px;
+  overflow-y: auto;
+}
+.nested-wrapper .listsWrapper .listColumn .optionList .optionItem {
+  padding: 8px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+.nested-wrapper .listsWrapper .listColumn .optionList .optionItem:hover {
+  background: #f0f0f0;
+}
+.nested-wrapper .listsWrapper .listColumn .optionList .optionItem.selected {
+  background-color: #f1f1f1;
+  font-weight: 600;
+}
+.nested-wrapper .listsWrapper .listColumn .optionList .noResult,
+.nested-wrapper .listsWrapper .listColumn .optionList .loading {
+  padding: 8px;
+  text-align: center;
+  color: #999;
+}
+
+.selectedOutput {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.browse-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+.browse-btn {
+  background-color: #d92c27;
+  color: #fff;
+  border: 1px solid #d92c27;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.browse-btn:hover {
+  background-color: #171a1c;
+  border-color: #171a1c;
+  transition: all 0.2s;
+}/*# sourceMappingURL=d_styles.css.map */

@@ -1,0 +1,1820 @@
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+:root {
+    --red-color: #D92C27;
+    --black-color: #050000;
+    --gray-color: #f5f5f5;
+    --dark-gray-color: #232323;
+    --light-gray-color: #59595C;
+    --gray-color-2: #f4f4f4;
+    --white-color: #ffffff;
+}
+
+body {
+    background-color: var(--gray-color-2);
+}
+
+p {
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: var(--light-gray-color);
+}
+
+/* @font-face {
+    font-family: "NeueHaasDisplayBold";
+    src: url(../fonts/NeueHaasDisplayBold.ttf);
+} */
+
+@font-face {
+    font-family: 'NeueHaasDisplayBold';
+    font-style: normal;
+    font-weight: 700;
+    src: url('https://fonts.cdnfonts.com/s/47998/NeueHaasDisplayBold.woff') format('woff');
+}
+
+/* @font-face {
+    font-family: 'Neue Haas Display';
+    src: url("/fonts/NeueHaasDisplayLight.ttf");
+} */
+
+@font-face {
+    font-family: 'Neue Haas Display';
+    font-style: normal;
+    font-weight: 500;
+    src: url('https://fonts.cdnfonts.com/s/47998/NeueHaasDisplayRoman.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'NeueHaasDisplayLight';
+    font-style: normal;
+    font-weight: 500;
+    src: url('https://fonts.cdnfonts.com/s/47998/NeueHaasDisplayRoman.woff') format('woff');
+}
+
+
+/* 
+@font-face {
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    src: url(../fonts/NeueHaasDisplayMediu.ttf);
+} */
+
+
+
+@font-face {
+    font-family: 'NeueHaasDisplayMedium';
+    font-style: normal;
+    font-weight: 600;
+    src: url('https://fonts.cdnfonts.com/s/47998/NeueHaasDisplayMediu.woff') format('woff');
+}
+
+.header-main {
+    padding: 10px 40px;
+    background-color: var(--white-color);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.mob-header {
+    display: none;
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-left {
+    max-width: 200px;
+}
+
+.header-right ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-right ul li {
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--dark-gray-color);
+}
+
+.header-right ul li a {
+    color: var(--dark-gray-color);
+}
+
+.header-right ul li.active a,
+.header-right ul li:hover a {
+    border-bottom: 2px solid var(--red-color);
+    padding-bottom: 7px;
+}
+
+.breadcrumbs-main {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: var(--gray-color);
+}
+
+.breadcrumb {
+    margin-bottom: 0;
+}
+
+.breadcrumb-item {
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--dark-gray-color);
+}
+
+.breadcrumb-item a {
+    color: var(--dark-gray-color);
+}
+
+.breadcrumb-item.active {
+    color: var(--light-gray-color);
+}
+
+.about-banner-main,
+.current-opening-main,
+.company-culture-main,
+.what-we-value-main,
+.powerful-partners-main {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about-banner-main.home,
+body.about .breadcrumbs-main {
+    background-color: #fafafa;
+}
+
+.about-banner-flex,
+.what-we-value-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.about-banner-left,
+.about-banner-right,
+.what-we-value-left,
+.what-we-value-right {
+    width: 50%;
+}
+
+.about-banner-left h2,
+.what-we-value-right h2 {
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    font-size: 60px;
+    line-height: 68px;
+    font-weight: 600;
+    color: var(--dark-gray-color);
+    margin-bottom: 40px;
+}
+
+.about-banner-left h2 span,
+.what-we-value-right h2 span {
+    color: var(--red-color);
+}
+
+.about-banner-left a,
+.company-block a,
+.input-flex button,
+.explore-btn a,
+.job-details a,
+.apply-btn-flex a {
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    font-size: 16px;
+    width: 196px;
+    height: 56px;
+    color: var(--white-color);
+    background-color: var(--red-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 99px;
+}
+
+.about-banner-left a:hover,
+.company-block a:hover,
+.input-flex button:hover,
+.explore-btn a:hover {
+    background-color: var(--black-color);
+}
+
+.company-block-inner.gray a:hover {
+    background-color: var(--red-color);
+}
+
+.explore-btn.mob {
+    display: none;
+}
+
+.about-banner-left p,
+.quote p,
+.founder-sign p {
+    margin-bottom: 25px;
+}
+
+.about-banner-left p:last-child {
+    margin-bottom: 0;
+}
+
+.about-banner-right,
+.what-we-value-right {
+    padding-left: 60px;
+}
+
+.about-banner-main.our-story,
+.the-solutions-main,
+.founder-slider-main {
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.about-banner-main.our-story .about-banner-left {
+    width: 45%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.about-banner-main.our-story .about-banner-right {
+    width: 55%;
+}
+
+.movement-main.founder-text h1 {
+    text-align: unset;
+    margin-bottom: -47px;
+}
+
+.quote {
+    padding: 30px;
+    border-radius: 20px;
+    background-color: var(--red-color);
+    max-width: 400px;
+    margin: 0 0 20px auto;
+    position: relative;
+}
+
+.quote::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    bottom: -38px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top: 40px solid var(--red-color);
+    border-right: 40px solid transparent;
+}
+
+.quote p {
+    margin-bottom: 0;
+    color: var(--white-color);
+}
+
+.founder-flex {
+    display: flex;
+    align-items: center;
+}
+
+.founder-sign {
+    position: relative;
+}
+
+.founder-sign::before {
+    position: absolute;
+    content: "";
+    background-image: url(../images/Vector.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    bottom: -115px;
+    left: 20px;
+    z-index: -1;
+}
+
+.founder-sign p {
+    color: var(--black-color);
+    text-align: center;
+}
+
+.founder-text h1,
+.movement-text h1 {
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    font-size: 200px;
+    font-weight: 600;
+    line-height: auto;
+    color: var(--white-color);
+}
+
+.the-solutions {
+    padding: 100px;
+    border-radius: 16px;
+    background-color: var(--white-color);
+}
+
+.the-solutions-main.m-width .container-main {
+    max-width: 1743px;
+}
+
+.the-solutions-heading h2 {
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    font-size: 60px;
+    line-height: 68px;
+    font-weight: 600;
+    letter-spacing: -2%;
+    color: var(--dark-gray-color);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.the-solutions-heading p,
+.solutions-content p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.solutions-content p {
+    line-height: 26px;
+    color: var(--black-color);
+}
+
+.the-solutions-heading {
+    margin-bottom: 50px;
+}
+
+.the-solutions-heading p:last-child {
+    margin-bottom: 0;
+}
+
+.the-solutions-heading p {
+    max-width: 975px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.the-solutions-heading p span {
+    color: var(--black-color);
+    font-family: "NeueHaasDisplayBold";
+}
+
+.solutions-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px -35px;
+}
+
+.solutions-block {
+    width: 25%;
+    padding: 15px 35px;
+}
+
+.solutions-box {
+    max-width: 100px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.solutions-content h4 {
+    font-family: "NeueHaasDisplayBold";
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: var(--black-color);
+    text-align: center;
+}
+
+.our-mission-main {
+    padding-bottom: 100px;
+}
+
+.our-mission h6,
+.partner-with-us h6 {
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: var(--red-color);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.our-mission h2,
+.our-brand h2,
+.founder-slider-heading h2,
+.what-we-offer h2,
+.current-opening h2,
+.company-culture h2,
+.powerful-partners h2,
+.real-opportunity h2,
+.partner-with-us h2 {
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    font-size: 60px;
+    line-height: 68px;
+    font-weight: 600;
+    letter-spacing: -2%;
+    color: var(--black-color);
+    text-align: center;
+}
+
+.our-mission h2 span,
+.our-brand h2 span,
+.founder-slider-heading h2 span,
+.what-we-offer h2 span,
+.current-opening h2 span,
+.company-culture h2 span,
+.powerful-partners h2 span,
+.real-opportunity h2 span,
+.partner-with-us h2 span {
+    color: var(--red-color);
+}
+
+.our-mission.vision,
+.our-brand,
+.what-we-value {
+    background-color: var(--white-color);
+    padding: 100px;
+    border-radius: 16px;
+}
+
+.our-mission h2 {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.our-brand-main {
+    padding-bottom: 100px;
+}
+
+.our-brand {
+    position: relative;
+}
+
+.our-brand::before {
+    position: absolute;
+    content: "";
+    background-image: url(../images/shape-1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 286px;
+    height: 452px;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.our-brand h2 {
+    margin-bottom: 60px;
+}
+
+.about-banner-flex.why-us .about-banner-right {
+    padding-left: 0;
+    padding-right: 50px;
+}
+
+.solutions-flex.brands {
+    padding-top: 20px;
+    border-top: 2px solid #f1f1f1;
+    margin: -15px;
+    position: relative;
+}
+
+.solutions-flex.brands .solutions-block {
+    padding: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.solutions-flex.brands .solutions-block-inner {
+    background-color: #f6f6f6;
+    padding: 30px;
+    border-radius: 16px;
+    height: 100%;
+}
+
+.solutions-flex.brands .solutions-box {
+    max-width: 48px;
+}
+
+.our-brand.why-us::before {
+    content: unset;
+}
+
+.why-us-box {
+    padding: 24px 40px;
+    border-radius: 20px;
+    margin-bottom: 24px;
+    border: 2px solid #c6c6c6;
+}
+
+.why-us-box p,
+.content-box p,
+.ceo-prof h6,
+.ceo-prof span {
+    font-size: 22px;
+    line-height: 36px;
+    color: var(--black-color);
+}
+
+.why-us-box p span {
+    font-size: 26px;
+    font-family: "NeueHaasDisplayBold";
+}
+
+.why-us-box p strong {
+    display: block;
+}
+
+.founder-slider-heading {
+    margin-bottom: 60px;
+}
+
+.quoteicon {
+    width: 50px !important;
+    height: 48px !important;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.content-box {
+    padding: 50px 35px;
+    background-color: var(--white-color);
+    border-radius: 16px;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.ceo-prof img {
+    width: 72px !important;
+    height: 72px !important;
+    margin: 0 auto;
+}
+
+.ceo-prof h6,
+.content-box p {
+    text-align: center;
+}
+
+.ceo-prof span {
+    font-size: 18px;
+    text-align: center;
+    display: block;
+}
+
+.founder-slider-main {
+    padding-bottom: 0;
+}
+
+.movement-text h1 {
+    text-align: center;
+    margin-bottom: -47px;
+}
+
+.about-banner-flex.why-us.movement {
+    flex-flow: row-reverse;
+}
+
+.about-banner-flex.why-us.movement .about-banner-left h2 {
+    text-align: unset;
+}
+
+.about-banner-flex.why-us.movement .about-banner-left h5 {
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    font-size: 28px;
+    line-height: 42px;
+    color: var(--black-color);
+    margin-bottom: 20px;
+}
+
+.about-banner-flex.why-us.movement .about-banner-left p,
+.about-banner-flex.why-us.movement .about-banner-left ul li,
+.img-block p {
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--black-color);
+    margin-bottom: 7px;
+}
+
+.about-banner-flex.why-us.movement .about-banner-left ul {
+    padding-left: 40px;
+    margin-bottom: 30px;
+}
+
+.about-banner-flex.why-us.movement .about-banner-left ul li {
+    list-style-type: disc;
+    margin-bottom: 0;
+}
+
+.about-banner-flex.why-us.movement .about-banner-left a {
+    margin-top: 30px;
+}
+
+.about-banner-flex.why-us.movement .about-banner-right {
+    position: relative;
+}
+
+.our-brand.why-us.movement {
+    position: relative;
+}
+
+.our-brand.why-us.movement::before {
+    position: absolute;
+    content: "";
+    background-image: url(../images/Mask-group.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 55%;
+    height: 100%;
+    right: 0;
+    top: 0;
+}
+
+.img-block {
+    position: absolute;
+    z-index: 1;
+}
+
+.img-block p {
+    text-align: center;
+}
+
+.img-block img {
+    width: 144px;
+    height: 144px;
+    border-radius: 50%;
+}
+
+.img-block.img-1 {
+    top: -200px;
+    left: 20px;
+}
+
+.img-block.img-2 {
+    bottom: 110px;
+    left: 275px;
+}
+
+.img-block.img-3 {
+    top: 105px;
+    left: 90px;
+}
+
+.img-block.img-4 {
+    top: 40px;
+    right: 65px;
+}
+
+.grow-accordion .accordion-item {
+    border-radius: 16px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.grow-accordion .accordion-header img {
+    width: 35px;
+    height: 35px;
+    margin-top: -5px;
+    margin-right: 30px;
+}
+
+.grow-accordion .accordion-button,
+.grow-accordion .accordion-body p {
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--black-color);
+    align-items: center;
+    padding: 0;
+}
+
+.grow-accordion .accordion-button::after {
+    background-image: url(../images/down-arrow-1.webp);
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+}
+
+.grow-accordion .accordion-button:not(.collapsed)::after {
+    transform: rotate(90deg);
+}
+
+.accordion-button:focus {
+    box-shadow: unset;
+    border-color: unset;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: unset;
+    box-shadow: unset;
+}
+
+.grow-accordion .accordion-body p {
+    font-size: 18px;
+}
+
+.what-we-offer-main {
+    padding-bottom: 140px;
+}
+
+.what-we-offer-main .container-main {
+    max-width: unset;
+    padding-left: 100px;
+}
+
+.what-we-offer-slider {
+    margin-top: 60px;
+}
+
+.what-we-offer h2 {
+    text-align: unset;
+}
+
+.about-banner-main.grow {
+    padding-top: 100px;
+    background-color: #f8f8f8;
+}
+
+.footer-main {
+    background-color: var(--white-color);
+    padding-top: 60px;
+}
+
+.footer-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    max-width: 200px;
+    margin-bottom: 60px;
+}
+
+.company-block {
+    margin-bottom: 40px;
+}
+
+.company-block-inner {
+    padding: 24px;
+    border-radius: 16px;
+}
+
+.company-block-inner.pink {
+    background-color: #d92c2730;
+    position: relative;
+}
+
+.company-block-inner.pink::before {
+    position: absolute;
+    content: "";
+    background-image: url(../images/vector-icon.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30%;
+    height: 50%;
+    right: 0;
+    top: 0;
+}
+
+.company-block-inner.gray {
+    background-color: var(--gray-color);
+}
+
+.company-block span {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--light-gray-color);
+}
+
+.company-block h5 {
+    font-size: 24px;
+    line-height: 34px;
+    color: var(--red-color);
+}
+
+.company-block-inner.gray h5 {
+    color: var(--black-color);
+}
+
+.company-block-inner.gray a {
+    background-color: var(--black-color);
+}
+
+.company-block a {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.footer-block h6 {
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black-color);
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.footer-block:nth-child(2) ul,
+.footer-block:last-child ul {
+    margin-bottom: 30px;
+}
+
+.footer-block:nth-child(2) ul:last-child,
+.footer-block:last-child ul:last-child {
+    margin-bottom: 0;
+}
+
+.footer-block ul li {
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--light-gray-color);
+    margin-bottom: 7px;
+}
+
+.footer-block ul li span {
+    background-color: var(--red-color);
+    color: var(--white-color);
+    border-radius: 7px;
+    padding: 2px 7px;
+    margin-left: 7px;
+    font-size: 13px;
+}
+
+.footer-block ul li a {
+    color: var(--light-gray-color);
+}
+
+.footer-block ul li a:hover {
+    color: var(--red-color);
+}
+
+.footer-bottom {
+    padding: 20px;
+    border-radius: 16px;
+    border: 2px solid #f1f1f1;
+}
+
+.bottom-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.bottom-left {
+    width: 70%;
+}
+
+.bottom-right {
+    width: 30%;
+}
+
+.social-icons ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.social-icons ul li img {
+    width: 30px;
+    height: 30px;
+}
+
+.global {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.global h6,
+.bottom-right h6 {
+    font-family: "NeueHaasDisplayBold";
+}
+
+.global p {
+    font-size: 14px;
+}
+
+.input-flex {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.input-flex input {
+    font-size: 16px;
+    padding: 8px 10px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid var(--light-gray-color);
+    width: 100%;
+}
+
+.input-flex button {
+    border: unset;
+    width: 250px;
+    height: 41px;
+    background-color: var(--gray-color);
+    color: var(--black-color);
+}
+
+.input-flex button:hover {
+    color: var(--white-color);
+}
+
+.copyright-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    margin-top: 20px;
+    border-top: 2px solid #f1f1f1;
+}
+
+.copyright-flex p {
+    font-size: 14px;
+}
+
+.toggle-icon {
+    display: none;
+}
+
+.global-select {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    position: relative;
+}
+
+.global-select p img {
+    width: 15px;
+    height: 15px;
+}
+
+.global-select select {
+    border: unset;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    font-size: 14px;
+    color: var(--light-gray-color);
+    outline: none;
+}
+
+.global-select::before {
+    position: absolute;
+    content: "";
+    background-image: url(../images/select-icon.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 12px;
+    height: 11px;
+    right: -14px;
+}
+
+body.career .breadcrumbs-main {
+    background-color: var(--white-color);
+}
+
+body.career .about-banner-main.career {
+    background-color: var(--white-color);
+}
+
+.about-banner-main.career {
+    position: relative;
+}
+
+.about-banner-main.career::before {
+    position: absolute;
+    content: "";
+    background-image: url(../images/Ellipse-Background.webp);
+    background-repeat: repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.about-banner-flex.career {
+    position: relative;
+    z-index: 1;
+}
+
+.about-banner-flex.grow .about-banner-left h2 {
+    max-width: 500px;
+    line-height: 75px;
+}
+
+.about-banner-flex.career .about-banner-left h6 {
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    font-size: 34px;
+    line-height: 54px;
+    font-weight: 600;
+    color: var(--light-gray-color);
+    margin-bottom: 20px;
+}
+
+.career-tab {
+    padding-top: 60px;
+}
+
+.career-tab ul {
+    gap: 40px;
+    border-bottom: 1px solid #cfcfcf;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+}
+
+.career-tab .nav-link {
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: var(--light-gray-color);
+    border-radius: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.career-tab .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: unset;
+    color: var(--red-color);
+    border-bottom: 1px solid;
+}
+
+.job-position-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.job-position-left {
+    width: 30%;
+}
+
+.search-box {
+    position: relative;
+}
+
+.search-box::before {
+    position: absolute;
+    content: "";
+    background-image: url(../images/search-01.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    right: 17px;
+    top: 19px;
+    pointer-events: none;
+}
+
+.search-box input {
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    background-color: var(--white-color);
+    border-radius: 20px;
+    padding: 0px 20px;
+    height: 64px;
+    border: unset;
+    width: 100%;
+    outline: none;
+}
+
+.job-titles ul {
+    padding-bottom: 0;
+    margin-top: 30px;
+}
+
+.job-titles ul li,
+.email-info h5 {
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: var(--dark-gray-color);
+    padding: 20px;
+    border-bottom: 1px solid #cfcfcf;
+    border-left: 1px solid #cfcfcf;
+}
+
+.job-titles ul li {
+    font-weight: 600;
+    color: var(--dark-gray-color);
+}
+
+.job-titles ul li.active {
+    border-left-color: var(--red-color);
+    border-left-width: 3px;
+    color: var(--red-color);
+}
+
+.job-titles ul li:last-child {
+    border-bottom: unset;
+}
+
+.email-info p {
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: #363636;
+    margin-bottom: 10px;
+}
+
+.email-info h5 {
+    padding: 0px;
+    border-bottom: unset;
+}
+
+.email-info h5 a {
+    color: var(--red-color);
+}
+
+.job-position-right {
+    width: 70%;
+    padding-left: 50px;
+}
+
+.job-details {
+    padding: 30px;
+    border-radius: 20px;
+    background-color: var(--white-color);
+}
+
+.job-details h5,
+.loc-exp-block h6,
+.loc-exp-block p,
+.job-details p {
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: #363636;
+}
+
+.loc-exp-flex {
+    display: flex;
+    padding: 20px 0px;
+    margin: 20px 0px;
+    border-bottom: 1px solid #cfcfcf;
+    border-top: 1px solid #cfcfcf;
+}
+
+.loc-exp-block {
+    width: 50%;
+}
+
+.job-details h5,
+.loc-exp-block h6 {
+    color: var(--dark-gray-color);
+    font-weight: 600;
+}
+
+.loc-exp-block h6 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.loc-exp-block p,
+.job-details p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.job-details a {
+    background-color: var(--white-color);
+    border: 1px solid var(--black-color);
+    color: var(--dark-gray-color);
+    width: 146px;
+    margin-top: 40px;
+}
+
+.job-details a:hover {
+    background-color: var(--dark-gray-color);
+    color: var(--white-color);
+}
+
+.solutions-flex.career {
+    border-top: unset;
+    padding-top: 0;
+}
+
+.solutions-flex.career .solutions-block {
+    width: 50%;
+}
+
+.solutions-flex.brands.career .solutions-block-inner {
+    background-color: unset;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.solutions-flex.brands.career .solutions-block p {
+    margin-bottom: 0;
+    text-align: unset;
+}
+
+.solutions-flex.brands.career .solutions-box {
+    margin: 0;
+    max-width: 64px;
+}
+
+.company-culture-main,
+.what-we-value-main {
+    padding-top: 50px;
+}
+
+.company-culture-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: -15px;
+    padding-top: 70px;
+}
+
+.company-culture-block {
+    width: 33.33%;
+    padding: 15px;
+}
+
+.company-culture-block ul li {
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: var(--black-color);
+    background-color: var(--white-color);
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.company-culture-block.img {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.what-we-value-main {
+    position: relative;
+}
+
+.what-we-value-main::before {
+    position: absolute;
+    content: "";
+    background-image: url(../images/Ellipse_64.svg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    right: 0;
+    top: 0;
+    height: 105%;
+}
+
+.what-we-value {
+    position: relative;
+    z-index: 1;
+}
+
+.what-we-value-right .solutions-block {
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.what-we-value-right .solutions-block-inner {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.what-we-value-right .solutions-box {
+    margin: 0;
+    max-width: 44px;
+}
+
+.what-we-value-right .solutions-content h5 {
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: var(--dark-gray-color);
+    margin-bottom: 10px;
+}
+
+.what-we-offer-main.what-we-solve h2 {
+    margin-bottom: 20px;
+}
+
+.what-we-value-right .solutions-content p {
+    color: #888888;
+    margin-bottom: 0;
+}
+
+.solutions-flex.what-we-solve {
+    border-top: unset;
+    padding-top: 50px;
+}
+
+.what-we-offer-main.what-we-solve .container-main {
+    max-width: 1350px;
+    padding-left: 100px;
+}
+
+.what-we-solve .solutions-block {
+    width: 33.33%;
+}
+
+.what-we-solve .solutions-block-inner {
+    background-color: #f4f4f4;
+    box-shadow: 2px 4px 20px #dfdfdf;
+}
+
+.what-we-solve .solutions-box {
+    max-width: unset;
+    margin: 0;
+    margin-bottom: 45px;
+}
+
+.what-we-solve .solutions-content p {
+    text-align: unset;
+    margin-top: 0;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.about-banner-main.home.partnership {
+    padding-bottom: 230px;
+    background-color: #f7f7f7;
+}
+
+.about-banner-main.home.partnership .about-banner-left h2 {
+    font-size: 72px;
+    line-height: 84px;
+}
+
+.about-banner-main.home.partnership .about-banner-left p {
+    color: #363636;
+}
+
+.about-banner-flex.grow.career h2 {
+    margin-bottom: 0px;
+}
+
+.about-banner-flex.partnership .about-banner-left h6 {
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: var(--red-color);
+    margin-bottom: 40px;
+}
+
+.powerful-partners-main {
+    background-color: var(--white-color);
+}
+
+.partenrs-tab {
+    margin-top: 50px;
+}
+
+.partenrs-tab ul {
+    border-radius: 40px;
+    padding: 5px;
+    border: 1px solid #f1f1f1;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.partenrs-tab .nav-link {
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: var(--light-gray-color);
+    padding: 10px 30px;
+    border-radius: 40px;
+}
+
+.partenrs-tab .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #f3f3f3;
+    color: var(--light-gray-color);
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+}
+
+.about-banner-flex.partenrs .about-banner-left h2 {
+    font-size: 34px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+.about-banner-flex.partenrs .about-banner-right {
+    padding: 80px 50px;
+    border-radius: 20px;
+    background-color: #fafafa;
+}
+
+.about-banner-flex.partenrs .about-banner-left {
+    padding-right: 70px;
+}
+
+.partners-content {
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #f1f1f1;
+}
+
+.partners-content ul {
+    border: unset;
+    padding-left: 0;
+    border-radius: unset;
+    width: unset;
+    margin-bottom: 15px !important;
+}
+
+.partners-content p,
+.partners-content ul li {
+    color: var(--light-gray-color) !important;
+}
+
+.partners-content h5 {
+    font-size: 22px !important;
+    margin-bottom: 0px !important;
+}
+
+.partners-content p {
+    margin-bottom: 25px !important;
+}
+
+.partners-content a {
+    height: 48px;
+}
+
+.what-we-offer-main.partners .container-main {
+    max-width: 1525px;
+    padding: 0px 40px;
+}
+
+.what-we-offer-main.partners h2 {
+    margin-bottom: 25px;
+}
+
+.what-we-offer-main.partners p {
+    max-width: 660px;
+}
+
+.what-we-offer-main.partners,
+.partner-with-us-main {
+    padding-top: 140px;
+    padding-bottom: 200px;
+    background-color: #fafafa;
+}
+
+.solutions-flex.partners {
+    border-top: unset;
+    padding-top: 60px;
+    margin: -15px -10px;
+}
+
+.solutions-flex.partners .solutions-block {
+    width: 25%;
+    padding: 15px 10px;
+}
+
+.solutions-flex.partners .solutions-box {
+    max-width: 170px;
+    margin: 0 0 15px auto;
+}
+
+.solutions-flex.partners .solutions-block-inner {
+    background-color: var(--white-color);
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    box-shadow: 0px 0.5px 1px #00000040;
+}
+
+.solutions-flex.partners .solutions-content p {
+    font-size: 18px;
+    line-height: 24px;
+    max-width: unset;
+    margin-bottom: 0;
+}
+
+.solutions-flex.partners .solutions-block h4,
+.partners-box-left h5 {
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 600;
+    color: var(--dark-gray-color);
+    margin-bottom: 20px;
+}
+
+.real-opportunity-main {
+    padding-top: 140px;
+    background-color: var(--white-color);
+}
+
+.real-opportunity p {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+
+.solutions-flex.partners .solutions-block h4 {
+    max-width: 285px;
+}
+
+.opportunity-bg {
+    max-width: 643px;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+.partner-with-us-main {
+    padding-top: 115px;
+}
+
+.partner-with-us h6 {
+    margin-bottom: 55px;
+}
+
+.partner-with-us h2 {
+    max-width: 1065px;
+    margin: 0 auto;
+}
+
+.partners-box-flex {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: -10px; */
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.partners-box {
+    width: 50%;
+    padding: 10px;
+}
+
+.partners-box-inner {
+    background-color: var(--white-color);
+    display: flex;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 2px #00000040;
+}
+
+.partners-box-left,
+.partners-box-right {
+    width: 50%;
+}
+
+.partners-box-right {
+    padding-left: 30px;
+}
+
+.partners-box-left h5 {
+    font-size: 32px;
+    line-height: 40px;
+    max-width: 235px;
+    margin-bottom: 0;
+}
+
+.apply-btn-flex {
+    display: flex;
+    gap: 10px;
+}
+
+.apply-btn-flex a {
+    width: 116px;
+    height: 40px;
+}
+
+.apply-btn-flex .know-btn {
+    background-color: unset;
+    color: var(--dark-gray-color);
+}
+
+.apply-btn-flex a:hover {
+    background-color: var(--dark-gray-color);
+    color: var(--white-color);
+}
+
+.partners-box-left {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.mob-image,
+.apply-btn-flex.mob {
+    display: none;
+}
+
+.the-solutions-main.m-width .solutions-content p {
+    max-width: 220px;
+    margin: 0 auto;
+}
+
+.the-solutions-main.m-width,
+.our-mission-main.p-btm {
+    padding-bottom: 250px;
+}
+
+.our-mission.vision {
+    padding: 240px 100px;
+}
+
+.bg-color {
+    padding-bottom: 140px;
+}
+
+.our-brand-main.why-us.movement {
+    padding-bottom: 140px;
+}
+
+body.legal .breadcrumbs-main,
+body.legal .about-banner-main.home.career.legal {
+    background-color: #fff;
+}
+
+.about-banner-main.home.career.legal {
+    padding: 0px;
+}
+
+.about-banner-main.home.career.legal h2 {
+    font-size: 90px;
+    line-height: 90px;
+}
+
+.policy h5 {
+    font-size: 34px;
+    line-height: 50px;
+}
+
+.policy p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.job-details.legal {
+    display: none;
+}
+
+.job-details.legal .loc-exp-block h5 {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 23px;
+}
+
+.job-details.legal .loc-exp-block {
+    width: 100%;
+}
+
+.job-details.legal .loc-exp-block p,
+.job-details.legal .loc-exp-block ul li {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: unset;
+    margin-bottom: 23px;
+}
+
+.job-details.legal .loc-exp-block ul {
+    padding-left: 20px;
+    padding-bottom: 7px;
+}
+
+.job-details.legal .loc-exp-block ul li {
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: #363636;
+    margin-bottom: 7px;
+    list-style-type: disc;
+}
+
+.job-details.legal .loc-exp-block ul li>ul>li {
+    list-style-type: circle;
+}
+
+.job-details.legal .loc-exp-block {
+    width: 100%;
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #cfcfcf;
+}
+
+.job-titles ul li {
+    cursor: pointer;
+}
+
+.current-opening-main.legal h2,
+.email-info.mob {
+    display: none;
+}
+
+.current-opening-main.legal {
+    padding-bottom: 400px;
+}
+
+.job-position-flex.legal .job-titles {
+    position: sticky;
+    top: 20px;
+}
+
+.job-position-flex.legal .loc-exp-block a {
+    border-radius: unset;
+    width: unset;
+    height: unset;
+    display: unset;
+    padding: unset;
+    border: unset;
+    margin: 0;
+}
+
+.job-position-flex.legal .loc-exp-block a:hover {
+    background-color: unset;
+    color: var(--dark-gray-color);
+}
+
+.job-titles ul li ul li {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.job-titles ul li ul li:before {
+    content: "-";
+    margin-right: 10px;
+}
+
+.job-titles ul li ul {
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.job-titles ul li ul li a {
+    color: black;
+    font-weight: 400;
+}
+
+.job-titles ul li ul li.active a {
+    color: #d92c27;
+}

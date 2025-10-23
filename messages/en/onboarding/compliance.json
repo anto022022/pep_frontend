@@ -1,0 +1,26 @@
+{
+  "title": "Compliance Details",
+  "subtitle": "This ensures a secure and trustworthy experience for everyone on Pepagora.",
+  "fields": {
+    "businessName": {
+      "label": "Legal Business Name",
+      "placeholder": "Company",
+      "helper": "What’s the official name registered with authorities?",
+      "error": "Legal Business Name is required"
+    },
+    "companyRegisterNumber": {
+      "label": "Company Registration Number",
+      "placeholder": "123456789",
+      "helper": "This number verifies your business’s registration.",
+      "error": "Company Registration Number is required"
+    },
+    "VATNumber": {
+      "label": "VAT Number (Optional)",
+      "placeholder": "VAT number"
+    }
+  },
+  "buttons": {
+    "continue": "Continue",
+    "processing": "Submitting..."
+  }
+}

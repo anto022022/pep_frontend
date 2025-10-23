@@ -1,0 +1,35 @@
+.bread-crumbs-comp {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    .b-c-c-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+
+        svg {
+            width: 18px;
+            min-width: 18px;
+        }
+
+        .b-c-c-i-txt {
+            color: $color-grey-55;
+            font-family: $secondary-body-font;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+        }
+
+        &:last-child {
+            cursor: default;
+            .b-c-c-i-txt {
+                color: $black;
+            }
+            .b-c-c-i-slash{
+                display: none;
+            }
+        }
+    }
+}

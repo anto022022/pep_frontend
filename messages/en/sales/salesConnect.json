@@ -1,0 +1,118 @@
+{
+  "noContactsScreen": {
+    "table-headers": {
+      "contactName": "Contact Name",
+      "companyName": "Company Name",
+      "email": "Email ID",
+      "phoneNo": "Phone Number",
+      "lifecycle": "Lifecycle Tags",
+      "source": "Source",
+      "status": "Status",
+      "lastContacted": "Last Contacted"
+    },
+    "mainTitle": "Contacts",
+    "title": "Add and Manage Your Contacts in One Place",
+    "subtitle": "Upload,organize,and access contacts from all your sales channels-RFQs,leads,or direct entries. ready for quoting,follow-ups and smarter communication.",
+    "buttonTitle": "Add Contact",
+    "addContact": "Add New Contact",
+    "search": "Search Contact"
+  },
+
+  "contactForm": {
+    "title": "New Contact",
+    "contactName": {
+      "label": "Contact Name",
+      "placeHolder": "Enter Contact Name"
+    },
+    "companyName": {
+      "label": "Company Name",
+      "placeHolder": "Enter Company Name"
+    },
+    "emailId": {
+      "label": "Email ID",
+      "placeHolder": "Enter Email Id"
+    },
+    "phoneNumber": {
+      "label": "Phone Number",
+      "placeHolder": "Enter Phone Number"
+    },
+    "whatsapp": {
+      "label": "WhatsApp Number (Optional)",
+      "placeHolder": "Enter WhatsApp Number"
+    },
+    "country": {
+      "label": "Country",
+      "placeHolder": "Select Country"
+    },
+    "source": {
+      "label": "Source",
+      "placeHolder": "Select Source"
+    },
+    "helperText": {
+      "sameAsPhoneNumber": "Same as Phone Number"
+    },
+    "button": {
+      "Submit": "Submit"
+    },
+    "successDialog": {
+      "contactUpdated": "Contact Updated Successfully",
+      "contactAdded": "Contact Added Successfully"
+    }
+  },
+  "connectTable": {
+    "view": "View Details",
+    "edit": "Edit",
+    "archive": "Archive",
+    "connect": "Share Profile",
+    "reminder": "Create Reminder",
+    "convert": "Convert to Customer",
+    "quotation": "Send Quotation"
+  },
+  "qrCode": {
+    "title": "Share Profile",
+    "button": "Share QR Code"
+  },
+  "detailPage": {
+    "title": "Contact Details Page",
+    "contactInfo": "Contact Information",
+    "contactName": "Contact Name",
+    "jobTitle": "Job Title",
+    "email": "Email",
+    "phone": "Phone Number",
+    "companyInfo": "Company Information",
+    "companyName": "Company Name",
+    "country": "Country",
+    "address": "Address",
+    "website": "Website",
+    "industry": "Industry Type",
+    "whatsApp": "WhatsApp Number",
+    "search": "Search",
+    "expand": "Expand All",
+    "leads": "Leads",
+    "inbox": "Inbox",
+    "analytics": "Analytics",
+    "activity": "Activity",
+    "information": "Information"
+  },
+  "summaryCard": {
+    "lifeCycle": "Select LifeCycle Tag",
+    "tag": "LifeCycle Tag",
+    "selectTag": "Select LifeCycle Tag",
+    "source": "Source",
+    "contacted": "Last Contacted",
+    "modified": "Last Modified By",
+    "convert": "Convert to Customer",
+    "quote": "Send Quote"
+  },
+  "noInquiry": {
+    "title": "No Inquiries Yet Start A New Conversation !",
+    "subTitle": "Stay ahead — send a message to your contact to gain more visibility, trust, and faster responses."
+  },
+  "messageCard": {
+    "to": "To",
+    "subject": "Subject",
+    "message": "Message",
+    "textLabel": "Enter Message",
+    "send": "Send"
+  }
+}

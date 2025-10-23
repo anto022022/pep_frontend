@@ -1,0 +1,17 @@
+.product-listing-card-comp {
+    &.deal-card-comp {
+        .product-card-info {
+            gap: 4px;
+        }
+
+        .stock-order-wrap {
+            gap: 2px 8px;
+        }
+        .p-l-c-c-details{
+            .p-l-c-c-d-bottom-wrapper{
+                border-top: unset;
+                padding-top: unset;
+            }
+        }
+    }
+}

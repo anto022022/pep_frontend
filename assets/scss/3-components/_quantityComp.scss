@@ -1,0 +1,44 @@
+.quantity-comp {
+    border-radius: 8px;
+    border: 1px solid $primary-outlined-border;
+    background: $background-surface;
+    box-shadow: $shadow-depth-2;
+    padding: 6px 12px;
+    width: max-content;
+    display: flex;
+    align-items: center;
+
+    .btn-comp {
+        height: 20px;
+        width: unset;
+        padding: unset;
+
+        svg {
+            min-width: 20px;
+            width: 20px;
+            height: 20px;
+
+            path {
+                stroke: unset;
+                fill: $text-tertiary;
+            }
+        }
+    }
+
+    .input-wrapper {
+        .forms-input {
+            padding: unset;
+            border: unset;
+            background-color: unset;
+            box-shadow: unset;
+            text-align: center;
+            width: 35px;
+            color: $color-grey-15;
+            font-family: $body-font;
+            font-size: clamp(0.938rem, 0.924rem + 0.06vw, 1rem); // 15, 16px
+            font-weight: 400;
+            line-height: 150%;
+            letter-spacing: 0.32px;
+        }
+    }
+}

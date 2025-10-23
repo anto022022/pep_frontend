@@ -1,0 +1,51 @@
+{
+  "moduleName": "Settings",
+  "badge": "Pep Prima",
+  "upgradeBanner": "+6X More business with PepUltima Upgrade",
+  "personalSettings": {
+    "title": "Personal Settings"
+  },
+  "cards": {
+    "profile": {
+      "title": "Profile",
+      "subTxt": "Bussiness Details, Company Detail, Address, Shipping address, FAX no, Year of Establishment,"
+    },
+    "notificationPreferences": {
+      "title": "Notification Preferences",
+      "subTxt": "Brand Name, Awards & Recognition, Quality & Certifications,  Website, Social Media"
+    },
+    "chatPreferences": {
+      "title": "Chat Preferences"
+    }
+  },
+  "accountSettings": {
+    "title": "Account settings",
+    "cards": {
+      "businessSettings": {
+        "title": "Business Settings",
+        "subTxt": "IEC Details, Export Details, Language Spoken,"
+      },
+      "complianceSettings": {
+        "title": "Compliance Settings",
+        "subTxt": "Shipping mode, Payment Types , Delivery Terms, Min.Order, Currency, Payment Terms"
+      },
+      "taxSettings": {
+        "title": "Tax Settings",
+        "subTxt": "Shipping mode, Payment Types , Delivery Terms, Min.Order, Currency, Payment Terms"
+      },
+      "dataPrivacySettings": {
+        "title": "Data & Privacy Settings",
+        "subTxt": "Shipping mode, Payment Types , Delivery Terms, Min.Order, Currency, Payment Terms"
+      },
+      "subscriptionDetails": {
+        "title": "Subscription Details",
+        "subTxt": "Shipping mode, Payment Types , Delivery Terms, Min.Order, Currency, Payment Terms"
+      },
+      "userSettings": {
+        "title": "User Settings",
+        "subTxt": "Shipping mode, Payment Types , Delivery Terms, Min.Order, Currency, Payment Terms"
+      }
+    }
+  }
+}
+

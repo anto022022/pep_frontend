@@ -1,0 +1,15 @@
+.lead-summary-card-comp {
+    border-radius: 10px;
+    border: 1px solid $color-white-1;
+    background: $primary-solid-color;
+    box-shadow: $shadow-depth-1;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    .forms-group{
+        .f-g-label{
+            font-family: $secondary-body-font;
+        }
+    }
+}

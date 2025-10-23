@@ -1,0 +1,25 @@
+.timeline-divider-comp {
+    width: 100%;
+    height: 1px;
+    background-color: $color-grey-14;
+    position: relative;
+
+    .t-d-c-txt {
+        color: $color-grey-98;
+        font-family: $secondary-body-font;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        left: 0;
+        right: 0;
+        padding: 0 5px;
+        width: max-content;
+        margin: 0 auto;
+        background: $bg-primary;
+    }
+}

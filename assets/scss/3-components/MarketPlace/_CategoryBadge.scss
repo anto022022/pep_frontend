@@ -1,0 +1,44 @@
+.category-badge-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    overflow-x: auto;
+    width: 100%;
+    padding-bottom: 5px;
+    &::-webkit-scrollbar{
+        width: 0;
+        height: 0;
+    }
+}
+
+.category-badge-comp {
+    border-radius: 14px;
+    border: 1px solid $color-white-1;
+    background: $primary-solid-color;
+    box-shadow: $shadow-depth-3;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: auto;
+    min-width: 185px;
+    white-space: nowrap;
+
+    .c-b-c-icon {
+        width: 32px;
+        height: 32px;
+        border-radius: 100px;
+        background-color: $alert-error-bg;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .c-c-c-txt {
+        color: $black;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0.32px;
+    }
+}

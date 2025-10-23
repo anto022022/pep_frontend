@@ -1,0 +1,126 @@
+.order-summary-item-block {
+    display: flex;
+    flex-direction: column;
+    max-height: 260px;
+    overflow-y: auto;
+    padding-right: 5px;
+
+    .order-summary-item-comp {
+        border-bottom: 1px solid $color-grey-21;
+        padding-bottom: 10px;
+
+        &:last-child {
+            border-bottom: unset;
+            padding-bottom: unset;
+        }
+    }
+}
+
+.order-summary-item-comp {
+    .product-snippet-comp {
+        padding: 8px 0;
+    }
+
+    .p-s-c-img {
+        width: 60px;
+        min-width: 60px;
+        height: 60px;
+    }
+}
+
+.order-selected-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.order-selected-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+    .o-s-i-left {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .size-color-badge {
+        border-radius: 8px;
+        background: $color-grey-106;
+        padding: 8px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        .s-c-b-txt {
+            color: $color-grey-2;
+            font-family: $body-font;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.28px;
+        }
+    }
+
+    .o-s-i-price-txt {
+        color: $black;
+        font-family: $body-font;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0.28px;
+    }
+}
+
+.rfq-summary-overlay {
+    padding: 20px;
+    width: 400px;
+    border-radius: 20px;
+    background: $primary-solid-color;
+    box-shadow: unset;
+    margin-left: 10px;
+    top: 90px !important;
+    box-shadow: 0 8px 24px 0 rgba(48, 43, 43, .12);
+
+    &.p-overlaypanel {
+
+        &::after,
+        &::before {
+            left: unset;
+            right: 15px;
+        }
+    }
+
+    .order-selected-items {
+
+        .size-color-badge {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            max-width: 160px;
+            color: $color-grey-2;
+            font-family: $body-font;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.28px;
+            display: block;
+        }
+
+        .o-s-i-price-txt {
+            max-width: 100px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            display: block;
+        }
+
+        .o-s-i-right {
+            .o-s-i-price-txt {
+                max-width: 60px;
+            }
+        }
+    }
+}

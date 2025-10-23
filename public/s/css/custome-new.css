@@ -1,0 +1,1010 @@
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container-main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+:root {
+  --red-color: #D92C27;
+  --black-color: #050000;
+  --gray-color: #f5f5f5;
+  --dark-gray-color: #232323;
+  --light-gray-color: #59595C;
+  --gray-color-2: #f4f4f4;
+  --white-color: #ffffff;
+}
+
+body {
+  background-color: var(--gray-color-2);
+}
+
+p {
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: var(--light-gray-color);
+}
+
+/* @font-face {
+    font-family: "NeueHaasDisplayBold";
+    src: url(../fonts/NeueHaasDisplayBold.ttf);
+} */
+
+@font-face {
+  font-family: 'NeueHaasDisplayBold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('https://fonts.cdnfonts.com/s/47998/NeueHaasDisplayBold.woff') format('woff');
+}
+
+/* @font-face {
+    font-family: 'Neue Haas Display';
+    src: url("/fonts/NeueHaasDisplayLight.ttf");
+} */
+
+@font-face {
+  font-family: 'Neue Haas Display';
+  font-style: normal;
+  font-weight: 500;
+  src: url('https://fonts.cdnfonts.com/s/47998/NeueHaasDisplayRoman.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'NeueHaasDisplayLight';
+  font-style: normal;
+  font-weight: 500;
+  src: url('https://fonts.cdnfonts.com/s/47998/NeueHaasDisplayRoman.woff') format('woff');
+}
+
+/* 
+@font-face {
+    font-family: Neue Haas Grotesk Display Pro, sans-serif;
+    src: url(../fonts/NeueHaasDisplayMediu.ttf);
+} */
+
+
+
+@font-face {
+  font-family: 'NeueHaasDisplayMedium';
+  font-style: normal;
+  font-weight: 600;
+  src: url('https://fonts.cdnfonts.com/s/47998/NeueHaasDisplayMediu.woff') format('woff');
+}
+
+.header-main {
+  padding: 10px 40px;
+  background-color: var(--white-color);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.mob-header {
+  display: none;
+}
+
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left {
+  max-width: 200px;
+}
+
+.header-right ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-right ul li {
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--dark-gray-color);
+}
+
+.header-right ul li a {
+  color: var(--dark-gray-color);
+}
+
+.header-right ul li.active a,
+.header-right ul li:hover a {
+  border-bottom: 2px solid var(--red-color);
+  padding-bottom: 7px;
+}
+
+.breadcrumbs-main {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: var(--gray-color);
+}
+
+.breadcrumb {
+  margin-bottom: 0;
+}
+
+.breadcrumb-item {
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  color: var(--dark-gray-color);
+}
+
+.breadcrumb-item a {
+  color: var(--dark-gray-color);
+}
+
+.breadcrumb-item.active {
+  color: var(--light-gray-color);
+}
+
+
+
+/* trust hero page */
+
+.trust-hero-main {
+  padding-top: 100px;
+  /* padding-bottom: 200px; */
+  overflow: hidden;
+}
+
+.trust-hero-main .container-main {
+  max-width: unset;
+  padding-left: 232px;
+  padding-right: 50px;
+}
+
+.trust-hero-flex {
+  display: flex;
+  /* align-items: center; */
+  flex-wrap: wrap;
+}
+
+.trust-left,
+.trust-right {
+  width: 50%;
+}
+
+.trust-right {
+  padding-left: 120px;
+}
+
+.trust-hero-heading h6 {
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: var(--red-color);
+  margin-bottom: 20px;
+}
+
+.trust-hero-heading h1 {
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 84px;
+  color: var(--dark-gray-color);
+  margin-bottom: 20px;
+}
+
+.trust-hero-heading h1 .color {
+  color: var(--red-color);
+}
+
+.trust-hero-heading p {
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: #363636;
+  margin-bottom: 20px;
+}
+
+.trust-hero-heading .small-para {
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: #363636;
+  margin-bottom: 20px;
+}
+
+.trust-right img {
+  width: 626px;
+  height: 314px;
+}
+
+.trust-text {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.movement-text h1 {
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 400px;
+  font-weight: 600;
+  line-height: 68px;
+  color: var(--white-color);
+}
+
+.trust-badges-main {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: var(--white-color);
+}
+
+.trust-badges-heading {
+  margin-bottom: 50px;
+}
+
+.trust-badges-heading h1 {
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 60px;
+  line-height: 68px;
+  font-weight: 600;
+  letter-spacing: -2%;
+  color: var(--black-color);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.trust-badges-heading h1 .color {
+  color: var(--red-color);
+}
+
+.trust-badges-heading p {
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: #363636;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.trust-badges-heading h4 {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 34px;
+  line-height: 50px;
+  font-weight: 500;
+  letter-spacing: -2%;
+  color: var(--dark-gray-color);
+  text-align: center;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.trust-badges-heading .small-para {
+  margin-bottom: 0px;
+}
+
+.tru-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 45px;
+  margin-bottom: 20px;
+}
+
+.tru-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 170px;
+  width: 170px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
+
+.tru-content h5 {
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.tru-content p {
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  margin-bottom: 16px;
+  font-weight: 600;
+  color: #555E68;
+}
+
+.trust-badges-last-para p {
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 16px;
+  /* font-weight: 600; */
+  color: #555E68;
+}
+
+
+.trust-badges-table-main {
+  padding: 100px 0;
+  background-color: var(--white-color);
+  font-family: "Inter Tight", sans-serif;
+}
+
+.trust-badges-table table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.trust-badges-table th,
+.trust-badges-table td {
+  border: 1px solid #f0f0f0;
+  padding: 12px;
+}
+
+.trust-badges-table th {
+  padding: 25px;
+}
+
+.trust-badges-table th {
+  font-weight: bold;
+  color: #333;
+  font-size: 28px;
+  line-height: 36px
+}
+
+.trust-badges-table th:first-child {
+  border-top-left-radius: 30px;
+}
+
+.trust-badges-table th:last-child {
+  border-top-right-radius: 30px;
+}
+
+.trust-badges-table td {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+th.trubasic,
+td.trubasic {
+  background: #f7f7f7;
+  color: #232323;
+}
+
+th.truaccess,
+td.truaccess {
+  background: #e7f1fc;
+  color: #156DB6;
+}
+
+th.trucertified,
+td.trucertified {
+  background: #e9e7fc;
+  color: #4352A4;
+}
+
+th.truverified,
+td.truverified {
+  background: #e7f9f5;
+  color: #24B576;
+}
+
+th.truglobal,
+td.truglobal {
+  background: #fff3e6;
+  color: #E17F4D;
+}
+
+th.trusecure,
+td.trusecure {
+  background: #fff9e6;
+  color: #E59B2D;
+}
+
+
+
+
+tr .tick {
+  color: #2ecc71;
+  font-weight: bold;
+}
+
+td .tick {
+  color: #2ecc71;
+  font-weight: bold;
+}
+
+.copowered-row {
+  background-color: #f8f8f8;
+}
+
+.copowered-row td {
+  color: #000;
+}
+
+.copowered-row span {
+  font-weight: normal;
+  font-size: 0.9em;
+  color: #666;
+  margin-left: 8px;
+}
+
+.impact-purpose-main {
+  padding: 100px 0px;
+  background-color: var(--white-color);
+}
+
+.impact-purpose-heading {
+  margin-bottom: 50px;
+}
+
+.impact-purpose-heading h3 {
+  font-size: 34px;
+  line-height: 50px;
+  font-family: "Inter Tight", sans-serif;
+  color: var(--dark-gray-color);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.impact-purpose-heading p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #555E68;
+  text-align: center;
+  font-weight: 400;
+}
+
+.eco-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+  margin-bottom: 45px;
+}
+
+.eco-img {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.eco-content h3 {
+  font-size: 25px;
+  line-height: 30px;
+  color: #000;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.eco-content p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #555E68;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.global-leaders-main {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.global-leaders-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 21px;
+}
+
+.global-leaders-block {
+  background-color: var(--white-color);
+  box-shadow: 0 0.5px 1px rgba(0, 0, 0, 0.25);
+  padding: 27px;
+  border-radius: 14px;
+}
+
+.global-leaders-block-heading h3 {
+  font-size: 25px;
+  min-height: 65px;
+  line-height: 30px;
+  color: #000;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.global-leaders-block-content p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #555E68;
+  margin-top: 20px;
+}
+
+.verification-works-main {
+  padding-bottom: 100px;
+}
+
+.verification-works {
+  position: relative;
+  background-color: var(--white-color);
+  padding: 100px;
+  border-radius: 16px;
+}
+
+.verification-works::before {
+  position: absolute;
+  content: "";
+  background-image: url(../images/shape-1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 286px;
+  height: 452px;
+  right: 0;
+  top: 0;
+}
+
+.verification-works-heading {
+  margin-bottom: 60px;
+}
+
+.verification-works-heading p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #555E68;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.verification-works-heading h1 {
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 60px;
+  line-height: 68px;
+  font-weight: 600;
+  letter-spacing: -2%;
+  color: var(--black-color);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.verification-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.verification-block {
+  padding: 10px;
+  position: relative;
+}
+
+.verification-img {
+  height: 46px;
+  width: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 32px;
+  z-index: 1;
+  position: relative;
+}
+
+.verification-block {}
+
+.verification-block::before {
+  position: absolute;
+  content: "";
+  background-image: url(../images/long-arrow.png);
+  /* background-size: cover; */
+  width: 100%;
+  height: 15px;
+  right: 0;
+  background-repeat: no-repeat;
+  top: 30px;
+  /* z-index: -1; */
+  left: 160px;
+}
+
+.verification-block:last-child::before {
+  content: unset;
+}
+
+.verification-content h4 {
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--dark-gray-color);
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.verification-content p {
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--dark-gray-color);
+  text-align: center;
+}
+
+.roi-trust-main {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.roi-trust-heading {
+  margin-bottom: 60px;
+}
+
+.roi-trust-heading h1 {
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 60px;
+  line-height: 68px;
+  font-weight: 600;
+  letter-spacing: -2%;
+  color: var(--black-color);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.roi-trust-heading p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #555E68;
+  /* margin-bottom: 20px; */
+  text-align: center;
+}
+
+.roi-trust-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.roi-trust-img {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 32px;
+  height: 140px;
+  width: 140px;
+}
+
+.roi-trust-img img {
+  object-fit: scale-down;
+}
+
+.roi-trust-content h3 {
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--dark-gray-color);
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.roi-trust-content p {
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--dark-gray-color);
+  text-align: center;
+}
+
+.creditibility-main {
+  padding: 100px 0;
+}
+
+.creditibility-heading h1 {
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 60px;
+  line-height: 68px;
+  font-weight: 600;
+  letter-spacing: -2%;
+  color: var(--black-color);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.creditibility-heading p {
+  font-size: 28px;
+  line-height: 34px;
+  color: #363636;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.creditibility-btns {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.view-plans a {
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 16px;
+  width: 196px;
+  height: 56px;
+  color: var(--white-color);
+  background-color: var(--black-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 99px;
+}
+
+.view-plans a:hover {
+  background-color: var(--red-color);
+}
+
+.start-veri a {
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 16px;
+  width: 196px;
+  height: 56px;
+  color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 99px;
+  background-color: var(--red-color);
+}
+
+.start-veri a:hover {
+  background-color: var(--black-color);
+}
+
+
+/* footer */
+
+.footer-main {
+  background-color: var(--white-color);
+  padding-top: 60px;
+}
+
+.footer-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  max-width: 200px;
+  margin-bottom: 60px;
+}
+
+.company-block {
+  margin-bottom: 40px;
+}
+
+.company-block-inner {
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.company-block-inner.pink {
+  background-color: #d92c2730;
+  position: relative;
+}
+
+.company-block-inner.pink::before {
+  position: absolute;
+  content: "";
+  background-image: url(../images/vector-icon.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30%;
+  height: 50%;
+  right: 0;
+  top: 0;
+}
+
+.company-block-inner.gray {
+  background-color: var(--gray-color);
+}
+
+.company-block span {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--light-gray-color);
+}
+
+.company-block h5 {
+  font-size: 24px;
+  line-height: 34px;
+  color: var(--red-color);
+}
+
+.company-block-inner.gray h5 {
+  color: var(--black-color);
+}
+
+.company-block-inner.gray a {
+  background-color: var(--black-color);
+}
+
+.company-block a {
+  margin-top: 25px;
+  width: 100%;
+}
+
+.footer-block h6 {
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--black-color);
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.footer-block:nth-child(2) ul,
+.footer-block:last-child ul {
+  margin-bottom: 30px;
+}
+
+.footer-block:nth-child(2) ul:last-child,
+.footer-block:last-child ul:last-child {
+  margin-bottom: 0;
+}
+
+.footer-block ul li {
+  font-family: Neue Haas Grotesk Display Pro, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--light-gray-color);
+  margin-bottom: 7px;
+}
+
+.footer-block ul li a {
+  color: var(--light-gray-color);
+}
+
+.footer-bottom {
+  padding: 20px;
+  border-radius: 16px;
+  border: 2px solid #f1f1f1;
+}
+
+.bottom-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.bottom-left {
+  width: 70%;
+}
+
+.bottom-right {
+  width: 30%;
+}
+
+.social-icons ul {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.social-icons ul li img {
+  width: 30px;
+  height: 30px;
+}
+
+.global {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.global h6,
+.bottom-right h6 {
+  font-family: "NeueHaasDisplayBold";
+}
+
+.global p {
+  font-size: 14px;
+}
+
+.input-flex {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.input-flex input {
+  font-size: 16px;
+  padding: 8px 10px;
+  border-radius: 7px;
+  outline: none;
+  border: 1px solid var(--light-gray-color);
+  width: 100%;
+}
+
+.input-flex button {
+  border: unset;
+  width: 250px;
+  height: 41px;
+  background-color: var(--gray-color);
+  color: var(--black-color);
+}
+
+.copyright-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  margin-top: 20px;
+  border-top: 2px solid #f1f1f1;
+}
+
+.copyright-flex p {
+  font-size: 14px;
+}
+
+.desk-img {
+  display: block;
+}
+
+.mob-img {
+  display: none;
+}
+
+.trust-badges-table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+
+
+
+/* Responsive */
+
+.trust-text h1 {
+  text-align: unset;
+}

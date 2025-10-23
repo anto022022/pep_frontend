@@ -1,0 +1,341 @@
+{
+  "moduleName": "Account Settings",
+  "accountSettingsStepper": {
+    "businessSettings": "Business Settings",
+    "complianceSettings": "Compliance Settings",
+    "taxSettings": "Tax Settings",
+    "dataPrivacySettings": "Data & Privacy Settings",
+    "SubscriptionDetails": "Subscription Details",
+    "UserSettings": "User Settings"
+  },
+  "complianceSettings": {
+    "kycVerification": {
+      "title": "KYC Verification",
+      "subTitle": "Verify your identity",
+      "step_1": {
+        "title": "1. ID Document Verification",
+        "subTitle": "Upload a valid government-issued photo ID (e.g., passport, national ID, driver’s license)."
+      },
+      "step_2": {
+        "title": "2. Address Verification",
+        "subTitle": "Submit a recent utility bill or bank statement to confirm your current residential address."
+      },
+      "step_3": {
+        "title": "3. Visual Verification",
+        "subTitle": "Take a live selfie to match your appearance with the submitted ID."
+      },
+      "formInfo": {
+        "identityVerification": "Identity Verification",
+        "addressVerification": "Address Verification",
+        "uploadDocument": "Upload Document"
+      },
+      "button": {
+        "getStarted": "Get Started",
+        "submitting": "Submitting...",
+        "continue": "Continue",
+        "gotIt": "Got it",
+        "updateVerification": "Update Verification",
+        "completeBusinessProfile": "Complete Business Profile"
+      },
+      "errorMsg": {
+        "document": "Choose an ID Type"
+      }
+    },
+    "kybVerification": {
+      "title": "KYB Verification",
+      "subTitle": "Authenticate your business identity to gain a verified badge and strengthen trust with global buyers and partners on Pepagora.",
+      "step_1": {
+        "title": "1. Business Registration Document",
+        "subTitle": "Upload proof of company registration such as a certificate of incorporation or business license."
+      },
+      "step_2": {
+        "title": "2. Tax Identification Verification",
+        "subTitle": "Provide your official tax number (e.g., GST, VAT, EIN, PAN, or equivalent)."
+      },
+      "step_3": {
+        "title": "3. Business Address Proof",
+        "subTitle": "Submit documents (e.g., utility bill, lease agreement) that confirm your company’s registered business address."
+      },
+      "formInfo": {
+        "businessRegistrationDocument": "Business Registration Document",
+        "taxIdentificationVerification": "Tax Identification Verification",
+        "businessAddressProof": "Business Address Proof",
+        "uploadDocument": "Upload Document"
+      },
+      "button": {
+        "getStarted": "Get Started",
+        "submitting": "Submitting...",
+        "continue": "Continue",
+        "gotIt": "Got it",
+        "updateVerification": "Update Verification",
+        "completeBusinessProfile": "Complete Business Profile"
+      },
+      "errorMsg": {
+        "document": "Choose an ID Type"
+      },
+      "successDialog": {
+        "title": "We’ll let you know as soon as you’re verified",
+        "subTitle": "We’ll email you with in 24hours to let you know if youre been successfully verified or if we need anymore info from you"
+      }
+    },
+    "uboVerification": {
+      "title": "UBO Verification",
+      "subTitle": "Confirm your company’s beneficial ownership to enable trade finance, logistics support, and escrow services—while reinforcing transparency and buyer trust on Pepagora",
+      "step_1": {
+        "title": "1. ID Document Verification",
+        "subTitle": "Upload a valid government-issued ID of the Ultimate Beneficial Owner (UBO)."
+      },
+      "step_2": {
+        "title": "2. Selfie Verification",
+        "subTitle": "Take a live photo of the UBO to match their submitted ID."
+      },
+      "step_3": {
+        "title": "3. Business Stockholding Verification",
+        "subTitle": "Declare the UBO’s ownership details and upload valid proof of shareholding."
+      },
+      "formInfo": {
+        "title": "UBO Verification",
+        "subTitle": "Enter email ID associated with this account. Will be sending a link for verification.",
+        "input_1": {
+          "name": "Name",
+          "placeholder": "Enter Your Name",
+          "errorMsg": "Name is required"
+        },
+        "input_2": {
+          "name": "Email ID",
+          "placeholder": "Enter Email ID",
+          "errorMsg": "Email is required",
+          "patternMsg": "Invalid email format",
+          "min": "Minimum is 0",
+          "max": "Maximum is 100"
+        },
+        "input_3": {
+          "name": "Shareholding %",
+          "placeholder": "%",
+          "errorMsg": "Shareholding is required",
+          "min": "Minimum is 0",
+          "max": "Maximum is 100"
+        }
+      },
+      "button": {
+        "cancel": "Cancel",
+        "submitting": "Submitting...",
+        "submit": "Submit",
+        "addMember": "Add Member"
+      }
+    }
+  },
+  "businessSettings": {
+    "fields": {
+      "AccountID": "Account ID",
+      "BusinessName": "Business Name",
+      "BusinessAddress": "Business Address",
+      "Country": "Country",
+      "State": "State",
+      "City": "City",
+      "Pincode": "Zip code",
+      "TimeZone": "Timezone",
+      "PhoneNumber": "Phone Number",
+      "ChangeNumber": "Change Number",
+      "ChangeEmail": "Change Email",
+      "AddNumber": "+ Add Number",
+      "Email": "Email",
+      "VerifyNumber": "Verify Number",
+      "Verified": "Verified",
+      "Cancel": "Cancel",
+      "AdditionalMobileNumber": "Additional Mobile Number",
+      "VerifyEmail": "Verify Email"
+    },
+    "placeholder": {
+      "EnterBusinessName": "Enter your business name",
+      "EnterAddress": "Enter your address",
+      "EnterCity": "Enter your city",
+      "EnterPincode": "Enter your ZIP code",
+      "EnterState": "Enter your state",
+      "EnterCountry": "Enter your country",
+      "EnterTimeZone": "Enter your timezone",
+      "EnterPhoneNumber": "Enter your phone number",
+      "Select": "Select",
+      "EnterEmail": "Enter your email"
+    }
+  },
+  "taxSettings": {
+    "fields": {
+      "RegisteredCountry": "Registered Country",
+      "Currency": "Currency",
+      "TaxIdentificationNumber": "Tax Identification Number",
+      "ApplicableTaxType": "Applicable Tax Type",
+      "TaxRate": "Tax Rate (%)",
+      "TaxIDCountry": "Tax ID Country",
+      "AddAnotherTaxType": "+ Add Another Tax Type",
+      "Remove": "Remove"
+    },
+    "placeholder": {
+      "Select": "Select",
+      "EnterCurrency": "Enter Currency",
+      "GSTINNumber": "GSTIN Number",
+      "EnterTaxRate": "Enter Tax Rate",
+      "EnterTaxIDNumber": "Enter Tax ID Number",
+      "EnterTaxType": "Enter Tax Type"
+    },
+    "helperText": {
+      "EnterTaxIDNumber": "Enter Tax ID Number"
+    }
+  },
+  "dataPrivacySettings": {
+    "PersonalDataControl": "Personal Data Control",
+    "PersonalInformation": "Personal Information",
+    "CompanyInformation": "Company Information",
+    "DataSharingPreferences": "Data Sharing Preferences",
+    "TermsPrivacyPolicy": "Terms of Service & Privacy Policy",
+    "ConsentProcessData": "Consent to Process Data",
+    "ViewTermsPrivacy": "View Terms & Privacy",
+    "Accept_1":"I accept that",
+    "Accept_2":"My data",
+    "Accept_3":"are used to send me personalised advertisements from our partners",
+    "Switch_1": {
+      "title": "Sharing with trusted partners",
+      "subTitle": "Enable sharing with trusted partners"
+    },
+    "Switch_2": {
+      "title": "Data for analytics",
+      "subTitle": "Enable anonymized data for analytics"
+    },
+    "NoCompanyInformation": "No company information available." ,
+    "NoPersonalInformation": "No personal information available."
+  },
+  "subscriptionDetails": {
+    "annualCard": {
+      "title_1": "Switch to annual payments and save 8%",
+      "title_2": "$50/per year",
+      "title_3": "(Just pay",
+      "title_4": "$50",
+      "title_5": "$46/per month)",
+      "subTxt": "We will adjust the amount we charge you accordingly to the remaining days on your current subscription",
+      "button": "Switch to PepScale"
+    },
+    "pepScale": {
+      "stateTxt": "Member since",
+      "endTxt": "Next Renewal",
+      "AutoRenewal": "Auto Renewal",
+      "title": "PepScale",
+      "subTxt": "Shipping mode, Payment Types , Delivery Terms, Min.Order, Currency, Payment Terms",
+      "ChangePlan": "Change Plan",
+      "PayNow": "Pay Now"
+    },
+    "CancelSubscription": "Cancel Subscription",
+    "PaymentDetails": "Payment Details",
+    "BillingInformation": "Billing Information",
+    "Paymentmethod": "Payment method",
+    "UpdateBillingInformation": "Update Billing Information",
+    "UpdatePaymentMethod": "Update Payment Method",
+    "AddPaymentMethod": "Add Payment Method",
+    "PaymentHistory": "Payment History",
+    "AddBillingInformation": "Add Billing Information",
+    "tableData": {
+      "PaymentDate": "Date",
+      "Paymentmethod": "Payment method",
+      "PaymentStatus": "Payment Status",
+      "Invoice": "Invoice",
+      "Total": "Total"
+    },
+    "billingInformationForm": {
+      "fields": {
+        "title": "Update Billing Information",
+        "name": "Name",
+        "businessName": "Business Name",
+        "address": "Add address line 1",
+        "country": "Country",
+        "state": "State",
+        "city": "City",
+        "pinCode": "Zip code",
+        "Add": "Add",
+        "button": "Update",
+        "cancel": "Cancel",
+        "loading": "Loading..."
+      },
+      "placeholder": {
+        "EnterName": "Enter Your Name",
+        "EnterBusinessName": "Enter Business Name",
+        "EnterAddress": "Add address line 1",
+        "EnterCountry": "Enter Country",
+        "EnterState": "Enter State",
+        "EnterCity": "Enter City",
+        "EnterPincode": "Enter Zip code",
+        "Select": "Select"   
+      },
+      "highlight": {
+        "bussingessName": "The operating name of your company, if it’s different than the legal name."
+      }
+    },
+    "paymentMethodForm": {
+      "fields": {
+        "title": "Update Payment Method",
+        "cardHolderName": "Card Holder Name",
+        "cardNo": "Card Number",
+        "Expired by": "Expired by",
+        "cvv": "CVV",
+        "Add": "Add",
+        "SaveCard": "Save and secure card as per RBI Guideline",
+        "button": "Update",
+        "cancel": "Cancel",
+        "loading": "Loading..."
+      },
+      "placeholder": {
+        "EnterCardHolderName": "Name as per card",
+        "EnterCardNo": "Enter 16 Digit card number",
+        "EnterExpiredDate": "MM/YY",
+        "EnterCVV": "***",
+        "Accept": "Save and secure card as per RBI Guideline"
+      }
+    },
+    "cancelMembershipForm": {
+      "fields": {
+        "title": "Wait! Before You Cancel…",
+        "subTitle": "You’ve come this far — don’t hit pause on your growth."
+      },
+      "menu_1": {
+        "title": "Thousands of SMEs are using Pepagora to",
+        "point_1": "Get discovered by global buyers",
+        "point_2": "Receive verified enquiries every week",
+        "point_3": "Showcase their products professionally",
+        "point_4": "Stay ahead with AI-powered marketing",
+        "point_5": "But your journey is just beginning."
+      },
+      "menu_2": {
+        "title": "What Happens If You Cancel?",
+        "point_1": "You will",
+        "point_1_highlight": "miss out on enquiries",
+        "point_2": "Your business profile",
+        "point_2_highlight": "will go inactive",
+        "point_3": "You’ll lose access to ",
+        "point_3_highlight": "tools & lead tracking",
+        "point_4": "Trust Badges & visibility will be removed"
+      },
+      "menu_3": {
+        "title": "Still Unsure? Let’s Make It Easier"
+      },
+      "cards": {
+        "card_1": {
+          "title": "Prefer a Short Break?",
+          "subTitle": "Pause your subscription for 30 days",
+          "button": "Pause My Plan"
+        },
+        "card_2": {
+          "title": "Need Help?",
+          "subTitle": "Talk to our Support Team",
+          "button": "Chat with Support"
+        },
+        "card_3": {
+          "title": "Want to Downgrade?",
+          "subTitle": "Switch to a lower plan",
+          "button": "Downgrade My Plan"
+        }
+      },
+      "decision": "We respect your decision.",
+      "feedback": " But we would love your feedback to make Pepagora better.",
+      "hopeBtn": "But we really hope you don’t",
+      "ContinueCancelBtn": "Continue to Cancel"
+    }
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "progressHeader": "معلومات عرض البيع",
+  "stepper": {
+    "productDetails": {
+      "title": "تفاصيل المنتج",
+      "description": "أضف منتجًا جديدًا أو موجودًا"
+    },
+    "offerDetails": {
+      "title": "تفاصيل العرض",
+      "description": "حدد نوع العرض، والخصم، وصلاحية العرض."
+    },
+    "paymentAndShipping": {
+      "title": "الدفع والشحن",
+      "description": "حدد الكمية، وطرق الدفع، وشروط الشحن"
+    },
+    "offerMessage": "تم ربط المنتج بعرض لم يكتمل بعد"
+  },
+  "productDetails": {
+    "alert": "يمكنك إضافة منتج جديد بسرعة وسيتم حفظه كمسودة!",
+    "selectProduct": {
+      "title": "ختر المنتج"
+    },
+    "existingProduct": {
+      "title": "منتج موجود",
+      "description": "صفح من قائمة منتجاتك",
+      "dropdownTitle": "تصفح المنتجات الموجودة"
+    },
+    "newProduct": {
+      "title": "ضافة منتج جديد",
+      "description": "أضف منتجًا جديدًا بسرعة لتقديم خصومات"
+    },
+    "offerMessage": "تم ربط المنتج بالفعل بعرض لم يكتمل بعد"
+  },
+  "addNewProduct": {
+    "alert": "سيتم إدراج هذا المنتج في السوق بالسعر الأصلي (بدون الخصم) حتى بعد انتهاء العرض. يمكنك إدارة قوائم منتجاتك في قسم 'المنتجات التي أبيعها'.",
+    "confirmationMessage": "تابع إنشاء عرض البيع باستخدام المنتج الذي تم إضافته حديثًا. يمكنك العثور على هذا المنتج في قائمتك كمسودة",
+    "newProduct": {
+      "title": "ضافة منتج جديد",
+      "subtitle": "الاسم والفئة",
+      "Continue": "تابع",
+      "fields": {
+        "productName": {
+          "label": " اسم المنتج",
+          "placeholder": "اسم المنتج"
+        },
+        "Description": {
+          "label": "وصف المنتج",
+          "placeholder": "أضف وصف المنتج"
+        },
+        "brand": {
+          "label": "سم الماركة",
+          "placeholder": "أدخل اسم العلامة التجارية",
+          "optional": "اختياري"
+        },
+        "category": {
+          "label": "الفئة",
+          "placeholder": "ختر فئة الذكاء الاصطناعي",
+          "helper": "ختر فئة منتجك"
+        },
+        "productImage": {
+          "label": "صور المنتج",
+          "placeholder": "قم بتحميل صور بصيغة JPG أو PNG (بحد أقصى 5 ميجابايت) للحصول على أفضل جودة"
+        },
+        "currency": {
+          "label": "تعيين العملة",
+          "placeholder": "ختر العملة"
+        },
+        "basePrice": {
+          "title": "السعر الأساسي"
+        },
+        "pricing": {
+          "label": "لتسعير"
+        },
+        "fixed_pricing": {
+          "label": "سعر الوحدة",
+          "placeholder": "دخل سعر الوحدة"
+        },
+        "nego_pricing": {
+          "label": "سعر قابل للتفاوض",
+          "placeholder": "أدخل السعر القابل للتفاوض"
+        },
+        "quote_pricing": {
+          "label": "سعر العرض",
+          "placeholder": "أدخل سعر العرض"
+        },
+        "variable_pricing": {
+          "label": "نطاق السعر",
+          "minPrice_placeholder": "أدخل الحد الأدنى للسعر",
+          "maxPrice_placeholder": "أدخل الحد الأقصى للسعر"
+        },
+        "bulk_pricing": {
+          "label": "تسعير الجملة",
+          "unitTypeLabel": "نوع الوحدة",
+          "placeholder": "اختر الوحدة"
+        },
+        "add_tier": {
+          "label": "أضف مستوى",
+          "add_qty_label": "أضف نطاق الكمية",
+          "quantity_from_placeholder": "الكمية من (مثال - 100)",
+          "quantity_to_placeholder": "لكمية إلى (مثال - 500)",
+          "price_label": "السعر",
+          "price_placeholder": "أدخل السعر $",
+          "helper": "شجع الطلبات الكبيرة. يمكنك إضافة كمية بالجملة مثل 100 - 500 قطعة بسعر 11.00 دولار."
+        },
+        "moq": {
+          "label": "الحد الأدنى لكمية الطلب (MOQ)",
+          "placeholder": "أدخل رقمًا",
+          "unit_placeholder": "ختر الوحدة"
+        },
+        "optionLabels": {
+          "pricing": {
+            "fixed_price": "السعر الثابت:",
+            "fixed_price_helper": "السعر القياسي لكل وحدة",
+            "negotiable": "قابل للتفاوض:",
+            "negotiable_helper": "يمكن للمشتري طلب السعر",
+            "bulk_pricing": "تسعير الجملة:",
+            "bulk_pricing_helper": "خصومات الكميات",
+            "price_range": "نطاق السعر",
+            "price_range_helper": "للمنتجات المتغيرة/المخصصة",
+            "request_quote": "طلب عرض سعر",
+            "request_quote_helper": "يمكن للمشتري طلب السعر"
+          }
+        }
+      }
+    }
+  },
+  "shippingPayment": {
+    "title": "المدفوعات والشحن",
+    "label": "تقديم تفاصيل أساسية حول العرض، بما في ذلك العنوان والفئة والنقاط الرئيسية.",
+    "fields": {
+      "paymentTerms": {
+        "label": "شروط الدفع",
+        "optionalLabel": "خياري",
+        "placeholder": "حدد مصطلح الدفع",
+        "customPaymentTerm": "أدخل شروط الدفع المخصصة"
+      },
+      "paymentMethod": {
+        "label": "طريقة الدفع",
+        "otherPaymentPlaceHolder": "أدخل طريقة الدفع الأخرى"
+      },
+      "dispatchLeadTime": {
+        "label": "وقت الشحن",
+        "placeholder": "اختر وقت الشحن",
+        "dispatchDayLabel": "يتم الشحن خلال {days} يوم",
+        "dispatchDaysLabel": "يتم الشحن خلال {days} أيام",
+        "madeToOrder": "يصنع حسب الطلب"
+      },
+      "shipsInternationally": {
+        "label": "السفن دوليا",
+        "yes": "نعم",
+        "no": "لا",
+        "uponRequest": "عند الطلب"
+      },
+      "shippingModes": {
+        "label": "أوضاع الشحن"
+      }
+    }
+  },
+  "offerDetails": {
+    "title": "تفاصيل العرض",
+    "fields": {
+      "offerTitle": {
+        "label": "عنوان العرض",
+        "placeHolder": "أدخل العنوان",
+        "aiSuggest": "اقتراحات الذكاء الاصطناعي"
+      },
+      "offerType": {
+        "label": "نوع العرض"
+      },
+      "discountPercentage": {
+        "label": "نسبة الخصم %",
+        "optional": "اختياري",
+        "placeHolder": "أدخل القيمة"
+      },
+      "offMinOrderQuantity": {
+        "label": "الحد الأدنى لكمية الطلب",
+        "placeHolder": "أدخل الكمية"
+      },
+      "offMaxOrderQuantity": {
+        "label": "الحد الأقصى لكمية الطلب",
+        "placeHolder": "أدخل الكمية"
+      },
+      "pricing": {
+        "label": "سعر العرض",
+        "unitPricePlaceholder": "أدخل السعر",
+        "minPricePlaceholder": "أدخل الحد الأدنى للسعر",
+        "maxPricePlaceholder": "أدخل الحد الأقصى للسعر"
+      },
+      "buyMore": {
+        "buyQtyLabel": "كمية الشراء",
+        "freeQtyLabel": "الكمية المجانية",
+        "placeholder": "أدخل الكمية"
+      },
+      "offerDescription": {
+        "label": "وصف العرض",
+        "placeholder": "أدخل وصف العرض"
+      },
+      "immediateStart": {
+        "label": "الصلاحية",
+        "helper": "تنتهي صلاحية العروض تلقائيًا بعد 30 يومًا",
+        "toggleLabel": "ابدأ العرض اليوم"
+      },
+      "offerStartDate": {
+        "label": "تاريخ البدء"
+      },
+      "offerEndDate": {
+        "label": "تاريخ الانتهاء"
+      },
+      "marketFocus": {
+        "label": "التركيز السوقي",
+        "optionLabels": "(اختياري)",
+        "placeholder": "اختر الدولة"
+      },
+      "keyword": {
+        "label": "الكلمات المفتاحية / الوسوم",
+        "placeholder": "أدخل الكلمات المفتاحية"
+      },
+      "actualMoq": {
+        "label": "الحد الأدنى الفعلي للطلب"
+      },
+      "bulk_pricing": {
+        "placeholder": "اختر الوحدة"
+      }
+    }
+  },
+  "optionLabels": {
+    "offerType": {
+      "fixedDiscount": "عرض خصم ثابت",
+      "limitedTime": "عرض لفترة محدودة",
+      "lowMOQ": "كمية طلب دنيا منخفضة",
+      "buyMore": "اشترِ أكثر، احصل على المزيد"
+    }
+  },
+  "viewPage": {
+    "mainTitle": "بيع تفاصيل العرض",
+    "editDetails": "تحرير التفاصيل",
+    "completed": "مكتمل",
+    "productInfoLabel": "تفاصيل المنتج",
+    "offerLabel": "تفاصيل العرض",
+    "pricingLabel": "التسعير والدفع",
+    "rePost": "إعادة النشر",
+    "productInformation": {
+      "productName": "اسم المنتج",
+      "shortDescription": "وصف المنتج",
+      "productCategory": "فئة المنتج",
+      "brand": "المارك",
+      "currency": "عملة",
+      "price": "لسعر الأساسي",
+      "moq": "MOQ"
+    },
+    "offerDetails": {
+      "offerType": "نوع العرض",
+      "offerTitle": "عنوان العرض",
+      "offerDescription": "وصف العرض",
+      "offerPrice": "سعر العرض",
+      "cratedDate": "تاريخ الإنشاء",
+      "endDate": "العرض ساري حتى",
+      "marketFocus": "التركيز على السوق",
+      "offerMOQ": "تقديم الحد الأدنى لكمية الطلب",
+      "MOQ": "الحد الأقصى لكمية الطلب"
+    },
+    "pricingPayment": {
+      "paymentTerm": "شروط الدفع",
+      "paymentMethod": "طريقة الدفع",
+      "shippingModes": "أوضاع الشحن",
+      "dispatchLeadTime": "مهلة الإرسال",
+      "shipsInternationally": "السفن دوليا"
+    }
+  },
+  "previewSidebar": {
+    "preview": "معاينة",
+    "qtyFrom": "الكمية من",
+    "qtyTo": "الكمية إلى",
+    "price": "السعر",
+    "productName": "اسم المنتج",
+    "category": "الفئة",
+    "subCategory": "الفئة الفرعية",
+    "productCategory": "فئة المنتج",
+    "actualMoq": "الحد الأدنى الفعلي للطلب",
+    "offerMoq": "الحد الأدنى لكمية العرض",
+    "buyQty": "كمية الشراء",
+    "freeQty": "الكمية المجانية",
+    "discount": "الخصم",
+    "discountedPrice": "السعر بعد الخصم",
+    "postSellOffer": "نشر عرض البيع",
+    "pricePlaceHolder": "سعر المنتج بالدولار الأمريكي",
+    "rangePlaceHolder": "US$ 0.00 - $ 0.00"
+  },
+  "noOffersScreen": {
+    "table-headers": {
+      "productName": "اسم المنتج",
+      "offer-type": "نوع العرض",
+      "offer-title": "عنوان العرض",
+      "offer-price": "سعر العرض",
+      "minQty": "MOQ",
+      "display": "عرض",
+      "createdAt": "تاريخ الإنشاء",
+      "offerEndDate": "تنتهي صلاحيته في",
+      "status": "حالة"
+    },
+    "title": "حوّل منتجاتك إلى فرص مبيعات عالمية",
+    "subtitle": "أنشئ عرض البيع الآن. تواصل مع مشترين جادين حول العالم — بشكل أسرع وأسهل.",
+    "tooltip": "أضف اسم المنتج والسعر والوصف والصور — الأمر لا يتطلب سوى بضع خطوات.",
+    "buttonTitle": "أنشئ أول عرض لك"
+  },
+  "offerTable": {
+    "sellOffers": "عروض البيع",
+    "newSellOffer": "عرض بيع جديد",
+    "all_offers": "الجميع",
+    "drafts_offers": "المسودات",
+    "archive_offers": "أرشيف",
+    "selectProduct": "حدد المنتج",
+    "viewDetails": "عرض التفاصيل",
+    "edit": "يحرر",
+    "archive": "أرشيف",
+    "duplicate": "ينسخ"
+  },
+  "sideView": {
+    "visibility": "الرؤية",
+    "analytics": "التحليلات",
+    "shares": "أسهم",
+    "likes": "يحب",
+    "clicks": "النقرات",
+    "view": "منظر",
+    "inquiries": "الاستفسارات",
+    "see_requests": "انظر الطلبات",
+    "status": "حالة",
+    "re_post": "إعادة النشر"
+  }
+}

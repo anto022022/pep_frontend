@@ -1,0 +1,188 @@
+.leads-inbox-block {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.month-division-block{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    @media screen and (max-width:640px) {
+        gap: 15px;
+    }
+}
+.month-division {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    @media screen and (max-width:640px) {
+        gap: 8px;
+    }
+
+    .m-a-b-title {
+        color: $color-grey-85;
+        font-family: $secondary-body-font;
+        font-size: clamp(1.063rem, 1.05rem + 0.06vw, 1.125rem);
+        font-weight: 600;
+        line-height: 24px;
+    }
+
+    .month-action-block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .m-a-b-left,
+    .m-a-b-right {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .month-right-action {
+        .btn-comp {
+            width: 24px;
+            height: 24px;
+            min-width: 24px;
+            padding: unset;
+            border-radius: 8px;
+
+            svg {
+                width: 16px;
+                height: 16px;
+            }
+
+            &.collapse-icon {
+                svg {
+                    path {
+                        stroke: unset;
+                    }
+                }
+            }
+
+            &.three-dots-icon {
+                display: flex;
+                align-items: center;
+
+                svg {
+                    path {
+                        stroke: unset;
+                        fill: $color-grey-86;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.message-card-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.forms-select-2 {
+    &.new-inquiry {
+        border-color: $badge-new-inquiry-txt;
+        background-color: $badge-new-inquiry-bg;
+
+        .p-dropdown-label {
+            color: $badge-new-inquiry-txt;
+        }
+
+        .p-icon {
+            color: $badge-new-inquiry-txt;
+        }
+    }
+
+    &.negotiation {
+        border-color: $badge-approval-pending-txt;
+        background-color: $badge-approval-pending-bg;
+
+        .p-dropdown-label {
+            color: $badge-approval-pending-txt;
+        }
+
+        .p-icon {
+            color: $badge-approval-pending-txt;
+        }
+    }
+
+    &.contacted-quoted {
+        border-color: $badge-awating-txt;
+        background-color: $badge-awating-bg;
+
+        .p-dropdown-label {
+            color: $badge-awating-txt;
+        }
+
+        .p-icon {
+            color: $badge-awating-txt;
+        }
+    }
+
+    &.deal-won {
+        border-color: $badge-active-txt;
+        background-color: $badge-deal-won-bg;
+
+        .p-dropdown-label {
+            color: $badge-active-txt;
+        }
+
+        .p-icon {
+            color: $badge-active-txt;
+        }
+    }
+
+    &.deal-lost {
+        border-color: $quote-border;
+        background-color: $quote-bg;
+
+        .p-dropdown-label {
+            color: $quote-border;
+        }
+
+        .p-icon {
+            color: $quote-border;
+        }
+    }
+
+    &.lead-stage-wid {
+        width: 200px;
+    }
+}
+
+.schedule-activity-comp {
+    .s-a-c-box {
+        border-radius: 8px;
+        border: 1px solid $color-grey-38;
+        background: $primary-solid-color;
+        padding: 12px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+.partcipants-block{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .badge-comp{
+        font-size: 13px;
+    }
+}
+
+.inbox-log-tabs{
+    .p-tabview-panels{
+        background: unset;
+    }
+}
+
+.lead-info-wrapper-mob{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

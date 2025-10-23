@@ -1,0 +1,117 @@
+.compliance-settings-card-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    @media screen and (max-width:991px) {
+        gap: 15px;
+    }
+}
+
+.compliance-mob-wrapper {
+    padding: 0 15px 15px 15px;
+
+    &.c-m-w-dashboard {
+        padding: 15px;
+    }
+}
+
+.compliance-settings-card-comp {
+    border-radius: 16px;
+    border: 1px solid $color-grey-113;
+    background-color: $primary-solid-color;
+    width: 100%;
+    max-width: 700px;
+
+    .c-s-c-c-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 25px;
+        padding: 15px 30px;
+
+        @media screen and (max-width:991px) {
+            padding: 15px;
+        }
+
+        &.c-s-c-c-h-wrap {
+            @media screen and (max-width:410px) {
+                flex-wrap: wrap;
+                align-items: flex-start;
+                gap: 5px;
+            }
+        }
+
+        .c-s-c-c-h-left {
+            display: flex;
+            flex-direction: column;
+
+            .c-s-verified-wrapper {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                margin-top: 3px;
+            }
+
+            .c-s-head-title {
+                color: $black;
+                font-family: $body-font;
+                font-size: clamp(1.188rem, 1.174rem + 0.06vw, 1.25rem); //19, 20px
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: 0.2px;
+            }
+
+            .c-s-head-subtxt {
+                color: $color-grey-12;
+                font-family: $body-font;
+                font-size: clamp(0.875rem, 0.861rem + 0.06vw, 0.938rem); // 14, 15px
+                font-weight: 400;
+                line-height: clamp(1.313rem, 1.271rem + 0.19vw, 1.5rem); // 21, 24px
+                letter-spacing: 0.14px;
+            }
+        }
+    }
+
+    .c-s-c-c-body {
+        border-top: 1px solid $color-grey-14;
+
+        .verification-group {
+            display: flex;
+            flex-direction: column;
+
+            .v-g-item {
+                padding: 15px 30px;
+                border-bottom: 1px solid $color-grey-14;
+                display: flex;
+                flex-direction: column;
+
+                @media screen and (max-width:991px) {
+                    padding: 15px;
+                }
+
+                &:last-child {
+                    border-bottom: unset;
+                }
+
+                .v-g-title {
+                    color: $black;
+                    font-family: $body-font;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    letter-spacing: 0.32px;
+                }
+
+                .v-g-subtxt {
+                    color: $color-grey-2;
+                    font-family: $body-font;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    letter-spacing: 0.28px;
+                }
+            }
+        }
+    }
+}

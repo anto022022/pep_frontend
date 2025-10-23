@@ -1,0 +1,39 @@
+.previous-btn-comp {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .btn-icon {
+        border-radius: 100px;
+        background: $color-grey-39;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        svg {
+            width: 18px;
+            height: 18px;
+            min-width: 18px;
+        }
+    }
+
+    .p-b-c-txt {
+        color: $color-black-6;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 28px;
+    }
+    .arrow-red-icon{
+        svg{
+            width: 26px;
+            height: 26px;
+            min-width: 26px;
+            path{
+                fill: $btn-primary;
+            }
+        }
+    }
+}

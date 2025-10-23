@@ -1,0 +1,617 @@
+{
+  "stepper": {
+    "productInformation": {
+      "title": "معلومات المنتج",
+      "description": "زيادة الرؤية والوصول إلى المشترين المناسبين من خلال تفاصيل دقيقة للمنتج."
+    },
+    "pricingAndMOQ": {
+      "title": "التسعير والحد الأدنى للطلب",
+      "description": "قدم تفاصيل الأسعار والكمية"
+    },
+    "productSpecifications": {
+      "title": "مواصفات المنتج",
+      "description": "قدم مواصفات ووصف المنتج"
+    },
+    "specification": "المواصفات",
+    "productDescription": "وصف المنتج",
+    "tradeDetails": {
+      "title": "تفاصيل التجارة",
+      "description": "أضف تفاصيل الإنتاج والمخزون"
+    },
+    "productAndStock": "المنتج والمخزون",
+    "paymentTerms": "شروط الدفع",
+    "shippingAndLogistics": {
+      "title": "الشحن والخدمات اللوجستية",
+      "description": "أضف وسائل الشحن، ومدة التسليم، وتفاصيل التعبئة والتغليف"
+    },
+    "additionalInformation": {
+      "title": "معلومات إضافية",
+      "description": "أضف الأسئلة الشائعة ومعلومات إضافية عن المنتج"
+    }
+  },
+  "previewSidebar": {
+    "productName": "اسم المنتج",
+    "minOrderQty": "الحد الأدنى للطلب",
+    "price": "السعر"
+  },
+  "productInformation": {
+    "title": "معلومات المنتج",
+    "fields": {
+      "productName": {
+        "label": "اسم المنتج",
+        "placeholder": "اسم المنتج"
+      },
+      "shortDescription": {
+        "label": "وصف قصير",
+        "placeholder": "أدخل النص"
+      },
+      "sku&Model": {
+        "label": "SKU/الموديل",
+        "placeholder": "أدخل رقم SKU/الموديل"
+      },
+      "category": {
+        "label": "الفئة",
+        "placeholder": "اختر الفئة",
+        "helper": "اختر فئة المنتج الخاصة بك",
+        "btn": "تصفح الفئات"
+      },
+      "categoryModal": {
+        "emptyMsg": "لا يمكنك العثور على الفئة الفرعية المناسبة؟",
+        "suggestLable": "مقترحة",
+        "selectLabel": "المحددة",
+        "or": "أو",
+        "cantCat": "لا يمكنك العثور على الفئة المناسبة؟",
+        "chooseIndus": "اختر الصناعة",
+        "reasonLable": "اختر السبب المناسب",
+        "reasonPlaceholder": "أدخل سببك",
+        "sugCatNameLabel": "اقترح اسم الفئة",
+        "submit": "إرسال",
+        "cancel": "إلغاء"
+      },
+      "browseCategory": {
+        "title": "تصفح الفئات",
+        "searchLabel": "ابحث وحدد الفئات",
+        "selectLabel": "الفئات المحددة",
+        "category": "الفئة",
+        "subCategory": "الفئة الفرعية",
+        "prodCategory": "فئة المنتج",
+        "categoryPlaceholder": "ابحث عن فئة",
+        "subCatPlaceholder": "اختر فئة أولاً",
+        "prodCatPlaceholder": "اختر فئة فرعية أولاً",
+        "cancel": "إلغاء",
+        "choose": "اختر",
+        "cantCat": "لا يمكنك العثور على الفئة المناسبة؟",
+        "sugCat": "اقترح فئة جديدة"
+      },
+      "productImage": {
+        "label": "صورة المنتج",
+        "placeholder": "قم بتحميل JPG أو PNG (بحد أقصى 5 ميجابايت) للحصول على أفضل جودة"
+      },
+      "productBrochure": {
+        "label": "كتيب المنتج",
+        "placeholder": "قم بتحميل PDF (بحد أقصى 5 ميجابايت) للحصول على أفضل جودة",
+        "optionalLabel": "اختياري"
+      },
+      "countryOfOrigin": {
+        "label": "بلد المنشأ",
+        "placeholder": "اختر البلد"
+      }
+    }
+  },
+  "pricing_moq": {
+    "title": "التسعير والحد الأدنى للطلب",
+    "fields": {
+      "currency": {
+        "label": "العملة",
+        "placeholder": "اختر العملة"
+      },
+      "pricing": {
+        "label": "التسعير"
+      },
+      "fixed_pricing": {
+        "label": "سعر الوحدة",
+        "placeholder": "أدخل سعر الوحدة"
+      },
+      "nego_pricing": {
+        "label": "سعر قابل للتفاوض",
+        "placeholder": "أدخل السعر القابل للتفاوض"
+      },
+      "quote_pricing": {
+        "label": "سعر العرض",
+        "placeholder": "أدخل سعر العرض"
+      },
+      "variable_pricing": {
+        "label": "نطاق السعر",
+        "minPrice_placeholder": "أدخل الحد الأدنى للسعر",
+        "maxPrice_placeholder": "أدخل الحد الأقصى للسعر"
+      },
+      "bulk_pricing": {
+        "label": "تسعير بالجملة",
+        "unitTypeLabel": "نوع الوحدة",
+        "placeholder": "اختر الوحدة"
+      },
+      "add_tier": {
+        "label": "إضافة مستوى",
+        "add_qty_label": "إضافة نطاق كمية",
+        "quantity_from_placeholder": "الكمية من (مثال - 100)",
+        "quantity_to_placeholder": "الكمية إلى (مثال - 500)",
+        "price_label": "السعر",
+        "price_placeholder": "أدخل السعر $",
+        "helper": "شجّع على الطلبات الكبيرة. يمكنك الإضافة بالجملة مثل 100 - 500 قطعة بسعر 11.00$"
+      },
+      "moq": {
+        "label": "الحد الأدنى للطلب (MOQ)",
+        "placeholder": "أدخل رقمًا",
+        "unit_placeholder": "اختر الوحدة"
+      }
+    },
+    "confirmationMessage": "سيؤدي تغيير نوع التسعير إلى إعادة التعيين والتأثير على تسعير المتغيرات أيضًا. هل أنت متأكد أنك تريد المتابعة؟"
+  },
+  "specifications": {
+    "title": "مواصفات المنتج",
+    "helper": "السمات المقترحة لمنتجك بناءً على صناعتك - يمكنك إضافتها أو تعديلها أو إزالتها حسب الحاجة.",
+    "info": "تستخدم المتغيرات تلقائيًا تفاصيل المنتج الرئيسي، باستثناء التسعير والصور (التي يمكنك تعديلها بشكل منفصل). يجب إجراء جميع التغييرات الأخرى في المنتج الرئيسي",
+    "fields": {
+      "attributes": {
+        "title": "السمات",
+        "subtitle": "أضف المزيد من السمات",
+        "helper": "أضف المزيد من التفاصيل لمساعدة المشترين في العثور على منتجك بشكل أسرع",
+        "btn": "أضف جديدًا"
+      },
+      "variants": {
+        "title": "المتغيرات",
+        "btn": "إضافة خيارات",
+        "custom_btn": "إضافة خيار مخصص",
+        "fields": {
+          "addCutomOption": {
+            "optionNameLabel": "اسم الخيار",
+            "optionNamePlaceholder": "أدخل اسم الخيار",
+            "optionValueLabel": "قيمة الخيار",
+            "optionDelete": "حذف",
+            "optionSave": "حفظ"
+          },
+          "group_by": {
+            "label": "تجميع حسب"
+          },
+          "search_product": {
+            "placeholder": "بحث عن منتج"
+          },
+          "variantTableHead": {
+            "variant": "متغير",
+            "VariantName": "اسم المتغير",
+            "priceRange": "نطاق السعر",
+            "price": "السعر",
+            "variants": "المتغيرات"
+          },
+          "variantFields": {
+            "title": "تفاصيل المتغيرات",
+            "variant": "متغير",
+            "variantName": {
+              "label": "اسم المتغير",
+              "placeholder": "أدخل اسم المنتج"
+            },
+            "image": {
+              "label": "صورة",
+              "placeholder": "قم بتحميل JPG أو PNG (بحد أقصى 5 ميجابايت) للحصول على أفضل جودة"
+            },
+            "pricing": {
+              "label": "التسعير"
+            },
+            "fixed_pricing": {
+              "label": "سعر الوحدة",
+              "placeholder": "أدخل سعر الوحدة"
+            },
+            "variable_pricing": {
+              "label": "نطاق السعر",
+              "minPrice_placeholder": "أدخل الحد الأدنى للسعر",
+              "maxPrice_placeholder": "أدخل الحد الأقصى للسعر"
+            },
+            "priceRange": {
+              "label": "نطاق التسعير",
+              "minPrice_placeholder": "السعر الأدنى",
+              "maxPrice_placeholder": "السعر الأقصى"
+            },
+            "bulk_pricing": {
+              "label": "تسعير بالجملة",
+              "unitTypeLabel": "نوع الوحدة",
+              "placeholder": "اختر الوحدة"
+            },
+            "add_tier": {
+              "label": "إضافة مستوى",
+              "add_qty_label": "إضافة نطاق كمية",
+              "quantity_from_placeholder": "الكمية من (مثال - 100)",
+              "quantity_to_placeholder": "الكمية إلى (مثال - 500)",
+              "price_label": "السعر",
+              "price_placeholder": "أدخل السعر $",
+              "helper": "شجّع على الطلبات الكبيرة. يمكنك الإضافة بالجملة مثل 100 - 500 قطعة بسعر 11.00$"
+            },
+            "moq": {
+              "label": "الحد الأدنى للطلب (MOQ)",
+              "placeholder": "أدخل رقمًا",
+              "unit_placeholder": "اختر الوحدة"
+            },
+            "sku&Model": {
+              "label": "رقم الموديل/SKU",
+              "placeholder": "أدخل SKU فريدًا",
+              "helper": "مرجعك الداخلي أو المرجع الكتالوجي لهذا المنتج. مفيد لتتبع الطلبات وإدارة المتغيرات."
+            }
+          }
+        }
+      }
+    }
+  },
+  "productDescription": {
+    "title": "مواصفات المنتج",
+    "optionalLabel": "اختياري",
+    "fields": {
+      "productDescription": {
+        "label": "وصف المنتج",
+        "placeholder": "أدخل النص"
+      },
+      "applications": {
+        "label": "التطبيقات",
+        "placeholder": "أدخل النص"
+      }
+    }
+  },
+  "production_stock": {
+    "title": "تفاصيل التجارة",
+    "supTittle": "زِد من ظهورك ووصّل منتجاتك للمشترين المناسبين من خلال تفاصيل دقيقة للمنتج.",
+    "Select": "اختر",
+    "fields": {
+      "productionLeadTime": {
+        "label": "مدة الإنتاج",
+        "placeholder": "اختر مدة الإنتاج"
+      },
+      "productionCapacity": {
+        "label": "الطاقة الإنتاجية",
+        "optionalLabel": "اختياري",
+        "quality_placeholder": "أدخل رقمًا",
+        "unit_placeholder": "الوحدة",
+        "duration_placeholder": "المدة"
+      },
+      "availableStock": {
+        "label": "المخزون المتاح",
+        "quality_placeholder": "أدخل الكمية",
+        "unit_placeholder": "نوع الوحدة"
+      },
+      "sampleAvailability": {
+        "label": "توفر العينات",
+        "freeSample": "عينة مجانية",
+        "refundableSample": "عينة قابلة للاسترداد",
+        "paidSample": "عينة مدفوعة",
+        "noSample": "لا توجد عينة متاحة"
+      },
+      "sampleLeadTime": {
+        "label": "مدة تجهيز العينة",
+        "placeholder": "اختر مدة تجهيز العينة"
+      },
+      "samplePrice": {
+        "label": "سعر العينة",
+        "price_placeholder": "أدخل السعر",
+        "unit_placeholder": "الوحدة",
+        "dispatchDayLabel": "يوم",
+        "dispatchDaysLabel": " أيام",
+        "madeToOrder": "حسب الطلب"
+      }
+    }
+  },
+  "paymentTerms": {
+    "title": "تفاصيل التجارة",
+    "fields": {
+      "paymentTerms": {
+        "label": "شروط الدفع",
+        "optionalLabel": "اختياري",
+        "placeholder": "اختر شرط الدفع",
+        "customPaymentTerm": "أدخل شرط الدفع المخصص"
+      },
+      "paymentMethod": {
+        "label": "طريقة الدفع",
+        "otherPaymentPlaceHolder": "أدخل طريقة دفع أخرى"
+      }
+    }
+  },
+  "shipping_logistics": {
+    "title": "الشحن واللوجستيات",
+    "fields": {
+      "shipsInternationally": {
+        "label": "يشحن دولياً",
+        "yes": "نعم",
+        "no": "لا",
+        "uponRequest": "عند الطلب"
+      },
+      "shippingModes": {
+        "label": "طرق الشحن"
+      },
+      "incoterms": {
+        "label": "شروط التجارة الدولية (Incoterms)",
+        "placeholder": "اختر شروط التجارة"
+      },
+      "portOfDispatch": {
+        "label": "ميناء الشحن",
+        "placeholder": "أدخل اسم الميناء",
+        "optionalLabel": "اختياري"
+      },
+      "dispatchLeadTime": {
+        "label": "مدة تجهيز الشحن",
+        "placeholder": "اختر مدة التجهيز",
+        "dispatchDayLabel": "يتم الشحن خلال {days} يوم",
+        "dispatchDaysLabel": "يتم الشحن خلال {days} أيام",
+        "madeToOrder": "يصنع عند الطلب"
+      },
+      "packagingType": {
+        "label": "نوع التغليف",
+        "placeholder": "اختر نوع التغليف"
+      },
+      "unitsPerPackage": {
+        "label": "عدد الوحدات في كل عبوة",
+        "placeholder": "أدخل رقمًا"
+      },
+      "barcode": {
+        "label": "الباركود/HSN/GTIN/UPC",
+        "placeholder": "أدخل أحدها"
+      }
+    }
+  },
+  "additionalDetails": {
+    "title": "تفاصيل إضافية",
+    "fields": {
+      "customizationAvailability": {
+        "label": "توفر التخصيص",
+        "optionalLabel": "اختياري",
+        "yes": "نعم",
+        "no": "لا"
+      },
+      "specifyCustomization": {
+        "label": "حدد خيارات التخصيص",
+        "optionalLabel": "اختياري",
+        "placeholder": "أدخل خيارات التخصيص الممكنة للمشتري",
+        "addButton": "إضافة خيار تخصيص"
+      },
+      "productKeywords": {
+        "label": "الكلمات المفتاحية للمنتج",
+        "optionalLabel": "اختياري",
+        "placeholder": "أدخل كلمات مفتاحية أو اختر من الاقتراحات"
+      },
+      "brand": {
+        "label": "العلامة التجارية",
+        "optionalLabel": "اختياري",
+        "placeholder": "أدخل اسم العلامة التجارية"
+      },
+      "productGroup": {
+        "label": "مجموعة المنتجات",
+        "placeholder": "اختر مجموعة المنتجات",
+        "addNewGroup": "إضافة مجموعة جديدة"
+      },
+      "uploadProductVideo": {
+        "label": "تحميل فيديو المنتج",
+        "optionalLabel": "اختياري",
+        "placeholder": "قم بتحميل mov، mp4 (بحد أقصى 10MB) للحصول على أفضل جودة."
+      },
+      "certifications": {
+        "label": "الشهادات",
+        "optionalLabel": "اختياري",
+        "namePlaceholder": "أدخل عنوان الشهادة",
+        "placeholder": "قم بتحميل ملف PDF لأي شهادات رسمية مثل ISO، CE، عضوي أو غيرها لتعزيز ثقة العملاء",
+        "addLabel": "إضافة شهادة"
+      },
+      "faqs": {
+        "label": "الأسئلة الشائعة",
+        "optionalLabel": "اختياري",
+        "questionPlaceholder": "أدخل سؤالاً",
+        "answerPlaceholder": "أدخل إجابة مناسبة",
+        "addFAQ": "إضافة سؤال",
+        "addButton": "إضافة سؤال",
+        "aiSuggest": "اقتراحات الذكاء الاصطناعي",
+        "aiGenerate": "يتم الإنشاء بواسطة الذكاء الاصطناعي"
+      }
+    }
+  },
+  "viewPage": {
+    "title": "المنتج الذي أبيعه",
+    "information": "معلومات",
+    "analytics": "التحليلات",
+    "addProduct": "أضف منتج",
+    "editDetails": "تعديل التفاصيل",
+    "addNewProduct": "أضف منتج جديد",
+    "rePost": "إعادة النشر",
+    "leads": "العملاء المحتملون",
+    "view": "عرض",
+    "status": "الحالة",
+    "productInfoLabel": "معلومات المنتج",
+    "pricingLabel": "التسعير والحد الأدنى للطلب",
+    "specificationLabel": "مواصفات المنتج",
+    "tradeDetailsLabel": "تفاصيل التجارة",
+    "shippingLabel": "الشحن واللوجستيات",
+    "additionalDetailsLabel": "تفاصيل إضافية",
+    "productInformation": {
+      "productName": "اسم المنتج",
+      "shortDescription": "وصف قصير",
+      "productCategory": "فئة المنتج",
+      "brochure": "كتيب",
+      "SKU/Model": "رمز المنتج / الموديل",
+      "countryOfOrigin": "بلد المنشأ"
+    },
+    "tradeDetails": {
+      "productionLeadTime": "مدة الإنتاج",
+      "samplePrice": "سعر العينة",
+      "availableStock": "المخزون المتوفر",
+      "sampleLeadTime": "مدة تجهيز العينة",
+      "productionCapacity": "الطاقة الإنتاجية",
+      "paymentTerms": "شروط الدفع",
+      "sampleAvailability": "توفر العينة",
+      "paymentMethod": "طريقة الدفع"
+    },
+    "shippingDetails": {
+      "shippingModes": "طرق الشحن",
+      "portOfDispatch": "ميناء الإرسال",
+      "incoterms": "شروط التجارة الدولية (Incoterms)",
+      "packagingType": "نوع التغليف",
+      "shippingInternationally": "الشحن دولياً",
+      "unitsPerPackage": "عدد الوحدات لكل عبوة",
+      "dispatchLeadTime": "مدة تجهيز الشحنة",
+      "HSN": "رمز النظام المنسق (HSN)"
+    },
+    "additionalDetails": {
+      "brand": "العلامة التجارية",
+      "productKeywords": "كلمات مفتاحية للمنتج",
+      "productGroup": "مجموعة المنتج",
+      "productVideo": "فيديو المنتج",
+      "certifications": "الشهادات",
+      "customizationAvailable": "إمكانية التخصيص",
+      "specificCustomization": "تخصيص محدد",
+      "FAQs": "الأسئلة الشائعة"
+    },
+    "pricing": {
+      "currency": "العملة",
+      "fixed": "تسعير ثابت",
+      "priceRange": "تسعير متغير",
+      "bulkPricing": "تسعير بالجملة",
+      "request_quote": "طلب عرض سعر",
+      "negotiable": "تسعير قابل للتفاوض",
+      "minOrderQuantity": "الحد الأدنى للطلب",
+      "qtyFrom": "الكمية من",
+      "qtyTo": "الكمية إلى",
+      "price": "السعر"
+    },
+    "attributes": {
+      "detailedDescription": "وصف تفصيلي",
+      "applications": "الاستخدامات",
+      "productAttributes": "سمات المنتج",
+      "attributes": "السمات",
+      "value": "القيمة",
+      "groupBy": "تجميع حسب",
+      "searchProduct": "بحث عن منتج",
+      "variantDetails": "تفاصيل المتغيرات",
+      "price": "السعر",
+      "priceRange": "نطاق السعر",
+      "moq": "الحد الأدنى للطلب (MOQ)",
+      "variants": "المتغيرات",
+      "variantName": "اسم المتغير"
+    }
+  },
+  "optionLabels": {
+    "stockAvailability": {
+      "inStock": "متوفر في المخزون",
+      "outOfStock": "غير متوفر في المخزون"
+    },
+    "durationOption": {
+      "weekly": "أسبوعي",
+      "monthly": "شهري",
+      "Yearly": "سنوي"
+    },
+    "unitOption": {
+      "pieces": "قطع",
+      "sets": "مجموعات",
+      "ton": "طن",
+      "litres": "لتر",
+      "kg": "كيلوغرام",
+      "meter": "متر",
+      "dozen": "دزينة",
+      "boxes": "صناديق",
+      "sqft": "قدم مربع",
+      "cans": "علب",
+      "rolls": "لفات",
+      "coil": "لفافة"
+    },
+    "paymentMethods": {
+      "credit": "بطاقة ائتمان",
+      "cash": "نقداً",
+      "cheque": "شيك",
+      "demandDraft": "حوالة مصرفية",
+      "paypal": "باي بال",
+      "moneyGram": "موني جرام",
+      "westerUnion": "ويسترن يونيون",
+      "others": "أخرى"
+    },
+    "shippingMethods": {
+      "Sea": "بحر",
+      "Air": "جو",
+      "Road": "طريق",
+      "Rail": "قطار",
+      "Courier": "خدمة توصيل",
+      "Buyer-Arranged": "مرتبة من قبل المشتري",
+      "Local Delivery": "توصيل محلي"
+    },
+    "shippingType": {
+      "standard": "شحن قياسي",
+      "express": "شحن سريع"
+    },
+    "pricing": {
+      "fixed_price": "السعر الثابت:",
+      "fixed_price_helper": "سعر الوحدة القياسي",
+      "negotiable": "قابل للتفاوض:",
+      "negotiable_helper": "يمكن للمشتري طلب السعر",
+      "bulk_pricing": "تسعير بالجملة:",
+      "bulk_pricing_helper": "خصومات على الكميات",
+      "price_range": "نطاق السعر:",
+      "price_range_helper": "للعناصر المتغيرة/المخصصة",
+      "request_quote": "طلب عرض سعر",
+      "request_quote_helper": "يمكن للمشتري طلب السعر"
+    },
+    "paymentTerms": {
+      "ADVANCE_100": "دفعة مقدمة بنسبة 100٪",
+      "ADVANCE_50_DISPATCH_50": "دفعة مقدمة بنسبة 50٪ / 50٪ عند الشحن",
+      "NET_30_60": "صافي 30 / صافي 60 يومًا",
+      "LC": "خطاب اعتماد (LC)",
+      "ESCROW": "حساب ضمان",
+      "COD": "الدفع عند الاستلام (إن وجد)",
+      "CUSTOM": "شروط دفع مخصصة (يتم إدخالها يدويًا)"
+    },
+    "incoterms": {
+      "EXW": "EXW (تسليم في مكان العمل)",
+      "FOB": "FOB (التسليم على ظهر السفينة)",
+      "CIF": "CIF (التكلفة والتأمين والشحن)",
+      "DDP": "DDP (التسليم مع دفع الرسوم الجمركية)",
+      "DAP": "DAP (التسليم في المكان المتفق عليه)",
+      "FCA": "FCA (التسليم إلى الناقل)",
+      "CPT": "CPT (أجرة النقل مدفوعة حتى)",
+      "CIP": "CIP (أجرة النقل والتأمين مدفوعة حتى)"
+    },
+    "packageTypes": {
+      "Box": "صندوق",
+      "Carton": "كرتون",
+      "Pallet": "منصة نقالة",
+      "Roll": "لفة",
+      "Crate": "قَفَص",
+      "Bag": "حقيبة",
+      "Container": "حاوية",
+      "Custom Packaging": "تغليف مخصص",
+      "Eco-Friendly Packaging": "تغليف صديق للبيئة"
+    }
+  },
+  "noProductsScreen": {
+    "noVariants": "لا توجد أنواع",
+    "table-headers": {
+      "productName": "اسم المنتج",
+      "variantsCount": "رقم المتغيرات",
+      "category": "فئة",
+      "stockAvailability": "توافر المخزون",
+      "createdAt": "تاريخ الإنشاء",
+      "minPrice": "سعر",
+      "skuCode": "SKU شفرة",
+      "status": "حالة",
+      "searchProduct": "بحث عن المنتج"
+    },
+    "title": "هيا لنبدأ!",
+    "secondTitle": "أضف منتجك الأول لبدء البيع.",
+    "subtitle": "ابدأ البيع بإضافة منتجات أو استيرادها",
+    "tooltip": "أضف اسم المنتج، السعر، الوصف، والصور — فقط بضع خطوات.",
+    "buttonTitle": "أضف منتج",
+    "productsISell": "المنتجات التي أبيعها"
+  },
+  "dailogBoxes": {
+    "addAttributDialog": {
+      "tittle": "إضافة خاصية",
+      "placeholder": "أدخل خاصية جديدة",
+      "cancelBtn": "إلغاء",
+      "submitBtn": "إضافة خاصية"
+    },
+    "addProductGroupDialog": {
+      "tittle": "إضافة مجموعة جديدة",
+      "placeholder": "أدخل اسم المجموعة الجديدة",
+      "cancelBtn": "إلغاء",
+      "submitBtn": "إضافة مجموعة"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Welcome to Pepagora",
+  "description": "Please Sign In or Sign Up below.",
+  "terms-info": "By signing in/up, you agree to the applicable Privacy Policy and Terms of Service of Pepagora.",
+  "socialMediaLogin": {
+    "google": "Continue with Google",
+    "apple": "Continue with Apple",
+    "linkedIn": "Continue with LinkedIn"
+  },
+  "manualLogin": {
+    "email": {
+      "title": "Email",
+      "placeHolder": "Your email address",
+      "helper": "We’ll be sending code to verify your email.",
+      "actionBtn": "Continue with Email",
+      "nextAction": "Use Phone Number",
+      "submitting": "Submitting..."
+    },
+    "phoneNo": {
+      "title": "Phone Number",
+      "placeHolder": "Enter phone number",
+      "helper": "We’ll be sending code to verify your Phone number.",
+      "actionBtn": "Continue with Phone",
+      "nextAction": "Use Email",
+      "submitting": "Submitting..."
+    }
+  },
+  "phoneNoError": {
+    "required": "phone number cannot be empty",
+    "invalid": "Enter a Valid Mobile Number"
+  },
+  "emailError": {
+    "required": "email cannot be empty",
+    "invalid": "invalid email address"
+  },
+  "hr": "Or"
+}

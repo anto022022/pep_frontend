@@ -1,0 +1,66 @@
+.recent-reaction-box {
+    border-radius: 12px;
+    background: $primary-solid-color;
+    box-shadow: $shadow-depth-25;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    bottom: calc(100% + 5px);
+
+    button {
+        border: unset;
+        padding: unset;
+        background: unset;
+        cursor: pointer;
+        font-size: 16px;
+    }
+}
+
+.reaction-bar-comp {
+    .reaction-full-box {
+        position: absolute;
+        right: 0;
+        z-index: 9999;
+        top: 0;
+    }
+}
+
+.reaction-list-block {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    .r-l-b-item {
+        border-radius: 32px;
+        background: $color-grey-99;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding: 6px 8px;
+
+        .r-l-b-i-emoji {
+            font-size: 14px;
+        }
+
+        .r-l-b-i-count {
+            color: $color-grey-85;
+            font-family: $secondary-body-font;
+            font-size: 12px;
+            font-weight: 500;
+        }
+    }
+}
+
+.add-more-emoji {
+    svg {
+        width: 16px;
+        min-width: 16px;
+        height: 16px;
+        transform: scale(1.5);
+        position: relative;
+        top: 3px;
+    }
+}

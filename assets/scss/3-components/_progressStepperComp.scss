@@ -1,0 +1,107 @@
+.progress-stepper-comp {
+    display: flex;
+    align-self: flex-start;
+    gap: 15px;
+
+    .p-s-c-left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .p-s-c-right {
+        svg {
+            path {
+                fill: $color-grey-2;
+            }
+        }
+    }
+
+    .p-s-c-label {
+        color: $neutral-outlined-Color;
+        font-family: $secondary-body-font;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 28px;
+    }
+
+    .p-s-c-subtxt {
+        color: $neutral-solid-disabledcolor;
+        font-family: $body-font;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.28px;
+    }
+
+    .approx-time-badge {
+        margin-top: 8px;
+    }
+}
+
+.approx-time-badge {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 32px;
+    border: 1px solid $color-green-8;
+    background: $color-green-9;
+    padding: 2px 8px 2px 4px;
+    width: max-content;
+
+    .a-t-b-left {
+        display: flex;
+        align-items: center;
+        gap: 2px;
+    }
+
+    .a-t-b-time {
+        color: $text-primary;
+        font-family: $secondary-body-font;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+
+    .a-t-b-label {
+        color: $color-green-10;
+        font-family: $secondary-body-font;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+}
+
+.progress-timeline-comp {
+    position: relative;
+
+    li {
+        padding: 0 0 25px 20px;
+        border-left: 1px dashed $color-grey-14;
+        position: relative;
+
+        &:last-child {
+            border-left: unset;
+        }
+    }
+
+    .progress-stepper-comp {
+        position: relative;
+        top: -2px;
+    }
+
+    .circular-progress-bar {
+        position: absolute;
+        left: -12px;
+        top: 0;
+        background: $primary-solid-color;
+
+        .CircularProgressbar {
+            width: 24px;
+            height: 24px;
+        }
+
+        .CircularProgressbar-path {
+            stroke: $black;
+        }
+    }
+}

@@ -1,0 +1,618 @@
+{
+  "stepper": {
+    "productInformation": {
+      "title": "தயாரிப்பு தகவல்",
+      "description": "தெரிவுநிலையை அதிகரிக்கும் மற்றும் துல்லியமான தயாரிப்பு விவரங்களுடன் சரியான வாங்குபவர்களை அடையுங்கள்."
+    },
+    "pricingAndMOQ": {
+      "title": "விலை & மோக்",
+      "description": "விலை விவரங்கள் மற்றும் அளவை வழங்குதல்"
+    },
+    "productSpecifications": {
+      "title": "தயாரிப்பு விவரக்குறிப்புகள்",
+      "description": "தயாரிப்பு விவரக்குறிப்பு மற்றும் விளக்கத்தை வழங்குதல்"
+    },
+    "specification": "விவரக்குறிப்பு",
+    "productDescription": "தயாரிப்பு விவரம்",
+    "tradeDetails": {
+      "title": "வர்த்தக விவரங்கள்",
+      "description": "உற்பத்தி மற்றும் பங்கு விவரங்களைச் சேர்க்கவும்"
+    },
+    "productAndStock": "தயாரிப்பு & பங்கு",
+    "paymentTerms": "கட்டண விதிமுறைகள்",
+    "shippingAndLogistics": {
+      "title": "கப்பல் மற்றும் தளவாடங்கள்",
+      "description": "கப்பல் முறைகள், முன்னணி நேரம் மற்றும் பேக்கேஜிங் விவரங்களைச் சேர்க்கவும்"
+    },
+    "additionalInformation": {
+      "title": "கூடுதல் தகவல்",
+      "description": "கேள்விகள் மற்றும் கூடுதல் தயாரிப்பு தகவல்களைச் சேர்க்கவும்"
+    }
+  },
+  "previewSidebar": {
+    "productName": "தயாரிப்பு பெயர்",
+    "minOrderQty": "நிமிடம். ",
+    "price": "விலை"
+  },
+  "productInformation": {
+    "title": "தயாரிப்பு தகவல்",
+    "fields": {
+      "productName": {
+        "label": "தயாரிப்பு பெயர்",
+        "placeholder": "தயாரிப்பு பெயரை உள்ளிடவும்"
+      },
+      "shortDescription": {
+        "label": "குறுகிய விளக்கம்",
+        "placeholder": "உரையை உள்ளிடவும்"
+      },
+      "sku&Model": {
+        "label": "ஸ்கூ/மாடல்",
+        "placeholder": "SKU/மாதிரி எண்ணை உள்ளிடவும்"
+      },
+      "category": {
+        "label": "வகை",
+        "placeholder": "AI வகையைத் தேர்ந்தெடுக்கவும்",
+        "helper": "உங்கள் தயாரிப்பு வகையைத் தேர்ந்தெடுக்கவும்",
+        "btn": "வகைகளை உலாவுக"
+      },
+      "browseCategory": {
+        "title": "வகைகளை உலாவுக",
+        "searchLabel": "வகைகளைத் தேடி தேர்ந்தெடுக்கவும்",
+        "selectLabel": "தேர்ந்தெடுக்கப்பட்ட வகைகள்",
+        "category": "வகை",
+        "subCategory": "துணை வகை",
+        "prodCategory": "தயாரிப்பு வகை",
+        "categoryPlaceholder": "வகையைத் தேடவும்",
+        "subCatPlaceholder": "முதலில் ஒரு வகையைத் தேர்ந்தெடுக்கவும்",
+        "prodCatPlaceholder": "முதலில் துணை வகையைத் தேர்ந்தெடுக்கவும்",
+        "cancel": "ரத்து செய்",
+        "choose": "தேர்வு செய்க",
+        "cantCat": "தகுந்த வகையை காண முடியவில்லையா?",
+        "sugCat": "புதிய வகையை பரிந்துரைக்கவும்"
+      },
+      "categoryModal": {
+        "emptyMsg": "தகுந்த துணைப்பிரிவைக் காண முடியவில்லையா?",
+        "suggestLable": "பரிந்துரைக்கப்பட்டது",
+        "selectLabel": "தேர்ந்தெடுக்கப்பட்டது",
+        "or": "அல்லது",
+        "cantCat": "தகுந்த வகையை காண முடியவில்லையா?",
+        "chooseIndus": "தொழில்துறையைத் தேர்வுசெய்க",
+        "reasonLable": "தகுந்த ஒன்றைத் தேர்வுசெய்க",
+        "reasonPlaceholder": "உங்கள் காரணத்தை உள்ளிடவும்",
+        "sugCatNameLabel": "வகை பெயரை பரிந்துரைக்கவும்",
+        "submit": "சமர்ப்பிக்கவும்",
+        "cancel": "ரத்து செய்"
+      },
+      "productImage": {
+        "label": " படம்",
+        "placeholder": "சிறந்த தரத்திற்கு JPG, PNG (MAX 5MB) ஐ பதிவேற்றவும்"
+      },
+      "productBrochure": {
+        "label": "சிற்றேடு",
+        "placeholder": "சிறந்த தரத்திற்கு PDF (அதிகபட்சம் 5MB) பதிவேற்றவும்",
+        "optionalLabel": "விரும்பினால்"
+      },
+      "countryOfOrigin": {
+        "label": "தோற்றம் நாடு",
+        "placeholder": "நாட்டைத் தேர்ந்தெடுக்கவும்"
+      }
+    }
+  },
+  "pricing_moq": {
+    "title": "விலை & மோக்",
+    "fields": {
+      "currency": {
+        "label": "நாணயம்",
+        "placeholder": "நாணயத்தைத் தேர்ந்தெடுக்கவும்"
+      },
+      "pricing": {
+        "label": "விலை"
+      },
+      "fixed_pricing": {
+        "label": "அலகு விலை",
+        "placeholder": "அலகு விலையை உள்ளிடவும்"
+      },
+      "nego_pricing": {
+        "label": "பேச்சுவார்த்தைக்குட்பட்ட விலை",
+        "placeholder": "பேச்சுவார்த்தைக்குட்பட்ட விலையை உள்ளிடவும்"
+      },
+      "quote_pricing": {
+        "label": "மேற்கோள் விலை",
+        "placeholder": "மேற்கோள் விலையை உள்ளிடவும்"
+      },
+      "variable_pricing": {
+        "label": "விலை வரம்பு",
+        "minPrice_placeholder": "நிமிடம் உள்ளிடவும். ",
+        "maxPrice_placeholder": "அதிகபட்சம் உள்ளிடவும். "
+      },
+      "bulk_pricing": {
+        "label": "மொத்த விலை",
+        "unitTypeLabel": "பிரிவு வகை",
+        "placeholder": "அலகு தேர்ந்தெடுக்கவும்"
+      },
+      "add_tier": {
+        "label": "அடுக்கு சேர்க்கவும்",
+        "add_qty_label": "அளவு வரம்பைச் சேர்க்கவும்",
+        "quantity_from_placeholder": "(எ.கா. - 100) இருந்து அளவு",
+        "quantity_to_placeholder": "அளவு (எ.கா. - 500)",
+        "price_label": "விலை",
+        "price_placeholder": "விலையை உள்ளிடவும் $",
+        "helper": "பெரிய ஆர்டர்களை ஊக்குவிக்கவும். "
+      },
+      "moq": {
+        "label": "குறைந்தபட்ச ஆர்டர் அளவு (MOQ)",
+        "placeholder": "எண் உள்ளிடவும்",
+        "unit_placeholder": "அலகு தேர்ந்தெடுக்கவும்"
+      }
+    },
+    "confirmationMessage": "விலை வகையை மாற்றுவது மாறுபட்ட விலையை மீட்டமைத்து பாதிக்கும். "
+  },
+  "specifications": {
+    "title": "தயாரிப்பு விவரக்குறிப்புகள்",
+    "helper": "உங்கள் தொழில்துறையின் அடிப்படையில் உங்கள் தயாரிப்புக்கான பரிந்துரைக்கப்பட்ட பண்புக்கூறுகள்-தேவைக்கேற்ப அவற்றைச் சேர்க்கலாம், மாற்றலாம் அல்லது அகற்றலாம்.",
+    "info": "விலை மற்றும் படங்களைத் தவிர (நீங்கள் தனித்தனியாக சரிசெய்யலாம்) முக்கிய தயாரிப்பின் விவரங்களை மாறுபாடுகள் தானாகவே பயன்படுத்துகின்றன. ",
+    "fields": {
+      "attributes": {
+        "title": "பண்புக்கூறுகள்",
+        "subtitle": "மேலும் பண்புகளைச் சேர்க்கவும்",
+        "helper": "வாங்குபவர்களுக்கு உங்கள் தயாரிப்பு விரைவாக உதவ கூடுதல் விவரங்களைச் சேர்க்கவும்",
+        "btn": "புதியதைச் சேர்க்கவும்"
+      },
+      "variants": {
+        "title": "மாறுபாடுகள்",
+        "btn": "விருப்பங்களைச் சேர்க்கவும்",
+        "custom_btn": "தனிப்பயன் விருப்பத்தைச் சேர்க்கவும்",
+        "fields": {
+          "addCutomOption": {
+            "optionNameLabel": "விருப்பத்தின் பெயர்",
+            "optionNamePlaceholder": "விருப்பத்தின் பெயரை உள்ளிடவும்",
+            "optionValueLabel": "விருப்ப மதிப்பு",
+            "optionDelete": "நீக்கு",
+            "optionSave": "சேமிக்கவும்"
+          },
+          "group_by": {
+            "label": "குழு"
+          },
+          "search_product": {
+            "placeholder": "தயாரிப்பு தேடல்"
+          },
+          "variantTableHead": {
+            "variant": "மாறுபாடு",
+            "VariantName": "மாறுபாடு பெயர்",
+            "priceRange": "விலை வரம்பு",
+            "price": "விலை",
+            "variants": "மாறுபாடுகள்"
+          },
+          "variantFields": {
+            "title": "மாறுபாடுகள் விவரங்கள்",
+            "variant": "மாறுபாடு",
+            "variantName": {
+              "label": "மாறுபாடு பெயர்",
+              "placeholder": "தயாரிப்பு பெயரை உள்ளிடவும்"
+            },
+            "image": {
+              "label": "படம்",
+              "placeholder": "சிறந்த தரத்திற்கு JPG, PNG (MAX 5MB) ஐ பதிவேற்றவும்"
+            },
+            "pricing": {
+              "label": "விலை"
+            },
+            "fixed_pricing": {
+              "label": "அலகு விலை",
+              "placeholder": "அலகு விலையை உள்ளிடவும்"
+            },
+            "variable_pricing": {
+              "label": "விலை வரம்பு",
+              "minPrice_placeholder": "நிமிடம் உள்ளிடவும். ",
+              "maxPrice_placeholder": "அதிகபட்சம் உள்ளிடவும். "
+            },
+            "bulk_pricing": {
+              "label": "மொத்த விலை",
+              "unitTypeLabel": "பிரிவு வகை",
+              "placeholder": "அலகு தேர்ந்தெடுக்கவும்"
+            },
+            "add_tier": {
+              "label": "அடுக்கு சேர்க்கவும்",
+              "add_qty_label": "அளவு வரம்பைச் சேர்க்கவும்",
+              "quantity_from_placeholder": "(எ.கா. - 100) இருந்து அளவு",
+              "quantity_to_placeholder": "அளவு (எ.கா. - 500)",
+              "price_label": "விலை",
+              "price_placeholder": "விலையை உள்ளிடவும் $",
+              "helper": "பெரிய ஆர்டர்களை ஊக்குவிக்கவும். "
+            },
+            "moq": {
+              "label": "குறைந்தபட்ச ஆர்டர் அளவு (MOQ)",
+              "placeholder": "எண் உள்ளிடவும்",
+              "unit_placeholder": "அலகு தேர்ந்தெடுக்கவும்"
+            },
+            "sku&Model": {
+              "label": "மாதிரி எண்/SKU",
+              "placeholder": "தனித்துவமான SKU ஐ உள்ளிடவும்",
+              "helper": "இந்த தயாரிப்புக்கான உங்கள் உள் அல்லது பட்டியல் குறிப்பு. ஆர்டர் கண்காணிப்பு மற்றும் மாறுபாடு மேலாண்மைக்கு உதவுகிறது."
+            }
+          }
+        }
+      }
+    }
+  },
+  "productDescription": {
+    "title": "தயாரிப்பு விவரக்குறிப்புகள்",
+    "optionalLabel": "விரும்பினால்",
+    "fields": {
+      "productDescription": {
+        "label": "தயாரிப்பு விவரம்",
+        "placeholder": "உரையை உள்ளிடவும்"
+      },
+      "applications": {
+        "label": "பயன்பாடுகள்",
+        "placeholder": "உரையை உள்ளிடவும்"
+      }
+    }
+  },
+  "production_stock": {
+    "title": "வர்த்தக விவரங்கள்",
+    "supTittle": "துல்லியமான தயாரிப்பு விவரங்களுடன் பார்வையை உயர்த்தி சரியான வாங்குபவர்களை அடையவும்.",
+    "Select": "தேர்ந்தெடுக்கவும்",
+    "fields": {
+      "productionLeadTime": {
+        "label": "உற்பத்தி முன்னணி நேரம்",
+        "placeholder": "முன்னணி நேரத்தைத் தேர்ந்தெடுக்கவும்"
+      },
+      "productionCapacity": {
+        "label": "உற்பத்தி திறன்",
+        "optionalLabel": "விரும்பினால்",
+        "quality_placeholder": "எண் உள்ளிடவும்",
+        "unit_placeholder": "அலகு",
+        "duration_placeholder": "காலம்"
+      },
+      "availableStock": {
+        "label": "கிடைக்கும் பங்கு",
+        "quality_placeholder": "தரத்தை உள்ளிடவும்",
+        "unit_placeholder": "பிரிவு வகை"
+      },
+      "sampleAvailability": {
+        "label": "மாதிரி கிடைக்கும் தன்மை",
+        "freeSample": "இலவச மாதிரி",
+        "refundableSample": "திருப்பிச் செலுத்தக்கூடிய மாதிரி",
+        "paidSample": "கட்டண மாதிரி",
+        "noSample": "மாதிரி எதுவும் கிடைக்கவில்லை"
+      },
+      "sampleLeadTime": {
+        "label": "மாதிரி முன்னணி நேரம்",
+        "placeholder": "மாதிரி முன்னணி நேரத்தைத் தேர்ந்தெடுக்கவும்",
+        "dispatchDayLabel": "நாள்",
+        "dispatchDaysLabel": "நாட்கள்",
+        "madeToOrder": "விருப்பத்திற்கேற்ப தயாரிக்கப்படும்"
+      },
+      "samplePrice": {
+        "label": "மாதிரி விலை",
+        "price_placeholder": "விலையை உள்ளிடவும்",
+        "unit_placeholder": "அலகு"
+      }
+    }
+  },
+  "paymentTerms": {
+    "title": "வர்த்தக விவரங்கள்",
+    "fields": {
+      "paymentTerms": {
+        "label": "கட்டண விதிமுறைகள்",
+        "optionalLabel": "விரும்பினால்",
+        "placeholder": "கட்டண காலத்தைத் தேர்ந்தெடுக்கவும்",
+        "customPaymentTerm": "कस्टम भुगतान शर्त दर्ज करें"
+      },
+      "paymentMethod": {
+        "label": "கட்டண முறை",
+        "otherPaymentPlaceHolder": "மற்ற கட்டண முறையை உள்ளிடவும்"
+      }
+    }
+  },
+  "shipping_logistics": {
+    "title": "கப்பல் மற்றும் தளவாடங்கள்",
+    "fields": {
+      "shipsInternationally": {
+        "label": "சர்வதேச அளவில் கப்பல்கள்",
+        "yes": "ஆம்",
+        "no": "இல்லை",
+        "uponRequest": "கோரிக்கையின் பேரில்"
+      },
+      "shippingModes": {
+        "label": "கப்பல் முறைகள்"
+      },
+      "incoterms": {
+        "label": "Incoterms",
+        "placeholder": "Incoterms ஐத் தேர்ந்தெடுக்கவும்"
+      },
+      "portOfDispatch": {
+        "label": "அனுப்பும் துறை",
+        "placeholder": "போர்ட் பெயரை உள்ளிடவும்",
+        "optionalLabel": "விரும்பினால்"
+      },
+      "dispatchLeadTime": {
+        "label": "அனுப்பும் முன்னணி நேரம்",
+        "placeholder": "முன்னணி நேரத்தைத் தேர்ந்தெடுக்கவும்",
+        "dispatchDayLabel": "{days} நாளில் அனுப்பப்படும்",
+        "dispatchDaysLabel": "{days} நாட்களில் அனுப்பப்படும்",
+        "madeToOrder": "ஆர்டருக்கு ஏற்ப தயாரிக்கப்படும்"
+      },
+      "packagingType": {
+        "label": "பேக்கேஜிங் வகை",
+        "placeholder": "பேக்கேஜிங் வகையைத் தேர்ந்தெடுக்கவும்"
+      },
+      "unitsPerPackage": {
+        "label": "ஒரு தொகுப்புக்கு அலகுகள்",
+        "placeholder": "எண் உள்ளிடவும்"
+      },
+      "barcode": {
+        "label": "பார்கோடு/HSN/GTIN/UPC",
+        "placeholder": "எதையும் உள்ளிடவும்"
+      }
+    }
+  },
+  "additionalDetails": {
+    "title": "கூடுதல் விவரங்கள்",
+    "fields": {
+      "customizationAvailability": {
+        "label": "தனிப்பயனாக்குதல் கிடைக்கும்",
+        "optionalLabel": "விரும்பினால்",
+        "yes": "ஆம்",
+        "no": "இல்லை"
+      },
+      "specifyCustomization": {
+        "label": "உங்கள் தனிப்பயனாக்கத்தைக் குறிப்பிடவும்",
+        "optionalLabel": "விரும்பினால்",
+        "placeholder": "வாங்குபவருக்கு சாத்தியமான தனிப்பயனாக்குதல் விருப்பத்தை உள்ளிடவும்",
+        "addButton": "தனிப்பயனாக்குதல் விருப்பத்தைச் சேர்க்கவும்"
+      },
+      "productKeywords": {
+        "label": "தயாரிப்பு சொற்கள்",
+        "optionalLabel": "விரும்பினால்",
+        "placeholder": "முக்கிய வார்த்தைகளை உள்ளிடவும் அல்லது பரிந்துரைகளைத் தேர்ந்தெடுக்கவும்"
+      },
+      "brand": {
+        "label": "பிராண்ட்",
+        "optionalLabel": "விரும்பினால்",
+        "placeholder": "பிராண்ட் பெயரை உள்ளிடவும்"
+      },
+      "productGroup": {
+        "label": "தயாரிப்பு குழு",
+        "placeholder": "தயாரிப்பு குழுவைத் தேர்ந்தெடுக்கவும்",
+        "addNewGroup": "புதிய குழுவைச் சேர்க்கவும்"
+      },
+      "uploadProductVideo": {
+        "label": "தயாரிப்பு வீடியோவைப் பதிவேற்றவும்",
+        "optionalLabel": "விரும்பினால்",
+        "placeholder": "சிறந்த தரத்திற்கு MOV, MP4 (MAX 10MB) பதிவேற்றவும்."
+      },
+      "certifications": {
+        "label": "சான்றிதழ்கள்",
+        "namePlaceholder": "சான்றிதழ் தலைப்பை உள்ளிடவும் ",
+        "optionalLabel": "விரும்பினால்",
+        "placeholder": "வாடிக்கையாளர் அறக்கட்டளைக்கு ஐஎஸ்ஓ, சிஇ, ஆர்கானிக் அல்லது பிற அதிகாரப்பூர்வ சான்றிதழ்களின் பி.டி.எஃப் பதிவேற்றவும்",
+        "addLabel": "சான்றிதழ் சேர்க்கவும்"
+      },
+      "faqs": {
+        "label": "கேள்விகள்",
+        "optionalLabel": "விரும்பினால்",
+        "questionPlaceholder": "ஒரு கேள்வியை உள்ளிடவும்",
+        "answerPlaceholder": "தொடர்புடைய பதிலை உள்ளிடவும்",
+        "addButton": "கேள்விகளைச் சேர்க்கவும்",
+        "addFAQ": "கேள்விகளைச் சேர்க்கவும்",
+        "aiSuggest": "AI பரிந்துரைகள்",
+        "aiGenerate": "AI உருவாக்குதல்"
+      }
+    }
+  },
+  "viewPage": {
+    "title": "நான் விற்கும் தயாரிப்பு",
+    "information": "தகவல்",
+    "analytics": "பகுப்பாய்வு",
+    "addProduct": "தயாரிப்பு சேர்க்கவும்",
+    "editDetails": "விவரங்களை திருத்து",
+    "addNewProduct": "புதிய தயாரிப்பு சேர்க்கவும்",
+    "rePost": "மீண்டும் பதிவிடு",
+    "view": "பார்வையிடு",
+    "leads": "வழிநடத்துகிறது",
+    "status": "நிலை",
+    "productInfoLabel": "தயாரிப்பு தகவல்",
+    "pricingLabel": "விலை & மோக்",
+    "specificationLabel": "தயாரிப்பு விவரக்குறிப்பு",
+    "tradeDetailsLabel": "வர்த்தக விவரங்கள்",
+    "shippingLabel": "கப்பல் மற்றும் தளவாடங்கள்",
+    "additionalDetailsLabel": "கூடுதல் விவரங்கள்",
+    "productInformation": {
+      "productName": "தயாரிப்பு பெயர்",
+      "shortDescription": "குறுகிய விளக்கம்",
+      "productCategory": "தயாரிப்பு வகை",
+      "brochure": "சிற்றேடு",
+      "SKU/Model": "ஸ்கூ/மாடல் ",
+      "countryOfOrigin": "தோற்றம் நாடு"
+    },
+    "tradeDetails": {
+      "productionLeadTime": "உற்பத்தி முன்னணி நேரம்",
+      "samplePrice": "மாதிரி விலை",
+      "availableStock": "கிடைக்கும் பங்கு ",
+      "sampleLeadTime": "மாதிரி முன்னணி நேரம்",
+      "productionCapacity": "உற்பத்தி திறன்",
+      "paymentTerms": "கட்டண விதிமுறைகள்",
+      "sampleAvailability": "மாதிரி கிடைக்கும் தன்மை",
+      "paymentMethod": "கட்டண முறை"
+    },
+    "shippingDetails": {
+      "shippingModes": "கப்பல் முறைகள்",
+      "portOfDispatch": "அனுப்பும் துறை",
+      "incoterms": "Incoterms",
+      "packagingType": "பேக்கேஜிங் வகை",
+      "shippingInternationally": "சர்வதேச அளவில் கப்பல்",
+      "unitsPerPackage": "ஒரு தொகுப்புக்கு அலகுகள்",
+      "dispatchLeadTime": "முன்னணி நேரத்தை அனுப்பவும்",
+      "HSN": "எச்.எஸ்.என்"
+    },
+    "additionalDetails": {
+      "brand": "பிராண்ட்",
+      "productKeywords": "தயாரிப்பு சொற்கள்",
+      "productGroup": "தயாரிப்பு குழு",
+      "productVideo": "தயாரிப்பு வீடியோ",
+      "certifications": "சான்றிதழ்கள்",
+      "customizationAvailable": "தனிப்பயனாக்கம் கிடைக்கிறது",
+      "specificCustomization": "குறிப்பிட்ட தனிப்பயனாக்கம்",
+      "FAQs": "கேள்விகள்"
+    },
+    "pricing": {
+      "currency": "நாணயம்",
+      "fixed": "நிலையான விலை",
+      "priceRange": "மாறுபட்ட விலை",
+      "bulkPricing": "மொத்த விலை",
+      "request_quote": "கோரிக்கை மேற்கோள்",
+      "negotiable": "பேச்சுவார்த்தைக்குட்பட்ட விலை",
+      "minOrderQuantity": "குறைந்தபட்ச ஆர்டர் அளவு",
+      "qtyFrom": "இருந்து அளவு",
+      "qtyTo": "அளவு",
+      "price": "விலை"
+    },
+    "attributes": {
+      "detailedDescription": "விரிவான விளக்கம்",
+      "applications": "பயன்பாடுகள்",
+      "productAttributes": "தயாரிப்பு பண்புக்கூறுகள்",
+      "attributes": "பண்புக்கூறுகள்",
+      "value": "மதிப்பு",
+      "groupBy": "குழு",
+      "searchProduct": "தயாரிப்பு தேடல்",
+      "variantDetails": "மாறுபாடு விவரங்கள்",
+      "price": "விலை",
+      "priceRange": "விலை வரம்பு",
+      "moq": "மோக்",
+      "variants": "மாறுபாடுகள்",
+      "variantName": "மாறுபாடு பெயர்"
+    }
+  },
+  "optionLabels": {
+    "stockAvailability": {
+      "inStock": "கையிருப்பில்",
+      "outOfStock": "பங்குக்கு வெளியே"
+    },
+    "paymentTerms": {
+      "ADVANCE_100": "100% முன்பணம்",
+      "ADVANCE_50_DISPATCH_50": "50% முன்பணம் / 50% அனுப்பும்போது",
+      "NET_30_60": "நெட் 30 / நெட் 60",
+      "LC": "கடிதக் கடன் (LC)",
+      "ESCROW": "எஸ்க்ரோ",
+      "COD": "டெலிவரிக்குப் பணம் (COD, பொருந்துமானால்)",
+      "CUSTOM": "தனிப்பயன் விதிமுறைகள் (கையேடு உள்ளீடு)"
+    },
+    "durationOption": {
+      "weekly": "வாராந்திர",
+      "monthly": "மாதாந்திர",
+      "Yearly": "ஆண்டு"
+    },
+    "unitOption": {
+      "pieces": "துண்டுகள்",
+      "sets": "தொகுப்புகள்",
+      "ton": "டன்",
+      "litres": "லிட்டர்கள்",
+      "kg": "கிலோ",
+      "meter": "மீட்டர்",
+      "dozen": "டஜன்",
+      "boxes": "பெட்டிகள்",
+      "sqft": "சதுர அடிகள்",
+      "cans": "தட்டுகள்",
+      "rolls": "சுருட்டுகள்",
+      "coil": "கயிறு"
+    },
+    "incoterms": {
+      "EXW": "EXW (கம்பெனி இடத்தில் வழங்கல்)",
+      "FOB": "FOB (கப்பலில் ஏற்ற இலவசம்)",
+      "CIF": "CIF (செலவு, காப்பீடு & கப்பல் கட்டணம் உடன்)",
+      "DDP": "DDP (இறக்குமை வரி செலுத்தி வழங்கல்)",
+      "DAP": "DAP (குறிப்பிட்ட இடத்தில் வழங்கல்)",
+      "FCA": "FCA (இலவச கேரியர் வழங்கல்)",
+      "CPT": "CPT (கட்டணம் செலுத்தி போக்குவரத்து)",
+      "CIP": "CIP (காப்பீடு உடன் கட்டணம் செலுத்தி போக்குவரத்து)"
+    },
+    "packageTypes": {
+      "Box": "பெட்டி",
+      "Carton": "கார்டன்",
+      "Pallet": "பேலட்",
+      "Roll": "ரோல்",
+      "Crate": "கிரேட்",
+      "Bag": "பை",
+      "Container": "கண்டெய்னர்",
+      "Custom Packaging": "தனிப்பயன் தொகுப்பு",
+      "Eco-Friendly Packaging": "சுற்றுச்சூழலுக்கு நல்ல தொகுப்பு"
+    },
+    "paymentMethods": {
+      "credit": "கிரெடிட் கார்டு",
+      "cash": "ரொக்கம்",
+      "cheque": "சரிபார்க்கவும்",
+      "demandDraft": "தேவை வரைவு",
+      "paypal": "பேபால்",
+      "moneyGram": "பணம்",
+      "westerUnion": "வெஸ்டர்ன் யூனியன்",
+      "others": "மற்றவர்கள்"
+    },
+    "shippingMethods": {
+      "Sea": "கடல்",
+      "Air": "காற்று",
+      "Road": "சாலை",
+      "Rail": "ரெயில்",
+      "Courier": "கூரியர்",
+      "Buyer-Arranged": "வாங்குபவர்-ஏற்பாடு",
+      "Local Delivery": "உள்ளூர் விநியோகம்"
+    },
+    "shippingType": {
+      "standard": "நிலையான கப்பல்",
+      "express": "ஷிப்பிங் எக்ஸ்பிரஸ்"
+    },
+    "pricing": {
+      "fixed_price": "நிலையான விலை:",
+      "fixed_price_helper": "யூனிட் விலைக்கு தரநிலை",
+      "negotiable": "பேச்சுவார்த்தைக்குட்பட்டது:",
+      "negotiable_helper": "வாங்குபவர் விலை கோரலாம்",
+      "bulk_pricing": "மொத்த விலை:",
+      "bulk_pricing_helper": "தொகுதி தள்ளுபடிகள்",
+      "price_range": "விலை வரம்பு:",
+      "price_range_helper": "மாறி/தனிப்பயன் உருப்படிகளுக்கு",
+      "request_quote": "கோரிக்கை மேற்கோள்",
+      "request_quote_helper": "வாங்குபவர் விலை கோரலாம்"
+    }
+  },
+  "noProductsScreen": {
+    "noVariants": "மாறுபாடுகள் இல்லை",
+    "table-headers": {
+      "productName": "தயாரிப்பு பெயர்",
+      "offer-type": "சலுகை வகை",
+      "offer-title": "சலுகை தலைப்பு",
+      "offer-price": "சலுகை விலை",
+      "minQty": "MOQ",
+      "display": "காட்சி",
+      "createdAt": "உருவாக்கப்பட்ட தேதி",
+      "offerEndDate": "காலாவதியாகிறது",
+      "status": "நிலை",
+      "variantsCount": "எண். மாறுபாடுகள்",
+      "category": "வகை",
+      "stockAvailability": "பங்கு கிடைக்கும் தன்மை",
+      "minPrice": "விலை",
+      "skuCode": "SKU குறியீடு",
+      "searchProduct": "தயாரிப்பு தேடல்"
+    },
+    "title": "தொடங்குவோம்! ",
+    "secondTitle": " உங்கள் முதல் தயாரிப்பை சேர்க்கவும் விற்பனை செய்ய தொடங்குங்கள்.",
+    "subtitle": "தயாரிப்புகளைச் சேர்ப்பதன் மூலம் அல்லது இறக்குமதி செய்வதன் மூலம் விற்பனை செய்யத் தொடங்குங்கள்",
+    "tooltip": "தயாரிப்பு பெயர், விலை, விளக்கம் மற்றும் படங்களைச் சேர்க்கவும் - இது சில படிகள் மட்டுமே எடுக்கும்.",
+    "buttonTitle": "தயாரிப்பு சேர்க்கவும்",
+    "productsISell": "நான் விற்கும் தயாரிப்புகள்"
+  },
+  "dailogBoxes": {
+    "addAttributDialog": {
+      "tittle": "பண்புக்கூறு சேர்க்கவும்",
+      "placeholder": "புதிய பண்புக்கூறு உள்ளிடவும்",
+      "cancelBtn": "ரத்துசெய்",
+      "submitBtn": "பண்புக்கூறு சேர்க்கவும்"
+    },
+    "addProductGroupDialog": {
+      "tittle": "புதிய குழுவைச் சேர்க்கவும்",
+      "placeholder": "புதிய குழுவை உள்ளிடவும்",
+      "cancelBtn": "ரத்துசெய்",
+      "submitBtn": "குழுவைச் சேர்க்கவும்"
+    }
+  }
+}

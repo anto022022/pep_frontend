@@ -1,0 +1,107 @@
+.why-bussiness-group {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    @media screen and (max-width:991px) {
+        flex-direction: column;
+    }
+
+    @media screen and (max-width:600px) {
+        gap: 15px;
+    }
+
+    .why-bussiness-card-comp {
+        height: 100%;
+    }
+}
+
+.why-bussiness-card-comp {
+    border-radius: 16px;
+    background: $primary-solid-color;
+    box-shadow: $shadow-depth-15;
+    padding: 25px 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+
+    @media screen and (max-width:600px) {
+        padding: 15px;
+    }
+
+    .btn-comp {
+        width: max-content;
+    }
+
+    .w-b-c-c-left {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        justify-content: space-between;
+
+        @media screen and (max-width:600px) {
+            gap: 15px;
+        }
+
+        svg {
+            min-width: 24px;
+
+            @media screen and (max-width:600px) {
+                width: 20px;
+                min-width: 20px;
+            }
+        }
+
+        .w-b-c-c-l-title {
+            color: $color-black-14;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 28px;
+            letter-spacing: 0.18px;
+
+            @media screen and (max-width:600px) {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .w-c-c-feature-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .w-c-c-f-l-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+
+            .w-b-c-c-l-i-txt {
+                color: $color-black-14;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 20px;
+                letter-spacing: 0.28px;
+
+                @media screen and (max-width:600px) {
+                    font-size: 15px;
+                    position: relative;
+                    top: 2px;
+                }
+            }
+        }
+    }
+
+    .w-b-c-c-img {
+        img {
+            width: 145px;
+            height: 220px;
+
+            @media screen and (max-width:600px) {
+                width: 90px;
+                height: 140px;
+            }
+        }
+    }
+}

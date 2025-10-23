@@ -1,0 +1,61 @@
+{
+  "contactForm": {
+    "title": "Add New Contact",
+    "searchContactButton": {
+      "title": "Existing Contact/Customer",
+      "subtitle": "Browse from your Contacts & Customers"
+    },
+    "addContactButton": {
+      "title": "Add Contact",
+      "subtitle": "Quickly add a new contact to your list"
+    },
+    "contactPicker": {
+      "searchContacts": "Search contacts...",
+      "noContactsFound": "No contacts found",
+      "label": "Choose a Contact"
+    }
+  },
+  "contactDetails": {
+    "title": "Contact Information",
+    "name": {
+      "label": "Name",
+      "placeholder": "Enter Name"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "Enter Email"
+    },
+    "phoneNo": {
+      "label": "Phone No",
+      "placeholder": "Enter Phone"
+    },
+    "whatsappNo": {
+      "label": "Whatsapp No",
+      "placeholder": "Enter Whatsapp No"
+    },
+    "company": {
+      "label": "Company Name (Optional)",
+      "placeholder": "Enter Company"
+    },
+    "jobTitle": {
+      "label": "Job Title (Optional)",
+      "placeholder": "Enter Job Title"
+    },
+    "country": {
+      "label": "Country",
+      "placeholder": "Enter Country"
+    },
+    "state": {
+      "label": "State",
+      "placeholder": "Enter State"
+    },
+    "city": {
+      "label": "City",
+      "placeholder": "Enter City"
+    },
+    "zipCode": {
+      "label": "Zip Code",
+      "placeholder": "Enter Zip Code"
+    }
+  }
+}

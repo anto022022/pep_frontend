@@ -1,0 +1,69 @@
+.inbox-title-block-comp {
+    border-radius: 12px;
+    background: $primary-solid-color;
+    box-shadow: $shadow-depth-20;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    .i-t-b-c-details-block {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 30px;
+
+        @media screen and (max-width:1300px) {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        .i-t-b-c-d-b-right {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            .btn-comp {
+                border-radius: 8px;
+            }
+        }
+    }
+
+    .i-t-b-c-info-block {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        .i-t-b-c-i-b-label {
+            color: $text-primary;
+            font-family: $secondary-body-font;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 24px;
+        }
+
+        .i-t-b-c-i-b-title {
+            color: $text-primary;
+            font-family: $secondary-body-font;
+            font-size: clamp(1.063rem, 1.025rem + 0.19vw, 1.25rem);
+            font-weight: 600;
+            line-height: clamp(1.5rem, 1.45rem + 0.25vw, 1.75rem);
+            letter-spacing: 0.2px;
+        }
+    }
+
+    .i-t-b-c-action-block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15px 30px;
+        flex-wrap: wrap;
+    }
+}
+
+.button-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

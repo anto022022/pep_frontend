@@ -1,0 +1,126 @@
+{
+  "title": "العملاء المحتملون",
+  "searchPlaceHolder": "بحث عن العملاء المحتملين",
+  "addLead": "أضف عميلًا محتملاً",
+  "viewPage": {
+    "title": "تفاصيل العميل المحتمل",
+    "information": "معلومات",
+    "logs": "السجلات",
+    "leadDetails": "تفاصيل العميل",
+    "contactInformation": {
+      "title": "معلومات الاتصال",
+      "contactName": "اسم جهة الاتصال",
+      "contactEmail": "البريد الإلكتروني لجهة الاتصال",
+      "contactPhone": "هاتف جهة الاتصال",
+      "contactWhatsapp": "واتساب جهة الاتصال",
+      "contactJobTitle": "المسمى الوظيفي"
+    },
+    "companyInformation": {
+      "title": "معلومات الشركة",
+      "companyName": "اسم الشركة",
+      "companyEmail": "البريد الإلكتروني للشركة",
+      "companyPhone": "هاتف الشركة",
+      "companyWebsite": "موقع الشركة الإلكتروني",
+      "companyAddress": "عنوان الشركة",
+      "companyCity": "مدينة الشركة",
+      "companyState": "ولاية الشركة",
+      "companyCountry": "دولة الشركة",
+      "companyZip": "الرمز البريدي للشركة",
+      "companyType": "نوع الشركة",
+      "companyIndustry": "قطاع الشركة",
+      "companySize": "حجم الشركة",
+      "companyRevenue": "إيرادات الشركة",
+      "buyingRole": "دور الشراء",
+      "permissionToContact": "إذن للتواصل"
+    },
+    "requirementDetails": {
+      "title": "تفاصيل العميل المحتمل",
+      "interestedProducts": "المنتجات المهتم بها",
+      "quantity": "الكمية",
+      "preferredPrice": "السعر المفضل",
+      "preferredDeliveryTime": "وقت التسليم المفضل"
+    },
+    "savedContact": {
+      "savedContact": "جهة الاتصال المحفوظة"
+    },
+    "productDetails": {
+      "leadDetails": "تفاصيل العميل المحتمل",
+      "interestedProducts": "المنتجات المهتم بها",
+      "quantityRequired": "الكمية المطلوبة",
+      "preferredPrice": "السعر المفضل",
+      "preferredDeliveryTimeline": "المدة الزمنية المفضلة للتسليم",
+      "pieces": "قطع",
+      "perUnit": "لكل وحدة",
+      "days": "أيام",
+      "sendQuote": "إرسال عرض السعر"
+    }
+  },
+  "noLeads": {
+    "title": "ابدأ في تحويل اهتمام المشتري إلى",
+    "extraTitle": " فرص الأعمال",
+    "subtitle": "تابع واستجب للاستفسارات من المشترين في مكان واحد. قم بإدارة تواصلك، ومتابعاتك، وتحويل العملاء المحتملين بسهولة",
+    "createButtonTitle": "إنشاء عميل محتمل",
+    "importButtonTitle": "استيراد العملاء المحتملين"
+  },
+  "LeadsTable": {
+    "dateCreated": "تاريخ الإنشاء",
+    "contactName": "اسم جهة الاتصال",
+    "companyName": "اسم الشركة",
+    "email": "البريد الإلكتروني",
+    "phoneNo": "رقم الهاتف",
+    "interestedProducts": "المنتجات المهتم بها",
+    "source": "المصدر",
+    "stage": "المرحلة",
+    "status": "الحالة",
+    "takeAction": "اتخاذ إجراء",
+    "lastContact": "آخر تواصل",
+    "lifecycleTags": "علامات دورة الحياة"
+  },
+  "LeadsForm": {
+    "title": "إضافة عميل محتمل جديد",
+    "name": {
+      "label": "اسم جهة الاتصال",
+      "placeholder": "أدخل الاسم"
+    },
+    "email": {
+      "label": "عنوان البريد الإلكتروني",
+      "placeholder": "أدخل عنوان البريد الإلكتروني"
+    },
+    "phone": {
+      "label": "رقم الهاتف",
+      "placeholder": "أدخل رقم الهاتف"
+    },
+    "source": {
+      "label": "المصدر (اختياري)",
+      "placeholder": "أدخل المصدر"
+    },
+    "stage": {
+      "label": "المرحلة (اختياري)",
+      "placeholder": "أدخل المرحلة"
+    },
+    "status": {
+      "label": "الحالة",
+      "placeholder": "أدخل الحالة"
+    },
+    "interestProducts": {
+      "label": "المنتجات المهتم بها (اختياري)",
+      "placeholder": "أدخل المنتجات المهتم بها"
+    },
+    "requirementDetails": {
+      "label": "تفاصيل المتطلبات (اختياري)",
+      "placeholder": "أدخل تفاصيل المتطلبات"
+    },
+    "permission": {
+      "label": "إذن بالاتصال (اختياري)",
+      "placeholder": "أدخل إذن بالاتصال"
+    }
+  },
+  "successDialog": {
+    "title": "تم إنشاء العميل المحتمل بنجاح",
+    "subtitle": "تم إنشاء العميل المحتمل بنجاح"
+  },
+  "updateDialog": {
+    "title": "تم تحديث العميل المحتمل بنجاح",
+    "subtitle": "تم تحديث العميل المحتمل بنجاح"
+  }
+}

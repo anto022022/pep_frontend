@@ -1,0 +1,615 @@
+{
+  "stepper": {
+    "productInformation": {
+      "title": "Product Information",
+      "description": "Increase visibility and reach the right buyers with accurate product details."
+    },
+    "pricingAndMOQ": {
+      "title": "Pricing & MOQ",
+      "description": "Provide pricing details and quantity"
+    },
+    "productSpecifications": {
+      "title": "Product Specifications",
+      "description": "Provide product specification and description"
+    },
+    "specification": "Specification",
+    "productDescription": "Product Description",
+    "tradeDetails": {
+      "title": "Trade Details",
+      "description": "Add production and stock details"
+    },
+    "productAndStock": "Product & Stock",
+    "paymentTerms": "Payment Terms",
+    "shippingAndLogistics": {
+      "title": "Shipping and Logistics",
+      "description": "Add shipping modes, lead time, and packaging details"
+    },
+    "additionalInformation": {
+      "title": "Additional Information",
+      "description": "Add FAQs and additional product info"
+    }
+  },
+  "previewSidebar": {
+    "productName": "Product Name",
+    "minOrderQty": "Min. Order Quantity",
+    "price": "Price"
+  },
+  "productInformation": {
+    "title": "Product Information",
+    "fields": {
+      "productName": {
+        "label": "Product Name",
+        "placeholder": "Enter  Product Name"
+      },
+      "shortDescription": {
+        "label": "Short Description",
+        "placeholder": "Enter Text"
+      },
+      "sku&Model": {
+        "label": "SKU/Model",
+        "placeholder": "Enter SKU/Model number"
+      },
+      "category": {
+        "label": "Category",
+        "placeholder": "Select AI Category",
+        "helper": "Select your product category",
+        "btn": "Browse Category"
+      },
+      "browseCategory": {
+        "title": "Browse category",
+        "searchLabel": "Search and Select the Categories",
+        "selectLabel": "Selected Categories",
+        "category": "Category",
+        "subCategory": "Sub Category",
+        "prodCategory": "Product Category",
+        "categoryPlaceholder": "Search Category",
+        "subCatPlaceholder": "Select Category First",
+        "prodCatPlaceholder": "Select Sub Category First",
+        "cancel": "Cancel",
+        "choose": "Choose",
+        "cantCat": "Can’t find relevant category?",
+        "sugCat": "Suggest New Category"
+      },
+      "categoryModal": {
+        "emptyMsg": "Can’t find relevant subcategory?",
+        "suggestLable": "Suggested",
+        "selectLabel": "Selected",
+        "or": "OR",
+        "cantCat": "Can’t find relevant category?",
+        "chooseIndus": "Choose Industry",
+        "reasonLable": " Select the following that is relevant",
+        "reasonPlaceholder": "Enter your reason",
+        "sugCatNameLabel": "Suggest category name",
+        "submit": "Submit",
+        "cancel": "Cancel"
+      },
+      "productImage": {
+        "label": " Image",
+        "placeholder": "Upload JPG, PNG(Max 5MB) for best quality"
+      },
+      "productBrochure": {
+        "label": "Brochure",
+        "placeholder": "Upload PDF(Max 5MB) for best quality",
+        "optionalLabel": "Optional"
+      },
+      "countryOfOrigin": {
+        "label": "Country of Origin",
+        "placeholder": "Select Country"
+      }
+    }
+  },
+  "pricing_moq": {
+    "title": "Pricing & MOQ",
+    "fields": {
+      "currency": {
+        "label": "Currency",
+        "placeholder": "Select Currency"
+      },
+      "pricing": {
+        "label": "Pricing"
+      },
+      "fixed_pricing": {
+        "label": "Unit Price",
+        "placeholder": "Enter Unit Price"
+      },
+      "nego_pricing": {
+        "label": "Negotiable Price",
+        "placeholder": "Enter Negotiable Price"
+      },
+      "quote_pricing": {
+        "label": "Quote Price",
+        "placeholder": "Enter Quote Price"
+      },
+      "variable_pricing": {
+        "label": "Price Range",
+        "minPrice_placeholder": "Enter Min. Price",
+        "maxPrice_placeholder": "Enter Max. Price"
+      },
+      "bulk_pricing": {
+        "label": "Bulk Pricing",
+        "unitTypeLabel": "Unit Type",
+        "placeholder": "Select Unit"
+      },
+      "add_tier": {
+        "label": "Add Tier",
+        "add_qty_label": "Add Quantity Range",
+        "quantity_from_placeholder": "Quantity From (e.g. - 100)",
+        "quantity_to_placeholder": "Quantity to (e.g. - 500)",
+        "price_label": "Price",
+        "price_placeholder": "Enter Price $",
+        "helper": "Encourage larger orders. You can add in bulk for e.g. 100 - 500 pieces for $11.00"
+      },
+      "moq": {
+        "label": "Minimum Order Quantity (MOQ)",
+        "placeholder": "Enter Numeric",
+        "unit_placeholder": "Select Unit"
+      }
+    },
+    "confirmationMessage": "Changing the pricing type will also reset and affect the variant pricing. Are you sure you want to continue?"
+  },
+  "specifications": {
+    "title": "Product Specifications",
+    "helper": "Suggested Attributes for Your Product Based on Your Industry-You Can Add,Modify or Remove Them as Needed.",
+    "info": "Variants automatically use the main product's details, except for pricing and images (which you can adjust separately). All other changes must be made in the main product",
+    "fields": {
+      "attributes": {
+        "title": "Attributes",
+        "subtitle": "Add more Attributes",
+        "helper": "Add more details to help buyers find your product faster",
+        "btn": "Add new"
+      },
+      "variants": {
+        "title": "Variants",
+        "btn": "Add options",
+        "custom_btn": "Add Custom Option",
+        "fields": {
+          "addCutomOption": {
+            "optionNameLabel": "Option Name",
+            "optionNamePlaceholder": "Enter Option Name",
+            "optionValueLabel": "Option Value",
+            "optionDelete": "Delete",
+            "optionSave": "Save"
+          },
+          "group_by": {
+            "label": "Group By"
+          },
+          "search_product": {
+            "placeholder": "Search Product"
+          },
+          "variantTableHead": {
+            "variant": "Variant",
+            "VariantName": "Variant Name",
+            "priceRange": "Price Range",
+            "price": "Price",
+            "variants": "Variants"
+          },
+          "variantFields": {
+            "title": "Variants Details",
+            "variant": "Variant",
+            "variantName": {
+              "label": "Variant Name",
+              "placeholder": "Enter Product Name"
+            },
+            "image": {
+              "label": "Image",
+              "placeholder": "Upload JPG, PNG(Max 5MB) for best quality"
+            },
+            "pricing": {
+              "label": "Pricing"
+            },
+            "fixed_pricing": {
+              "label": "Unit Price",
+              "placeholder": "Enter Unit Price"
+            },
+            "variable_pricing": {
+              "label": "Price Range",
+              "minPrice_placeholder": "Enter Min. Price",
+              "maxPrice_placeholder": "Enter Max. Price"
+            },
+            "bulk_pricing": {
+              "label": "Bulk Pricing",
+              "unitTypeLabel": "Unit Type",
+              "placeholder": "Select Unit"
+            },
+            "add_tier": {
+              "label": "Add Tier",
+              "add_qty_label": "Add Quantity Range",
+              "quantity_from_placeholder": "Quantity From (e.g. - 100)",
+              "quantity_to_placeholder": "Quantity to (e.g. - 500)",
+              "price_label": "Price",
+              "price_placeholder": "Enter Price $",
+              "helper": "Encourage larger orders. You can add in bulk for e.g. 100 - 500 pieces for $11.00"
+            },
+            "moq": {
+              "label": "Minimum Order Quantity (MOQ)",
+              "placeholder": "Enter Numeric",
+              "unit_placeholder": "Select Unit"
+            },
+            "sku&Model": {
+              "label": "Model Number/SKU",
+              "placeholder": "Enter Unique SKU",
+              "helper": "Your internal or catalog reference for this product.Helpful for order tracking and variant management."
+            }
+          }
+        }
+      }
+    }
+  },
+  "productDescription": {
+    "title": "Product Description",
+    "optionalLabel": "Optional",
+    "fields": {
+      "productDescription": {
+        "label": "Product Description",
+        "placeholder": "Enter Text"
+      },
+      "applications": {
+        "label": "Applications",
+        "placeholder": "Enter Text"
+      }
+    }
+  },
+  "production_stock": {
+    "title": "Trade Details",
+    "supTittle": "Increase visibility and reach the right buyers with accurate product details.",
+    "Select": "Select",
+    "fields": {
+      "productionLeadTime": {
+        "label": "Production Lead Time",
+        "placeholder": "Select Lead Time",
+        "dispatchDayLabel": "day",
+        "dispatchDaysLabel": " days",
+        "madeToOrder": "etc"
+      },
+      "productionCapacity": {
+        "label": "Production Capacity",
+        "optionalLabel": "Optional",
+        "quality_placeholder": "Enter Numeric",
+        "unit_placeholder": "Unit",
+        "duration_placeholder": "Duration"
+      },
+      "availableStock": {
+        "label": "Available Stock",
+        "quality_placeholder": "Enter Quality",
+        "unit_placeholder": "Unit Type"
+      },
+      "sampleAvailability": {
+        "label": "Sample Availability",
+        "freeSample": "Free Sample",
+        "refundableSample": "Refundable Sample",
+        "paidSample": "Paid Sample",
+        "noSample": "No Sample Available"
+      },
+      "sampleLeadTime": {
+        "label": "Sample Lead Time",
+        "placeholder": "Select Sample Lead Time",
+        "dispatchDayLabel": "day",
+        "dispatchDaysLabel": " days",
+        "madeToOrder": "etc"
+      },
+      "samplePrice": {
+        "label": "Sample Price",
+        "price_placeholder": "Enter Price",
+        "unit_placeholder": "Unit"
+      }
+    }
+  },
+  "paymentTerms": {
+    "title": "Trade Details",
+    "fields": {
+      "paymentTerms": {
+        "label": "Payment Terms",
+        "optionalLabel": "Optional",
+        "placeholder": "Select Payment Term",
+        "customPaymentTerm": "Enter Custom Payment Term"
+      },
+      "paymentMethod": {
+        "label": "Payment Method",
+        "otherPaymentPlaceHolder": "Enter Other Payment Method"
+      }
+    }
+  },
+  "shipping_logistics": {
+    "title": "Shipping & Logistics",
+    "fields": {
+      "shipsInternationally": {
+        "label": "Ships Internationally",
+        "yes": "Yes",
+        "no": "No",
+        "uponRequest": "Upon Request"
+      },
+      "shippingModes": {
+        "label": "Shipping Modes"
+      },
+      "incoterms": {
+        "label": "Incoterms",
+        "placeholder": "Select Incoterms"
+      },
+      "portOfDispatch": {
+        "label": "Port of Dispatch",
+        "placeholder": "Enter Port Name",
+        "optionalLabel": "Optional"
+      },
+      "dispatchLeadTime": {
+        "label": "Dispatch Lead Time",
+        "placeholder": "Select Lead Time",
+        "dispatchDayLabel": "Ships in {days} day",
+        "dispatchDaysLabel": "Ships in {days} days",
+        "madeToOrder": "Made to Order"
+      },
+      "packagingType": {
+        "label": "Packaging Type",
+        "placeholder": "Select Packaging Type"
+      },
+      "unitsPerPackage": {
+        "label": "Units per Package",
+        "placeholder": "Enter Numeric"
+      },
+      "barcode": {
+        "label": "Barcode/HSN/GTIN/UPC",
+        "placeholder": "Enter Any One"
+      }
+    }
+  },
+  "additionalDetails": {
+    "title": "Additional Details",
+    "fields": {
+      "customizationAvailability": {
+        "label": "Customization Availability",
+        "optionalLabel": "Optional",
+        "yes": "Yes",
+        "no": "No"
+      },
+      "specifyCustomization": {
+        "label": "Specify Your Customization",
+        "optionalLabel": "Optional",
+        "placeholder": "Enter possible customization option for buyer",
+        "addButton": "Add Customization Option"
+      },
+      "productKeywords": {
+        "label": "Product Keywords",
+        "optionalLabel": "Optional",
+        "placeholder": "Enter keywords or pick suggestions"
+      },
+      "brand": {
+        "label": "Brand",
+        "optionalLabel": "Optional",
+        "placeholder": "Enter Brand Name"
+      },
+      "productGroup": {
+        "label": "Product Group",
+        "placeholder": "Select Product Group",
+        "addNewGroup": "Add New Group"
+      },
+      "uploadProductVideo": {
+        "label": "Upload Product Video",
+        "optionalLabel": "Optional",
+        "placeholder": "Upload mov, mp4 (Max 10MB) for best quality."
+      },
+      "certifications": {
+        "label": "Certifications",
+        "namePlaceholder": "Enter Certificate Title ",
+        "optionalLabel": "Optional",
+        "placeholder": "Upload PDF of any official certificates like ISO, CE, Organic or Others for customer trust",
+        "addLabel": "Add Certificate"
+      },
+      "faqs": {
+        "label": "FAQs",
+        "optionalLabel": "Optional",
+        "questionPlaceholder": "Enter a Question",
+        "answerPlaceholder": "Enter a relevant answer",
+        "addButton": "Add FAQs",
+        "addFAQ": "Add FAQ",
+        "aiSuggest": "AI Suggestions",
+        "aiGenerate": "AI Generating"
+      }
+    }
+  },
+  "viewPage": {
+    "title": "Product I Sell",
+    "information": "Information",
+    "analytics": "Analytics",
+    "addProduct": "Add Product",
+    "editDetails": "Edit Details",
+    "addNewProduct": "Add New Product",
+    "rePost": "Re-Post",
+    "view": "View",
+    "leads":"Leads",
+    "status": "Status",
+    "productInfoLabel": "Product Information",
+    "pricingLabel": "Pricing & MOQ",
+    "specificationLabel": "Product Specification",
+    "tradeDetailsLabel": "Trade Details",
+    "shippingLabel": "Shipping & Logistics",
+    "additionalDetailsLabel": "Additional Details",
+    "productInformation": {
+      "productName": "Product Name",
+      "shortDescription": "Short Description",
+      "productCategory": "Product Category",
+      "brochure": "Brochure",
+      "SKU/Model": "SKU/Model ",
+      "countryOfOrigin": "Country of Origin"
+    },
+    "tradeDetails": {
+      "productionLeadTime": "Production Lead Time",
+      "samplePrice": "Sample Price",
+      "availableStock": "Available Stock ",
+      "sampleLeadTime": "Sample Lead Time",
+      "productionCapacity": "Production Capacity",
+      "paymentTerms": "Payment Terms",
+      "sampleAvailability": "Sample Availability",
+      "paymentMethod": "Payment Method"
+    },
+    "shippingDetails": {
+      "shippingModes": "Shipping Modes",
+      "portOfDispatch": "Port of Dispatch",
+      "incoterms": "Incoterms",
+      "packagingType": "Packaging Type",
+      "shippingInternationally": "Shipping Internationally",
+      "unitsPerPackage": "Units per Package",
+      "dispatchLeadTime": "Dispatch Lead Time",
+      "HSN": "HSN"
+    },
+    "additionalDetails": {
+      "brand": "Brand",
+      "productKeywords": "Product Keywords",
+      "productGroup": "Product Group",
+      "productVideo": "Product Video",
+      "certifications": "Certifications",
+      "customizationAvailable": "Customization Available",
+      "specificCustomization": "Specific Customization",
+      "FAQs": "FAQs"
+    },
+    "pricing": {
+      "currency": "Currency",
+      "fixed": "Fixed Pricing",
+      "priceRange": "Variable Pricing",
+      "bulkPricing": "Bulk Pricing",
+      "request_quote": "Request Quote",
+      "negotiable": "Negotiable Pricing",
+      "minOrderQuantity": "Minimum Order Quantity",
+      "qtyFrom": "Quantity From",
+      "qtyTo": "Quantity to",
+      "price": "Price"
+    },
+    "attributes": {
+      "detailedDescription": "Detailed Description",
+      "applications": "Applications",
+      "productAttributes": "Product Attributes",
+      "attributes": "Attributes",
+      "value": "Value",
+      "groupBy": "Group By",
+      "searchProduct": "Search Product",
+      "variantDetails": "Variant Details",
+      "price": "Price",
+      "priceRange": "Price Range",
+      "moq": "MOQ",
+      "variants": "Variants",
+      "variantName": "Variant Name"
+    }
+  },
+  "optionLabels": {
+    "stockAvailability": {
+      "inStock": "In Stock",
+      "outOfStock": "Out of Stock"
+    },
+    "durationOption": {
+      "weekly": "Weekly",
+      "monthly": "Monthly",
+      "Yearly": "Yearly"
+    },
+    "unitOption": {
+      "pieces": "Pieces",
+      "sets": "Sets",
+      "ton": "Ton",
+      "litres": "Litres",
+      "kg": "Kg",
+      "meter": "Meter",
+      "dozen": "Dozen",
+      "boxes": "Boxes",
+      "sqft": "Sqft",
+      "cans": "Cans",
+      "rolls": "Rolls",
+      "coil": "Coil"
+    },
+    "paymentMethods": {
+      "credit": "Credit Card",
+      "cash": "Cash",
+      "cheque": "Cheque",
+      "demandDraft": "Demand Draft",
+      "paypal": "Paypal",
+      "moneyGram": "MoneyGram",
+      "westerUnion": "Western Union",
+      "others": "Others"
+    },
+    "paymentTerms": {
+      "ADVANCE_100": "100% Advance",
+      "ADVANCE_50_DISPATCH_50": "50% Advance / 50% on Dispatch",
+      "NET_30_60": "Net 30 / Net 60",
+      "LC": "Letter of Credit (LC)",
+      "ESCROW": "Escrow",
+      "COD": "Cash on Delivery (COD, if applicable)",
+      "CUSTOM": "Custom Terms (manual entry)"
+    },
+    "shippingMethods": {
+      "Sea": "Sea",
+      "Air": "Air",
+      "Road": "Road",
+      "Rail": "Rail",
+      "Courier": "Courier",
+      "Buyer-Arranged": "Buyer-Arranged",
+      "Local Delivery": "Local Delivery"
+    },
+    "shippingType": {
+      "standard": "Standard Shipping",
+      "express": "Express Shipping"
+    },
+    "pricing": {
+      "fixed_price": "Fixed Price:",
+      "fixed_price_helper": "Standard per unit price",
+      "negotiable": "Negotiable:",
+      "negotiable_helper": "Buyer can request price",
+      "bulk_pricing": "Bulk Pricing:",
+      "bulk_pricing_helper": "Volume discounts",
+      "price_range": "Price Range:",
+      "price_range_helper": "For variable/custom items",
+      "request_quote": "Request Quote",
+      "request_quote_helper": "Buyer can request Quote"
+    },
+    "incoterms": {
+      "EXW": "EXW (Ex Works)",
+      "FOB": "FOB (Free on Board)",
+      "CIF": "CIF (Cost, Insurance & Freight)",
+      "DDP": "DDP (Delivered Duty Paid)",
+      "DAP": "DAP (Delivered at Place)",
+      "FCA": "FCA (Free Carrier)",
+      "CPT": "CPT (Carriage Paid To)",
+      "CIP": "CIP (Carriage and Insurance Paid To)"
+    },
+    "packageTypes": {
+      "Box": "Box",
+      "Carton": "Carton",
+      "Pallet": "Pallet",
+      "Roll": "Roll",
+      "Crate": "Crate",
+      "Bag": "Bag",
+      "Container": "Container",
+      "Custom Packaging": "Custom Packaging",
+      "Eco-Friendly Packaging": "Eco-Friendly Packaging"
+    }
+  },
+  "noProductsScreen": {
+    "noVariants": "No Variants",
+    "table-headers": {
+      "productName": "Product Name",
+      "variantsCount": "No. of Variants",
+      "category": "category",
+      "stockAvailability": "Stock Availability",
+      "createdAt": "Date Created",
+      "minPrice": "Price",
+      "skuCode": "SKU Code",
+      "status": "Status",
+      "searchProduct": "Search Product"
+    },
+    "title": "Let’s get started!",
+    "secondTitle": "Add your first product to start selling.",
+    "subtitle": "Start selling by adding products or importing",
+    "tooltip": "Add a product name, price, description, and images — it only takes a few steps.",
+    "buttonTitle": "Add Product",
+    "productsISell": "Products I Sell"
+  },
+  "dailogBoxes": {
+    "addAttributDialog": {
+      "tittle": "Add Attribute",
+      "placeholder": "Enter New Attribute",
+      "cancelBtn": "Cancel",
+      "submitBtn": "Add Attribute"
+    },
+    "addProductGroupDialog": {
+      "tittle": "Add New Group",
+      "placeholder": "Enter New Group",
+      "cancelBtn": "Cancel",
+      "submitBtn": "Add Group"
+    }
+  }
+}

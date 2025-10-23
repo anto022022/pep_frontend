@@ -1,0 +1,127 @@
+{
+  "title": "Leads",
+  "addLead": "Add Lead",
+  "searchPlaceHolder": "Search Leads",
+  "viewPage": {
+    "title": "Lead Details",
+    "information": "Information",
+    "logs": "Logs",
+    "leadDetails": "Lead Details",
+    "contactInformation": {
+      "title": "Contact Information",
+      "contactName": "Contact Name",
+      "contactEmail": "Contact Email",
+      "contactPhone": "Contact Phone",
+      "contactWhatsapp": "Contact Whatsapp",
+      "contactJobTitle": "Job Title"
+    },
+    "companyInformation": {
+      "title": "Company Information",
+      "companyName": "Company Name",
+      "companyEmail": "Company Email",
+      "companyPhone": "Company Phone",
+      "companyWebsite": "Company Website",
+      "companyAddress": "Company Address",
+      "companyCity": "Company City",
+      "companyState": "Company State",
+      "companyCountry": "Company Country",
+      "companyZip": "Company Zip",
+      "companyType": "Company Type",
+      "companyIndustry": "Company Industry",
+      "companySize": "Company Size",
+      "companyRevenue": "Company Revenue",
+      "buyingRole": "Buying Role",
+      "permissionToContact": "Permission to Contact"
+    },
+    "requirementDetails": {
+      "title": "Lead Details",
+      "interestedProducts": "Interested Products",
+      "quantity": "Quantity",
+      "preferredPrice": "Preferred Price",
+      "preferredDeliveryTime": "Preferred Delivery Time"
+    },
+    "savedContact": {
+      "savedContact": "Saved Contact"
+    },
+    "productDetails": {
+      "leadDetails": "Lead Details",
+      "interestedProducts": "Interested Products",
+      "quantityRequired": "Quantity Required",
+      "preferredPrice": "Preferred Price",
+      "preferredDeliveryTimeline": "Preferred Delivery Timeline",
+      "pieces": "pieces",
+      "perUnit": "per Unit",
+      "days": "Days",
+      "sendQuote": "Send Quote"
+    }
+  },
+  "noLeads": {
+    "title": "Start Converting Buyer Interest into",
+    "extraTitle": " Business Opportunities",
+    "subtitle": "Track and respond to enquiries from  buyers in one place. Manage your communication, follow-ups, and lead conversion easily ",
+    "createButtonTitle": "Create Lead",
+    "importButtonTitle": "Import Leads"
+  },
+  "LeadsTable": {
+    "contactName": "Contact Name",
+    "companyName": "Company Name",
+    "email": "Email",
+    "phoneNo": "Phone No",
+    "interestedProducts": "Interested Products",
+    "source": "Source",
+    "stage": "Stage",
+    "status": "Status",
+    "takeAction": "Take Action",
+    "lastContact": "Last Contact",
+    "dateCreated": "Date Created",
+    "lifecycleTags": "Lifecycle Tags"
+  },
+  "LeadsForm": {
+    "title": "Add New Lead",
+    "editTitle":"Edit Lead",
+    "name": {
+      "label": "Contact Name",
+      "placeholder": "Enter Name"
+    },
+    "email": {
+      "label": "Email Address",
+      "placeholder": "Enter Email Address"
+    },
+    "phone": {
+      "label": "Phone Number",
+      "placeholder": "Enter Phone Number"
+    },
+    "source": {
+      "label": "Lead Source (Optional)",
+      "placeholder": "Enter Source"
+    },
+    "stage": {
+      "label": "Lead Stage (Optional)",
+      "placeholder": "Enter Stage"
+    },
+    "status": {
+      "label": "Status",
+      "placeholder": "Enter Status"
+    },
+    "interestProducts": {
+      "label": "Interest Products (Optional)",
+      "placeholder": "Enter Interest Products"
+    },
+    "requirementDetails": {
+      "label": "Requirement Details (Optional)",
+      "placeholder": "Enter Requirement Details"
+    },
+    "permission": {
+      "label": "Permission to Contact (Optional)",
+      "placeholder": "Enter Permission to Contact"
+    }
+  },
+  "successDialog": {
+    "title": "Lead Created Successfully",
+    "subtitle": "Lead has been created successfully"
+  },
+  "updateDialog": {
+    "title": "Lead Updated Successfully",
+    "subtitle": "Lead has been updated successfully"
+  }
+}

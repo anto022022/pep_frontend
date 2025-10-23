@@ -1,0 +1,341 @@
+{
+  "moduleName": "खाता सेटिंग्स",
+  "accountSettingsStepper": {
+    "businessSettings": "व्यवसाय सेटिंग्स",
+    "complianceSettings": "अनुपालन सेटिंग्स",
+    "taxSettings": "कर सेटिंग्स",
+    "dataPrivacySettings": "डेटा और गोपनीयता सेटिंग्स",
+    "SubscriptionDetails": "सदस्यता विवरण",
+    "UserSettings": "उपयोगकर्ता सेटिंग्स"
+  },
+  "complianceSettings": {
+    "kycVerification": {
+      "title": "केवाईसी सत्यापन",
+      "subTitle": "अपनी पहचान सत्यापित करें",
+      "step_1": {
+        "title": "1. आईडी दस्तावेज़ सत्यापन",
+        "subTitle": "एक वैध सरकारी जारी फोटो आईडी अपलोड करें (जैसे पासपोर्ट, राष्ट्रीय पहचान पत्र, ड्राइवर का लाइसेंस)।"
+      },
+      "step_2": {
+        "title": "2. पता सत्यापन",
+        "subTitle": "अपना वर्तमान आवासीय पता पुष्टि करने के लिए हाल ही का यूटिलिटी बिल या बैंक स्टेटमेंट जमा करें।"
+      },
+      "step_3": {
+        "title": "3. दृश्य सत्यापन",
+        "subTitle": "अपनी उपस्थिति को प्रस्तुत आईडी से मिलाने के लिए एक लाइव सेल्फी लें।"
+      },
+      "formInfo": {
+        "identityVerification": "पहचान सत्यापन",
+        "addressVerification": "पता सत्यापन",
+        "uploadDocument": "दस्तावेज़ अपलोड करें"
+      },
+      "button": {
+        "getStarted": "शुरू करें",
+        "submitting": "प्रस्तुत किया जा रहा है...",
+        "continue": "जारी रखें",
+        "gotIt": "समझ गया",
+        "updateVerification": "अपडेट सत्यापन",
+        "completeBusinessProfile": "व्यवसाय प्रोफ़ाइल पूरा करें"
+      },
+      "errorMsg": {
+        "document": "आईडी प्रकार चुनें"
+      }
+    },
+    "kybVerification": {
+      "title": "केवाईबी सत्यापन",
+      "subTitle": "अपनी व्यावसायिक पहचान प्रमाणित करें ताकि आपको एक सत्यापित बैज मिल सके और Pepagora पर वैश्विक खरीदारों और भागीदारों के साथ विश्वास मजबूत हो।",
+      "step_1": {
+        "title": "1. व्यवसाय पंजीकरण दस्तावेज़",
+        "subTitle": "कंपनी पंजीकरण का प्रमाण अपलोड करें जैसे कि समावेशन प्रमाणपत्र या व्यवसाय लाइसेंस।"
+      },
+      "step_2": {
+        "title": "2. कर पहचान सत्यापन",
+        "subTitle": "अपना आधिकारिक कर नंबर प्रदान करें (जैसे GST, VAT, EIN, PAN, या समतुल्य)।"
+      },
+      "step_3": {
+        "title": "3. व्यवसाय पता प्रमाण",
+        "subTitle": "दस्तावेज़ जमा करें (जैसे यूटिलिटी बिल, पट्टा समझौता) जो आपकी कंपनी के पंजीकृत व्यवसाय पते की पुष्टि करता हो।"
+      },
+      "formInfo": {
+        "businessRegistrationDocument": "व्यवसाय पंजीकरण दस्तावेज़",
+        "taxIdentificationVerification": "कर पहचान सत्यापन",
+        "businessAddressProof": "व्यवसाय पता प्रमाण",
+        "uploadDocument": "दस्तावेज़ अपलोड करें"
+      },
+      "button": {
+        "getStarted": "शुरू करें",
+        "submitting": "प्रस्तुत किया जा रहा है...",
+        "continue": "जारी रखें",
+        "gotIt": "समझ गया",
+        "updateVerification": "अपडेट सत्यापन",
+        "completeBusinessProfile": "व्यवसाय प्रोफ़ाइल पूरा करें"
+      },
+      "errorMsg": {
+        "document": "आईडी प्रकार चुनें"
+      },
+      "successDialog": {
+        "title": "जब आपकी पुष्टि हो जाएगी तो हम आपको सूचित करेंगे",
+        "subTitle": "हम आपको 24 घंटों के भीतर ईमेल करेंगे कि आपकी पुष्टि सफल हुई या हमें आपसे और जानकारी चाहिए।"
+      }
+    },
+    "uboVerification": {
+      "title": "यूबीओ सत्यापन",
+      "subTitle": "अपने कंपनी के लाभार्थी मालिकाना हक की पुष्टि करें ताकि व्यापार वित्त, लॉजिस्टिक्स समर्थन और एस्क्रो सेवाएं सक्षम हों — और Pepagora पर पारदर्शिता और खरीदार विश्वास को मजबूत करें।",
+      "step_1": {
+        "title": "1. आईडी दस्तावेज़ सत्यापन",
+        "subTitle": "अल्टिमेट बेनिफिशियल ओनर (UBO) का वैध सरकारी जारी आईडी अपलोड करें।"
+      },
+      "step_2": {
+        "title": "2. सेल्फी सत्यापन",
+        "subTitle": "UBO की एक लाइव फोटो लें ताकि उनकी प्रस्तुत आईडी से मेल खा सके।"
+      },
+      "step_3": {
+        "title": "3. व्यवसाय शेयरधारिता सत्यापन",
+        "subTitle": "UBO के स्वामित्व विवरण घोषित करें और शेयरधारिता का वैध प्रमाण अपलोड करें।"
+      },
+      "formInfo": {
+        "title": "UBO सत्यापन",
+        "subTitle": "इस खाते से जुड़ा ईमेल आईडी दर्ज करें। सत्यापन के लिए लिंक भेजा जाएगा।",
+        "input_1": {
+          "name": "नाम",
+          "placeholder": "अपना नाम दर्ज करें",
+          "errorMsg": "नाम आवश्यक है"
+        },
+        "input_2": {
+          "name": "ईमेल आईडी",
+          "placeholder": "ईमेल आईडी दर्ज करें",
+          "errorMsg": "ईमेल आवश्यक है",
+          "patternMsg": "अमान्य ईमेल प्रारूप",
+          "min": "न्यूनतम 0 है",
+          "max": "अधिकतम 100 है"
+        },
+        "input_3": {
+          "name": "शेयरधारिता %",
+          "placeholder": "%",
+          "errorMsg": "शेयरधारिता आवश्यक है",
+          "min": "न्यूनतम 0 है",
+          "max": "अधिकतम 100 है"
+        }
+      },
+      "button": {
+        "cancel": "रद्द करें",
+        "submitting": "प्रस्तुत किया जा रहा है...",
+        "submit": "जमा करें",
+        "addMember": "सदस्य जोड़ें"
+      }
+    }
+  },
+  "businessSettings": {
+    "fields": {
+      "AccountID": "खाता आईडी",
+      "BusinessName": "व्यवसाय का नाम",
+      "BusinessAddress": "व्यवसाय का पता",
+      "Country": "देश",
+      "State": "राज्य",
+      "City": "शहर",
+      "Pincode": "पिनकोड",
+      "TimeZone": "समय क्षेत्र",
+      "PhoneNumber": "फोन नंबर",
+      "ChangeNumber": "नंबर बदलें",
+      "ChangeEmail": "ईमेल बदलें",
+      "AddNumber": "+ नंबर जोड़ें",
+      "Email": "ईमेल",
+      "VerifyNumber": "नंबर सत्यापित करें",
+      "Verified": "सत्यापित",
+      "Cancel": "रद्द करें",
+      "AdditionalMobileNumber": "अतिरिक्त मोबाइल नंबर",
+      "VerifyEmail": "ईमेल सत्यापित करें"
+    },
+    "placeholder": {
+      "EnterBusinessName": "अपना व्यवसाय का नाम दर्ज करें",
+      "EnterAddress": "अपना पता दर्ज करें",
+      "EnterCity": "अपना शहर दर्ज करें",
+      "EnterPincode": "अपना पिन कोड दर्ज करें",
+      "EnterState": "अपना राज्य दर्ज करें",
+      "EnterCountry": "अपना देश दर्ज करें",
+      "EnterTimeZone": "अपना समय क्षेत्र दर्ज करें",
+      "EnterPhoneNumber": "अपना फोन नंबर दर्ज करें",
+      "Select": "चुनें",
+      "EnterEmail": "अपना ईमेल दर्ज करें"
+    }
+  },
+  "taxSettings": {
+    "fields": {
+      "RegisteredCountry": "पंजीकृत देश",
+      "Currency": "मुद्रा",
+      "TaxIdentificationNumber": "कर पहचान संख्या",
+      "ApplicableTaxType": "लागू कर प्रकार",
+      "TaxRate": "कर दर (%)",
+      "TaxIDCountry": "कर आईडी देश",
+      "AddAnotherTaxType": "+ एक और कर प्रकार जोड़ें",
+      "Remove": "हटाएं"
+    },
+    "placeholder": {
+      "Select": "चुनें",
+      "EnterCurrency": "मुद्रा दर्ज करें",
+      "GSTINNumber": "GSTIN नंबर",
+      "EnterTaxRate": "कर दर दर्ज करें",
+      "EnterTaxIDNumber": "कर आईडी नंबर दर्ज करें",
+      "EnterTaxType": "कर प्रकार दर्ज करें"
+    },
+    "helperText": {
+      "EnterTaxIDNumber": "कर आईडी नंबर दर्ज करें"
+    }
+  },
+  "dataPrivacySettings": {
+    "PersonalDataControl": "व्यक्तिगत डेटा नियंत्रण",
+    "PersonalInformation": "व्यक्तिगत जानकारी",
+    "CompanyInformation": "कंपनी की जानकारी",
+    "DataSharingPreferences": "डेटा साझा करने की प्राथमिकताएं",
+    "TermsPrivacyPolicy": "सेवा की शर्तें और गोपनीयता नीति",
+    "ConsentProcessData": "डेटा संसाधित करने की सहमति",
+    "ViewTermsPrivacy": "शर्तें और गोपनीयता देखें",
+    "Accept_1": "मैं स्वीकार करता हूँ कि",
+    "Accept_2": "मेरे डेटा",
+    "Accept_3": "का उपयोग हमारे भागीदारों द्वारा मुझे व्यक्तिगत विज्ञापन भेजने के लिए किया जाता है",
+    "Switch_1": {
+      "title": "विश्वसनीय भागीदारों के साथ साझा करना",
+      "subTitle": "विश्वसनीय भागीदारों के साथ साझा करना सक्षम करें"
+    },
+    "Switch_2": {
+      "title": "विश्लेषण के लिए डेटा",
+      "subTitle": "विश्लेषण के लिए गुमनाम डेटा सक्षम करें"
+    },
+      "NoCompanyInformation":"कोई कंपनी जानकारी उपलब्ध नहीं है।" ,
+    "NoPersonalInformation": "कोई व्यक्तिगत जानकारी उपलब्ध नहीं है।"
+  },
+  "subscriptionDetails": {
+    "annualCard": {
+      "title_1": "वार्षिक भुगतान पर स्विच करें और 8% बचाएं",
+      "title_2": "$50/प्रति वर्ष",
+      "title_3": "(केवल भुगतान करें",
+      "title_4": "$50",
+      "title_5": "$46/प्रति माह)",
+      "subTxt": "हम आपके वर्तमान सदस्यता के शेष दिनों के अनुसार शुल्क समायोजित करेंगे",
+      "button": "PepScale पर स्विच करें"
+    },
+    "pepScale": {
+      "stateTxt": "सदस्यता से",
+      "endTxt": "अगला नवीनीकरण",
+      "AutoRenewal": "स्वचालित नवीनीकरण",
+      "title": "PepScale",
+      "subTxt": "शिपिंग मोड, भुगतान प्रकार, डिलीवरी शर्तें, न्यूनतम ऑर्डर, मुद्रा, भुगतान शर्तें",
+      "ChangePlan": "योजना बदलें",
+      "PayNow": "अभी भुगतान करें"
+    },
+    "CancelSubscription": "सदस्यता रद्द करें",
+    "PaymentDetails": "भुगतान विवरण",
+    "BillingInformation": "बिलिंग जानकारी",
+    "Paymentmethod": "भुगतान विधि",
+    "UpdateBillingInformation": "बिलिंग जानकारी अपडेट करें",
+    "UpdatePaymentMethod": "भुगतान विधि अपडेट करें",
+    "AddPaymentMethod": "भुगतान विधि जोड़ें",
+    "AddBillingInformation": "बिलिंग जानकारी जोड़ें",
+    "PaymentHistory": "भुगतान इतिहास",
+    "tableData": {
+      "PaymentDate": "तारीख",
+      "Paymentmethod": "भुगतान विधि",
+      "PaymentStatus": "भुगतान स्थिति",
+      "Invoice": "इनवॉइस",
+      "Total": "कुल"
+    },
+    "billingInformationForm": {
+      "fields": {
+        "title": "बिलिंग जानकारी अपडेट करें",
+        "name": "नाम",
+        "businessName": "व्यवसाय का नाम",
+        "address": "पता पंक्ति 1 जोड़ें",
+        "country": "देश",
+        "state": "राज्य",
+        "city": "शहर",
+        "pinCode": "पिनकोड",
+        "Add": "जोड़ें",
+        "button": "अपडेट करें",
+        "cancel": "रद्द करें",
+        "loading": "लोड हो रहा है..."
+      },
+      "placeholder": {
+        "EnterName": "अपना नाम दर्ज करें",
+        "EnterBusinessName": "व्यवसाय का नाम दर्ज करें",
+        "EnterAddress": "पता पंक्ति 1 जोड़ें",
+        "EnterCountry": "देश दर्ज करें",
+        "EnterState": "राज्य दर्ज करें",
+        "EnterCity": "शहर दर्ज करें",
+        "EnterPincode": "पिनकोड दर्ज करें",
+        "Select": "चुनें"
+      },
+      "highlight": {
+        "bussingessName": "आपकी कंपनी का परिचालन नाम, यदि यह कानूनी नाम से अलग है।"
+      }
+    },
+    "paymentMethodForm": {
+      "fields": {
+        "title": "भुगतान विधि अपडेट करें",
+        "cardHolderName": "कार्ड धारक का नाम",
+        "cardNo": "कार्ड नंबर",
+        "Expired by": "समाप्ति तिथि",
+        "cvv": "CVV",
+        "Add": "जोड़ें",
+        "SaveCard": "RBI दिशा निर्देशों के अनुसार कार्ड सुरक्षित रखें",
+        "button": "अपडेट करें",
+        "cancel": "रद्द करें",
+        "loading": "लोड हो रहा है..."
+      },
+      "placeholder": {
+        "EnterCardHolderName": "कार्ड पर लिखा नाम",
+        "EnterCardNo": "16 अंकों का कार्ड नंबर दर्ज करें",
+        "EnterExpiredDate": "माह/वर्ष",
+        "EnterCVV": "***",
+        "Accept": "RBI दिशा निर्देशों के अनुसार कार्ड सुरक्षित रखें"
+      }
+    },
+    "cancelMembershipForm": {
+      "fields": {
+        "title": "रुकिए! रद्द करने से पहले...",
+        "subTitle": "आपने अब तक बहुत कुछ किया है — अपनी वृद्धि पर रोक न लगाएं।"
+      },
+      "menu_1": {
+        "title": "हजारों SMEs Pepagora का उपयोग कर रहे हैं ताकि वे",
+        "point_1": "वैश्विक खरीदारों द्वारा खोजे जाएं",
+        "point_2": "प्रत्येक सप्ताह सत्यापित पूछताछ प्राप्त करें",
+        "point_3": "अपने उत्पादों को पेशेवर तरीके से प्रदर्शित करें",
+        "point_4": "AI-संचालित मार्केटिंग के साथ आगे रहें",
+        "point_5": "लेकिन आपकी यात्रा अभी शुरू हुई है।"
+      },
+      "menu_2": {
+        "title": "अगर आप रद्द करते हैं तो क्या होगा?",
+        "point_1": "आप",
+        "point_1_highlight": "पूछताछ खो देंगे",
+        "point_2": "आपकी व्यावसायिक प्रोफ़ाइल",
+        "point_2_highlight": "निष्क्रिय हो जाएगी",
+        "point_3": "आपको ",
+        "point_3_highlight": "उपकरण और लीड ट्रैकिंग तक पहुंच खोनी पड़ेगी",
+        "point_4": "विश्वास बैज और दृश्यता हटा दी जाएगी"
+      },
+      "menu_3": {
+        "title": "अभी भी सुनिश्चित नहीं हैं? इसे आसान बनाएं"
+      },
+      "cards": {
+        "card_1": {
+          "title": "क्या आप एक छोटा ब्रेक पसंद करेंगे?",
+          "subTitle": "अपनी सदस्यता को 30 दिनों के लिए रोकें",
+          "button": "मेरी योजना रोकें"
+        },
+        "card_2": {
+          "title": "मदद चाहिए?",
+          "subTitle": "हमारे सपोर्ट टीम से बात करें",
+          "button": "सपोर्ट से चैट करें"
+        },
+        "card_3": {
+          "title": "डाउनग्रेड करना चाहते हैं?",
+          "subTitle": "एक कम योजना में स्विच करें",
+          "button": "मेरी योजना डाउनग्रेड करें"
+        }
+      },
+      "decision": "हम आपके निर्णय का सम्मान करते हैं।",
+      "feedback": " लेकिन हम Pepagora को बेहतर बनाने के लिए आपकी प्रतिक्रिया चाहते हैं।",
+      "hopeBtn": "लेकिन हम वास्तव में चाहते हैं कि आप न करें",
+      "ContinueCancelBtn": "रद्द करने के लिए जारी रखें"
+    }
+  }
+}

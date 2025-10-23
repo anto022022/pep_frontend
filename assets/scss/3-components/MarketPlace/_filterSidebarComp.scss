@@ -1,0 +1,68 @@
+.filter-sidebar-comp {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .f-s-c-title {
+        color: $color-black-15;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+    }
+
+    .accordion-comp {
+        .p-accordion {
+            .p-accordion-tab {
+                box-shadow: unset;
+                border-radius: unset;
+                border: unset;
+                background: unset;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+
+                .p-accordion-header {
+                    padding: unset;
+
+                    .p-accordion-header-link {
+                        .p-accordion-header-text {
+                            color: $color-black-15;
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 20px;
+                            letter-spacing: 0.28px;
+                        }
+                    }
+                }
+
+                .p-toggleable-content {
+                    .p-accordion-content {
+                        padding: unset;
+                    }
+
+                    .tabs-content {
+                        gap: 10px;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+.icon-input-comp {
+    .forms-input {
+        width: 100%;
+    }
+}
+
+.checkbox-grp {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    .f-r-label {
+        position: static;
+    }
+}

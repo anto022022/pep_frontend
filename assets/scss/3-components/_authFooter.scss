@@ -1,0 +1,41 @@
+.auth-footer-comp {
+    padding: 38px 78px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-end;
+    @media screen and (max-width:640px) {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        text-align: center;
+    }
+
+    .site-protection-txt {
+        color: $color-grey-1;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0.36px;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .auth-footer-links {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        li {
+            a {
+                color: $text-tertiary;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 18px;
+                letter-spacing: 0.36px;
+            }
+        }
+    }
+}

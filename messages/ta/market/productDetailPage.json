@@ -1,0 +1,144 @@
+{
+  "similar_product": "இதேபோலான தயாரிப்புகள்",
+  "supplier_products":"விற்பனையாளர் வழங்கும் மேலும் பல தயாரிப்புகள்",
+  "description": "விவரம்",
+  "specification": {
+    "label": "விவரக்குறிப்புகள்",
+    "key": "முக்கிய அம்சங்கள்",
+    "additionalInformation": {
+      "label": "கூடுதல் தகவல்",
+      "brand": "브ாண்ட்",
+      "sku": "SKU குறியீடு",
+      "countryOfOrigin": "உற்பத்தி நாடு",
+      "customisable": "தனிப்பயனாக்கக்கூடியது"
+    }
+  },
+  "showMore": "மேலும் காண்க",
+  "showLess": "குறைவாகக் காண்க",
+  "productsAvailable": "{count} தயாரிப்புகள் கிடைக்கின்றன",
+  "application": "பயன்பாடு",
+  "tradeDetails": {
+    "label": "வர்த்தக விவரங்கள்",
+    "productionLeadTime": "தயாரிப்பு நேரம்",
+    "availableStock": "கிடைக்கும் பங்கு",
+    "productionCapacity": "தயாரிப்பு திறன்",
+    "sampleAvailability": "மாதிரி கிடைப்ப்தல்",
+    "samplePricing": "மாதிரி விலை",
+    "sampleLeadTime": "மாதிரி தயாரிக்கும் நேரம்"
+  },
+  "paymentTerms": {
+    "label": "கட்டண விதிமுறைகள்",
+    "paymentTerms": "கட்டண நிபந்தனைகள்",
+    "paymentMethods": "கட்டண முறைகள்"
+  },
+  "shipping": {
+    "label": "கப்பல் மற்றும் வழங்கல்",
+    "shippingInternationally": "சர்வதேச கப்பல் போக்குவரத்து",
+    "methods": "முறைகள்",
+    "incoTerms": "இன்கோ விதிகள் (IncoTerms)",
+    "portOfDispatch": "பரிமாற்ற துறைமுகம்",
+    "packagingType": "பேக்கேஜிங் வகை",
+    "unitsPerPackage": "ஒரு தொகுப்பில் உள்ள யூனிட்கள்",
+    "barcode": "பார்கோடு / HSN / GTIN / UPC",
+    "dispatchLeadTime": "அனுப்பும் முன்னிலை நேரம்"
+  },
+  "certificates": "சான்றிதழ்கள்",
+  "companyProfile": {
+    "label": "நிறுவன விவரம்",
+    "engagementRate": "ஈடுபாடு விகிதம்",
+    "responseTime": "பதிலளிக்கும் நேரம்",
+    "turnOver": "மொத்த வருவாய்"
+  },
+  "factoryDetails": {
+    "label": "தொழிற்சாலை விவரங்கள்",
+    "factorySize": "தொழிற்சாலை அளவு",
+    "contractManufacturing": "ஒப்பந்த உற்பத்தி",
+    "numberOfQCStaff": "தரத்தைக் கண்காணிக்கும் பணியாளர்கள்",
+    "numberOfRDStaff": "ஆராய்ச்சி மற்றும் மேம்பாட்டு பணியாளர்கள்",
+    "numberOfProductionLines": "தயாரிப்பு வரிகளின் எண்ணிக்கை",
+    "annualProductionCapacity": "ஆண்டுத் தயாரிப்பு திறன்",
+    "mainMarkets": "முக்கிய சந்தைகள்",
+    "qualityCertification": "தரச் சான்றிதழ்கள்",
+    "profile": "சுயவிவரத்தை காண்க",
+    "message": "செய்தியை அனுப்பு"
+  },
+  "productDetailCard": {
+    "sku": "தயாரிப்பு குறியீடு",
+    "reviews": "({reviews}) மதிப்பீடுகள்",
+    "sold": "{sold} விற்கப்பட்டது",
+    "minOrderQty": "குறைந்தபட்ச ஆர்டர் அளவு",
+    "price": "விலை",
+    "totalAvailableOptions": "மொத்த கிடைக்கும் விருப்பங்கள்",
+    "shipping": "கப்பல் அனுப்புதல்",
+    "shippingSubtitle": "கப்பல் கட்டணம் மற்றும் விநியோக தேதி பேசித்தீர்மானிக்கப்படும். மேலும் விவரங்களுக்கு உடனே சப்ளையரை தொடர்பு கொள்ளவும்.",
+    "shippingInternationally": "சர்வதேச கப்பல் அனுப்புதல்",
+    "estimatedDelivery": "முன்னறிந்த டெலிவரி தேதி",
+    "businessDays": " வணிக நாட்கள்",
+    "selectVarQty": "விருப்பங்களும் அளவும் தேர்ந்தெடுக்கவும்",
+    "express": "விரைவு",
+    "estimatedDel": "முன்னறிந்து டெலிவரி செய்யப்படும்",
+    "shippingDet": "*குறிப்பிட்ட கப்பல் கட்டணங்கள் உங்களுக்கான மதிப்பீடுகள் மட்டுமே. இறுதி கட்டணத்திற்காக சப்ளையரை தொடர்பு கொள்ளவும்.",
+    "shippingTotal": "மொத்த கப்பல் கட்டணம்",
+    "est": "மதிப்பீடு",
+    "shippingFee": "கப்பல் கட்டணம்: 1 செட் க்கு மதிப்பீடு {fee}",
+    "subTotal": "துணை மொத்தம்",
+    "itemSubtotal": "துணை மொத்தம் ({variationCount} வகைகள் {totalItems} உருப்படிகள்)",
+    "chatNow": "இப்போது உரையாடுங்கள்",
+    "contactSupplier": "சப்ளையரை தொடர்பு கொள்ளவும்",
+    "requestQuote": "விலைப்போக்கு கோருக",
+    "viewDetails": "விவரங்களை காண்க",
+    "selectMultiVar": "பல்வேறு வகைகளைத் தேர்வுசெய்க",
+    "from": "இருந்து",
+    "to": "வரை",
+    "yearWithSuffix": "{count} வருடம்",
+    "yearsWithSuffix": "{count} வருடங்கள்",
+    "seeProfile": "சுயவிவரத்தைப் பார்க்க",
+    "message": "செய்தி",
+    "addToRfqList": "RFQ பட்டியலில் சேர்க்கவும்",
+    "minOrderQtyError": "குறைந்தபட்ச ஆர்டர் அளவு {minOrderQty} {unit}",
+    "messageError": "செய்தி தேவையானது.",
+    "agreeError": "தொடர நீங்கள் ஒப்புக்கொள்ள வேண்டும்.",
+    "agreeToTerms": {
+      "part1": "நான் விதிமுறைகள் மற்றும் ",
+      "part2": "நிபந்தனைகளை",
+      "part3": "மற்றும்",
+      "part4": "தனியுரிமைக் கொள்கையை ஒப்புக்கொள்கிறேன்."
+    },
+    "minOrder": "குறைந்தபட்ச ஆர்டர்",
+    "expectedDelivery": "எதிர்பார்க்கப்படும் டெலிவரி தேதி"
+  },
+  "enquiryCart": {
+    "agreeToTerms": {
+      "part1": "நான் விதிமுறைகள் மற்றும்",
+      "part2": "நிபந்தனைகளுக்கு",
+      "part3": "மற்றும்",
+      "part4": "தனியுரிமைக் கொள்கைக்கு சம்மதிக்கிறேன்."
+    },
+    "title": "RFQ பட்டியல்",
+    "selectAll": "அனைத்தையும் தேர்வு செய் ({count})",
+    "sendAllEnquiry": "அனைத்து விசாரணைகளையும் அனுப்பு",
+    "message": "செய்தி",
+    "enterMsg": "செய்தியை உள்ளிடவும்",
+    "messageError": "செய்தி தேவை.",
+    "agreeError": "தொடர நீங்கள் ஒப்புக்கொள்ள வேண்டும்.",
+    "requestQuote": "மேற்கோள் கோரிக்கை",
+    "cancel": "ரத்து செய்",
+    "relatedProducts": "தொடர்புடைய தயாரிப்புகள்",
+    "products": "தயாரிப்புகள்",
+    "minOrder": "குறைந்தபட்ச ஆர்டர்",
+    "expectedDelivery": "எதிர்பார்க்கப்படும் விநியோகம்",
+    "yearWithSuffix": "{count} ஆண்டு",
+    "yearsWithSuffix": "{count} ஆண்டுகள்",
+    "addToRfqList": "RFQ பட்டியலில் சேர்க்கவும்",
+    "emptyCart": {
+      "title": "உங்கள் விசாரணை வண்டியில் எதுவும் இல்லை.",
+      "subTitle": "மேற்கோள்களை கோருவதற்கு உங்கள் விசாரணை வண்டியில் தயாரிப்புகளைச் சேர்க்கவும்.",
+      "browseProduct": "தயாரிப்புகளை உலாவுக",
+      "loginAndBrowse": "உள்நுழைந்து உலாவுக"
+    }
+  },
+  "logNotes": {
+    "placeholder": "இங்கே ஒரு செய்தியைத் தட்டச்சு செய்க...",
+    "send": "அனுப்பு"
+  }
+}

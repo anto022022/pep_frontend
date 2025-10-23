@@ -1,0 +1,117 @@
+.components-page {
+    padding: 25px;
+    background-color: $bg-primary;
+    font-family: $body-font;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    @media screen and (max-width:991px) {
+        padding: 25px 15px;
+    }
+
+    .sub-category-comp {
+        max-width: 300px;
+    }
+
+    .supplier-details-card {
+        width: 100%;
+        max-width: 1100px;
+
+        @media screen and (max-width:991px) {
+            max-width: max-content;
+        }
+    }
+
+    .product-listing-card-comp {
+        width: 252px;
+        &.rfq-product-card-comp{
+            width: 385px;
+        }
+
+        @media screen and (min-width:768px) {
+            &.product-listing-card-comp-row {
+                width: 100%;
+            }
+        }
+
+    }
+
+    .post-needs-card-comp {
+        width: 250px;
+    }
+
+    .supplier-card-comp {
+        width: max-content;
+
+        @media screen and (max-width:600px) {
+            width: auto;
+        }
+    }
+
+    .deal-card-group {
+        display: flex;
+        gap: 20px;
+
+        @media screen and (max-width:991px) {
+            overflow: auto;
+            padding-bottom: 5px;
+        }
+    }
+
+    .insights-card-comp {
+        width: 350px;
+    }
+
+    .trade-shows-card-comp {
+        width: 550px;
+
+        @media screen and (max-width:600px) {
+            width: 100%;
+        }
+    }
+
+    .product-detail-Card-comp {
+        width: 500px;
+        min-width: 500px;
+    }
+
+    .leads-inbox-block {
+        width: 720px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .lead-detail-card-comp,
+    .lead-summary-card-comp {
+        width: 320px;
+    }
+
+    .no-inquires-card-comp,
+    .connects-message-card-comp,
+    .inbox-title-block-comp {
+        width: 720px;
+    }
+
+    .quote-request-card-comp {
+        width: 700px;
+    }
+
+    .order-summary-item-comp {
+        width: 400px;
+        border-radius: 20px;
+        border-left: 1px solid $primary-solid-color;
+        background: $primary-solid-color;
+        padding: 20px;
+    }
+
+    .buyer-request-card-comp{
+        width: 800px;
+    }
+
+    .analytics-card-comp,
+    .product-right-info{
+        width: 320px;
+    }
+}

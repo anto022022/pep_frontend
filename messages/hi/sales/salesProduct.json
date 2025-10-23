@@ -1,0 +1,612 @@
+{
+  "stepper": {
+    "productInformation": {
+      "title": "उत्पाद जानकारी",
+      "description": "सही उत्पाद विवरण के साथ दृश्यता बढ़ाएं और सही खरीदारों तक पहुंचें।"
+    },
+    "pricingAndMOQ": {
+      "title": "मूल्य निर्धारण और MOQ",
+      "description": "मूल्य विवरण और न्यूनतम ऑर्डर मात्रा प्रदान करें"
+    },
+    "productSpecifications": {
+      "title": "उत्पाद विनिर्देश",
+      "description": "उत्पाद का विनिर्देश और विवरण प्रदान करें"
+    },
+    "specification": "विनिर्देश",
+    "productDescription": "उत्पाद विवरण",
+    "tradeDetails": {
+      "title": "व्यापार विवरण",
+      "description": "उत्पादन और स्टॉक विवरण जोड़ें"
+    },
+    "productAndStock": "उत्पाद और स्टॉक",
+    "paymentTerms": "भुगतान शर्तें",
+    "shippingAndLogistics": {
+      "title": "शिपिंग और लॉजिस्टिक्स",
+      "description": "शिपिंग मोड, लीड टाइम और पैकेजिंग विवरण जोड़ें"
+    },
+    "additionalInformation": {
+      "title": "अतिरिक्त जानकारी",
+      "description": "FAQ और अतिरिक्त उत्पाद जानकारी जोड़ें"
+    }
+  },
+  "previewSidebar": {
+    "productName": "उत्पाद का नाम",
+    "minOrderQty": "न्यूनतम आदेश मात्रा",
+    "price": "मूल्य"
+  },
+  "productInformation": {
+    "title": "उत्पाद जानकारी",
+    "fields": {
+      "productName": {
+        "label": "उत्पाद का नाम",
+        "placeholder": "उत्पाद का नाम दर्ज करें"
+      },
+      "shortDescription": {
+        "label": "संक्षिप्त विवरण",
+        "placeholder": "टेक्स्ट दर्ज करें"
+      },
+      "sku&Model": {
+        "label": "SKU/मॉडल",
+        "placeholder": "SKU/मॉडल नंबर दर्ज करें"
+      },
+      "category": {
+        "label": "श्रेणी",
+        "placeholder": "AI श्रेणी चुनें",
+        "helper": "अपने उत्पाद की श्रेणी चुनें",
+        "btn": "श्रेणियाँ देखें"
+      },
+      "categoryModal": {
+        "emptyMsg": "क्या उपयुक्त उपश्रेणी नहीं मिल रही है?",
+        "suggestLable": "सुझावित",
+        "selectLabel": "चयनित",
+        "or": "या",
+        "cantCat": "क्या उपयुक्त श्रेणी नहीं मिल रही है?",
+        "chooseIndus": "उद्योग चुनें",
+        "reasonLable": "संबंधित विकल्प चुनें",
+        "reasonPlaceholder": "अपना कारण दर्ज करें",
+        "sugCatNameLabel": "श्रेणी का नाम सुझाएँ",
+        "submit": "सबमिट करें",
+        "cancel": "रद्द करें"
+      },
+      "browseCategory": {
+        "title": "श्रेणियाँ ब्राउज़ करें",
+        "searchLabel": "श्रेणियाँ खोजें और चुनें",
+        "selectLabel": "चयनित श्रेणियाँ",
+        "category": "श्रेणी",
+        "subCategory": "उपश्रेणी",
+        "prodCategory": "उत्पाद श्रेणी",
+        "categoryPlaceholder": "श्रेणी खोजें",
+        "subCatPlaceholder": "पहले श्रेणी चुनें",
+        "prodCatPlaceholder": "पहले उपश्रेणी चुनें",
+        "cancel": "रद्द करें",
+        "choose": "चुनें",
+        "cantCat": "क्या उपयुक्त श्रेणी नहीं मिल रही है?",
+        "sugCat": "नई श्रेणी सुझाएँ"
+      },
+      "productImage": {
+        "label": "चित्र",
+        "placeholder": "सर्वोत्तम गुणवत्ता के लिए JPG, PNG (अधिकतम 5MB) अपलोड करें"
+      },
+      "productBrochure": {
+        "label": "ब्रॉशर",
+        "placeholder": "सर्वोत्तम गुणवत्ता के लिए PDF (अधिकतम 5MB) अपलोड करें",
+        "optionalLabel": "वैकल्पिक"
+      },
+      "countryOfOrigin": {
+        "label": "निर्माण का देश",
+        "placeholder": "देश चुनें"
+      }
+    }
+  },
+  "pricing_moq": {
+    "title": "मूल्य निर्धारण और MOQ",
+    "fields": {
+      "currency": {
+        "label": "मुद्रा",
+        "placeholder": "मुद्रा चुनें"
+      },
+      "pricing": {
+        "label": "मूल्य निर्धारण"
+      },
+      "fixed_pricing": {
+        "label": "यूनिट मूल्य",
+        "placeholder": "यूनिट मूल्य दर्ज करें"
+      },
+      "nego_pricing": {
+        "label": "वार्तालाप योग्य मूल्य",
+        "placeholder": "वार्तालाप योग्य मूल्य दर्ज करें"
+      },
+      "quote_pricing": {
+        "label": "कोट मूल्य",
+        "placeholder": "कोट मूल्य दर्ज करें"
+      },
+      "variable_pricing": {
+        "label": "मूल्य सीमा",
+        "minPrice_placeholder": "न्यूनतम मूल्य दर्ज करें",
+        "maxPrice_placeholder": "अधिकतम मूल्य दर्ज करें"
+      },
+      "bulk_pricing": {
+        "label": "बुल्क मूल्य निर्धारण",
+        "unitTypeLabel": "यूनिट प्रकार",
+        "placeholder": "यूनिट चुनें"
+      },
+      "add_tier": {
+        "label": "नया स्तर जोड़ें",
+        "add_qty_label": "मात्रा सीमा जोड़ें",
+        "quantity_from_placeholder": "मात्रा से (उदाहरण - 100)",
+        "quantity_to_placeholder": "मात्रा तक (उदाहरण - 500)",
+        "price_label": "मूल्य",
+        "price_placeholder": "मूल्य दर्ज करें $",
+        "helper": "बड़ी ऑर्डर को प्रोत्साहित करें। आप 100 - 500 टुकड़ों के लिए $11.00 जैसे थोक में जोड़ सकते हैं।"
+      },
+      "moq": {
+        "label": "न्यूनतम आदेश मात्रा (MOQ)",
+        "placeholder": "संख्या दर्ज करें",
+        "unit_placeholder": "यूनिट चुनें"
+      }
+    },
+    "confirmationMessage": "मूल्य निर्धारण प्रकार बदलने से संस्करण मूल्य निर्धारण भी रीसेट हो जाएगा और प्रभावित होगा। क्या आप जारी रखना चाहते हैं?"
+  },
+  "specifications": {
+    "title": "उत्पाद विनिर्देश",
+    "helper": "आपके उद्योग के आधार पर आपके उत्पाद के लिए सुझाए गए गुण - आप इन्हें जोड़, बदल या हटा सकते हैं जैसा आवश्यक हो।",
+    "info": "वैरिएंट्स स्वचालित रूप से मुख्य उत्पाद के विवरण का उपयोग करते हैं, सिवाय मूल्य निर्धारण और चित्रों के (जिन्हें आप अलग से समायोजित कर सकते हैं)। अन्य सभी परिवर्तन मुख्य उत्पाद में किए जाने चाहिए।",
+    "fields": {
+      "attributes": {
+        "title": "गुण",
+        "subtitle": "अधिक गुण जोड़ें",
+        "helper": "खरीददारों को जल्दी से आपका उत्पाद ढूंढने में मदद करने के लिए अधिक विवरण जोड़ें",
+        "btn": "नया जोड़ें"
+      },
+      "variants": {
+        "title": "वैरिएंट्स",
+        "btn": "विकल्प जोड़ें",
+        "custom_btn": "कस्टम विकल्प जोड़ें",
+        "fields": {
+          "addCutomOption": {
+            "optionNameLabel": "विकल्प का नाम",
+            "optionNamePlaceholder": "विकल्प का नाम दर्ज करें",
+            "optionValueLabel": "विकल्प का मान",
+            "optionDelete": "हटाएं",
+            "optionSave": "सहेजें"
+          },
+          "group_by": {
+            "label": "समूह द्वारा"
+          },
+          "search_product": {
+            "placeholder": "उत्पाद खोजें"
+          },
+          "variantTableHead": {
+            "variant": "वैरिएंट",
+            "VariantName": "वैरिएंट का नाम",
+            "priceRange": "मूल्य सीमा",
+            "price": "मूल्य",
+            "variants": "वैरिएंट्स"
+          },
+          "variantFields": {
+            "title": "वैरिएंट्स विवरण",
+            "variant": "वैरिएंट",
+            "variantName": {
+              "label": "वैरिएंट का नाम",
+              "placeholder": "उत्पाद का नाम दर्ज करें"
+            },
+            "image": {
+              "label": "चित्र",
+              "placeholder": "सर्वोत्तम गुणवत्ता के लिए JPG, PNG (अधिकतम 5MB) अपलोड करें"
+            },
+            "pricing": {
+              "label": "मूल्य निर्धारण"
+            },
+            "fixed_pricing": {
+              "label": "यूनिट मूल्य",
+              "placeholder": "यूनिट मूल्य दर्ज करें"
+            },
+            "variable_pricing": {
+              "label": "मूल्य सीमा",
+              "minPrice_placeholder": "न्यूनतम मूल्य दर्ज करें",
+              "maxPrice_placeholder": "अधिकतम मूल्य दर्ज करें"
+            },
+            "bulk_pricing": {
+              "label": "बुल्क मूल्य निर्धारण",
+              "unitTypeLabel": "यूनिट प्रकार",
+              "placeholder": "यूनिट चुनें"
+            },
+            "add_tier": {
+              "label": "नया स्तर जोड़ें",
+              "add_qty_label": "मात्रा सीमा जोड़ें",
+              "quantity_from_placeholder": "मात्रा से (उदाहरण - 100)",
+              "quantity_to_placeholder": "मात्रा तक (उदाहरण - 500)",
+              "price_label": "मूल्य",
+              "price_placeholder": "मूल्य दर्ज करें $",
+              "helper": "बड़ी ऑर्डर को प्रोत्साहित करें। आप 100 - 500 टुकड़ों के लिए $11.00 जैसे थोक में जोड़ सकते हैं।"
+            },
+            "moq": {
+              "label": "न्यूनतम आदेश मात्रा (MOQ)",
+              "placeholder": "संख्या दर्ज करें",
+              "unit_placeholder": "यूनिट चुनें"
+            },
+            "sku&Model": {
+              "label": "मॉडल नंबर/SKU",
+              "placeholder": "विशिष्ट SKU दर्ज करें",
+              "helper": "इस उत्पाद के लिए आपका आंतरिक या कैटलॉग संदर्भ। आदेश ट्रैकिंग और वैरिएंट प्रबंधन में सहायक।"
+            }
+          }
+        }
+      }
+    }
+  },
+  "productDescription": {
+    "title": "उत्पाद विवरण",
+    "optionalLabel": "वैकल्पिक",
+    "fields": {
+      "productDescription": {
+        "label": "उत्पाद विवरण",
+        "placeholder": "टेक्स्ट दर्ज करें"
+      },
+      "applications": {
+        "label": "अनुप्रयोग",
+        "placeholder": "टेक्स्ट दर्ज करें"
+      }
+    }
+  },
+  "production_stock": {
+    "title": "व्यापार विवरण",
+    "supTittle": "सटीक उत्पाद विवरण के साथ दृश्यता बढ़ाएँ और सही खरीदारों तक पहुँचें।",
+    "Select": "चुनें",
+    "fields": {
+      "productionLeadTime": {
+        "label": "उत्पादन नेतृत्व समय",
+        "placeholder": "नेतृत्व समय चुनें"
+      },
+      "productionCapacity": {
+        "label": "उत्पादन क्षमता",
+        "optionalLabel": "वैकल्पिक",
+        "quality_placeholder": "संख्या दर्ज करें",
+        "unit_placeholder": "यूनिट",
+        "duration_placeholder": "अवधि"
+      },
+      "availableStock": {
+        "label": "उपलब्ध स्टॉक",
+        "quality_placeholder": "गुणवत्ता दर्ज करें",
+        "unit_placeholder": "यूनिट प्रकार"
+      },
+      "sampleAvailability": {
+        "label": "नमूना उपलब्धता",
+        "freeSample": "निःशुल्क नमूना",
+        "refundableSample": "रिफंडेबल नमूना",
+        "paidSample": "भुगतान किया गया नमूना",
+        "noSample": "कोई नमूना उपलब्ध नहीं है"
+      },
+      "sampleLeadTime": {
+        "label": "नमूना नेतृत्व समय",
+        "placeholder": "नमूना नेतृत्व समय चुनें",
+        "dispatchDayLabel": "दिन",
+        "dispatchDaysLabel": " दिन",
+        "madeToOrder": "अनुरोध पर निर्मित"
+      },
+      "samplePrice": {
+        "label": "नमूना मूल्य",
+        "price_placeholder": "मूल्य दर्ज करें",
+        "unit_placeholder": "यूनिट"
+      }
+    }
+  },
+  "paymentTerms": {
+    "title": "व्यापार विवरण",
+    "fields": {
+      "paymentTerms": {
+        "label": "भुगतान शर्तें",
+        "optionalLabel": "वैकल्पिक",
+        "placeholder": "भुगतान शर्त चुनें",
+        "customPaymentTerm": "कस्टम भुगतान शर्त दर्ज करें"
+      },
+      "paymentMethod": {
+        "label": "भुगतान विधि",
+        "otherPaymentPlaceHolder": "अन्य भुगतान विधि दर्ज करें"
+      }
+    }
+  },
+  "shipping_logistics": {
+    "title": "शिपिंग और लॉजिस्टिक्स",
+    "fields": {
+      "shipsInternationally": {
+        "label": "अंतरराष्ट्रीय शिपिंग",
+        "yes": "हां",
+        "no": "नहीं",
+        "uponRequest": "अनुरोध पर"
+      },
+      "shippingModes": {
+        "label": "शिपिंग मोड"
+      },
+      "incoterms": {
+        "label": "इंकोटर्म्स",
+        "placeholder": "इंकोटर्म्स चुनें"
+      },
+      "portOfDispatch": {
+        "label": "प्रेषण बंदरगाह",
+        "placeholder": "बंदरगाह का नाम दर्ज करें",
+        "optionalLabel": "वैकल्पिक"
+      },
+      "dispatchLeadTime": {
+        "label": "प्रेषण अग्रिम समय",
+        "placeholder": "लीड टाइम चुनें",
+        "dispatchDayLabel": "{days} दिन में भेजा जाएगा",
+        "dispatchDaysLabel": "{days} दिनों में भेजा जाएगा",
+        "madeToOrder": "आर्डर पर बनाया जाएगा"
+      },
+      "packagingType": {
+        "label": "पैकेजिंग प्रकार",
+        "placeholder": "पैकेजिंग प्रकार चुनें"
+      },
+      "unitsPerPackage": {
+        "label": "पैकेज प्रति यूनिट",
+        "placeholder": "संख्या दर्ज करें"
+      },
+      "barcode": {
+        "label": "बारकोड/HSN/GTIN/UPC",
+        "placeholder": "कोई एक दर्ज करें"
+      }
+    }
+  },
+  "additionalDetails": {
+    "title": "अतिरिक्त विवरण",
+    "fields": {
+      "customizationAvailability": {
+        "label": "कस्टमाइजेशन उपलब्धता",
+        "optionalLabel": "वैकल्पिक",
+        "yes": "हां",
+        "no": "नहीं"
+      },
+      "specifyCustomization": {
+        "label": "अपना कस्टमाइजेशन निर्दिष्ट करें",
+        "optionalLabel": "वैकल्पिक",
+        "placeholder": "खरीदार के लिए संभावित कस्टमाइजेशन विकल्प दर्ज करें",
+        "addButton": "कस्टमाइजेशन विकल्प जोड़ें"
+      },
+      "productKeywords": {
+        "label": "उत्पाद कुंजी शब्द",
+        "optionalLabel": "वैकल्पिक",
+        "placeholder": "कुंजी शब्द दर्ज करें या सुझाव चुनें"
+      },
+      "brand": {
+        "label": "ब्रांड",
+        "optionalLabel": "वैकल्पिक",
+        "placeholder": "ब्रांड नाम दर्ज करें"
+      },
+      "productGroup": {
+        "label": "उत्पाद समूह",
+        "placeholder": "उत्पाद समूह चुनें",
+        "addNewGroup": "नया समूह जोड़ें"
+      },
+      "uploadProductVideo": {
+        "label": "उत्पाद वीडियो अपलोड करें",
+        "optionalLabel": "वैकल्पिक",
+        "placeholder": "best quality के लिए mov, mp4 अपलोड करें (Max 10MB)"
+      },
+      "certifications": {
+        "label": "प्रमाणपत्र",
+        "namePlaceholder": "प्रमाणपत्र शीर्षक दर्ज करें",
+        "optionalLabel": "वैकल्पिक",
+        "placeholder": "ISO, CE, Organic या अन्य आधिकारिक प्रमाणपत्र का PDF अपलोड करें ताकि ग्राहक को विश्वास हो",
+        "addLabel": "प्रमाणपत्र जोड़ें"
+      },
+      "faqs": {
+        "label": "अक्सर पूछे जाने वाले प्रश्न",
+        "optionalLabel": "वैकल्पिक",
+        "questionPlaceholder": "एक प्रश्न दर्ज करें",
+        "answerPlaceholder": "एक प्रासंगिक उत्तर दर्ज करें",
+        "addButton": "अक्सर पूछे जाने वाले प्रश्न जोड़ें",
+        "addFAQ": "अक्सर पूछे जाने वाले प्रश्न जोड़ें",
+        "aiSuggest": "AI सुझाव",
+        "aiGenerate": "AI जनरेट कर रहा है"
+      }
+    }
+  },
+  "viewPage": {
+    "title": "मैं जो उत्पाद बेचता हूँ",
+    "information": "जानकारी",
+    "analytics": "विश्लेषण",
+    "addProduct": "उत्पाद जोड़ें",
+    "editDetails": "विवरण संपादित करें",
+    "addNewProduct": "नया उत्पाद जोड़ें",
+    "rePost": "फिर से पोस्ट करें",
+    "leads": "लीड्स",
+    "view": "देखें",
+    "status": "स्थिति",
+    "productInfoLabel": "उत्पाद जानकारी",
+    "pricingLabel": "मूल्य निर्धारण और न्यूनतम ऑर्डर मात्रा",
+    "specificationLabel": "उत्पाद विनिर्देश",
+    "tradeDetailsLabel": "व्यापार विवरण",
+    "shippingLabel": "शिपिंग और लॉजिस्टिक्स",
+    "additionalDetailsLabel": "अतिरिक्त विवरण",
+    "productInformation": {
+      "productName": "उत्पाद का नाम",
+      "shortDescription": "संक्षिप्त विवरण",
+      "productCategory": "उत्पाद श्रेणी",
+      "brochure": "ब्रॉशर",
+      "SKU/Model": "SKU/मॉडल",
+      "countryOfOrigin": "उत्पत्ति का देश"
+    },
+    "tradeDetails": {
+      "productionLeadTime": "उत्पादन लीड समय",
+      "samplePrice": "नमूना मूल्य",
+      "availableStock": "उपलब्ध स्टॉक",
+      "sampleLeadTime": "नमूना लीड समय",
+      "productionCapacity": "उत्पादन क्षमता",
+      "paymentTerms": "भुगतान शर्तें",
+      "sampleAvailability": "नमूना उपलब्धता",
+      "paymentMethod": "भुगतान विधि"
+    },
+    "shippingDetails": {
+      "shippingModes": "शिपिंग मोड्स",
+      "portOfDispatch": "प्रेषण बंदरगाह",
+      "incoterms": "इन्कोटर्म्स",
+      "packagingType": "पैकेजिंग प्रकार",
+      "shippingInternationally": "अंतरराष्ट्रीय शिपिंग",
+      "unitsPerPackage": "प्रति पैकेज यूनिट्स",
+      "dispatchLeadTime": "प्रेषण लीड समय",
+      "HSN": "HSN"
+    },
+    "additionalDetails": {
+      "brand": "ब्रांड",
+      "productKeywords": "उत्पाद कीवर्ड्स",
+      "productGroup": "उत्पाद समूह",
+      "productVideo": "उत्पाद वीडियो",
+      "certifications": "प्रमाणपत्र",
+      "customizationAvailable": "कस्टमाइज़ेशन उपलब्ध",
+      "specificCustomization": "विशिष्ट कस्टमाइज़ेशन",
+      "FAQs": "अक्सर पूछे जाने वाले प्रश्न"
+    },
+    "pricing": {
+      "currency": "मुद्रा",
+      "fixed": "स्थिर मूल्य निर्धारण",
+      "priceRange": "परिवर्तनीय मूल्य निर्धारण",
+      "bulkPricing": "थोक मूल्य निर्धारण",
+      "request_quote": "कोटेशन अनुरोध",
+      "negotiable": "बातचीत योग्य मूल्य निर्धारण",
+      "minOrderQuantity": "न्यूनतम ऑर्डर मात्रा",
+      "qtyFrom": "मात्रा से",
+      "qtyTo": "मात्रा तक",
+      "price": "मूल्य"
+    },
+    "attributes": {
+      "detailedDescription": "विस्तृत विवरण",
+      "applications": "अनुप्रयोग",
+      "productAttributes": "उत्पाद विशेषताएँ",
+      "attributes": "विशेषताएँ",
+      "value": "मूल्य",
+      "groupBy": "समूहबद्ध करें",
+      "searchProduct": "उत्पाद खोजें",
+      "variantDetails": "वेरिएंट विवरण",
+      "price": "मूल्य",
+      "priceRange": "मूल्य सीमा",
+      "moq": "MOQ",
+      "variants": "वेरिएंट्स",
+      "variantName": "वेरिएंट नाम"
+    }
+  },
+  "optionLabels": {
+    "stockAvailability": {
+      "inStock": "स्टॉक में",
+      "outOfStock": "स्टॉक से बाहर"
+    },
+    "packageTypes": {
+      "Box": "बॉक्स",
+      "Carton": "कार्टन",
+      "Pallet": "पैलेट",
+      "Roll": "रोल",
+      "Crate": "क्रेट",
+      "Bag": "बैग",
+      "Container": "कंटेनर",
+      "Custom Packaging": "कस्टम पैकेजिंग",
+      "Eco-Friendly Packaging": "इको-फ्रेंडली पैकेजिंग"
+    },
+    "incoterms": {
+      "EXW": "EXW (एक्स वर्क्स - फैक्ट्री से सप्लाई)",
+      "FOB": "FOB (बोर्ड पर निःशुल्क)",
+      "CIF": "CIF (लागत, बीमा और माल भाड़ा सहित)",
+      "DDP": "DDP (डिलीवर ड्यूटी पेड)",
+      "DAP": "DAP (निर्धारित स्थान पर डिलीवरी)",
+      "FCA": "FCA (फ्री कैरियर)",
+      "CPT": "CPT (भाड़ा अदा करके गंतव्य तक भेजना)",
+      "CIP": "CIP (भाड़ा और बीमा अदा करके भेजना)"
+    },
+    "paymentTerms": {
+      "ADVANCE_100": "100% अग्रिम",
+      "ADVANCE_50_DISPATCH_50": "50% अग्रिम / 50% डिस्पैच पर",
+      "NET_30_60": "नेट 30 / नेट 60",
+      "LC": "लेटर ऑफ़ क्रेडिट (LC)",
+      "ESCROW": "एस्क्रो",
+      "COD": "कैश ऑन डिलीवरी (COD, यदि लागू हो)",
+      "CUSTOM": "कस्टम शर्तें (मैन्युअल प्रविष्टि)"
+    },
+    "durationOption": {
+      "weekly": "साप्ताहिक",
+      "monthly": "मासिक",
+      "Yearly": "वार्षिक"
+    },
+    "unitOption": {
+      "pieces": "टुकड़े",
+      "sets": "सेट",
+      "ton": "टन",
+      "litres": "लीटर",
+      "kg": "किलोग्राम",
+      "meter": "मीटर",
+      "dozen": "डजन",
+      "boxes": "बक्से",
+      "sqft": "वर्ग फीट",
+      "cans": "डिब्बे",
+      "rolls": "रोल",
+      "coil": "कुंडली"
+    },
+    "paymentMethods": {
+      "credit": "क्रेडिट कार्ड",
+      "cash": "नकद",
+      "cheque": "चेक",
+      "demandDraft": "डिमांड ड्राफ्ट",
+      "paypal": "पेपैल",
+      "moneyGram": "मनीग्राम",
+      "westerUnion": "वेस्टर्न यूनियन",
+      "others": "अन्य"
+    },
+    "shippingMethods": {
+      "Sea": "समुद्र",
+      "Air": "हवाई",
+      "Road": "सड़क",
+      "Rail": "रेल",
+      "Courier": "कूरियर",
+      "Buyer-Arranged": "क्रेता द्वारा प्रबंधित",
+      "Local Delivery": "स्थानीय डिलीवरी"
+    },
+    "shippingType": {
+      "standard": "मानक शिपिंग",
+      "express": "एक्सप्रेस शिपिंग"
+    },
+    "pricing": {
+      "fixed_price": "स्थिर मूल्य:",
+      "fixed_price_helper": "प्रति यूनिट मानक मूल्य",
+      "negotiable": "बातचीत योग्य:",
+      "negotiable_helper": "क्रेता मूल्य का अनुरोध कर सकता है",
+      "bulk_pricing": "थोक मूल्य निर्धारण:",
+      "bulk_pricing_helper": "मात्रा पर छूट",
+      "price_range": "मूल्य सीमा:",
+      "price_range_helper": "परिवर्तनीय/कस्टम आइटम के लिए",
+      "request_quote": "कोटेशन अनुरोध",
+      "request_quote_helper": "क्रेता मूल्य का अनुरोध कर सकता है"
+    }
+  },
+  "noProductsScreen": {
+    "noVariants": "कोई प्रकार नहीं",
+    "table-headers": {
+      "productName": "प्रोडक्ट का नाम",
+      "variantsCount": "सं. वेरिएंट",
+      "category": "वर्ग",
+      "stockAvailability": "स्टॉक उपलब्धता",
+      "createdAt": "बनाया गया दिनांक",
+      "minPrice": "कीमत",
+      "skuCode": "SKU कोड",
+      "status": "स्थिति",
+      "searchProduct": "उत्पाद खोजें"
+    },
+    "title": "चलिए शुरू करते हैं!",
+    "secondTitle": " बिक्री शुरू करने के लिए अपना पहला उत्पाद जोड़ें।",
+    "subtitle": "उत्पाद जोड़कर या आयात करके बिक्री शुरू करें",
+    "tooltip": "एक उत्पाद का नाम, मूल्य, विवरण और छवियाँ जोड़ें — यह कुछ ही चरणों में पूरा हो जाता है।",
+    "buttonTitle": "उत्पाद जोड़ें",
+    "productsISell": "मेरे द्वारा बेचे जाने वाले उत्पाद"
+  },
+  "dailogBoxes": {
+    "addAttributDialog": {
+      "tittle": "विशेषता जोड़ें",
+      "placeholder": "नई विशेषता दर्ज करें",
+      "cancelBtn": "रद्द करें",
+      "submitBtn": "विशेषता जोड़ें"
+    },
+    "addProductGroupDialog": {
+      "tittle": "नया समूह जोड़ें",
+      "placeholder": "नया समूह दर्ज करें",
+      "cancelBtn": "रद्द करें",
+      "submitBtn": "समूह जोड़ें"
+    }
+  }
+}
